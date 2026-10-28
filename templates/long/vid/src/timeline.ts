@@ -1,0 +1,2 @@
+export const CHAPTERS = [{"n": 0, "title": "Intro", "s": 0.6}, {"n": 1, "title": "The Culprit", "s": 29.39}, {"n": 2, "title": "Getting In", "s": 59.26}, {"n": 3, "title": "The Silent Days", "s": 90.09}, {"n": 4, "title": "Your Nose Fights Back", "s": 122.17}, {"n": 5, "title": "Peak and Recovery", "s": 183.19}, {"n": 6, "title": "Why Winter?", "s": 213.38}, {"n": 7, "title": "What Actually Helps", "s": 250.73}, {"n": 8, "title": "When to See a Doctor", "s": 297.34}];
+export const END = 347.23;
