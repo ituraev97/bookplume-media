@@ -41,8 +41,14 @@ ffmpeg -i video_silent.mp4 -i mix_final.wav -map 0:v -map 1:a -c:v libx264 -crf 
 Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs of identical frames), size < 50 MB short; long videos must stay < 95 MB (GitHub file limit) — encode long videos with `-c:v libx264 -crf 25 -preset medium -tune animation` (a 6-min video ≈ 60 MB).
 
 ## 5. Publish (Metricool, brand blogId 7717100, timezone Asia/Tashkent)
-1. Copy final.mp4 (+ thumb.jpg for long) into /home/claude/bookplume-media/videos/YYYY-MM-DD_slug.mp4, commit, `git push origin HEAD:main`.
-   Public URL: https://raw.githubusercontent.com/ituraev97/bookplume-media/main/videos/<file>
+1. Host the files on a temporary orphan branch (keeps the repo small):
+   ```
+   cd /home/claude/bookplume-media && B=media-YYYYMMDD-slug
+   git checkout --orphan $B && git rm -rf --cached . -q && mkdir -p v && cp /path/final.mp4 v/video.mp4 && cp /path/thumb.jpg v/thumb.jpg   # thumb only for long
+   git add v && git commit -m "media $B" && git push origin $B && git checkout -f main
+   ```
+   Public URLs: https://raw.githubusercontent.com/ituraev97/bookplume-media/$B/v/video.mp4 (and v/thumb.jpg).
+   Metricool copies media to its own storage when the post is created (the response shows static.metricool.com URLs). After ALL posts using it are created, delete the branch: `git push origin --delete $B`.
 2. Metricool createScheduledPost with media = [that URL]. Date must be in the future.
    - Short: providers tiktok, instagram (REEL, isAiGenerated true), facebook (REEL), youtube (type "short", madeForKids false, isAiGeneratedContent true, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc true, commercialContentOwnBrand true, title; videoCoverMilliseconds 300.
      Then a SECOND post for pinterest only (pinterestData boardId "bookplume", pinTitle, pinLink https://bookplume.com or a matching product URL, pinNewFormat true, isAiGenerated true) — keep it separate so a Pinterest error can't block the others.
