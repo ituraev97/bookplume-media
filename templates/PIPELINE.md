@@ -45,7 +45,7 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
    ```
    cd /home/claude/bookplume-media && B=media-YYYYMMDD-slug
    git checkout --orphan $B && git rm -rf --cached . -q && mkdir -p v && cp /path/final.mp4 v/video.mp4 && cp /path/thumb.jpg v/thumb.jpg   # thumb only for long
-   git add v && git commit -m "media $B" && git push origin $B && git checkout -f main
+   git add v && git commit -m "media $B" && git push origin $B && git checkout -f main && rm -rf v
    ```
    Public URLs: https://raw.githubusercontent.com/ituraev97/bookplume-media/$B/v/video.mp4 (and v/thumb.jpg).
    Metricool copies media to its own storage when the post is created (the response shows static.metricool.com URLs). After ALL posts using it are created, delete the branch: `git push origin --delete $B`.
