@@ -38,7 +38,7 @@ Copy audio_example.py, set END, the SFX list (whoosh at scene/chapter changes, p
 ffmpeg -i mix_pre.wav -af "loudnorm=I=-15:TP=-1.0:LRA=11,alimiter=limit=0.89" -ar 48000 mix_final.wav
 ffmpeg -i video_silent.mp4 -i mix_final.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k -shortest -movflags +faststart final.mp4
 ```
-Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs of identical frames), size < 50 MB short / < 250 MB long.
+Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs of identical frames), size < 50 MB short; long videos must stay < 95 MB (GitHub file limit) — encode long videos with `-c:v libx264 -crf 25 -preset medium -tune animation` (a 6-min video ≈ 60 MB).
 
 ## 5. Publish (Metricool, brand blogId 7717100, timezone Asia/Tashkent)
 1. Copy final.mp4 (+ thumb.jpg for long) into /home/claude/bookplume-media/videos/YYYY-MM-DD_slug.mp4, commit, `git push origin HEAD:main`.
