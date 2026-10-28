@@ -11,3 +11,4 @@
 2026-10-28 | short | why we get goosebumps
 2026-10-29 | long  | what happens when you catch a cold (day by day)
 2026-10-29 | long  | what happens when you don't sleep (hour by hour)
+2026-10-29 | short | why we hiccup (diaphragm, womb hiccups, brain learning)
