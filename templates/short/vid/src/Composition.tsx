@@ -7,6 +7,9 @@ import { C } from "./kit";
 import { END, Header, Subtitles } from "./Chrome";
 import { V1, V2, V3, V4, V5, liveAlpha } from "./Scenes11";
 import { useT } from "./kit";
+import { PinStill } from "./Plates";
+// Pinterest still: edit defaultProps per video, render with: npx remotion still src/index.ts Pin ../pin.jpg --jpeg-quality 95
+const Pin: React.FC<{ src: string; aspect: number; title: string; sub: string }> = (p) => <AbsoluteFill><PinStill {...p} /></AbsoluteFill>;
 
 const Grid: React.FC = () => {
   const t = useT();
@@ -54,5 +57,6 @@ export const MyComposition = () => (
   <>
     <Composition id="Main" component={Video} durationInFrames={Math.ceil(END * 30)} fps={30} width={1080} height={1920} defaultProps={{ mask: false }} />
     <Composition id="Mask" component={Video} durationInFrames={Math.ceil(END * 30)} fps={30} width={1080} height={1920} defaultProps={{ mask: true }} />
+    <Composition id="Pin" component={Pin} durationInFrames={1} fps={30} width={1000} height={1500} defaultProps={{ src: "plates/example_hand.png", aspect: 2105 / 2856, title: "Carpal bones: the 10-second memory trick", sub: "Anatomy flashcards · nursing school study tips" }} />
   </>
 );

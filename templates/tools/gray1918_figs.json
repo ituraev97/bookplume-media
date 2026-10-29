@@ -1,0 +1,3792 @@
+[
+{
+"fig": 1,
+"leaf": 35,
+"caption": "Diagram of a cell"
+},
+{
+"fig": 4,
+"leaf": 40,
+"caption": "Formation of polar bodies in Asterias glacialis"
+},
+{
+"fig": 6,
+"leaf": 41,
+"caption": "Human spermatozoon"
+},
+{
+"fig": 9,
+"leaf": 44,
+"caption": "First stages of segmentation of a mammalian ovum"
+},
+{
+"fig": 10,
+"leaf": 45,
+"caption": "Blastodermic vesicle of Vespertilio miirinus"
+},
+{
+"fig": 11,
+"leaf": 45,
+"caption": "Section through embryonic disk of Vespertilio murinus"
+},
+{
+"fig": 12,
+"leaf": 45,
+"caption": "Section through embryonic area of Vespertilio murinus to show the formation of the amniotic cavity"
+},
+{
+"fig": 13,
+"leaf": 46,
+"caption": "Surface view of embryo of a rabbit"
+},
+{
+"fig": 14,
+"leaf": 47,
+"caption": "Surface view of embrj'o of Hylobates concolor"
+},
+{
+"fig": 15,
+"leaf": 47,
+"caption": "Series of transverse sections through the embryonic disk of Tarsius"
+},
+{
+"fig": 16,
+"leaf": 48,
+"caption": "A series of transverse sections through an embryo of the dog"
+},
+{
+"fig": 18,
+"leaf": 50,
+"caption": "Chick embryo of thirty-thi'"
+},
+{
+"fig": 19,
+"leaf": 51,
+"caption": "Transverse section of a chick embryo of forty-five hours' incubation"
+},
+{
+"fig": 22,
+"leaf": 53,
+"caption": "Human embryo of 2.6 mm"
+},
+{
+"fig": 26,
+"leaf": 54,
+"caption": "Diagram showing later stage of allan- toic development with commencing constriction of the yolk-sac"
+},
+{
+"fig": 29,
+"leaf": 56,
+"caption": "Diagram of a transverse section, showing the mode of formation of the amnion in the chick"
+},
+{
+"fig": 30,
+"leaf": 56,
+"caption": "Fetua of about eight weeks, enclosed in the amnioa"
+},
+{
+"fig": 31,
+"leaf": 57,
+"caption": "Model of human embryo 1.3 mm"
+},
+{
+"fig": 33,
+"leaf": 59,
+"caption": "Diagrammatic sections of the uterine mucous membrane: A"
+},
+{
+"fig": 34,
+"leaf": 60,
+"caption": "Sectional plan of the gravid uterus in the third and fourth month"
+},
+{
+"fig": 35,
+"leaf": 60,
+"caption": "Transverse section of a chorionic villus"
+},
+{
+"fig": 36,
+"leaf": 61,
+"caption": "Primary chorionic villi"
+},
+{
+"fig": 37,
+"leaf": 61,
+"caption": "Secondary chorionic villi"
+},
+{
+"fig": 39,
+"leaf": 63,
+"caption": "Scheme of placental circulation"
+},
+{
+"fig": 44,
+"leaf": 66,
+"caption": "Under surface of the head of a human embryo about twenty-nine days old"
+},
+{
+"fig": 45,
+"leaf": 67,
+"caption": "Head end of human embryo of about thirty to thirty-one days"
+},
+{
+"fig": 46,
+"leaf": 67,
+"caption": "Same embryo as shown in Fig"
+},
+{
+"fig": 47,
+"leaf": 67,
+"caption": "Head of a human embryo of about eight weeks, in which the nose and mouth are formed"
+},
+{
+"fig": 48,
+"leaf": 67,
+"caption": "Diagram showing the regions of the adult face and neck related to the fronto-nasal process and the branchial arches"
+},
+{
+"fig": 49,
+"leaf": 68,
+"caption": "Primitive palate of a human embryo of thirty-seven to thirty-eight days"
+},
+{
+"fig": 50,
+"leaf": 68,
+"caption": "The roof of the mouth of a human embryo, aged about two and a half months, showing the mode of"
+},
+{
+"fig": 51,
+"leaf": 69,
+"caption": "Frontal section of nasal cavities of a human embryo 28 mm"
+},
+{
+"fig": 53,
+"leaf": 70,
+"caption": "Embryo of about six weeks"
+},
+{
+"fig": 56,
+"leaf": 72,
+"caption": "Diagram of transverse section through rabbit embryo"
+},
+{
+"fig": 58,
+"leaf": 73,
+"caption": "Body-stalk"
+},
+{
+"fig": 59,
+"leaf": 74,
+"caption": "Human embryo between eighteen and twenty-one days old"
+},
+{
+"fig": 60,
+"leaf": 74,
+"caption": "Human embryo, twenty-seven to thirty days old"
+},
+{
+"fig": 61,
+"leaf": 75,
+"caption": "Human embryo, thirty-one to thirty-four days old"
+},
+{
+"fig": 66,
+"leaf": 81,
+"caption": "Sagittal section through an intervertebral fibrocartilage and adjacent parts of two vertebrae of an advanced"
+},
+{
+"fig": 69,
+"leaf": 83,
+"caption": "Diagrams of the cartilaginous cranium"
+},
+{
+"fig": 73,
+"leaf": 88,
+"caption": "Transverse section of compact tissue bone"
+},
+{
+"fig": 74,
+"leaf": 89,
+"caption": "Settion parallel to the surface from the body of the femur"
+},
+{
+"fig": 76,
+"leaf": 90,
+"caption": "Nucleated bone cells and their processes, contained in the bone lacunae and their canaliculi respectively"
+},
+{
+"fig": 77,
+"leaf": 91,
+"caption": "Transverse section of body of human fibula, decalcified"
+},
+{
+"fig": 79,
+"leaf": 92,
+"caption": "Section of fetal bone of cat"
+},
+{
+"fig": 80,
+"leaf": 93,
+"caption": "Part of a longitudinal section of the developing femur of a rabbit, a"
+},
+{
+"fig": 81,
+"leaf": 93,
+"caption": "Osteoblasts and osteoclasts on trabecula of lower jaw of calf embryo"
+},
+{
+"fig": 82,
+"leaf": 95,
+"caption": "A typical thoracic vertebra, viewed from above"
+},
+{
+"fig": 83,
+"leaf": 96,
+"caption": "Sagittal section of a lumbar vertebra"
+},
+{
+"fig": 84,
+"leaf": 97,
+"caption": "A cervical vertebra"
+},
+{
+"fig": 86,
+"leaf": 98,
+"caption": "First cervical vertebra, or atlas"
+},
+{
+"fig": 88,
+"leaf": 100,
+"caption": "Second cervical vertebra, epistropheus, or axis, from the side"
+},
+{
+"fig": 89,
+"leaf": 100,
+"caption": "Seventh cervical vertebra"
+},
+{
+"fig": 90,
+"leaf": 101,
+"caption": "A thoracic vertebra"
+},
+{
+"fig": 92,
+"leaf": 103,
+"caption": "A lumbar vertebra seen from the side"
+},
+{
+"fig": 96,
+"leaf": 107,
+"caption": "Sacrum, dorsal surface"
+},
+{
+"fig": 97,
+"leaf": 108,
+"caption": "Lateral surfaces of sacrum and coccyx"
+},
+{
+"fig": 100,
+"leaf": 109,
+"caption": "from side to side, convex from before backward, and gives attachment to a few of the fibers of the Iliacus"
+},
+{
+"fig": 101,
+"leaf": 111,
+"caption": "Ossification of a vertebra By 3 primary centers"
+},
+{
+"fig": 104,
+"leaf": 111,
+"caption": "Atlas"
+},
+{
+"fig": 105,
+"leaf": 111,
+"caption": "Axis"
+},
+{
+"fig": 106,
+"leaf": 111,
+"caption": "Lumbar vertebra"
+},
+{
+"fig": 107,
+"leaf": 111,
+"caption": "109"
+},
+{
+"fig": 110,
+"leaf": 112,
+"caption": "Base of young sacrum"
+},
+{
+"fig": 112,
+"leaf": 115,
+"caption": "The thorax from in front"
+},
+{
+"fig": 114,
+"leaf": 117,
+"caption": "The thorax from the right"
+},
+{
+"fig": 115,
+"leaf": 118,
+"caption": "Anterior surface of sternum and costa cartilages"
+},
+{
+"fig": 116,
+"leaf": 119,
+"caption": "Posterior surface of aternum"
+},
+{
+"fig": 117,
+"leaf": 119,
+"caption": "Lateral border of sternum"
+},
+{
+"fig": 118,
+"leaf": 121,
+"caption": "O-ssification of the sternum"
+},
+{
+"fig": 120,
+"leaf": 121,
+"caption": "Peculiaritiea"
+},
+{
+"fig": 122,
+"leaf": 123,
+"caption": "central rib of the left side"
+},
+{
+"fig": 129,
+"leaf": 128,
+"caption": "Occipital bone"
+},
+{
+"fig": 132,
+"leaf": 132,
+"caption": "Left parietal bone"
+},
+{
+"fig": 133,
+"leaf": 133,
+"caption": "Left parietal bone"
+},
+{
+"fig": 134,
+"leaf": 135,
+"caption": "Frontal bone"
+},
+{
+"fig": 135,
+"leaf": 136,
+"caption": "Frontal bone"
+},
+{
+"fig": 137,
+"leaf": 138,
+"caption": "Left temporal bone"
+},
+{
+"fig": 138,
+"leaf": 139,
+"caption": "Left temporal bone"
+},
+{
+"fig": 140,
+"leaf": 142,
+"caption": "Diagrammatic view of the fundus of the right internal acoustic meatus"
+},
+{
+"fig": 142,
+"leaf": 145,
+"caption": "The three principal parts of the tempora bone at birth"
+},
+{
+"fig": 143,
+"leaf": 145,
+"caption": "Temporal bone at birth"
+},
+{
+"fig": 144,
+"leaf": 145,
+"caption": "Temporal bone at birth"
+},
+{
+"fig": 145,
+"leaf": 147,
+"caption": "Sphenoid bone"
+},
+{
+"fig": 146,
+"leaf": 147,
+"caption": "Sphenoid bone"
+},
+{
+"fig": 147,
+"leaf": 148,
+"caption": "Sphenoid bone"
+},
+{
+"fig": 148,
+"leaf": 151,
+"caption": "Sphenoid bone at birth"
+},
+{
+"fig": 149,
+"leaf": 152,
+"caption": "Ethmoid bone from above"
+},
+{
+"fig": 150,
+"leaf": 153,
+"caption": "Perpendicular plate of ethmoid"
+},
+{
+"fig": 151,
+"leaf": 153,
+"caption": "Ethmoid bone from behind"
+},
+{
+"fig": 152,
+"leaf": 154,
+"caption": "Ethmoid bone from the right side"
+},
+{
+"fig": 154,
+"leaf": 156,
+"caption": "Articulation of nasal and lacrimal bones with maxilla"
+},
+{
+"fig": 156,
+"leaf": 156,
+"caption": "Right nasal bone"
+},
+{
+"fig": 158,
+"leaf": 158,
+"caption": "Left maxilla"
+},
+{
+"fig": 159,
+"leaf": 159,
+"caption": "Left maxillary sinus opened from the exterior"
+},
+{
+"fig": 160,
+"leaf": 161,
+"caption": "The bony palate and alveolar arch"
+},
+{
+"fig": 162,
+"leaf": 162,
+"caption": "Inferior surface of maxilla at birth"
+},
+{
+"fig": 163,
+"leaf": 163,
+"caption": "Left lacri- mal bone"
+},
+{
+"fig": 164,
+"leaf": 164,
+"caption": "Left zygomatic bone in situ"
+},
+{
+"fig": 169,
+"leaf": 166,
+"caption": "-Left palatine bone"
+},
+{
+"fig": 170,
+"leaf": 169,
+"caption": "Lateral wall of right naaal cavity showing inferior concha in situ"
+},
+{
+"fig": 171,
+"leaf": 169,
+"caption": "Right inferior nasal concha"
+},
+{
+"fig": 172,
+"leaf": 169,
+"caption": "Right inferior nasal concha"
+},
+{
+"fig": 173,
+"leaf": 170,
+"caption": "Median wall of left nasal cavity showing vomer in situ"
+},
+{
+"fig": 176,
+"leaf": 171,
+"caption": "Mandible"
+},
+{
+"fig": 177,
+"leaf": 172,
+"caption": "Mandible"
+},
+{
+"fig": 179,
+"leaf": 174,
+"caption": "Mandible of human embryo 24' mm"
+},
+{
+"fig": 180,
+"leaf": 174,
+"caption": "Mandible of human embryo 95 mm"
+},
+{
+"fig": 181,
+"leaf": 174,
+"caption": "-Mandible of human embryo 95 mm"
+},
+{
+"fig": 183,
+"leaf": 175,
+"caption": "In chUdhood"
+},
+{
+"fig": 184,
+"leaf": 175,
+"caption": "In the adult"
+},
+{
+"fig": 185,
+"leaf": 175,
+"caption": "In old age"
+},
+{
+"fig": 186,
+"leaf": 176,
+"caption": "Hyoid bone"
+},
+{
+"fig": 188,
+"leaf": 181,
+"caption": "Side view of the skull"
+},
+{
+"fig": 189,
+"leaf": 183,
+"caption": "Left infratemporal fossa"
+},
+{
+"fig": 190,
+"leaf": 185,
+"caption": "The skull from the front"
+},
+{
+"fig": 191,
+"leaf": 186,
+"caption": "Horizontal section of nasal and orbital cavities"
+},
+{
+"fig": 192,
+"leaf": 187,
+"caption": "Medial wall of left orbit"
+},
+{
+"fig": 193,
+"leaf": 190,
+"caption": "Base of the skull"
+},
+{
+"fig": 194,
+"leaf": 192,
+"caption": "Sagittal section of skull"
+},
+{
+"fig": 195,
+"leaf": 193,
+"caption": "Medial wall of left nasal fossa"
+},
+{
+"fig": 196,
+"leaf": 194,
+"caption": "Roof, floor, and lateral wall of left nasal cavity"
+},
+{
+"fig": 199,
+"leaf": 198,
+"caption": "-The premaxilla and its sutures"
+},
+{
+"fig": 200,
+"leaf": 200,
+"caption": "Left clavicle"
+},
+{
+"fig": 202,
+"leaf": 203,
+"caption": "Left scapula"
+},
+{
+"fig": 204,
+"leaf": 205,
+"caption": "Posterior view of the thorax and shoulder girdle"
+},
+{
+"fig": 205,
+"leaf": 206,
+"caption": "Inferior angle -Left scapula"
+},
+{
+"fig": 207,
+"leaf": 209,
+"caption": "Left humerus"
+},
+{
+"fig": 208,
+"leaf": 210,
+"caption": "Left humerus"
+},
+{
+"fig": 211,
+"leaf": 212,
+"caption": "Epiphysial lines of humerus in a young adult"
+},
+{
+"fig": 212,
+"leaf": 213,
+"caption": "Upper extremity of left ulna"
+},
+{
+"fig": 213,
+"leaf": 215,
+"caption": "Bones of left forearm"
+},
+{
+"fig": 217,
+"leaf": 220,
+"caption": "-Plan of ossification of the radius"
+},
+{
+"fig": 218,
+"leaf": 220,
+"caption": "Epiphysial lines of radius in a young adult"
+},
+{
+"fig": 220,
+"leaf": 222,
+"caption": "Boaes of the left hand"
+},
+{
+"fig": 221,
+"leaf": 223,
+"caption": "The left navicular bone"
+},
+{
+"fig": 222,
+"leaf": 223,
+"caption": "The left lunate bone"
+},
+{
+"fig": 223,
+"leaf": 223,
+"caption": "The left triangular bone"
+},
+{
+"fig": 224,
+"leaf": 223,
+"caption": "The left pisiform bone"
+},
+{
+"fig": 225,
+"leaf": 224,
+"caption": "The left greater multangular bone"
+},
+{
+"fig": 226,
+"leaf": 225,
+"caption": "The left lesser multangular bone"
+},
+{
+"fig": 227,
+"leaf": 225,
+"caption": "The left capitate bone"
+},
+{
+"fig": 228,
+"leaf": 225,
+"caption": "The left hamate bone"
+},
+{
+"fig": 231,
+"leaf": 228,
+"caption": "The third metacarpal"
+},
+{
+"fig": 232,
+"leaf": 228,
+"caption": "The fourth metacarpal"
+},
+{
+"fig": 233,
+"leaf": 228,
+"caption": "The fifth metacarpal"
+},
+{
+"fig": 234,
+"leaf": 229,
+"caption": "Plan of ossification of the hand"
+},
+{
+"fig": 235,
+"leaf": 231,
+"caption": "Right hip bone"
+},
+{
+"fig": 237,
+"leaf": 237,
+"caption": "Plan of ossification of the hip bone"
+},
+{
+"fig": 238,
+"leaf": 238,
+"caption": "Diameters of superior aperture of lesser pelvis (female)"
+},
+{
+"fig": 241,
+"leaf": 240,
+"caption": "Male pelvis"
+},
+{
+"fig": 242,
+"leaf": 241,
+"caption": "Female pelvis"
+},
+{
+"fig": 243,
+"leaf": 242,
+"caption": "Upper e.\\tremity of right femur viewed from behind and above"
+},
+{
+"fig": 247,
+"leaf": 248,
+"caption": "Frontal longitudinal midsection of upper femur"
+},
+{
+"fig": 248,
+"leaf": 249,
+"caption": "Diagram of the lines of stress in the upper femur, based upon the mathematical analysis of the right femur"
+},
+{
+"fig": 249,
+"leaf": 250,
+"caption": "Frontal longitudinal midsection of left ;mur"
+},
+{
+"fig": 250,
+"leaf": 250,
+"caption": "Diagram of the computed lines of maximum stress in the normal femur"
+},
+{
+"fig": 252,
+"leaf": 253,
+"caption": "Plan of ossification of the femur"
+},
+{
+"fig": 253,
+"leaf": 253,
+"caption": "Epiphysial lines of femur in a young adult"
+},
+{
+"fig": 254,
+"leaf": 253,
+"caption": "Epiphysial lines of femur in a young adult"
+},
+{
+"fig": 256,
+"leaf": 254,
+"caption": "Right patella"
+},
+{
+"fig": 257,
+"leaf": 255,
+"caption": "Upper surface of right tibia"
+},
+{
+"fig": 258,
+"leaf": 256,
+"caption": "Bones of the right leg"
+},
+{
+"fig": 260,
+"leaf": 258,
+"caption": "Plan of ossification of the tibia, centers"
+},
+{
+"fig": 261,
+"leaf": 258,
+"caption": "Epiphysial lines of tibia and fibula in a young adult"
+},
+{
+"fig": 263,
+"leaf": 260,
+"caption": "Plan of ossification of tlie fibula"
+},
+{
+"fig": 265,
+"leaf": 261,
+"caption": "Left calcaneus, inferior surface"
+},
+{
+"fig": 266,
+"leaf": 262,
+"caption": "Left calcaneus, lateral surface"
+},
+{
+"fig": 267,
+"leaf": 262,
+"caption": "Left calcaneus, medial surface"
+},
+{
+"fig": 270,
+"leaf": 266,
+"caption": "Left talus, from above"
+},
+{
+"fig": 271,
+"leaf": 266,
+"caption": "Left talus, from below"
+},
+{
+"fig": 272,
+"leaf": 267,
+"caption": "Left talus, medial surface"
+},
+{
+"fig": 273,
+"leaf": 267,
+"caption": "Left talus, lateral surface"
+},
+{
+"fig": 274,
+"leaf": 268,
+"caption": "The left cuboid"
+},
+{
+"fig": 275,
+"leaf": 268,
+"caption": "The left cuboid"
+},
+{
+"fig": 276,
+"leaf": 269,
+"caption": "The left naviciilar"
+},
+{
+"fig": 277,
+"leaf": 269,
+"caption": "Theleft navicular"
+},
+{
+"fig": 278,
+"leaf": 269,
+"caption": "The left first cunei- form"
+},
+{
+"fig": 280,
+"leaf": 270,
+"caption": "The left second ctineiform"
+},
+{
+"fig": 281,
+"leaf": 270,
+"caption": "The left second cuneiform"
+},
+{
+"fig": 282,
+"leaf": 271,
+"caption": "The left third cuneiform, view"
+},
+{
+"fig": 284,
+"leaf": 272,
+"caption": "The first metatarsal"
+},
+{
+"fig": 285,
+"leaf": 272,
+"caption": "The second metatarsal"
+},
+{
+"fig": 286,
+"leaf": 272,
+"caption": "The third metatarsal"
+},
+{
+"fig": 287,
+"leaf": 272,
+"caption": "The fourth metatarsal"
+},
+{
+"fig": 290,
+"leaf": 275,
+"caption": "Skeleton of foot"
+},
+{
+"fig": 291,
+"leaf": 276,
+"caption": "Skeleton of foot"
+},
+{
+"fig": 292,
+"leaf": 279,
+"caption": "Human cartilage cells from the cricoid cartilage"
+},
+{
+"fig": 293,
+"leaf": 279,
+"caption": "Vertical section of articular cartUage"
+},
+{
+"fig": 294,
+"leaf": 279,
+"caption": "Costal cartilage from a man, aged seventy-six years, showing the development of fibrous structure in the matrix"
+},
+{
+"fig": 295,
+"leaf": 280,
+"caption": "White fibrocartilage from an intervertebral fibrocartilage"
+},
+{
+"fig": 297,
+"leaf": 283,
+"caption": "Section through occipitosphenoid synchon- drosis of an infant"
+},
+{
+"fig": 298,
+"leaf": 284,
+"caption": "Diagrammatic section of a symphysis"
+},
+{
+"fig": 299,
+"leaf": 284,
+"caption": "Diagrammatic section of a diarthrodial joint"
+},
+{
+"fig": 300,
+"leaf": 284,
+"caption": "Diagrammatic section of a diarthrodial joint, with an articular disk"
+},
+{
+"fig": 301,
+"leaf": 287,
+"caption": "^Median sagittal section of two lumbar vertebrse and their ligaments"
+},
+{
+"fig": 302,
+"leaf": 288,
+"caption": "-Poaterior longitudinal ligament, in the thoracic region"
+},
+{
+"fig": 303,
+"leaf": 289,
+"caption": "Vertebral arches of three thoracic vertebrae viewed from the front"
+},
+{
+"fig": 304,
+"leaf": 291,
+"caption": "Anterior atlantooccipital membrane and atlantoaxial ligament"
+},
+{
+"fig": 305,
+"leaf": 292,
+"caption": "Posterior atlantooccipital membrane and atlantoaxial ligament"
+},
+{
+"fig": 306,
+"leaf": 292,
+"caption": "Articulation between odontoid process and atlas"
+},
+{
+"fig": 309,
+"leaf": 296,
+"caption": "Articulation of the mandible"
+},
+{
+"fig": 310,
+"leaf": 297,
+"caption": "^Articulation of the mandible"
+},
+{
+"fig": 311,
+"leaf": 297,
+"caption": "Sagittal section of the articulation of the mandible"
+},
+{
+"fig": 312,
+"leaf": 299,
+"caption": "Costovertebral articulations"
+},
+{
+"fig": 313,
+"leaf": 300,
+"caption": "Costotransverse articulation"
+},
+{
+"fig": 314,
+"leaf": 300,
+"caption": "Section of the costotransverse joints from the third to the ninth inclusive"
+},
+{
+"fig": 315,
+"leaf": 302,
+"caption": "Sternocostal and interchondral articulations"
+},
+{
+"fig": 317,
+"leaf": 304,
+"caption": "Diagram showing the axes of movement {A B and C D) oi a vertebrosternal rib"
+},
+{
+"fig": 318,
+"leaf": 304,
+"caption": "Diagram showing the axis of movement {A B) of a vertebrochondral rib"
+},
+{
+"fig": 322,
+"leaf": 311,
+"caption": "Coronal section of anterior sacral segment"
+},
+{
+"fig": 324,
+"leaf": 311,
+"caption": "Coronal section of posterior sacral segment"
+},
+{
+"fig": 325,
+"leaf": 313,
+"caption": "Sternoclavicular articulation"
+},
+{
+"fig": 326,
+"leaf": 315,
+"caption": "The left shoulder and acromioclavicular joints, and the proper ligaments of the scapula"
+},
+{
+"fig": 328,
+"leaf": 318,
+"caption": "Glenoid fossa of right side"
+},
+{
+"fig": 329,
+"leaf": 320,
+"caption": "Left elbow-Joint, showing anterior and ulnar collateral ligaments"
+},
+{
+"fig": 332,
+"leaf": 322,
+"caption": "Capsule of elbow-joint (distended)"
+},
+{
+"fig": 333,
+"leaf": 323,
+"caption": "Annular ligament of radius, from above"
+},
+{
+"fig": 334,
+"leaf": 325,
+"caption": "Ligaments of wrist"
+},
+{
+"fig": 335,
+"leaf": 325,
+"caption": "Ligaments of wrist"
+},
+{
+"fig": 336,
+"leaf": 326,
+"caption": "Vertical section through the articulations at the wrist, showing the synovial cavities"
+},
+{
+"fig": 337,
+"leaf": 331,
+"caption": "Metacarpophalangeal articulation and articulations of digit"
+},
+{
+"fig": 338,
+"leaf": 331,
+"caption": "Metacarpophalangeal articulation and articulations of digit"
+},
+{
+"fig": 339,
+"leaf": 333,
+"caption": "Right hip-joint from the front"
+},
+{
+"fig": 341,
+"leaf": 335,
+"caption": "Left hip-joint, opened by removing the floor of the acetabulum from within the pelvis"
+},
+{
+"fig": 344,
+"leaf": 337,
+"caption": "Structures surrounding right hii>-joint"
+},
+{
+"fig": 345,
+"leaf": 339,
+"caption": "Right knee-joint, view"
+},
+{
+"fig": 347,
+"leaf": 340,
+"caption": "Right knee-joint, from the front, showing interior ligaments"
+},
+{
+"fig": 349,
+"leaf": 342,
+"caption": "Head of right tibia seen from above, showing menisci and attachments of ligaments"
+},
+{
+"fig": 354,
+"leaf": 348,
+"caption": "Ligaments of the medial aspect of the foot"
+},
+{
+"fig": 355,
+"leaf": 349,
+"caption": "The ligaments of the foot from the lateral aspect"
+},
+{
+"fig": 356,
+"leaf": 350,
+"caption": "Capsule of left talocrura articulation (distended)"
+},
+{
+"fig": 357,
+"leaf": 352,
+"caption": "Coronal section through right talocrural and talocalcaneal joints"
+},
+{
+"fig": 358,
+"leaf": 354,
+"caption": "-Ligaments of the sole of the foot, with the tendons of the Peronseus longus"
+},
+{
+"fig": 360,
+"leaf": 356,
+"caption": "Oblique section of left intertarsal and tarsometatarsal articulations, showing the synovial cavities"
+},
+{
+"fig": 365,
+"leaf": 364,
+"caption": "A, fusiform; B, unipinnate; C, bipinnate; P.C.S., physiological cross-section"
+},
+{
+"fig": 374,
+"leaf": 372,
+"caption": "-Striped muscle fibers from tongue of cat"
+},
+{
+"fig": 375,
+"leaf": 373,
+"caption": "A. Portion of a medium-sized human muscular fiber"
+},
+{
+"fig": 376,
+"leaf": 373,
+"caption": "Diagram of a .sarcomere"
+},
+{
+"fig": 377,
+"leaf": 376,
+"caption": "Subcutaneous tissue from a young rabbit"
+},
+{
+"fig": 379,
+"leaf": 380,
+"caption": "Left orbicularis oculi, seen from behind"
+},
+{
+"fig": 380,
+"leaf": 383,
+"caption": "Muscles of the pharynx and cheek"
+},
+{
+"fig": 381,
+"leaf": 383,
+"caption": "Scheme showing arrangement of fibers of Orbicularis oris"
+},
+{
+"fig": 382,
+"leaf": 385,
+"caption": "The Temporalis; the zygomatic arch and Masseter have been removed"
+},
+{
+"fig": 383,
+"leaf": 386,
+"caption": "The Pterygoidei; the zygomatic arch and a portion of the ramus of the mandible have been removed"
+},
+{
+"fig": 386,
+"leaf": 391,
+"caption": "Muscles of the neck"
+},
+{
+"fig": 387,
+"leaf": 394,
+"caption": "The anterior vertebral muscles"
+},
+{
+"fig": 389,
+"leaf": 397,
+"caption": "Deep musclea of tlie back"
+},
+{
+"fig": 390,
+"leaf": 405,
+"caption": "Posterior surface of sternum and costal cartilages, showing Transversus thoracis"
+},
+{
+"fig": 393,
+"leaf": 410,
+"caption": "The subcutaneous inguinal ring"
+},
+{
+"fig": 394,
+"leaf": 411,
+"caption": "The inguinal and lacunar ligaments"
+},
+{
+"fig": 396,
+"leaf": 413,
+"caption": "The Cremaster"
+},
+{
+"fig": 398,
+"leaf": 415,
+"caption": "The interfoveolar ligament, seen from in front"
+},
+{
+"fig": 399,
+"leaf": 416,
+"caption": "Diagram of sheath of Rectus"
+},
+{
+"fig": 400,
+"leaf": 416,
+"caption": "Diagram of a transverse section through the anterior abdomina wall, below the linea semicircularis"
+},
+{
+"fig": 402,
+"leaf": 420,
+"caption": "Coronal section of pelvis, showing arrangement of fasciae"
+},
+{
+"fig": 403,
+"leaf": 421,
+"caption": "Median sagittal section of pelvis, showing arrangement of fascise"
+},
+{
+"fig": 405,
+"leaf": 424,
+"caption": "The perineum"
+},
+{
+"fig": 408,
+"leaf": 430,
+"caption": "Muscles of the female perineum"
+},
+{
+"fig": 411,
+"leaf": 437,
+"caption": "Deep musclea of the chest and front of the arm, with the boundariea of the axilla"
+},
+{
+"fig": 412,
+"leaf": 440,
+"caption": "Muscles on the dorsum of the scapula, and the Triceps brachii"
+},
+{
+"fig": 413,
+"leaf": 442,
+"caption": "Cross-section through the middle of upper arm"
+},
+{
+"fig": 414,
+"leaf": 446,
+"caption": "Front of the left forearm"
+},
+{
+"fig": 417,
+"leaf": 450,
+"caption": "Cross-section through the middle of the forearm"
+},
+{
+"fig": 419,
+"leaf": 452,
+"caption": "Posterior surface of the forearm"
+},
+{
+"fig": 420,
+"leaf": 454,
+"caption": "The Supinator"
+},
+{
+"fig": 422,
+"leaf": 456,
+"caption": "Transverse section across the wrist and digits"
+},
+{
+"fig": 428,
+"leaf": 464,
+"caption": "The Interossei dorsales of left hand"
+},
+{
+"fig": 429,
+"leaf": 464,
+"caption": "The Interossei volares of left hand"
+},
+{
+"fig": 430,
+"leaf": 465,
+"caption": "Muscles of the iliac and anterior femoral regions"
+},
+{
+"fig": 431,
+"leaf": 468,
+"caption": "The fossa ovalia"
+},
+{
+"fig": 432,
+"leaf": 471,
+"caption": "Cross-section through the middle of the thigh"
+},
+{
+"fig": 435,
+"leaf": 475,
+"caption": "The obturator membrane"
+},
+{
+"fig": 436,
+"leaf": 477,
+"caption": "The Obturator externus"
+},
+{
+"fig": 438,
+"leaf": 483,
+"caption": "Muscles of the back of the leg"
+},
+{
+"fig": 439,
+"leaf": 483,
+"caption": "Muscles of the back of the leg"
+},
+{
+"fig": 440,
+"leaf": 486,
+"caption": "Cross-section through middle of leg"
+},
+{
+"fig": 443,
+"leaf": 491,
+"caption": "Muscles of the sole of the foot"
+},
+{
+"fig": 444,
+"leaf": 493,
+"caption": "Muscles of the sole of the foot"
+},
+{
+"fig": 446,
+"leaf": 494,
+"caption": "The Interossei dorsales"
+},
+{
+"fig": 448,
+"leaf": 497,
+"caption": "Transverse section through a small artery and vein of the mucous membrane of the epiglottis of a child"
+},
+{
+"fig": 450,
+"leaf": 499,
+"caption": "Section of a medium-sized artery"
+},
+{
+"fig": 451,
+"leaf": 500,
+"caption": "Capillaries from the mesen- tery of a guinea-pig, after treatment with solution of nitrate of silver, a"
+},
+{
+"fig": 452,
+"leaf": 501,
+"caption": "Section of a medium-sized vein"
+},
+{
+"fig": 453,
+"leaf": 502,
+"caption": "Human red blo<xl corpuscles"
+},
+{
+"fig": 454,
+"leaf": 503,
+"caption": "Varieties of leucocytes found in human blood"
+},
+{
+"fig": 455,
+"leaf": 504,
+"caption": "-Human colorless blood corpuscle, showing its successive changes of outline within ten minutes when kept moist on a warm stage"
+},
+{
+"fig": 456,
+"leaf": 504,
+"caption": "Blood platelets"
+},
+{
+"fig": 457,
+"leaf": 505,
+"caption": "Transverse section through the region of the heart in a rabbit embryo of nine days"
+},
+{
+"fig": 458,
+"leaf": 506,
+"caption": "Diagram of the vascular channels in a human embrj'o of the second week"
+},
+{
+"fig": 459,
+"leaf": 507,
+"caption": "Human embryo of about fourteen days, with yolk-sac"
+},
+{
+"fig": 460,
+"leaf": 507,
+"caption": "Head of chick embryo of about thirty-eight hours' incubation, viewed from the ventral surface"
+},
+{
+"fig": 464,
+"leaf": 509,
+"caption": "Dorsal surface of heart of human embryo of thirty-five days"
+},
+{
+"fig": 465,
+"leaf": 509,
+"caption": "Interior of dorsal half of heart from a human embryo of about thirty days"
+},
+{
+"fig": 466,
+"leaf": 510,
+"caption": "Heart showing expansion of the atria"
+},
+{
+"fig": 467,
+"leaf": 510,
+"caption": "Interior of dorsal half of heart of human embryo of about thirty-five days"
+},
+{
+"fig": 468,
+"leaf": 511,
+"caption": "Same heart as in Fig"
+},
+{
+"fig": 469,
+"leaf": 512,
+"caption": "Diagrams to illustrate the transformation of the bulbus cordis"
+},
+{
+"fig": 470,
+"leaf": 512,
+"caption": "Diagrams to show the development of the septum of the aortic bulb and of the ventricles"
+},
+{
+"fig": 471,
+"leaf": 512,
+"caption": "Transverse sections through the aortic bulb to show the growth of the aortic septum"
+},
+{
+"fig": 472,
+"leaf": 513,
+"caption": "Profile view of a human embryo estimated at twenty or twenty-one days old"
+},
+{
+"fig": 475,
+"leaf": 517,
+"caption": "The liver and the veins in connection with it, of a human embryo, twenty-four or twenty-five days old,"
+},
+{
+"fig": 477,
+"leaf": 519,
+"caption": "Scheme of arrangement of parietal veins"
+},
+{
+"fig": 480,
+"leaf": 520,
+"caption": "Diagram showing completion of development of the parietal veins"
+},
+{
+"fig": 490,
+"leaf": 526,
+"caption": "Front view of heart and lungs"
+},
+{
+"fig": 491,
+"leaf": 527,
+"caption": "Base and diaphragmatic surface of heart"
+},
+{
+"fig": 493,
+"leaf": 529,
+"caption": "Interior of right side of heart"
+},
+{
+"fig": 496,
+"leaf": 532,
+"caption": "Interior of left side of heart"
+},
+{
+"fig": 498,
+"leaf": 534,
+"caption": "Section of the heart showing tne ventricular septum"
+},
+{
+"fig": 499,
+"leaf": 535,
+"caption": "Anastomosing muscular fibers of the heart seen in a longitudinal section"
+},
+{
+"fig": 500,
+"leaf": 535,
+"caption": "Purkinje's fibers from the sheep's heart"
+},
+{
+"fig": 501,
+"leaf": 537,
+"caption": "Schematic representation of the atrioventricular bundle of His"
+},
+{
+"fig": 504,
+"leaf": 543,
+"caption": "Pulmonary vessels, seen in a dorsal view of the heart and lungs"
+},
+{
+"fig": 505,
+"leaf": 545,
+"caption": "The arch of the aorta, and its branches"
+},
+{
+"fig": 507,
+"leaf": 549,
+"caption": "Superficial dissection of the right side of the neck, showing the carotid and subclavian arteries"
+},
+{
+"fig": 508,
+"leaf": 553,
+"caption": "The arteries of the face and scalp.'"
+},
+{
+"fig": 510,
+"leaf": 558,
+"caption": "Plan of branches of internal maxillarj' artery"
+},
+{
+"fig": 511,
+"leaf": 559,
+"caption": "Plan of branches of internal maxillary- artery"
+},
+{
+"fig": 512,
+"leaf": 562,
+"caption": "The triangles of the neck"
+},
+{
+"fig": 513,
+"leaf": 565,
+"caption": "The internal carotid and vertebral arteries"
+},
+{
+"fig": 514,
+"leaf": 568,
+"caption": "The ophthalmic artery and its branches"
+},
+{
+"fig": 515,
+"leaf": 569,
+"caption": "Bloodvessels of the eyelids, front view"
+},
+{
+"fig": 517,
+"leaf": 572,
+"caption": "Outer surface of cerebral hemisphere, showing areas supplied by cerebral arteries"
+},
+{
+"fig": 519,
+"leaf": 573,
+"caption": "Diagram of the arterial circulation at the base of the brain"
+},
+{
+"fig": 520,
+"leaf": 575,
+"caption": "Superficial dissection of the right side of the necli, showing the ckrotid and subclavian arteries"
+},
+{
+"fig": 521,
+"leaf": 581,
+"caption": "The scapular and circumflex arteries"
+},
+{
+"fig": 523,
+"leaf": 586,
+"caption": "The axillary artery and its branches"
+},
+{
+"fig": 524,
+"leaf": 587,
+"caption": "The scapular and circumflex arteries"
+},
+{
+"fig": 525,
+"leaf": 589,
+"caption": "The brachial artery"
+},
+{
+"fig": 526,
+"leaf": 590,
+"caption": "Diagram of the anastomosis around the elbow-joint"
+},
+{
+"fig": 527,
+"leaf": 592,
+"caption": "The radial and ulnar arteries"
+},
+{
+"fig": 529,
+"leaf": 596,
+"caption": "Arteries of the back of the forearm and hand"
+},
+{
+"fig": 530,
+"leaf": 598,
+"caption": "The thoracic aorta, viewed from the left side"
+},
+{
+"fig": 531,
+"leaf": 601,
+"caption": "The abdominal aorta and its bwnches"
+},
+{
+"fig": 534,
+"leaf": 605,
+"caption": "The superior mesenteric artery and its branches"
+},
+{
+"fig": 535,
+"leaf": 607,
+"caption": "Loop of small intestine showing distribution of intestinal arteries"
+},
+{
+"fig": 536,
+"leaf": 607,
+"caption": "Arteries of cecum and vermiform process"
+},
+{
+"fig": 540,
+"leaf": 615,
+"caption": "The arteries of the internal organs of generation of the female, seen from behind"
+},
+{
+"fig": 541,
+"leaf": 616,
+"caption": "Variations in origin and course of obturator artery"
+},
+{
+"fig": 542,
+"leaf": 617,
+"caption": "The superficial branches of the internal pudendal artery"
+},
+{
+"fig": 548,
+"leaf": 625,
+"caption": "Scheme of the femoral artery"
+},
+{
+"fig": 549,
+"leaf": 626,
+"caption": "The left femoral triangle"
+},
+{
+"fig": 551,
+"leaf": 631,
+"caption": "The popliteal, posterior tibial, and peroneal arteries"
+},
+{
+"fig": 552,
+"leaf": 633,
+"caption": "Circumpatellar anastomosis"
+},
+{
+"fig": 553,
+"leaf": 635,
+"caption": "Anterior tibial and dorsalis pedis arterioa"
+},
+{
+"fig": 556,
+"leaf": 642,
+"caption": "Base and diaphragmatic surface of heart"
+},
+{
+"fig": 557,
+"leaf": 643,
+"caption": "Veins of the head and neck"
+},
+{
+"fig": 561,
+"leaf": 649,
+"caption": "Diagram showing common arrangement of thyroid veins"
+},
+{
+"fig": 563,
+"leaf": 650,
+"caption": "The vertebral vein"
+},
+{
+"fig": 566,
+"leaf": 653,
+"caption": "Superior sagittal sinus laid open after remova of the skull cap"
+},
+{
+"fig": 568,
+"leaf": 655,
+"caption": "Sagittal section o^ the skuUi showing the sinuses of the dura"
+},
+{
+"fig": 570,
+"leaf": 656,
+"caption": "The sinuses at the base of the skull"
+},
+{
+"fig": 571,
+"leaf": 657,
+"caption": "Oblique section through the cavernous sinus"
+},
+{
+"fig": 573,
+"leaf": 660,
+"caption": "The veins on the dorsum of the hand"
+},
+{
+"fig": 574,
+"leaf": 661,
+"caption": "The superficial veins of the upper extremity"
+},
+{
+"fig": 575,
+"leaf": 662,
+"caption": "The deep vtii i it ihc upper extremity (Bourgery.)"
+},
+{
+"fig": 576,
+"leaf": 663,
+"caption": "The veins of the right axilla, viewed from in front"
+},
+{
+"fig": 578,
+"leaf": 667,
+"caption": "Transverse section of a thoracic vertebra, showing the vertebral venous plexuses"
+},
+{
+"fig": 581,
+"leaf": 670,
+"caption": "The great saphenous) vein and its tributaries"
+},
+{
+"fig": 583,
+"leaf": 671,
+"caption": "The popliteal vein"
+},
+{
+"fig": 584,
+"leaf": 672,
+"caption": "The femoral vein and its tributaries"
+},
+{
+"fig": 585,
+"leaf": 673,
+"caption": "The veins of the right half of the male pelvis"
+},
+{
+"fig": 587,
+"leaf": 674,
+"caption": "Scheme of the anastomosis of the veins of tde rectimi"
+},
+{
+"fig": 588,
+"leaf": 676,
+"caption": "-The penis in transverse section, showing the bloodveasels"
+},
+{
+"fig": 589,
+"leaf": 676,
+"caption": "Vessels of the uterus and its appendages, rear view"
+},
+{
+"fig": 590,
+"leaf": 678,
+"caption": "Spermatic veins"
+},
+{
+"fig": 591,
+"leaf": 679,
+"caption": "The portal vein and its tributaries"
+},
+{
+"fig": 592,
+"leaf": 682,
+"caption": "-Scheme showing relative positions of primary lymph sacs based on the description given by Florence Sabin"
+},
+{
+"fig": 594,
+"leaf": 684,
+"caption": "Lymph capillaries from the human scrotum, showing also transition from capillaries to the collecting vessels a, a"
+},
+{
+"fig": 596,
+"leaf": 685,
+"caption": "-Vertical section through human tongue; o, a, blind lyniij lying lymphatic plexus"
+},
+{
+"fig": 598,
+"leaf": 688,
+"caption": "Lymph gland tissue"
+},
+{
+"fig": 600,
+"leaf": 691,
+"caption": "Modes of origin of thoracic duct"
+},
+{
+"fig": 603,
+"leaf": 543,
+"caption": "Transverse section of thorax, showing relations of pulmonary artery"
+},
+{
+"fig": 604,
+"leaf": 694,
+"caption": "The lymphatics of the face"
+},
+{
+"fig": 605,
+"leaf": 695,
+"caption": "Lymphatics of the tongue"
+},
+{
+"fig": 606,
+"leaf": 697,
+"caption": "The superficial lymph glanas and lymphatic vessels of the upper extremity"
+},
+{
+"fig": 609,
+"leaf": 700,
+"caption": "Lymph glands of popliteal fossa"
+},
+{
+"fig": 610,
+"leaf": 701,
+"caption": "The superficial lymph glands and lymphatic"
+},
+{
+"fig": 611,
+"leaf": 703,
+"caption": "The parietal lymph glands of the pelvis"
+},
+{
+"fig": 612,
+"leaf": 704,
+"caption": "Iliopelvic glands (lateral view)"
+},
+{
+"fig": 613,
+"leaf": 706,
+"caption": "Lymphatics of stomach, etc"
+},
+{
+"fig": 614,
+"leaf": 706,
+"caption": "Lymphatics of stomach, etc"
+},
+{
+"fig": 616,
+"leaf": 707,
+"caption": "The lymphatics of cecum and vermiform process from behind"
+},
+{
+"fig": 618,
+"leaf": 711,
+"caption": "Lymphatics of the bladder"
+},
+{
+"fig": 619,
+"leaf": 712,
+"caption": "Lymphatics of the prostate"
+},
+{
+"fig": 620,
+"leaf": 713,
+"caption": "Lymphatics of the uterus"
+},
+{
+"fig": 622,
+"leaf": 717,
+"caption": "The tracheobronchial lymph glands"
+},
+{
+"fig": 626,
+"leaf": 722,
+"caption": "Motor nerve cell from ventral horn of medulla spinalis of rabbit"
+},
+{
+"fig": 627,
+"leaf": 723,
+"caption": "Pyramidal cell from the cerebral cortex of a mouse"
+},
+{
+"fig": 629,
+"leaf": 724,
+"caption": "Nerve cells of kitten, showing neurofibrils"
+},
+{
+"fig": 631,
+"leaf": 725,
+"caption": "Diagram of longitudinal sections of medullated nerve fibers"
+},
+{
+"fig": 632,
+"leaf": 725,
+"caption": "Transverse sections of medullated nerve fibers"
+},
+{
+"fig": 633,
+"leaf": 725,
+"caption": "Diagram of medullated nerve fibers stained with osmic acid"
+},
+{
+"fig": 634,
+"leaf": 726,
+"caption": "Medullated nerve fibers stained with silver nitrate"
+},
+{
+"fig": 635,
+"leaf": 726,
+"caption": "A small nervous branch from the sympathetic of a mammal"
+},
+{
+"fig": 637,
+"leaf": 730,
+"caption": "Muscular fibers of Lacerta viridis with the terminations of nerves, a"
+},
+{
+"fig": 638,
+"leaf": 730,
+"caption": "Transverse section of spinal ganglion of rabbit"
+},
+{
+"fig": 640,
+"leaf": 732,
+"caption": "Section of medulla spinalis of a four weeks' embryo"
+},
+{
+"fig": 645,
+"leaf": 736,
+"caption": "Reconstruction of periphera nerves of a human embryo of 10.2 mm"
+},
+{
+"fig": 646,
+"leaf": 737,
+"caption": "Diagram to illustrate the alar and basal laminse of brain vesicles"
+},
+{
+"fig": 647,
+"leaf": 737,
+"caption": "Transverse section of medulla oblongata of human embryo"
+},
+{
+"fig": 648,
+"leaf": 737,
+"caption": "Transverse section of medulla oblongata of human embryo"
+},
+{
+"fig": 652,
+"leaf": 740,
+"caption": "Exterior of brain of human embryo of five weeks"
+},
+{
+"fig": 653,
+"leaf": 741,
+"caption": "Interior of brain of human embryo of five weeks"
+},
+{
+"fig": 654,
+"leaf": 742,
+"caption": "Median sagittal section of brain of human embrj'o of three months"
+},
+{
+"fig": 655,
+"leaf": 743,
+"caption": "Inferior surface of brain of embryo at beginning of fourth month"
+},
+{
+"fig": 656,
+"leaf": 744,
+"caption": "Edge of uhite substance ^Edge ofqrey cortical subhtance Jlippocainpal fissure"
+},
+{
+"fig": 657,
+"leaf": 745,
+"caption": "Median sagittal section of brain of human embryo of four months"
+},
+{
+"fig": 658,
+"leaf": 746,
+"caption": "Outer surface of cerebral hemisphere of human embryo of about five months"
+},
+{
+"fig": 659,
+"leaf": 647,
+"caption": "Veins of the tongue"
+},
+{
+"fig": 660,
+"leaf": 748,
+"caption": "Transverse section of medulla oblongata of human embryo"
+},
+{
+"fig": 661,
+"leaf": 749,
+"caption": "Sagittal section of vertebral canal to show the lower end of the medulla spinalis and the filum terminale"
+},
+{
+"fig": 664,
+"leaf": 751,
+"caption": "Transverse section of the medulla spinalis in the mid-thoracic region"
+},
+{
+"fig": 665,
+"leaf": 752,
+"caption": "Ciirves showing the sectional area at different levels of the cord"
+},
+{
+"fig": 667,
+"leaf": 754,
+"caption": "Section of central canal of medulla spinalis, showing ependymal and neuroglial cells"
+},
+{
+"fig": 668,
+"leaf": 754,
+"caption": "Cells of medulla spinalis"
+},
+{
+"fig": 672,
+"leaf": 758,
+"caption": "Diagram of the principal fasciculi of the spinal cord"
+},
+{
+"fig": 673,
+"leaf": 762,
+"caption": "Formation of the fasciculus gracilis"
+},
+{
+"fig": 676,
+"leaf": 764,
+"caption": "Posterior roots entering medulla spinalis and dividing into ascending and descending branches"
+},
+{
+"fig": 677,
+"leaf": 765,
+"caption": "Scheme showing the connections of the several parts of the brain"
+},
+{
+"fig": 679,
+"leaf": 667,
+"caption": "Median sagittal section of two thoracic verte- brae, showing the vertebral venous plexuses"
+},
+{
+"fig": 682,
+"leaf": 769,
+"caption": "Superficial dissection of brain-stem"
+},
+{
+"fig": 685,
+"leaf": 772,
+"caption": "Deep dissection of brain-stem"
+},
+{
+"fig": 686,
+"leaf": 773,
+"caption": "Upper part of medulla spinalis and hind- and mid-brains; posterior aspect, exposed in situ"
+},
+{
+"fig": 690,
+"leaf": 776,
+"caption": "Deep dissection of brain-stem"
+},
+{
+"fig": 691,
+"leaf": 777,
+"caption": "Dissection of brain-stem"
+},
+{
+"fig": 692,
+"leaf": 778,
+"caption": "Superior terminations of the posterior fas- ciculi of the medulla spinalis"
+},
+{
+"fig": 693,
+"leaf": 778,
+"caption": "Transverse section passing through the sensory decussation"
+},
+{
+"fig": 696,
+"leaf": 780,
+"caption": "The cranial nerve nuclei schematically represented; dorsal view"
+},
+{
+"fig": 697,
+"leaf": 781,
+"caption": "Nuclei of origin of cranial motor nerves schematically represented; lateral view"
+},
+{
+"fig": 699,
+"leaf": 782,
+"caption": "Diagram showing the course of the arcuate fibers"
+},
+{
+"fig": 700,
+"leaf": 783,
+"caption": "The formatio reticularis of the medulla oblongata, .showa by a traasverse section passing through the middle of the oUve"
+},
+{
+"fig": 701,
+"leaf": 785,
+"caption": "Coronal section of the pons, at its upper part"
+},
+{
+"fig": 703,
+"leaf": 789,
+"caption": "Ujider surface of the cerebellum, (Schafer"
+},
+{
+"fig": 706,
+"leaf": 794,
+"caption": "Transverse section of a cerebellar folium"
+},
+{
+"fig": 707,
+"leaf": 795,
+"caption": "Sagittal section through right cerebellar hemisphere"
+},
+{
+"fig": 709,
+"leaf": 798,
+"caption": "Rhomboid fossa"
+},
+{
+"fig": 710,
+"leaf": 799,
+"caption": "Coronal section through mid-brain"
+},
+{
+"fig": 713,
+"leaf": 803,
+"caption": "Scheme showing the course of the fibers of the lemniscus; medial lemniscus in blue, lateral in red"
+},
+{
+"fig": 714,
+"leaf": 804,
+"caption": "'I^ransverse section passing through the sensory decussation"
+},
+{
+"fig": 715,
+"leaf": 806,
+"caption": "Mesal aspect of a brain sectioned in the median sagittal plane"
+},
+{
+"fig": 718,
+"leaf": 809,
+"caption": "Coronal section of brain through intermediate mass of third ventricle"
+},
+{
+"fig": 720,
+"leaf": 812,
+"caption": "Median sagittal section of brain"
+},
+{
+"fig": 721,
+"leaf": 813,
+"caption": "The hypophysis cerebri, in position"
+},
+{
+"fig": 723,
+"leaf": 815,
+"caption": "Coronal section of lateral and third ventricles"
+},
+{
+"fig": 724,
+"leaf": 816,
+"caption": "Base of brain"
+},
+{
+"fig": 726,
+"leaf": 818,
+"caption": "Lateral surface of left cerebral hemisphere, viewed from the side"
+},
+{
+"fig": 727,
+"leaf": 819,
+"caption": "Medial surface of left cerebral hemisphere"
+},
+{
+"fig": 728,
+"leaf": 820,
+"caption": "Principal fissures and lobes of the cerebrum viewed laterally"
+},
+{
+"fig": 732,
+"leaf": 825,
+"caption": "Scheme of rhinencephalon"
+},
+{
+"fig": 733,
+"leaf": 827,
+"caption": "Corpus callosum from above"
+},
+{
+"fig": 734,
+"leaf": 828,
+"caption": "Scheme showing relations of the ventricles to the surface of the brain"
+},
+{
+"fig": 735,
+"leaf": 829,
+"caption": "Drawing of a cast of the ventricular cavities, viewed from above"
+},
+{
+"fig": 738,
+"leaf": 831,
+"caption": "Coronal section through posterior cornua of lateral ventricle"
+},
+{
+"fig": 740,
+"leaf": 832,
+"caption": "Inferior and posterior cornua, viewed from above"
+},
+{
+"fig": 741,
+"leaf": 832,
+"caption": "^Two views of a model of the striatum: A, lateral aspect; B, mesal aspect"
+},
+{
+"fig": 743,
+"leaf": 834,
+"caption": "Coronal section through anterior comua of lateral ventricles"
+},
+{
+"fig": 744,
+"leaf": 835,
+"caption": "Coronal section of brain through anterior commissure"
+},
+{
+"fig": 745,
+"leaf": 836,
+"caption": "Dissection showing the course of the cerebrospinal fibers"
+},
+{
+"fig": 746,
+"leaf": 837,
+"caption": "Diagram of the tracts in the internal capsule"
+},
+{
+"fig": 747,
+"leaf": 838,
+"caption": "Diagram of the fornix"
+},
+{
+"fig": 748,
+"leaf": 838,
+"caption": "The fornix and corpus callosum from below"
+},
+{
+"fig": 749,
+"leaf": 840,
+"caption": "Coronal section of inferior horn of lateral ventricle"
+},
+{
+"fig": 750,
+"leaf": 841,
+"caption": "Tela chorioidea of the third ventricle, and the choroid plexus of the left lateral ventricle, exposed"
+},
+{
+"fig": 751,
+"leaf": 842,
+"caption": "Diagram showing principal systems of association fibers in the cerebnim"
+},
+{
+"fig": 752,
+"leaf": 843,
+"caption": "Dissection of cortex and brain-stem showing association fibers and island of Reil after removal of its super- ficial gray substance"
+},
+{
+"fig": 753,
+"leaf": 843,
+"caption": "Deep dissection of cortex and brain-stem"
+},
+{
+"fig": 754,
+"leaf": 845,
+"caption": "Cerebral cortex"
+},
+{
+"fig": 755,
+"leaf": 846,
+"caption": "Coronal section of olfactory bulb"
+},
+{
+"fig": 756,
+"leaf": 847,
+"caption": "Areas of localization on lateral surface of hemisphere"
+},
+{
+"fig": 758,
+"leaf": 849,
+"caption": "Diagram of the spinal cord reflex apparatus"
+},
+{
+"fig": 762,
+"leaf": 863,
+"caption": "Figure showing the different groups of cells, which constitute, according to Perha, the nucleus of origin of the oculomotor nerve"
+},
+{
+"fig": 763,
+"leaf": 864,
+"caption": "Scheme showing central connections of the optic nerves and optic tracts"
+},
+{
+"fig": 770,
+"leaf": 878,
+"caption": "Diagrammatic transverse section of the medulla spinalis and its membranes"
+},
+{
+"fig": 772,
+"leaf": 880,
+"caption": "Plan of olfactory neurons"
+},
+{
+"fig": 773,
+"leaf": 881,
+"caption": "The left optic nerve and the optic tracts"
+},
+{
+"fig": 774,
+"leaf": 882,
+"caption": "Scheme showing central connections of the optic nerves and optic tracts"
+},
+{
+"fig": 775,
+"leaf": 883,
+"caption": "Plan of oculomotor nerve"
+},
+{
+"fig": 776,
+"leaf": 884,
+"caption": "Nerves of the orbit"
+},
+{
+"fig": 777,
+"leaf": 886,
+"caption": "Nerve3 of the orbit, and the ciliary ganglion"
+},
+{
+"fig": 780,
+"leaf": 891,
+"caption": "The sphenopalatine ganglion and its branches"
+},
+{
+"fig": 781,
+"leaf": 893,
+"caption": "Mandibular division of the trifacial nerve"
+},
+{
+"fig": 782,
+"leaf": 895,
+"caption": "Mandibular division of trifacial nerve, seen irom the middle line"
+},
+{
+"fig": 785,
+"leaf": 898,
+"caption": "Figure showing the mode of innervation of the Recti medialis and lateralis of the eye (after Duval and Laborde)"
+},
+{
+"fig": 786,
+"leaf": 899,
+"caption": "Oblique section through the right cavernous sinus"
+},
+{
+"fig": 787,
+"leaf": 899,
+"caption": "Dissection showing origins of right ocular muscles, and nerves entering by the superior orbital fissure"
+},
+{
+"fig": 788,
+"leaf": 900,
+"caption": "Plan of the facial and intermediate nerves and their communication with other nerves"
+},
+{
+"fig": 789,
+"leaf": 901,
+"caption": "The course and connections of the facial nerve in the temporal bone"
+},
+{
+"fig": 791,
+"leaf": 906,
+"caption": "Plan of upper portions of glossopharyngeal, vagus, and accessory nerves"
+},
+{
+"fig": 793,
+"leaf": 908,
+"caption": "Coiuse and distribution of the glossopnaryngeai, vagus, and accessory nerves"
+},
+{
+"fig": 794,
+"leaf": 913,
+"caption": "Hypoglossal nerve, cervical plexus, and their branches"
+},
+{
+"fig": 795,
+"leaf": 914,
+"caption": "Plan of hypoglossal nerve"
+},
+{
+"fig": 798,
+"leaf": 918,
+"caption": "Distribution of cutaneous nerves"
+},
+{
+"fig": 799,
+"leaf": 919,
+"caption": "Scheme showing structure of a typical spinal nerve"
+},
+{
+"fig": 800,
+"leaf": 920,
+"caption": "Posterior primary divisions of the upper three cervical nerves"
+},
+{
+"fig": 803,
+"leaf": 923,
+"caption": "The- posterior divisions of the sacral nervea"
+},
+{
+"fig": 804,
+"leaf": 925,
+"caption": "Plan of the cervical plexus"
+},
+{
+"fig": 806,
+"leaf": 928,
+"caption": "The phrenic nerve and its relations with the vagus nerve"
+},
+{
+"fig": 807,
+"leaf": 929,
+"caption": "^Plan of brachial plexus"
+},
+{
+"fig": 808,
+"leaf": 930,
+"caption": "The right brachial plexus with its short branches, viewed from in front"
+},
+{
+"fig": 809,
+"leaf": 931,
+"caption": "The right brachial plexus (infraclavicular portion) in the axillary fossa; viewed from below and in front"
+},
+{
+"fig": 810,
+"leaf": 933,
+"caption": "Suprascapular and axillary nerves of right side, seen from behind"
+},
+{
+"fig": 812,
+"leaf": 934,
+"caption": "Diagram of segmental distribution of the cutaneous nerves of the right upper extremity"
+},
+{
+"fig": 814,
+"leaf": 935,
+"caption": "Diagram of segmental distribution of the cuta- neous nerves of the right upper extremity"
+},
+{
+"fig": 815,
+"leaf": 938,
+"caption": "Superficial palmar nerves"
+},
+{
+"fig": 818,
+"leaf": 941,
+"caption": "The suprascapular, axillary, and radial nerves"
+},
+{
+"fig": 819,
+"leaf": 944,
+"caption": "Diagram of the course and branches of a typica intercostal nerve"
+},
+{
+"fig": 820,
+"leaf": 945,
+"caption": "Cutaneous distribution of thoracic nerves"
+},
+{
+"fig": 822,
+"leaf": 948,
+"caption": "Plan of lumbar plexus"
+},
+{
+"fig": 823,
+"leaf": 949,
+"caption": "The lumbar plexus and its branches"
+},
+{
+"fig": 824,
+"leaf": 950,
+"caption": "Deep and superficial dissection of the lumbar plexus"
+},
+{
+"fig": 829,
+"leaf": 958,
+"caption": "Dissection of side wall of pelvis showing sacral and pudendal plexuses"
+},
+{
+"fig": 830,
+"leaf": 960,
+"caption": "Cutaneous nerves of right lower extremity"
+},
+{
+"fig": 832,
+"leaf": 961,
+"caption": "Nerves of the right lower extremity Posterior view"
+},
+{
+"fig": 833,
+"leaf": 963,
+"caption": "The plantar nerves"
+},
+{
+"fig": 834,
+"leaf": 963,
+"caption": "Diagram of the segmental distribution of the cutaneous nerves of the sole of the foot"
+},
+{
+"fig": 836,
+"leaf": 965,
+"caption": "Nerves of the dorsum of the foot"
+},
+{
+"fig": 837,
+"leaf": 966,
+"caption": "Sacral plexus of the right side"
+},
+{
+"fig": 839,
+"leaf": 970,
+"caption": "Diagram of efferent sympathetic nervous system"
+},
+{
+"fig": 841,
+"leaf": 972,
+"caption": "Sympathetic connections of the sphenopalatine and superior cervical gangha"
+},
+{
+"fig": 842,
+"leaf": 973,
+"caption": "Sympathetic connections of the submaxillary and superior cervical ganglia"
+},
+{
+"fig": 843,
+"leaf": 974,
+"caption": "Sympathetic connections of the otic and superior cervical ganglia"
+},
+{
+"fig": 844,
+"leaf": 978,
+"caption": "Diagram of the cervical sympathetic"
+},
+{
+"fig": 845,
+"leaf": 979,
+"caption": "^Plan of right sympathetic cord and splanchnic nerves"
+},
+{
+"fig": 849,
+"leaf": 987,
+"caption": "Lower half of right sympathetic cord"
+},
+{
+"fig": 850,
+"leaf": 990,
+"caption": "Vertical section of papilla foliata of the rabbit, crossing the folia"
+},
+{
+"fig": 852,
+"leaf": 992,
+"caption": "Cartilages of the nose"
+},
+{
+"fig": 855,
+"leaf": 993,
+"caption": "Lateral wall of nasal cavity"
+},
+{
+"fig": 858,
+"leaf": 996,
+"caption": "Nerves of septum of nose"
+},
+{
+"fig": 859,
+"leaf": 997,
+"caption": "Coronal section of na.sal cavities"
+},
+{
+"fig": 861,
+"leaf": 998,
+"caption": "Specimen from a child one year, four months, and seven days old"
+},
+{
+"fig": 862,
+"leaf": 999,
+"caption": "Specimen from a child eight years, eight months, and one day old"
+},
+{
+"fig": 863,
+"leaf": 1000,
+"caption": "Transverse section of head of chick embryo of forty-eight hours' incubation"
+},
+{
+"fig": 864,
+"leaf": 1000,
+"caption": "Transverse section of head of chick embryo of fifty-two hours' incubation"
+},
+{
+"fig": 865,
+"leaf": 1001,
+"caption": "Optic cup and choroidal fissure seen from below, from a human embryo of about four weeks"
+},
+{
+"fig": 867,
+"leaf": 1003,
+"caption": "Sagittal section of eye of human embryo of six weeks"
+},
+{
+"fig": 870,
+"leaf": 1006,
+"caption": "Enlarged general view of the iridial angle"
+},
+{
+"fig": 871,
+"leaf": 1007,
+"caption": "Vertical section of human cornea from near the margin"
+},
+{
+"fig": 872,
+"leaf": 1008,
+"caption": "The choroid and iris"
+},
+{
+"fig": 876,
+"leaf": 1010,
+"caption": "Vessels of the choroid, ciliary pro* cesses, and iris of a child"
+},
+{
+"fig": 877,
+"leaf": 1011,
+"caption": "Diagram of the bloodvessels of the eye, as seen in a horizontal section"
+},
+{
+"fig": 878,
+"leaf": 1012,
+"caption": "Iris, front view"
+},
+{
+"fig": 879,
+"leaf": 1013,
+"caption": "Iiiterior of posterior half of bulb of left eye"
+},
+{
+"fig": 881,
+"leaf": 1015,
+"caption": "Section of retina"
+},
+{
+"fig": 882,
+"leaf": 1015,
+"caption": "Plan of retinal neurons"
+},
+{
+"fig": 883,
+"leaf": 1018,
+"caption": "The upper half of a sagittal section through the front of the eyeball"
+},
+{
+"fig": 884,
+"leaf": 1019,
+"caption": "The crystalline lens, hardened and divided"
+},
+{
+"fig": 885,
+"leaf": 1019,
+"caption": "Diagram to show the direction and arrangement of the radiating lines on the front and back of the fetal lens"
+},
+{
+"fig": 887,
+"leaf": 1019,
+"caption": "Section through the margin of the lens, showing the transition of the epithelium into the lens fibers"
+},
+{
+"fig": 888,
+"leaf": 1020,
+"caption": "Sagittal section of rigiit orbital cavity"
+},
+{
+"fig": 889,
+"leaf": 1021,
+"caption": "Muscles of the right orbit"
+},
+{
+"fig": 890,
+"leaf": 1022,
+"caption": "Dissection showing origins of right ocular muscles, and nerves entering by the superior orbital fissure"
+},
+{
+"fig": 891,
+"leaf": 1023,
+"caption": "The right eye in sagittal section, showing the fascia bulbi (semidiagrammatic)"
+},
+{
+"fig": 893,
+"leaf": 1025,
+"caption": "Sagittal section through the upper eyelid"
+},
+{
+"fig": 894,
+"leaf": 1026,
+"caption": "The tarsi and their ligaments"
+},
+{
+"fig": 895,
+"leaf": 1026,
+"caption": "The tarsal glands, etc., seen from the inner surface of the eyelids"
+},
+{
+"fig": 896,
+"leaf": 1028,
+"caption": "The lacrimal apparatus"
+},
+{
+"fig": 897,
+"leaf": 1028,
+"caption": "Alveoli of lacrimal gland"
+},
+{
+"fig": 899,
+"leaf": 1028,
+"caption": "Section through hind-brain and audi- tory ve.sicles of an embryo more advanced than that of Fig"
+},
+{
+"fig": 900,
+"leaf": 1029,
+"caption": "Lateral views of membranous labyrinth and acoustic complex"
+},
+{
+"fig": 901,
+"leaf": 1030,
+"caption": "Median views of membranous labyrinth and acotistic complex in human embryos"
+},
+{
+"fig": 902,
+"leaf": 1031,
+"caption": "Transverse section through head of fetal sheep, in the region of the labyrinth"
+},
+{
+"fig": 904,
+"leaf": 1033,
+"caption": "The auricula"
+},
+{
+"fig": 906,
+"leaf": 1034,
+"caption": "The muscles of the auricula"
+},
+{
+"fig": 907,
+"leaf": 1035,
+"caption": "External and middle ear, opened from the front"
+},
+{
+"fig": 909,
+"leaf": 1037,
+"caption": "Right tympanic membrane as seen through a speculum"
+},
+{
+"fig": 910,
+"leaf": 1038,
+"caption": "-The tympanic membrane viewed Irom within"
+},
+{
+"fig": 911,
+"leaf": 1038,
+"caption": "^View of the inner wall of the tympanum (enlarged.)"
+},
+{
+"fig": 912,
+"leaf": 1039,
+"caption": "The right membrana tympani with the hammer and the chorda tympani, viewed from within, from behind,"
+},
+{
+"fig": 913,
+"leaf": 1040,
+"caption": "Coronal section of right temporal bone"
+},
+{
+"fig": 914,
+"leaf": 1040,
+"caption": "The medial wall and part of the posterior and anterior -walls of the right tympanic ca-idty, lateral view"
+},
+{
+"fig": 915,
+"leaf": 1042,
+"caption": "Auditory tube, laid open by a cut in its long axis"
+},
+{
+"fig": 916,
+"leaf": 1043,
+"caption": "Left malleus"
+},
+{
+"fig": 918,
+"leaf": 1044,
+"caption": "A. Left stapes"
+},
+{
+"fig": 919,
+"leaf": 1045,
+"caption": "Chain of ossicles and their liga- ments, seen from the front in a vertical, trans- verse section of the tympanum"
+},
+{
+"fig": 920,
+"leaf": 1047,
+"caption": "Right osseous labyrinth"
+},
+{
+"fig": 921,
+"leaf": 1047,
+"caption": "Interior of right osseous labyrinth"
+},
+{
+"fig": 922,
+"leaf": 1048,
+"caption": "Position of the right bony labyrinth of the ear in the skull, viewed from above"
+},
+{
+"fig": 924,
+"leaf": 1051,
+"caption": "The membranous labyrinth"
+},
+{
+"fig": 926,
+"leaf": 1052,
+"caption": "The same from the postero-medial aspect"
+},
+{
+"fig": 928,
+"leaf": 1054,
+"caption": "Diagrammatic longitudinal section of the cochlea"
+},
+{
+"fig": 929,
+"leaf": 1054,
+"caption": "Floor of ductus cochlearis"
+},
+{
+"fig": 931,
+"leaf": 1055,
+"caption": "Section through the spiral organ of Corti"
+},
+{
+"fig": 932,
+"leaf": 1056,
+"caption": "The lamina reticularis and subjacent structures"
+},
+{
+"fig": 934,
+"leaf": 1059,
+"caption": "End-bulb of Krau.se"
+},
+{
+"fig": 936,
+"leaf": 1059,
+"caption": "Papilla of the hand, treated with acetic acid"
+},
+{
+"fig": 939,
+"leaf": 1061,
+"caption": "Middle third of a terminal plaque in the muscle spindle of an adult oat"
+},
+{
+"fig": 940,
+"leaf": 1062,
+"caption": "A ciiagrammatic sectional view of the skin (magnified)"
+},
+{
+"fig": 941,
+"leaf": 1063,
+"caption": "Section of epidermis"
+},
+{
+"fig": 944,
+"leaf": 1067,
+"caption": "Section of skin, showing the epidermis and dermis; a hair in its follicle; the Arrector pili muscle;"
+},
+{
+"fig": 946,
+"leaf": 1069,
+"caption": "Body of a sudoriferous-gland cut in various layer of a rcddisli color, which corre-"
+},
+{
+"fig": 949,
+"leaf": 1071,
+"caption": "Lungs of a human embryo more advanced in development"
+},
+{
+"fig": 955,
+"leaf": 1079,
+"caption": "The entrance to the larynx, viewed from behind"
+},
+{
+"fig": 958,
+"leaf": 1081,
+"caption": "Muscles of larynx"
+},
+{
+"fig": 959,
+"leaf": 1081,
+"caption": "Muscles of larynx"
+},
+{
+"fig": 961,
+"leaf": 1084,
+"caption": "Front view of cartilages of larynx, trachea, and bronchi"
+},
+{
+"fig": 962,
+"leaf": 1085,
+"caption": "Bronchi and bronchioles"
+},
+{
+"fig": 964,
+"leaf": 1086,
+"caption": "^Transverse section of trachea"
+},
+{
+"fig": 965,
+"leaf": 1087,
+"caption": "Front view of thorax, showing the relations of the pleurse and lungs to the chest wall"
+},
+{
+"fig": 966,
+"leaf": 1088,
+"caption": "Lateral view of thorax, showing the relations of the pleurae and lungs to the chest wall"
+},
+{
+"fig": 971,
+"leaf": 1091,
+"caption": "Pulmonary vessels, seen in a dorsal view of the heart and lungs"
+},
+{
+"fig": 973,
+"leaf": 1093,
+"caption": "Mediastinal surface of left lung"
+},
+{
+"fig": 974,
+"leaf": 1095,
+"caption": "Part of a secondary lobule from the depth of a human lung, showing parts of several primary lobules"
+},
+{
+"fig": 975,
+"leaf": 1096,
+"caption": "Schematic longitudinal section of a primary lobule of the lung (anatomical unit); r"
+},
+{
+"fig": 978,
+"leaf": 1099,
+"caption": "Head end of human embryo of about thirty to thirty-one days"
+},
+{
+"fig": 979,
+"leaf": 1099,
+"caption": "Floor of i)!iar,"
+},
+{
+"fig": 980,
+"leaf": 1099,
+"caption": "Floor of pharynx of human embryo of a^out the end of the fourth week"
+},
+{
+"fig": 986,
+"leaf": 1104,
+"caption": "Reconstruction of a human embryo of 17 mm"
+},
+{
+"fig": 996,
+"leaf": 1110,
+"caption": "Permanent teeth of upper dental arch, seen from below"
+},
+{
+"fig": 997,
+"leaf": 1110,
+"caption": "Permanent teeth of right half of lower dental arch, seen from above"
+},
+{
+"fig": 998,
+"leaf": 1111,
+"caption": "Maxillte at about one year"
+},
+{
+"fig": 1000,
+"leaf": 1112,
+"caption": "The complete temporary dentition and the first permanent molar"
+},
+{
+"fig": 1001,
+"leaf": 1113,
+"caption": "Front view of the skull shown in Fig"
+},
+{
+"fig": 1004,
+"leaf": 1115,
+"caption": "Deciduous teeth"
+},
+{
+"fig": 1005,
+"leaf": 1116,
+"caption": "Vertical section of a tooth in situ"
+},
+{
+"fig": 1006,
+"leaf": 1116,
+"caption": "Vertical section of a molar tooth"
+},
+{
+"fig": 1007,
+"leaf": 1116,
+"caption": "Vertical section of a premolar tooth"
+},
+{
+"fig": 1013,
+"leaf": 1123,
+"caption": "The mouth cavity"
+},
+{
+"fig": 1015,
+"leaf": 1124,
+"caption": "Circumvallate papilla in vertical section, shearing arrangement of liif uiMf-uuds and nerves"
+},
+{
+"fig": 1016,
+"leaf": 1125,
+"caption": "A filiform papiUa"
+},
+{
+"fig": 1017,
+"leaf": 1125,
+"caption": "Section of a fungiform papilla"
+},
+{
+"fig": 1018,
+"leaf": 1125,
+"caption": "Semidiagrammatic view of a portion of the mucoiia membrane of the tongue"
+},
+{
+"fig": 1019,
+"leaf": 1126,
+"caption": "Extrinsic muscles of the tongue"
+},
+{
+"fig": 1020,
+"leaf": 1127,
+"caption": "Coronal section of tongue, showing intrinsic muscles"
+},
+{
+"fig": 1021,
+"leaf": 1129,
+"caption": "^Vertical section of papilla foliata of the rabbit, passing across the folia"
+},
+{
+"fig": 1024,
+"leaf": 1132,
+"caption": "Dissection, showing salivary glands of right side"
+},
+{
+"fig": 1026,
+"leaf": 1134,
+"caption": "Human submaxillary gland"
+},
+{
+"fig": 1027,
+"leaf": 1135,
+"caption": ";\u2014 Section through one of the crypts of the tonsil"
+},
+{
+"fig": 1029,
+"leaf": 1139,
+"caption": "Front of nasa part of pharynx, as seen with the laryngoscope"
+},
+{
+"fig": 1032,
+"leaf": 1140,
+"caption": "^The position and relation of the esophagus in the cervical region and in the posterior mediastinum"
+},
+{
+"fig": 1033,
+"leaf": 1141,
+"caption": "Section of the human esophagus"
+},
+{
+"fig": 1035,
+"leaf": 1146,
+"caption": "Vertical dispositioa of the peritoneum"
+},
+{
+"fig": 1036,
+"leaf": 1147,
+"caption": "Posterior view of the anterior abdominal wall in its lower half"
+},
+{
+"fig": 1037,
+"leaf": 1148,
+"caption": "The peritoneum of the male pelvis"
+},
+{
+"fig": 1038,
+"leaf": 1149,
+"caption": "Horizontal disposition of the peritoneum in the lower part of the abdomen"
+},
+{
+"fig": 1039,
+"leaf": 1150,
+"caption": "Horizontal disposition of the peritoneum in the upper part of the abdomen"
+},
+{
+"fig": 1040,
+"leaf": 1153,
+"caption": "Diagram devised by DeI6pine to show the lines along which the peritoneum leaves the wail of the abdomen"
+},
+{
+"fig": 1042,
+"leaf": 1154,
+"caption": "Duodenojejunal fossa"
+},
+{
+"fig": 1043,
+"leaf": 1155,
+"caption": "Superior ileocecal fossa"
+},
+{
+"fig": 1044,
+"leaf": 1155,
+"caption": "Inferior ileocecal fossa"
+},
+{
+"fig": 1045,
+"leaf": 1156,
+"caption": "The cecal fossa"
+},
+{
+"fig": 1046,
+"leaf": 1158,
+"caption": "Outline of stomach, showing its anatomical landmarks"
+},
+{
+"fig": 1047,
+"leaf": 1158,
+"caption": "Diagram showing shape and position of empty stomach"
+},
+{
+"fig": 1049,
+"leaf": 1158,
+"caption": "Diagram showing shape and position of distended stomach"
+},
+{
+"fig": 1054,
+"leaf": 1162,
+"caption": "A pyloric gland, from a section of the dog's stomach"
+},
+{
+"fig": 1055,
+"leaf": 1162,
+"caption": "-X fundus gland, of gland"
+},
+{
+"fig": 1058,
+"leaf": 1166,
+"caption": "Section of duodenum of cat"
+},
+{
+"fig": 1059,
+"leaf": 1167,
+"caption": "Vertical section of a villus from the dog's small intestine"
+},
+{
+"fig": 1062,
+"leaf": 1168,
+"caption": "An intestinal gland from the human intestine"
+},
+{
+"fig": 1063,
+"leaf": 1169,
+"caption": "Vertical section of a human aggregated lymphatic nodule, injected through its lymphatic canals, a"
+},
+{
+"fig": 1064,
+"leaf": 1169,
+"caption": "Transverse section through the equatorial plane of three aggregated lymphatic nodules from the rabbit"
+},
+{
+"fig": 1071,
+"leaf": 1171,
+"caption": "The myenteric plexus from the rabbit"
+},
+{
+"fig": 1072,
+"leaf": 1171,
+"caption": "The plexus of the submucosa from the rabbit XoO"
+},
+{
+"fig": 1073,
+"leaf": 1173,
+"caption": "The cecum and vermiform process, with their arteries"
+},
+{
+"fig": 1075,
+"leaf": 1175,
+"caption": "Interior of the cecum and lower end of ascending colon, sliowing colic valve"
+},
+{
+"fig": 1079,
+"leaf": 1179,
+"caption": "Coronal section tbrough the anal canal"
+},
+{
+"fig": 1080,
+"leaf": 1179,
+"caption": "The interior of the anal canal and lower part of the rectum, showing the columns of Morgagni and the anal valves between their lower ends"
+},
+{
+"fig": 1081,
+"leaf": 1180,
+"caption": "Inner wall of the lower end of the rectum and anus"
+},
+{
+"fig": 1084,
+"leaf": 1182,
+"caption": "Varieties of oblique inguinal hernia"
+},
+{
+"fig": 1086,
+"leaf": 1185,
+"caption": "Inferior surface of the liver"
+},
+{
+"fig": 1089,
+"leaf": 1189,
+"caption": "Longitudinal section of a hepatic vein"
+},
+{
+"fig": 1092,
+"leaf": 1190,
+"caption": "A single lobule of the liver of a pig"
+},
+{
+"fig": 1093,
+"leaf": 1191,
+"caption": "Section across portal canal of pig"
+},
+{
+"fig": 1095,
+"leaf": 1192,
+"caption": "The gall-bladder and bile ducts laid open"
+},
+{
+"fig": 1096,
+"leaf": 1193,
+"caption": "Transverse section of gall-bladder"
+},
+{
+"fig": 1098,
+"leaf": 1195,
+"caption": "The duodenum and pancreas"
+},
+{
+"fig": 1099,
+"leaf": 1195,
+"caption": "The pancreas and duodenum from behind"
+},
+{
+"fig": 1101,
+"leaf": 1198,
+"caption": "Pancreas of a human embryo of five weeks"
+},
+{
+"fig": 1103,
+"leaf": 1198,
+"caption": "Schematic and enlarged cross-section through the body of a human embryo in the region of the mesogastrium"
+},
+{
+"fig": 1104,
+"leaf": 1199,
+"caption": "Section through same region as in Fig"
+},
+{
+"fig": 1105,
+"leaf": 1199,
+"caption": "Section of pancreas of dog"
+},
+{
+"fig": 1106,
+"leaf": 1200,
+"caption": "Section of the urogenital fold of a chick embryo of the fourth day"
+},
+{
+"fig": 1107,
+"leaf": 1201,
+"caption": "Enlarged view from the front of the left Wolffian body before the establishment of the distinction of sex"
+},
+{
+"fig": 1109,
+"leaf": 1202,
+"caption": "Urogenital sinus of female human"
+},
+{
+"fig": 1110,
+"leaf": 1201,
+"caption": ", C)"
+},
+{
+"fig": 1115,
+"leaf": 1207,
+"caption": "Tail end of human embryo twenty- five to twenty-nine days old"
+},
+{
+"fig": 1122,
+"leaf": 1213,
+"caption": "The anterior surfaces of the kidneys, showing the areas of contact of neighboring viscera"
+},
+{
+"fig": 1123,
+"leaf": 1213,
+"caption": "The posterior surfaces of the kidneys, showing areas of relation to the parietes"
+},
+{
+"fig": 1124,
+"leaf": 1214,
+"caption": "The relations of the kidneys from behind"
+},
+{
+"fig": 1125,
+"leaf": 1214,
+"caption": "Sagittal section through posterior abdominal wall, showing the relations of the capsule of the kidney"
+},
+{
+"fig": 1127,
+"leaf": 1216,
+"caption": "\\ ertical section of kidney"
+},
+{
+"fig": 1129,
+"leaf": 1217,
+"caption": "Distribution of bloodvessels in cortex of kidney"
+},
+{
+"fig": 1134,
+"leaf": 1221,
+"caption": "^Transverse section of ureter"
+},
+{
+"fig": 1135,
+"leaf": 1223,
+"caption": "Median sagitta section of male pelvis"
+},
+{
+"fig": 1136,
+"leaf": 1224,
+"caption": "-Male pelvic organs seen from right side"
+},
+{
+"fig": 1140,
+"leaf": 1227,
+"caption": "The interior of bladder"
+},
+{
+"fig": 1142,
+"leaf": 1229,
+"caption": "^The male urethra laid open on its anterior (upper) surface"
+},
+{
+"fig": 1143,
+"leaf": 1232,
+"caption": "The scrotum"
+},
+{
+"fig": 1148,
+"leaf": 1236,
+"caption": "The right testis, exposed by laying open the tunica vaginalis"
+},
+{
+"fig": 1149,
+"leaf": 1238,
+"caption": "Vertical section of the testis, to show the arrangement of the ducts"
+},
+{
+"fig": 1150,
+"leaf": 1239,
+"caption": "Transverse section of a tubule of the testis of a rat"
+},
+{
+"fig": 1151,
+"leaf": 1239,
+"caption": "Section of epididymis of guinea-pig"
+},
+{
+"fig": 1153,
+"leaf": 1242,
+"caption": "VeBiculse seminales and ampullae of ductus defer- entes, seen from the front"
+},
+{
+"fig": 1154,
+"leaf": 1243,
+"caption": "The constituent cavernous cylinders of the penis"
+},
+{
+"fig": 1155,
+"leaf": 1243,
+"caption": "Transverse section of the penis"
+},
+{
+"fig": 1156,
+"leaf": 1244,
+"caption": "Vertical section of bladder, penis, and urethra"
+},
+{
+"fig": 1157,
+"leaf": 1245,
+"caption": "Section of corpus cavernosum penis in a non-dis- tended condition"
+},
+{
+"fig": 1159,
+"leaf": 1246,
+"caption": "Veins of the penis"
+},
+{
+"fig": 1161,
+"leaf": 1249,
+"caption": "Uterus and riglit broad ligament, seen from behind"
+},
+{
+"fig": 1162,
+"leaf": 1250,
+"caption": "Adult ovary, epoophoron, and uterine tube"
+},
+{
+"fig": 1163,
+"leaf": 1250,
+"caption": "Section of the ovary"
+},
+{
+"fig": 1164,
+"leaf": 1251,
+"caption": "Section of vesicu I"
+},
+{
+"fig": 1166,
+"leaf": 1253,
+"caption": "Sagittal section of the lower part of a female trunk, right segment"
+},
+{
+"fig": 1167,
+"leaf": 1255,
+"caption": "Posterior half of uterus and upper part of vagina"
+},
+{
+"fig": 1168,
+"leaf": 1256,
+"caption": "^Sagittal section through the pelvis of a newly born female, child"
+},
+{
+"fig": 1169,
+"leaf": 1258,
+"caption": "Vertical section of mucous membrane of human uterus"
+},
+{
+"fig": 1170,
+"leaf": 1258,
+"caption": "The arteries of the internal organs of generation of the female, seen from behind"
+},
+{
+"fig": 1172,
+"leaf": 1263,
+"caption": "Dissection of the lower half of the mamma during the period of lactation"
+},
+{
+"fig": 1173,
+"leaf": 1263,
+"caption": "Section of portion of mamma"
+},
+{
+"fig": 1175,
+"leaf": 1265,
+"caption": "Scheme showing development of bran- chial epithelial bodies"
+},
+{
+"fig": 1176,
+"leaf": 1266,
+"caption": "Section of thyroid gland of sheep"
+},
+{
+"fig": 1177,
+"leaf": 1267,
+"caption": "Parathyroid glands"
+},
+{
+"fig": 1179,
+"leaf": 1269,
+"caption": "Minute structure of thymus"
+},
+{
+"fig": 1180,
+"leaf": 1270,
+"caption": "The hypophysis cerebri in position"
+},
+{
+"fig": 1181,
+"leaf": 1270,
+"caption": "Median sagittal section through the hypophysis of an adult monkey"
+},
+{
+"fig": 1182,
+"leaf": 1271,
+"caption": "Vertical sections of the heads of early embryos of the rab- bit"
+},
+{
+"fig": 1183,
+"leaf": 1274,
+"caption": "Suprareaal glands viewed from the front"
+},
+{
+"fig": 1187,
+"leaf": 1276,
+"caption": "Section of an irregular nodule of the glomus coccygeum"
+},
+{
+"fig": 1189,
+"leaf": 1279,
+"caption": "Transverse section of the spleen, showing the trabecular tissue and the splenic vein and its tributaries"
+},
+{
+"fig": 1192,
+"leaf": 1281,
+"caption": "Section of the spleen, showing the termination of the small bloodvessels"
+},
+{
+"fig": 1193,
+"leaf": 1282,
+"caption": "Side view of head, showing surface relations of bones"
+},
+{
+"fig": 1194,
+"leaf": 1284,
+"caption": "Anterolateral view of head and neck"
+},
+{
+"fig": 1197,
+"leaf": 1287,
+"caption": "Drawing of a cast by Cunningham to illustrate the relations of the brain to the skull"
+},
+{
+"fig": 1198,
+"leaf": 1288,
+"caption": "Relations of the brain and middle meningeal artery to the surface of the skull"
+},
+{
+"fig": 1202,
+"leaf": 1292,
+"caption": "The mouth cavity"
+},
+{
+"fig": 1203,
+"leaf": 1293,
+"caption": "Front of nasal part of pharynx, as seen with the laryngoscope"
+},
+{
+"fig": 1205,
+"leaf": 1294,
+"caption": "Front of left eye with eyelids separated to show medial canthus"
+},
+{
+"fig": 1206,
+"leaf": 1295,
+"caption": "The interiop-.of the posterior half of the left eyeball"
+},
+{
+"fig": 1207,
+"leaf": 1295,
+"caption": "The auricula or pinna"
+},
+{
+"fig": 1210,
+"leaf": 1297,
+"caption": "Side of neck, showing chief surface markings"
+},
+{
+"fig": 1211,
+"leaf": 1299,
+"caption": "Surface anatomy of the back"
+},
+{
+"fig": 1212,
+"leaf": 1300,
+"caption": "Diagram showing the relation of the medulla spinalis to the dorsal surface of the trunk"
+},
+{
+"fig": 1213,
+"leaf": 1301,
+"caption": "Sagittal section of vertebral canal to show the lower end of the medulla spinalis and the filum terminale"
+},
+{
+"fig": 1214,
+"leaf": 1301,
+"caption": "Scheme showing the relations of the regions of attachment of the spinal nerves to the verte- bral spinous processes"
+},
+{
+"fig": 1217,
+"leaf": 1305,
+"caption": "Side of thorax, showing surface markings for bones, lungs (purple), pleura (blue), and spleen (green)"
+},
+{
+"fig": 1218,
+"leaf": 1307,
+"caption": "Diagram showing relations of opened heart to front of thoracic wall"
+},
+{
+"fig": 1219,
+"leaf": 1309,
+"caption": "Surface anatoniv of the front of the thorax and abdomen"
+},
+{
+"fig": 1220,
+"leaf": 1311,
+"caption": "Surface lines of the front of the thorax and abdomen"
+},
+{
+"fig": 1221,
+"leaf": 1312,
+"caption": "-With the patient in the erect posture"
+},
+{
+"fig": 1223,
+"leaf": 1312,
+"caption": "Front of abdomen, showing surface markings for liver, stomach, and great intestine"
+},
+{
+"fig": 1224,
+"leaf": 1313,
+"caption": "Topography of thoracic and abdominal viscera"
+},
+{
+"fig": 1225,
+"leaf": 1314,
+"caption": "^Front of abdomen, showing surface markings for duodenum, pancreas, and kidneys"
+},
+{
+"fig": 1226,
+"leaf": 1316,
+"caption": "Back of lumbar region, showing surface markings for kidneys, ureters, and spleen"
+},
+{
+"fig": 1227,
+"leaf": 1316,
+"caption": "Front of abdomen, showing surface markings for arteries and inguinal canal"
+},
+{
+"fig": 1228,
+"leaf": 1318,
+"caption": "Median sagittal section of male pelvis"
+},
+{
+"fig": 1229,
+"leaf": 1319,
+"caption": "External genital organs of female"
+},
+{
+"fig": 1230,
+"leaf": 1319,
+"caption": "Median sagittal section of female pelvis"
+},
+{
+"fig": 1231,
+"leaf": 1324,
+"caption": "Front of right upper extremity"
+},
+{
+"fig": 1232,
+"leaf": 1324,
+"caption": "Back of right upper extremity"
+},
+{
+"fig": 1234,
+"leaf": 1328,
+"caption": "The mucous sheatha of the tendons on the back of the wrist"
+},
+{
+"fig": 1236,
+"leaf": 1329,
+"caption": "Back of right upper extremity, showing surface markings for bones and nerves"
+},
+{
+"fig": 1237,
+"leaf": 1330,
+"caption": "Palm of left hand, creases and bones, and surface arches"
+},
+{
+"fig": 1238,
+"leaf": 1333,
+"caption": "Front and medial aspect of right thigh"
+},
+{
+"fig": 1240,
+"leaf": 1335,
+"caption": "Lateral aspect of right leg"
+},
+{
+"fig": 1242,
+"leaf": 1336,
+"caption": "The mucous sheaths of the tendons around the ankle"
+},
+{
+"fig": 1243,
+"leaf": 1337,
+"caption": "N61aton's line and Bryant's triangle"
+},
+{
+"fig": 1245,
+"leaf": 1338,
+"caption": "Front of right thigh, showing surface markings for bones, femoral artery and femoral nerve"
+},
+{
+"fig": 1246,
+"leaf": 1338,
+"caption": "Lateral aspect of right leg, showing surface markings for bones, anterior tibial and dorsalis pedis arteries, and deep peroneal nerve"
+}
+]

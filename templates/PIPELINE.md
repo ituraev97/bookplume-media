@@ -2,6 +2,28 @@
 
 Everything here runs in a fresh cloud container. Work in /home/claude/work.
 
+## CONTENT BRIEF (owner's rules, full text in BRIEF_RU.md — read it; these rules beat anything else in this file)
+- Audience: med students, nurses, nursing students, anyone learning anatomy. Content = ANATOMY STUDY: one fact / mnemonic / exam-style question
+  per short (how to remember the carpal bones, 12 cranial nerves, pulmonary vs systemic circulation, heart valves, rotator cuff, brachial plexus…).
+  Long = "Learn <topic> in 10 minutes" lessons, 8–12 min, using our study cards as the learning aid.
+- Images: ONLY public domain / open licence. Default source = Gray's Anatomy 1918 via tools/gray1918.py (reachable + verified PD).
+  Other allowed sources (each file's rights field must be read): Wikimedia Commons (PD or CC; often 429 — wait 60 s+ between requests, UA "BookPlumeBot/1.0 (https://bookplume.com)"),
+  Internet Archive (PD scans), DVIDS (only "Public Domain"; mp4 links on d34w7g4gy10iej.cloudfront.net) — CDC PHIL, NASA, NIH/NLM/NCI/NIGMS and Flickr are NOT reachable from the container.
+  Our own SVG illustrations are always fine. FORBIDDEN: YouTube/TikTok clips, news footage, unlicensed stock, modern atlases/textbooks (Netter, Sobotta, Kenhub…).
+- rights.json for EVERY video: {file: {source_page, author, license (verbatim), content}} — gray1918.py crop --rights rights.json writes it.
+  Check it before publishing; put the credit line in every description, e.g. "Images: Gray's Anatomy (1918), public domain; illustrations: Book Plume."
+- 1918 plates use OLD names (Navicular→Scaphoid, Greater multangular→Trapezium, Lesser multangular→Trapezoid, Triangular→Triquetrum, os magnum→Capitate,
+  "internal/external" → medial/lateral, etc.). Put MODERN labels on top (Plate labels) and paper-cover outdated labels that are readable on screen. Check every label position on stills at full size.
+- No agency logos/seals (NIH, CDC, NASA, military); never put government footage people next to the product as an "endorsement".
+- No blood, open wounds, surgery close-ups, identifiable patients. No medical promises (treat, cure, diagnose, "replaces a doctor"). Study + exam prep only. Every fact checked against a textbook/open source.
+- Testimonials/results only real with permission; paid partnerships marked #ad.
+- PRODUCT = only our own footage from footage/ (see footage/README.md, clips.json). If footage/clips.json is empty: NO product shots at all
+  (no publisher images, no mockups); end card mentions "Book Plume study cards" + link in the description/pin only.
+- Music: own synthesized only (audio_example.py), low under the voice. No other platforms' watermarks.
+- Platforms: TikTok Shop video 9:16 15–60 s, product in frame in the first 3 s, product link attached (only possible in the TikTok app → see 5.3);
+  YouTube Shorts / Reels 9:16 15–60 s; YouTube long 16:9 8–12 min, chapters, sources in description, not made for kids;
+  Pinterest: video pin + a 1000x1500 static pin (Pin composition), keyword title ("anatomy flashcards", "nursing school study tips"), pinLink = matching product from products.md.
+
 ## 0. Setup (every run)
 ```
 git clone https://github.com/ituraev97/bookplume-media /home/claude/bookplume-media   # after add_repo(owner=ituraev97, repo=bookplume-media, access=push)
@@ -16,8 +38,9 @@ Remotion can't download Chrome: remotion.config.ts and stills.mjs/thumb.mjs alre
 Render with `--concurrency 2` (2 CPU cores).
 
 ## 1. Facts and script
-Research with WebSearch/WebFetch (Cleveland Clinic, NIH/PubMed, university news, NASA, Scientific American). No invented numbers.
-Write numbers as words for the voice. Include the line "But that's not even the strangest part." before a twist fact.
+Research with WebSearch/WebFetch (OpenStax Anatomy & Physiology 2e, NCBI StatPearls/Bookshelf, TeachMeAnatomy, Cleveland Clinic, MedlinePlus). No invented numbers; every anatomical fact checked against a textbook/open source and listed in sources.
+Write numbers as words for the voice. Short: hook question in the first second ("Can you name all 8 carpal bones?"), the mnemonic/fact, a quick self-test ("Pause and name the one we skipped"), CTA "Save this for your next exam" + "Follow Book Plume for anatomy you'll actually remember."
+Mnemonics: use well-known, clean ones (e.g. "Some Lovers Try Positions That They Can't Handle" is NOT ok — use "Sally Left The Party To Take Cathy Home"). Long: lesson structure (what you'll learn → parts → how they connect → memory tricks → 5-question quiz → recap).
 
 ## 2. Voice (Kokoro, voice am_michael)
 - Short: script.py with `S=[(sentence, pause), ...]` → `python3 tools/synth_short.py script.py vo.wav segs.json` (speed 1.15 + atempo 1.08).
@@ -29,6 +52,10 @@ Write numbers as words for the voice. Include the line "But that's not even the 
 ## 3. Picture
 - Short (1080x1920): template short/vid. Chrome.tsx = header + chapter bar + word-by-word subtitles (edit CHAPTERS, END, header subtitle, KEY words). Write a new Scenes file + Illus file for the topic (see Scenes11.tsx / Illus11.tsx as the example), import it in Composition.tsx. Safe zone: content x 70–930, y 470–1410.
 - Long (1920x1080): template long/vid. Edit src/meta.ts (SERIES, TOPIC, KEYWORDS) and src/timeline.ts (CHAPTERS from segs.json chapters, END = duration + 0.8). Chrome16.tsx gives Header16, Subs16, ChapterCard (auto at each chapter start), Stage (scene wrapper) and Facts (right-column fact cards). Write new Scenes/Illus files per topic (ScenesCold.tsx / IllusCold.tsx are the example), wire them in Composition.tsx. Thumb composition (1280x720) → `node thumb.mjs ../thumb.jpg`.
+- Anatomy plates: `python3 tools/gray1918.py search <words>` → `page <FIG>` → LOOK at the page (Read tool on a downscaled copy) → `crop page.jpg x0 y0 x1 y1 public/plates/<name>.png --color|--duotone --fig N --rights ../rights.json`
+  (box = drawing only, no page text, no "FIG." caption). Show them with <Plate> from src/Plates.tsx (slow zoom to the part being named, modern labels timed to the voice, covers for old labels). Mix plates with our own SVG diagrams; something new every 2–3 s.
+- Product footage (only if footage/clips.json lists clips): copy the clip to public/footage/ and use <ProductClip>. See 5.3 for the TikTok Shop cut.
+- Pinterest still (short template): set the Pin composition defaultProps (plate, keyword title, sub line) → `npx remotion still src/index.ts Pin ../pin.jpg --jpeg-quality 95`, look at it.
 - Always render ~15–30 stills first (`node stills.mjs t1 t2 ...` → ../stills/), LOOK at them, fix overlaps / cut-off text, then render:
   `npx remotion render src/index.ts Main ../video_silent.mp4 --codec h264 --concurrency 2`
   (MAX QUALITY: remotion.config.ts already sets jpegQuality 100 + CRF 12 master — do NOT pass --crf or lower these. 30 fps, 1080p.)
@@ -53,6 +80,12 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
    Metricool copies media to its own storage when the post is created (the response shows static.metricool.com URLs). After ALL posts using it are created, delete the branch: `git push origin --delete $B`.
 2. Metricool createScheduledPost with media = [that URL]. Date must be in the future.
    - Short: providers tiktok, instagram (REEL, isAiGenerated true), facebook (REEL), youtube (type "short", madeForKids false, isAiGeneratedContent true, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc true, commercialContentOwnBrand true, title; videoCoverMilliseconds 300.
-     Then a SECOND post for pinterest only (pinterestData boardId "bookplume", pinTitle, pinLink https://bookplume.com or a matching product URL, pinNewFormat true, isAiGenerated true) — keep it separate so a Pinterest error can't block the others.
+     Then a SECOND post for pinterest only: video pin (pinterestData boardId "bookplume", pinTitle with keywords, pinLink = matching product URL from products.md, pinNewFormat true, isAiGenerated true) — keep it separate so a Pinterest error can't block the others.
+     Then a THIRD post for pinterest only: the 1000x1500 static pin.jpg (host it on the same media branch), same board, keyword title, product pinLink, publish 3+ hours after the video pin.
+     Descriptions everywhere: hook + what they'll learn + "Study with: <product name> → bookplume.com" (no medical claims) + image credit line + hashtags.
    - Long: provider youtube only (type "video", privacy public, madeForKids false, isAiGeneratedContent true, category EDUCATION, tags list, title ≤ 100 chars), text = full SEO description with chapter timestamps (first one 0:00), videoThumbnailUrl = raw URL of thumb.jpg.
-3. Read back with getScheduledPosts after publish time if possible; report links.
+3. TikTok Shop (product link can ONLY be attached in the TikTok app, Metricool/API cannot):
+   - If the video uses our product footage: render a second cut final_tiktokshop.mp4 (product clip in the first 3 s, then the lesson, ≤ 60 s). Do NOT post it via Metricool;
+     SendUserFile it to the owner with the TikTok caption, hashtags and the exact product to attach, so they post it by hand with the product link. Post 1 then goes to instagram, facebook, youtube only.
+   - If there is no product footage: post 1 includes tiktok as before (educational video, no product).
+4. Read back with getScheduledPosts after publish time if possible; report links.
