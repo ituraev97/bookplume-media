@@ -1,0 +1,8 @@
+# Static pins already made (do not repeat topics)
+
+- 2026-10-30: head heat loss myth (~10%, BMJ 2008)
+- 2026-10-30: knuckle cracking & arthritis myth (Unger 1998)
+- 2026-10-30: 24 h without sleep = 0.10% BAC (Dawson & Reid 1997)
+- 2026-10-31: pruney fingers are nerves (Wilder-Smith & Chow 2003)
+- 2026-10-31: 8 glasses of water myth (Valtin 2002)
+- 2026-10-31: fetal hiccups at 9 weeks (UCL 2019)

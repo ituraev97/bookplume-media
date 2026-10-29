@@ -101,6 +101,17 @@ PINS = [
    "Scientists think newborn hiccups may help the brain learn to sense its breathing muscles.",
    "Source: UCL, Clinical Neurophysiology, 2019 · Educational content"),
 ]
-os.makedirs("out", exist_ok=True)
-for p in PINS: pin("out/" + p[0], *p[1:])
-print("ok")
+if __name__ == "__main__":
+    # Usage: python3 make_pins.py pins.json OUT_DIR
+    # pins.json = list of objects: file, tag ("BODY FACT"/"BODY MYTH"/"STUDY TIP"),
+    # headline, stat (<= 9 chars), stat_note, body, source
+    import sys, json
+    if len(sys.argv) >= 3:
+        items = json.load(open(sys.argv[1]))
+        out = sys.argv[2]
+        PINS = [(i["file"], i["tag"], i["headline"], i["stat"], i["stat_note"], i["body"], i["source"]) for i in items]
+    else:
+        out = "out"
+    os.makedirs(out, exist_ok=True)
+    for p in PINS: pin(os.path.join(out, p[0]), *p[1:])
+    print("ok")
