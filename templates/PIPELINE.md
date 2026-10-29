@@ -13,7 +13,9 @@ Everything here runs in a fresh cloud container. Work in /home/claude/work.
 - rights.json for EVERY video: {file: {source_page, author, license (verbatim), content}} — gray1918.py crop --rights rights.json writes it.
   Check it before publishing; put the credit line in every description, e.g. "Images: Gray's Anatomy (1918), public domain; illustrations: Book Plume."
 - 1918 plates use OLD names (Navicular→Scaphoid, Greater multangular→Trapezium, Lesser multangular→Trapezoid, Triangular→Triquetrum, os magnum→Capitate,
-  "internal/external" → medial/lateral, etc.). Put MODERN labels on top (Plate labels) and paper-cover outdated labels that are readable on screen. Check every label position on stills at full size.
+  "internal/external" → medial/lateral, etc.). Put MODERN labels on top (Plate labels) and, when an outdated 1918 name is readable on screen, add a small note card
+  "1918 atlas name: greater multangular" (students meet old names too). Do NOT paper-cover or inpaint labels that sit inside the drawing — it leaves white blobs
+  (tested: both look bad); covers are only for page text at the crop edges. Find label positions with a fraction grid drawn over the crop, check every label on stills at full size.
 - No agency logos/seals (NIH, CDC, NASA, military); never put government footage people next to the product as an "endorsement".
 - No blood, open wounds, surgery close-ups, identifiable patients. No medical promises (treat, cure, diagnose, "replaces a doctor"). Study + exam prep only. Every fact checked against a textbook/open source.
 - Testimonials/results only real with permission; paid partnerships marked #ad.

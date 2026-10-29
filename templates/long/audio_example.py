@@ -5,7 +5,7 @@ SR = 44100
 END = 347.23
 N = int(END * SR)
 rng = np.random.default_rng(7)
-K = "/home/claude/bp/soundcn/assets/"
+K = "/home/claude/bookplume-media/templates/sfx/"  # Kenney CC0 sounds, see sfx/KENNEY_LICENSE.txt
 
 
 def load(path):
