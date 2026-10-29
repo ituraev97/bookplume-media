@@ -9,6 +9,9 @@ import { Config } from "@remotion/cli/config";
 
 Config.setRspack(true);
 Config.setVideoImageFormat("jpeg");
+Config.setJpegQuality(100);
+Config.setCrf(12);
+Config.setX264Preset("veryfast");
 Config.setOverwriteOutput(true);
 Config.setDefaultPremountInSeconds(2);
 Config.setBrowserExecutable("/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell");

@@ -30,15 +30,17 @@ Write numbers as words for the voice. Include the line "But that's not even the 
 - Short (1080x1920): template short/vid. Chrome.tsx = header + chapter bar + word-by-word subtitles (edit CHAPTERS, END, header subtitle, KEY words). Write a new Scenes file + Illus file for the topic (see Scenes11.tsx / Illus11.tsx as the example), import it in Composition.tsx. Safe zone: content x 70–930, y 470–1410.
 - Long (1920x1080): template long/vid. Edit src/meta.ts (SERIES, TOPIC, KEYWORDS) and src/timeline.ts (CHAPTERS from segs.json chapters, END = duration + 0.8). Chrome16.tsx gives Header16, Subs16, ChapterCard (auto at each chapter start), Stage (scene wrapper) and Facts (right-column fact cards). Write new Scenes/Illus files per topic (ScenesCold.tsx / IllusCold.tsx are the example), wire them in Composition.tsx. Thumb composition (1280x720) → `node thumb.mjs ../thumb.jpg`.
 - Always render ~15–30 stills first (`node stills.mjs t1 t2 ...` → ../stills/), LOOK at them, fix overlaps / cut-off text, then render:
-  `npx remotion render src/index.ts Main ../video_silent.mp4 --codec h264 --crf 20 --concurrency 2`
+  `npx remotion render src/index.ts Main ../video_silent.mp4 --codec h264 --concurrency 2`
+  (MAX QUALITY: remotion.config.ts already sets jpegQuality 100 + CRF 12 master — do NOT pass --crf or lower these. 30 fps, 1080p.)
 
 ## 4. Sound
 Copy audio_example.py, set END, the SFX list (whoosh at scene/chapter changes, pop at each card, boom + riser at the twist) and music sections (silence the music ~0.8 s before the twist). It writes mix_pre.wav. Then:
 ```
 ffmpeg -i mix_pre.wav -af "loudnorm=I=-15:TP=-1.0:LRA=11,alimiter=limit=0.89" -ar 48000 mix_final.wav
-ffmpeg -i video_silent.mp4 -i mix_final.wav -map 0:v -map 1:a -c:v libx264 -crf 20 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k -shortest -movflags +faststart final.mp4
+bash tools/encode_final.sh video_silent.mp4 mix_final.wav final.mp4
 ```
-Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs of identical frames), size < 50 MB short; long videos must stay < 95 MB (GitHub file limit) — encode long videos with `-c:v libx264 -crf 25 -preset medium -tune animation` (a 6-min video ≈ 60 MB).
+encode_final.sh = MAX QUALITY for shorts and long videos: x264 CRF 17 preset slower tune animation + AAC 256k; if the result is > 94 MB it automatically re-encodes two-pass at the exact bitrate that fits ~93 MB (GitHub raw file limit 100 MB; releases and LFS are blocked from the container). Never use CRF > 17 or preset faster than slower to save time. A 6-min long video takes ~25–35 min to encode — start it early, run it in the background.
+Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs of identical frames), size ≤ 94 MB.
 
 ## 5. Publish (Metricool, brand blogId 7717100, timezone Asia/Tashkent)
 1. Host the files on a temporary orphan branch (keeps the repo small):
