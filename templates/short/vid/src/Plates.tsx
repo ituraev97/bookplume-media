@@ -41,7 +41,7 @@ export const Plate: React.FC<{
         <div style={{ position: "absolute", width: w, height: h, transform: `translate(${tx}px, ${ty}px) scale(${s})`, transformOrigin: "50% 50%" }}>
           <Img src={staticFile(src)} style={{ width: w, height: h, display: "block" }} />
           {covers.map((c, j) => (
-            <div key={j} style={{ position: "absolute", left: c.x * w, top: c.y * h, width: c.w * w, height: c.h * h, background: C.paper, borderRadius: 6 }} />
+            <div key={j} style={{ position: "absolute", left: c.x * w, top: c.y * h, width: c.w * w, height: c.h * h, background: C.paper, borderRadius: 10, boxShadow: `0 0 10px 6px ${C.paper}` }} />
           ))}
           {labels.map((l, j) => {
             const p = ramp(t, l.t - 0.1, l.t + 0.25);

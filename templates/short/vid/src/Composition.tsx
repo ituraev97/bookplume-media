@@ -5,7 +5,7 @@ import "@fontsource/plus-jakarta-sans/700.css";
 import "@fontsource/plus-jakarta-sans/800.css";
 import { C } from "./kit";
 import { END, Header, Subtitles } from "./Chrome";
-import { V1, V2, V3, V4, V5, liveAlpha } from "./Scenes11";
+import { V1, V2, V3, V4, V5, V6, V7, V8, V9, liveAlpha } from "./Scenes14";
 import { useT } from "./kit";
 import { PinStill } from "./Plates";
 // Pinterest still: edit defaultProps per video, render with: npx remotion still src/index.ts Pin ../pin.jpg --jpeg-quality 95
@@ -39,6 +39,10 @@ export const Video: React.FC<{ mask?: boolean }> = ({ mask }) => (
     <V3 />
     <V4 />
     <V5 />
+    <V6 />
+    <V7 />
+    <V8 />
+    <V9 />
     <HeaderBack />
     <Header />
     <Subtitles />
@@ -57,6 +61,6 @@ export const MyComposition = () => (
   <>
     <Composition id="Main" component={Video} durationInFrames={Math.ceil(END * 30)} fps={30} width={1080} height={1920} defaultProps={{ mask: false }} />
     <Composition id="Mask" component={Video} durationInFrames={Math.ceil(END * 30)} fps={30} width={1080} height={1920} defaultProps={{ mask: true }} />
-    <Composition id="Pin" component={Pin} durationInFrames={1} fps={30} width={1000} height={1500} defaultProps={{ src: "plates/example_hand.png", aspect: 2105 / 2856, title: "Carpal bones: the 10-second memory trick", sub: "Anatomy flashcards · nursing school study tips" }} />
+    <Composition id="Pin" component={Pin} durationInFrames={1} fps={30} width={1000} height={1500} defaultProps={{ src: "plates/hand.png", aspect: 2151 / 2919, title: "8 carpal bones: the memory trick", sub: "Anatomy flashcards · nursing school study tips" }} />
   </>
 );

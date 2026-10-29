@@ -14,3 +14,4 @@
 2026-10-29 | short | why we hiccup (diaphragm, womb hiccups, brain learning)
 2026-10-29 | long  | what happens when you don't drink water (dehydration)
 2026-10-29 | short | why fingers prune in water (nerves, vessels, same pattern)
+2026-10-29 | short | carpal bones mnemonic (TEST example in template, not published — owner may post it)

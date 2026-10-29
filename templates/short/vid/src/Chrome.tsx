@@ -3,12 +3,12 @@ import { C, FONT, ramp, useT } from "./kit";
 import { WORDS } from "./words";
 
 export const CHAPTERS = [
-  { n: 1, title: "The Bump", s: 0 },
-  { n: 2, title: "Fur Logic", s: 13.4 },
-  { n: 3, title: "Chills", s: 25.9 },
-  { n: 4, title: "Hair Switch", s: 32.2 },
+  { n: 1, title: "8 Bones", s: 0 },
+  { n: 2, title: "The Trick", s: 9.1 },
+  { n: 3, title: "Quick Test", s: 24.9 },
+  { n: 4, title: "Save It", s: 31.85 },
 ];
-export const END = 52.0;
+export const END = 38.6;
 
 export const Mark: React.FC<{ size: number; reversed?: boolean }> = ({ size, reversed }) => (
   <svg width={size} height={size} viewBox="0 0 64 64">
@@ -51,7 +51,7 @@ export const Header: React.FC = () => {
         Book Plume
       </div>
       <div style={{ position: "absolute", left: 106, top: 50, fontWeight: 700, fontSize: 25, color: C.matcha }}>
-        Why you get goosebumps
+        Carpal bones in 30 seconds
       </div>
       <div
         style={{
@@ -86,8 +86,7 @@ export const Header: React.FC = () => {
 
 const KEY = new Set(
   (
-    "goosebumps goosebump hair muscle arrector pili cold scared nerves pull bumps furry genius warm air cat bigger fur nothing leftover ancestors music movie speech " +
-    "same strangest 2020 harvard nerve stem cells grow mice wake growth fossil switch follow"
+    "carpal 8 bones trick thumb rows sally left party take cathy home scaphoid lunate triquetrum pisiform trapezium trapezoid capitate hamate hook hooked latin exam save follow"
   ).split(" ")
 );
 const norm = (w: string) => w.toLowerCase().replace(/[.,?!:]/g, "");
