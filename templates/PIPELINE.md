@@ -81,13 +81,18 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
    Public URLs: https://raw.githubusercontent.com/ituraev97/bookplume-media/$B/v/video.mp4 (and v/thumb.jpg).
    Metricool copies media to its own storage when the post is created (the response shows static.metricool.com URLs). After ALL posts using it are created, delete the branch: `git push origin --delete $B`.
 2. Metricool createScheduledPost with media = [that URL]. Date must be in the future.
-   - Short: providers tiktok, instagram (REEL, isAiGenerated true), facebook (REEL), youtube (type "short", madeForKids false, isAiGeneratedContent true, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc true, commercialContentOwnBrand true, title; videoCoverMilliseconds 300.
-     Then a SECOND post for pinterest only: video pin (pinterestData boardId "bookplume", pinTitle with keywords, pinLink = matching product URL from products.md, pinNewFormat true, isAiGenerated true) — keep it separate so a Pinterest error can't block the others.
+   - Short: providers tiktok, instagram (REEL, isAiGenerated true), facebook (REEL), youtube (type "short", madeForKids false, isAiGeneratedContent false, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc true, commercialContentOwnBrand true, title; videoCoverMilliseconds 300.
+     Then a SECOND post for pinterest only: video pin (pinterestData boardId "bookplume", pinTitle with keywords, pinLink = matching product URL from products.md, pinNewFormat true, isAiGenerated false) — keep it separate so a Pinterest error can't block the others.
      Then a THIRD post for pinterest only: the 1000x1500 static pin.jpg (host it on the same media branch), same board, keyword title, product pinLink, publish 3+ hours after the video pin.
      Descriptions everywhere: hook + what they'll learn + "Study with: <product name> → bookplume.com" (no medical claims) + image credit line + hashtags.
-   - Long: provider youtube only (type "video", privacy public, madeForKids false, isAiGeneratedContent true, category EDUCATION, tags list, title ≤ 100 chars), text = full SEO description with chapter timestamps (first one 0:00), videoThumbnailUrl = raw URL of thumb.jpg.
+   - Long: provider youtube only (type "video", privacy public, madeForKids false, isAiGeneratedContent false, category EDUCATION, tags list, title ≤ 100 chars), text = full SEO description with chapter timestamps (first one 0:00), videoThumbnailUrl = raw URL of thumb.jpg.
 3. TikTok Shop (product link can ONLY be attached in the TikTok app, Metricool/API cannot):
    - If the video uses our product footage: render a second cut final_tiktokshop.mp4 (product clip in the first 3 s, then the lesson, ≤ 60 s). Do NOT post it via Metricool;
      SendUserFile it to the owner with the TikTok caption, hashtags and the exact product to attach, so they post it by hand with the product link. Post 1 then goes to instagram, facebook, youtube only.
    - If there is no product footage: post 1 includes tiktok as before (educational video, no product).
 4. Read back with getScheduledPosts after publish time if possible; report links.
+
+## AI labels (owner decision 2026-10-30)
+- YouTube (Shorts + long): isAiGeneratedContent FALSE — visuals are public-domain plates + our own animation, and YouTube exempts animated content and AI used only for scripts; the narrator is not a real person's voice.
+- Pinterest: isAiGenerated FALSE.
+- TikTok (isAigc) and Instagram (isAiGenerated): keep TRUE — the voice is synthetic TTS and both platforms require labels for realistic AI audio. Change only if the owner says so explicitly.
