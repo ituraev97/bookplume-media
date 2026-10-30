@@ -1,0 +1,32 @@
+{
+  "lobes.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n820",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 728: Principal fissures and lobes of the cerebrum viewed laterally (recoloured color)"
+  },
+  "sagittal.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n812",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 720: Median sagittal section of brain (recoloured color)"
+  },
+  "mesal.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n806",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 715: Mesal aspect of a brain sectioned in the median sagittal plane (recoloured duotone)"
+  },
+  "cerebellum.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n789",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 703: Under surface of the cerebellum (Schäfer) (recoloured duotone)"
+  },
+  "base.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n816",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 724: Base of brain (recoloured color)"
+  }
+}
