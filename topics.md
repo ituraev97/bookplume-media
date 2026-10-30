@@ -19,4 +19,4 @@
 2026-10-30 | long  | heart anatomy: chambers, valves, blood flow (Heart Anatomy Made Easy)
 2026-10-30 | short | 12 cranial nerves mnemonic (Ooh Ooh Ooh To Touch...) — published 17:00 tiktok,youtube + pinterest (video 17:00, pin 20:15)
 2026-10-30 | long  | bones of the skull: 22 cranial + facial bones, sutures (Bones of the Skull Made Easy) — scheduled 2026-10-31 00:00 youtube
-2026-10-30 | short | tarsal bones mnemonic (Tiger Cubs Need MILC) | IN PROGRESS
+2026-10-30 | short | tarsal bones mnemonic (Tiger Cub Needs MILC) — published 22:00 tiktok,youtube,instagram,facebook + pinterest (video 22:00, pin 01:10)
