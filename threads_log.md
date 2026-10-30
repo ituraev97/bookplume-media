@@ -6,3 +6,8 @@
 2026-10-29 | reading in dim light doesn't damage your eyes
 2026-10-29 | Semmelweis handwashing 1847 cut maternity deaths from >10% to ~1%, he was dismissed (Museum of Health Care, Kingston)
 2026-10-29 | you don't lose most body heat through your head, ~10% max (Vreeman & Carroll, BMJ 2008)
+2026-10-30 | tongue map is a myth, all tastes sensed across the whole tongue (Hänig 1901 misread; Smithsonian)
+2026-10-30 | Barry Marshall drank H. pylori, bacteria cause ulcers, Nobel 2005 (nobelprize.org)
+2026-10-30 | nasal cycle: airflow alternates between nostrils every few hours (PubMed 609283)
+2026-10-30 | shaving doesn't make hair grow back thicker/darker (Mayo Clinic)
+2026-10-30 | static stretching before exercise doesn't reliably prevent injury (AAFP 2016)
