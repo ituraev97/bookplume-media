@@ -17,3 +17,4 @@
 2026-10-29 | short | carpal bones mnemonic (TEST example in template, not published — owner may post it)
 2026-10-30 | short | rotator cuff muscles mnemonic (SITS) — published 05:00 tiktok,youtube,instagram,facebook + pinterest
 2026-10-30 | long  | heart anatomy: chambers, valves, blood flow (Heart Anatomy Made Easy)
+2026-10-30 | short | 12 cranial nerves mnemonic (Oh Oh Oh To Touch...) | IN PROGRESS
