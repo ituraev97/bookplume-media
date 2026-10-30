@@ -1,0 +1,16 @@
+S=[
+("Can you name all seven tarsal bones?",0.35),
+("Here's the trick that makes them stick.",0.45),
+("Seven tarsal bones build your ankle and the back half of your foot.",0.4),
+("Just remember: Tiger Cub Needs Milk.",0.5),
+("Tiger is the talus, the top bone, right under your shin.",0.35),
+("Cub is the calcaneus, the bone of your heel.",0.35),
+("Needs is the navicular, just in front of the talus.",0.35),
+("M, I, L: the medial, intermediate and lateral cuneiforms.",0.35),
+("And the last C is the cuboid, on the outer side of your foot.",0.5),
+("Bonus trick: cuneiform means wedge shaped. Three little wedges in a row.",0.5),
+("Quick test. Which tarsal bone is the largest?",1.6),
+("It's the calcaneus, your heel bone. Your Achilles tendon attaches to its back.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
