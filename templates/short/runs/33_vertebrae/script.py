@@ -1,0 +1,15 @@
+S=[
+("Can you count the vertebrae in each part of your spine?",0.35),
+("Here's the trick: just think about your meals.",0.45),
+("Breakfast at seven. Lunch at twelve. Dinner at five.",0.5),
+("Seven cervical vertebrae in your neck.",0.3),
+("Twelve thoracic vertebrae in your chest, one for each pair of ribs.",0.3),
+("Five lumbar vertebrae in your lower back.",0.45),
+("Below them, five sacral vertebrae fuse into one bone, the sacrum.",0.3),
+("And the coccyx, your tailbone, finishes the column.",0.5),
+("Bonus: the top two have names. The atlas holds up your skull, and the axis lets your head turn.",0.5),
+("Quick test. How many lumbar vertebrae do you have?",1.6),
+("Five. They have the biggest bodies, because they carry the most weight.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]

@@ -1,0 +1,20 @@
+{
+  "spine.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n114",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 111: Lateral view of the vertebral column (recoloured color)"
+  },
+  "lumbar.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n103",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 92: A lumbar vertebra seen from the side (recoloured color)"
+  },
+  "spine_top.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n114",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 111 (detail: cervical region): Lateral view of the vertebral column (recoloured color)"
+  }
+}
