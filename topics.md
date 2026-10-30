@@ -22,3 +22,4 @@
 2026-10-30 | short | tarsal bones mnemonic (Tiger Cub Needs MILC) — published 22:00 tiktok,youtube,instagram,facebook + pinterest (video 22:00, pin 01:10)
 2026-10-30 | short | vertebrae by region mnemonic (Breakfast 7, Lunch 12, Dinner 5) — published 2026-10-31 01:00 tiktok,youtube + pinterest (video 01:00, pin 04:30)
 2026-10-31 | long  | parts of the brain: cerebrum, 4 lobes, diencephalon, brainstem, cerebellum (Parts of the Brain Made Easy) — IN PROGRESS
+2026-10-31 | short | layers of the epidermis mnemonic (Come Let's Get Sun Burned) | IN PROGRESS
