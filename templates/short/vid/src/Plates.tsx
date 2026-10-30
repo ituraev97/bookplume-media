@@ -7,7 +7,7 @@ import { C, FONT, ramp, useT } from "./kit";
  * MODERN labels on top and paper "covers" that hide outdated 1918 labels.
  * Coordinates x/y/w/h are FRACTIONS of the image (0..1), so they stay right when the plate is scaled.
  */
-export type PlateLabel = { x: number; y: number; text: string; t: number; side?: "l" | "r"; hot?: boolean };
+export type PlateLabel = { x: number; y: number; text: string; t: number; side?: "l" | "r"; hot?: boolean; ox?: number; oy?: number };
 export type PlateCover = { x: number; y: number; w: number; h: number };
 
 export const Plate: React.FC<{
@@ -47,6 +47,18 @@ export const Plate: React.FC<{
             const p = ramp(t, l.t - 0.1, l.t + 0.25);
             if (p <= 0) return null;
             const left = l.side === "l";
+            if (l.ox !== undefined) {
+              const ox = l.ox, oy = l.oy ?? 0;
+              return (
+                <div key={j} style={{ position: "absolute", left: l.x * w, top: l.y * h, width: 0, height: 0, transform: `scale(${1 / s})`, transformOrigin: "0 0", opacity: p }}>
+                  <svg style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }} width={1} height={1}>
+                    <line x1={0} y1={0} x2={ox * p} y2={oy * p} stroke={C.forest} strokeWidth={4} strokeLinecap="round" />
+                    <circle cx={0} cy={0} r={10} fill={l.hot ? C.red : C.banana} stroke={C.forest} strokeWidth={4} />
+                  </svg>
+                  <div style={{ position: "absolute", left: ox, top: oy, transform: `translate(${ox < 0 ? "-100%" : "0"}, -50%) scale(${0.85 + 0.15 * p})`, transformOrigin: ox < 0 ? "100% 50%" : "0% 50%", background: l.hot ? C.banana : C.forest, color: l.hot ? C.forest : C.paper, fontFamily: FONT, fontWeight: 800, fontSize: 32, padding: "5px 15px 8px", borderRadius: 14, whiteSpace: "nowrap", boxShadow: "0 5px 0 rgba(31,42,20,0.18)" }}>{l.text}</div>
+                </div>
+              );
+            }
             return (
               <div key={j} style={{ position: "absolute", left: l.x * w, top: l.y * h, transform: `translate(${left ? "-100%" : "0"}, -50%) scale(${(0.85 + 0.15 * p) / s})`, transformOrigin: left ? "100% 50%" : "0% 50%", opacity: p, display: "flex", alignItems: "center", flexDirection: left ? "row-reverse" : "row", gap: 8 }}>
                 <div style={{ width: 18, height: 18, borderRadius: 9, background: l.hot ? C.red : C.forest, boxShadow: `0 0 0 4px ${C.paper}` }} />

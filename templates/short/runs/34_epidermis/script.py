@@ -1,0 +1,16 @@
+S=[
+("Can you name the five layers of your epidermis?",0.35),
+("Here's the trick that makes them stick.",0.45),
+("The epidermis is the outer layer of your skin, and it has no blood vessels.",0.4),
+("From the surface down, just remember: Come, Let's Get Sun Burned.",0.5),
+("Corneum: fifteen to thirty layers of dead, flat cells.",0.3),
+("Lucidum: a clear layer, found only in thick skin.",0.3),
+("Granulosum: cells fill with granules and start to die.",0.3),
+("Spinosum: the spiny layer.",0.3),
+("Basale: the deepest layer, where new cells are made.",0.45),
+("Here they are on a classic anatomy plate from nineteen eighteen.",0.5),
+("Quick test. Which layer is found only in thick skin, like your palms and soles?",1.6),
+("It's the stratum lucidum. Its name means clear.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
