@@ -6,3 +6,6 @@
 - 2026-10-31: pruney fingers are nerves (Wilder-Smith & Chow 2003)
 - 2026-10-31: 8 glasses of water myth (Valtin 2002)
 - 2026-10-31: fetal hiccups at 9 weeks (UCL 2019)
+- 2026-11-01: practice testing beats rereading, 61% vs 40% (Roediger & Karpicke 2006)
+- 2026-11-01: 10% of brain myth, brain 2% weight / 20% energy (Raichle & Gusnard 2002)
+- 2026-11-01: small intestine ~22 ft (Cleveland Clinic)
