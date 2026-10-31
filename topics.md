@@ -24,3 +24,4 @@
 2026-10-31 | long  | parts of the brain: cerebrum, 4 lobes, diencephalon, brainstem, cerebellum (Parts of the Brain Made Easy) — scheduled 2026-10-31 06:00 youtube
 2026-10-31 | short | layers of the epidermis mnemonic (Come Let's Get Sun Burned) — published 05:00 tiktok,youtube,instagram,facebook + pinterest (video 05:00, pin 08:15)
 2026-10-31 | short | femoral triangle contents mnemonic (NAVEL) + borders — published 17:00 tiktok,youtube + pinterest (video 17:00, pin 20:10)
+2026-10-31 | long  | brachial plexus: roots, trunks, divisions, cords, 5 terminal branches (Brachial Plexus Made Easy) — scheduled 2026-11-01 00:00 youtube
