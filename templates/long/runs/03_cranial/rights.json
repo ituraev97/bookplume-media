@@ -1,0 +1,80 @@
+{
+  "base.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n816",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 724: Base of brain (recoloured color)"
+  },
+  "nose.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n880",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 771: Nerves of septum of nose, right side (olfactory nerves) (recoloured color)"
+  },
+  "optic.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n881",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 773: The left optic nerve and the optic tracts (recoloured color)"
+  },
+  "orbit.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n1021",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 889: Muscles of the right orbit (recoloured color)"
+  },
+  "orbitn.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n884",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 776: Nerves of the orbit (recoloured color)"
+  },
+  "trifacial.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n893",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 781: Mandibular division of the trifacial nerve (recoloured color)"
+  },
+  "vagus.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n908",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 793: Course and distribution of the glossopharyngeal, vagus, and accessory nerves (recoloured color)"
+  },
+  "hypo.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n913",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 794: Hypoglossal nerve, cervical plexus, and their branches (recoloured color)"
+  },
+  "face.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n903",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 790: The nerves of the scalp, face, and side of neck (recoloured color)"
+  },
+  "neck.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n391",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 386: Muscles of the neck (recoloured color)"
+  },
+  "sfx (Kenney)": {
+    "source_page": "https://kenney.nl/assets",
+    "author": "Kenney (kenney.nl)",
+    "license": "CC0 1.0 Universal (see templates/sfx/KENNEY_LICENSE.txt)",
+    "content": "UI/impact sound effects"
+  },
+  "music + voice": {
+    "source_page": "own",
+    "author": "Book Plume (synthesized in code; Kokoro TTS voice am_michael, Apache-2.0 model)",
+    "license": "own work",
+    "content": "music bed and narration"
+  },
+  "diagrams (IllusCN.tsx)": {
+    "source_page": "own",
+    "author": "Book Plume",
+    "license": "own work",
+    "content": "brainstem nerve map, eye muscles, face zones, tongue, inner ear, vagus route, SCM/trapezius"
+  }
+}
