@@ -1,0 +1,17 @@
+S=[
+("Can you name the three branches of the aortic arch?",0.35),
+("Here's the trick that makes them stick.",0.45),
+("Your aorta leaves the heart, then curves back and to the left. That curve is the arch.",0.3),
+("In most people, three big arteries rise from its top.",0.45),
+("Now just remember your A B C S.",0.5),
+("A is the arch itself.",0.3),
+("B: the brachiocephalic trunk. It comes first, on the right.",0.3),
+("C: the left common carotid, up to the head and neck.",0.3),
+("S: the left subclavian, out to the left arm.",0.45),
+("Only the right side has a brachiocephalic trunk. It splits into the right common carotid and the right subclavian.",0.5),
+("Here it is on a classic anatomy plate from nineteen eighteen.",1.5),
+("Quick test. Where does the right subclavian artery come from?",1.6),
+("From the brachiocephalic trunk. Only the left one comes straight off the arch.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
