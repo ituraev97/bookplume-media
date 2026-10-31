@@ -11,3 +11,8 @@
 2026-10-30 | nasal cycle: airflow alternates between nostrils every few hours (PubMed 609283)
 2026-10-30 | shaving doesn't make hair grow back thicker/darker (Mayo Clinic)
 2026-10-30 | static stretching before exercise doesn't reliably prevent injury (AAFP 2016)
+2026-10-31 | "we only use 10% of our brain" is a myth; brain ~2% body weight, ~20% energy (Scientific American)
+2026-10-31 | bacteria-to-human-cell ratio is ~1.3:1, not 10:1 (Sender, Fuchs & Milo, PLoS Biol 2016)
+2026-10-31 | humans emit ultra-weak visible light, ~1000x below eye sensitivity (Kobayashi et al., PLoS ONE 2009)
+2026-10-31 | lobotomy/leucotomy won Egas Moniz the 1949 Nobel Prize (nobelprize.org)
+2026-10-31 | weekend catch-up sleep doesn't prevent insulin sensitivity loss (Depner et al., Current Biology 2019; NIH)
