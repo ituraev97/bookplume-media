@@ -1,0 +1,16 @@
+S=[
+("Can you name the three parts of the small intestine, in order?",0.35),
+("Here's a trick that makes them stick.",0.45),
+("Food leaves the stomach and enters a tube about ten feet long in life.",0.45),
+("Just think of the stock market. Dow Jones Industrial.",0.5),
+("D is the duodenum. The first and shortest part, about ten inches.",0.25),
+("It curves in a C around the head of the pancreas.",0.35),
+("J is the jejunum, about three feet. Its name means empty in Latin.",0.35),
+("I is the ileum, the longest part, about six feet.",0.25),
+("It joins the large intestine at the ileocecal valve.",0.45),
+("Here they are on a classic anatomy plate from nineteen eighteen.",1.5),
+("Quick test. Which part is the longest?",1.6),
+("The ileum. The duodenum is the shortest.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
