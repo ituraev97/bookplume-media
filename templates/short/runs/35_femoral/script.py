@@ -1,0 +1,16 @@
+S=[
+("Can you name what runs through the femoral triangle?",0.35),
+("Here's the trick that makes it stick.",0.45),
+("The femoral triangle sits at the top of the front of your thigh.",0.3),
+("Up top, the inguinal ligament. On the sides, sartorius and adductor longus.",0.45),
+("Now, from lateral to medial, just remember NAVEL.",0.5),
+("Nerve: the femoral nerve, on the outside.",0.3),
+("Artery: the femoral artery.",0.3),
+("Vein: the femoral vein.",0.3),
+("Empty space and lymphatics: the femoral canal.",0.45),
+("Here it is on a classic anatomy plate from nineteen eighteen. It's a left thigh, so read it right to left.",0.5),
+("Quick test. Which structure lies just medial to the femoral artery?",1.6),
+("It's the femoral vein. Nerve, artery, vein, from the outside in.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
