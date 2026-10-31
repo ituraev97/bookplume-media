@@ -1,0 +1,20 @@
+{
+  "head.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n378",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 378: Muscles of the head, face, and neck (recoloured color)"
+  },
+  "arteries.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n553",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 508: The arteries of the face and scalp (recoloured color)"
+  },
+  "diagram (scalp layers cross-section SVG)": {
+    "source_page": "own work",
+    "author": "Book Plume",
+    "license": "Own illustration (Book Plume), all rights reserved",
+    "content": "Schematic cross-section of the five scalp layers over the skull"
+  }
+}

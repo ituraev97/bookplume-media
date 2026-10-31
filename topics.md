@@ -27,4 +27,4 @@
 2026-10-31 | long  | brachial plexus: roots, trunks, divisions, cords, 5 terminal branches (Brachial Plexus Made Easy) — scheduled 2026-11-01 00:00 youtube
 2026-10-31 | short | aortic arch branches mnemonic (ABC'S: brachiocephalic, left common carotid, left subclavian) — published 22:00 tiktok,youtube,instagram,facebook + pinterest (video 22:00, pin 01:15)
 2026-10-31 | short | small intestine parts mnemonic (Dow Jones Industrial: duodenum, jejunum, ileum) — published 2026-11-01 01:00 tiktok,youtube + pinterest (video 01:00, pin 04:30)
-2026-11-01 | short | layers of the scalp mnemonic (SCALP: skin, connective tissue, aponeurosis, loose areolar tissue, pericranium) | IN PROGRESS
+2026-11-01 | short | layers of the scalp mnemonic (SCALP: skin, connective tissue, aponeurosis, loose areolar tissue, pericranium) — published 05:00 tiktok,youtube,facebook + instagram 07:05 (05:00 taken by a rotator-cuff trial reel) + pinterest (video 05:00, pin 08:10)

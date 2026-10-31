@@ -1,0 +1,15 @@
+S=[
+("Can you name all five layers of your scalp?",0.35),
+("Here's the trick. The word scalp spells them out.",0.45),
+("S is for skin. It's thick and packed with hair follicles.",0.3),
+("C is connective tissue. It's dense, and it carries the scalp's blood vessels and nerves.",0.35),
+("A is the aponeurosis, a flat sheet of tendon joining the frontal and occipital muscle bellies.",0.35),
+("These top three layers are bound together, and move as one unit.",0.35),
+("L is loose areolar tissue. It lets those top three layers slide over the skull.",0.35),
+("And P is the pericranium, the periosteum stuck right onto the bone.",0.45),
+("Here's the aponeurosis on a classic anatomy plate from nineteen eighteen.",1.2),
+("Quick test. Which layer lets your scalp slide?",1.6),
+("Layer four. Loose areolar tissue, the L in scalp.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
