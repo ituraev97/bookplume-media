@@ -26,3 +26,4 @@
 2026-10-31 | short | femoral triangle contents mnemonic (NAVEL) + borders — published 17:00 tiktok,youtube + pinterest (video 17:00, pin 20:10)
 2026-10-31 | long  | brachial plexus: roots, trunks, divisions, cords, 5 terminal branches (Brachial Plexus Made Easy) — scheduled 2026-11-01 00:00 youtube
 2026-10-31 | short | aortic arch branches mnemonic (ABC'S: brachiocephalic, left common carotid, left subclavian) — published 22:00 tiktok,youtube,instagram,facebook + pinterest (video 22:00, pin 01:15)
+2026-10-31 | short | small intestine parts mnemonic (Dow Jones Industrial: duodenum, jejunum, ileum) | IN PROGRESS
