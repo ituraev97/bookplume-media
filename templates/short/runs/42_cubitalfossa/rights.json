@@ -1,0 +1,32 @@
+{
+ "elbow.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n592",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 527: The radial and ulnar arteries (recoloured color)"
+ },
+ "fossa.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n592",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 528: Ulnar and radial arteries. Deep view (recoloured color)"
+ },
+ "diagram (cubital fossa SVG, right elbow front view)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "Own illustration (Book Plume), all rights reserved",
+  "content": "Schematic anterior view of the right elbow: borders of the cubital fossa (brachioradialis, pronator teres, epicondyle line), floor (brachialis), contents (radial nerve, biceps tendon, brachial artery, median nerve), roof with median cubital vein"
+ },
+ "music + sfx": {
+  "source_page": "own synthesis + templates/sfx (Kenney)",
+  "author": "Book Plume; Kenney.nl",
+  "license": "Own synthesized music; Kenney sound packs CC0 1.0",
+  "content": "music bed and UI/impact sound effects"
+ },
+ "voice": {
+  "source_page": "own synthesis",
+  "author": "Book Plume (Kokoro TTS, voice am_michael, Apache-2.0 model)",
+  "license": "Own synthesized narration",
+  "content": "English narration"
+ }
+}

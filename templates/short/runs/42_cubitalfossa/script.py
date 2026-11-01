@@ -1,0 +1,16 @@
+S=[
+("What's hiding in the pit of your elbow?",0.35),
+("It's the cubital fossa, a triangle at the front of the elbow.",0.35),
+("Brachioradialis on the outside, pronator teres on the inside, and a line between the epicondyles on top.",0.45),
+("Inside are four structures, from lateral to medial: Really Need Beer To Be At My Nicest.",0.45),
+("Really Need, radial nerve.",0.3),
+("Beer To, biceps tendon.",0.3),
+("Be At, brachial artery.",0.3),
+("My Nicest, median nerve, the most medial.",0.4),
+("And running over the roof, the median cubital vein, a classic spot for drawing blood.",0.45),
+("Here they are on a nineteen eighteen atlas plate.",1.1),
+("Quick test. What lies just medial to the biceps tendon?",1.6),
+("The brachial artery. Be At.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
