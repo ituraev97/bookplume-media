@@ -34,3 +34,4 @@
 2026-11-01 | short | pes anserinus mnemonic (Say Grace before Tea: sartorius, gracilis, semitendinosus) — published 22:00 tiktok,youtube,facebook + instagram 00:05 (22:00 taken by a tarsal trial reel) + pinterest (video 22:00, pin 01:10)
 2026-11-01 | short | external carotid artery branches mnemonic (Some Anatomists Like Freaking Out Poor Medical Students: superior thyroid, ascending pharyngeal, lingual, facial, occipital, posterior auricular, maxillary, superficial temporal) — scheduled 2026-11-02 01:00 tiktok,youtube + pinterest (video 01:00, pin 04:30)
 2026-11-02 | long | knee joint anatomy: bones, 3 joints, menisci, MCL/LCL, ACL/PCL, bursae, locking/popliteus (Knee Joint Anatomy Made Easy) — IN PROGRESS
+2026-11-02 | short | cubital fossa contents mnemonic (Really Need Beer To Be At My Nicest: radial nerve, biceps tendon, brachial artery, median nerve) — IN PROGRESS
