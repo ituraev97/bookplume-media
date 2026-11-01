@@ -1,0 +1,26 @@
+{
+ "neck.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n549",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 507: Superficial dissection of the right side of the neck, showing the carotid and subclavian arteries (recoloured color)"
+ },
+ "diagram (external carotid SVG, lateral head & neck)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "Own illustration (Book Plume), all rights reserved",
+  "content": "Schematic lateral view of the right head and neck: common carotid bifurcation at the thyroid cartilage, internal carotid, external carotid and its 8 branches (SALFOPMS)"
+ },
+ "music + sfx": {
+  "source_page": "own synthesis + templates/sfx (Kenney)",
+  "author": "Book Plume; Kenney.nl",
+  "license": "Own synthesized music; Kenney sound packs CC0 1.0",
+  "content": "music bed and UI/impact sound effects"
+ },
+ "voice": {
+  "source_page": "own synthesis",
+  "author": "Book Plume (Kokoro TTS, voice am_michael, Apache-2.0 model)",
+  "license": "Own synthesized narration",
+  "content": "English narration"
+ }
+}
