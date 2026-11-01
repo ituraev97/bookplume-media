@@ -12,3 +12,6 @@
 - 2026-11-02: carpal bones mnemonic "So Long To Pinky, Here Comes The Thumb" (Radiopaedia)
 - 2026-11-02: stapes smallest bone, ~3 mm (Cleveland Clinic; Àwengen 1995)
 - 2026-11-02: heart beats ~100,000 times a day (Cleveland Clinic)
+- 2026-11-03: WBC mnemonic "Never Let Monkeys Eat Bananas" + differential % (MedlinePlus) — sched 11-03 21:17
+- 2026-11-03: red blood cells live ~120 days (HealthLinkBC/Healthwise) — sched 11-04 02:17
+- 2026-11-03: hyoid bone has no direct connection to other bones (Cleveland Clinic) — sched 11-04 06:17
