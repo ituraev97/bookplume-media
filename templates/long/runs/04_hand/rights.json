@@ -1,0 +1,32 @@
+{
+ "hand.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n222",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 220: Bones of the left hand, dorsal surface (recoloured color)"
+ },
+ "carpus.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n222",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 220 (crop): carpal bones of the left hand, dorsal surface (recoloured color)"
+ },
+ "palmcarpus.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n221",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 219 (crop): carpal bones of the left hand, volar surface (recoloured color)"
+ },
+ "wristsec.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n326",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 336: Vertical section through the articulations at the wrist, showing the synovial cavities (recoloured duotone)"
+ },
+ "ossif.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n229",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 234 (crop): plan of ossification of the hand, carpus (recoloured duotone)"
+ }
+}
