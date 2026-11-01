@@ -1,0 +1,15 @@
+S=[
+("Can you name all four heart valves, in order?",0.35),
+("Here's the trick. Try Pulling My Aorta.",0.45),
+("T is the tricuspid, between the right atrium and right ventricle. It has three cusps.",0.35),
+("P is the pulmonary valve. Blood leaves the right ventricle through it, to the lungs.",0.35),
+("M is the mitral valve, on the left side. It has only two cusps, so it's also called the bicuspid.",0.35),
+("And A is the aortic valve, the exit from the left ventricle into the aorta.",0.4),
+("Tricuspid and mitral sit between atria and ventricles, held by tiny cords called chordae tendineae.",0.35),
+("Pulmonary and aortic are semilunar valves, each with three half-moon cusps.",0.45),
+("Here are all four on a classic anatomy plate from nineteen eighteen.",1.2),
+("Quick test. Which valve has only two cusps?",1.6),
+("The mitral valve. The M in my.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]

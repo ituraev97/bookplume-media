@@ -29,4 +29,4 @@
 2026-10-31 | short | small intestine parts mnemonic (Dow Jones Industrial: duodenum, jejunum, ileum) — published 2026-11-01 01:00 tiktok,youtube + pinterest (video 01:00, pin 04:30)
 2026-11-01 | short | layers of the scalp mnemonic (SCALP: skin, connective tissue, aponeurosis, loose areolar tissue, pericranium) — published 05:00 tiktok,youtube,facebook + instagram 07:05 (05:00 taken by a rotator-cuff trial reel) + pinterest (video 05:00, pin 08:10)
 2026-11-01 | long  | 12 cranial nerves: names, functions, sensory/motor/both, mnemonics (12 Cranial Nerves Made Easy) — scheduled 2026-11-01 06:00 youtube
-2026-11-01 | short | heart valves order mnemonic (Try Pulling My Aorta: tricuspid, pulmonary, mitral, aortic) | IN PROGRESS
+2026-11-01 | short | heart valves order mnemonic (Try Pulling My Aorta: tricuspid, pulmonary, mitral, aortic) — published 17:00 tiktok,youtube + pinterest (video 17:00, pin 20:10)
