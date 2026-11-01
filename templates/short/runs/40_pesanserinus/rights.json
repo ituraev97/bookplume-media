@@ -1,0 +1,26 @@
+{
+ "thigh.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n465",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 430: Muscles of the iliac and anterior femoral regions (recoloured color)"
+ },
+ "xsec.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n471",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 432: Cross-section through the middle of the thigh (recoloured color) \u2014 drawing credited in Gray's to Eycleshymer & Schoemaker (A Cross-Section Anatomy, 1911), also public domain (published before 1930)"
+ },
+ "diagram (pes anserinus SVG, goose-foot icon)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "Own illustration (Book Plume), all rights reserved",
+  "content": "Schematic inner (medial) view of the right knee with sartorius, gracilis, semitendinosus and their shared insertion"
+ },
+ "music + sfx": {
+  "source_page": "own synthesis + templates/sfx (Kenney)",
+  "author": "Book Plume; Kenney.nl",
+  "license": "Own synthesized music; Kenney sound packs CC0 1.0",
+  "content": "music bed and UI/impact sound effects"
+ }
+}
