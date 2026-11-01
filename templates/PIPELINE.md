@@ -95,3 +95,7 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
 ## AI labels (owner decision 2026-10-31)
 - ALL networks: AI label OFF. youtubeData.isAiGeneratedContent false, tiktokData.isAigc false, instagramData.isAiGenerated false, pinterestData.isAiGenerated false + isAiGeneratedPerson false.
   (Visuals are public-domain plates + our own animation. Owner was told the narration is synthetic TTS and platforms may auto-label; owner decided to post without labels.)
+
+## Length limits (check in code before every createScheduledPost — longer text makes the post fail at publish time)
+- Pinterest pinTitle ≤ 90 characters (hard limit 100). YouTube title ≤ 95 (hard 100). TikTok title ≤ 90. Pinterest description ≤ 480.
+- Assert len() of every title in your script before posting; shorten by dropping the " | ..." tail first.
