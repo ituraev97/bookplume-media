@@ -32,3 +32,4 @@
 2026-11-01 | short | heart valves order mnemonic (Try Pulling My Aorta: tricuspid, pulmonary, mitral, aortic) — published 17:00 tiktok,youtube + pinterest (video 17:00, pin 20:10)
 2026-11-01 | long  | bones of the hand and wrist: 8 carpals (2 rows), 5 metacarpals, 14 phalanges, joints (Bones of the Hand and Wrist Made Easy) — scheduled 2026-11-02 00:00 youtube
 2026-11-01 | short | pes anserinus mnemonic (Say Grace before Tea: sartorius, gracilis, semitendinosus) — published 22:00 tiktok,youtube,facebook + instagram 00:05 (22:00 taken by a tarsal trial reel) + pinterest (video 22:00, pin 01:10)
+2026-11-01 | short | external carotid artery branches mnemonic (Some Anatomists Like Freaking Out Poor Medical Students) | IN PROGRESS
