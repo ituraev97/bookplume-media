@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-wbc-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "WBC mnemonic: Never Let Monkeys Eat Bananas",
+  "stat": "N-L-M-E-B",
+  "stat_note": "most to least common in normal blood",
+  "body": "Neutrophils 40–60%, Lymphocytes 20–40%, Monocytes 2–8%, Eosinophils 1–4%, Basophils 0.5–1% of all white cells.",
+  "source": "Source: MedlinePlus (U.S. NLM), Blood differential test"
+ },
+ {
+  "file": "02-red-blood-cell-lifespan.png",
+  "tag": "BODY FACT",
+  "headline": "Red blood cells live only about 4 months",
+  "stat": "~120",
+  "stat_note": "days: the average life of a red blood cell",
+  "body": "Your bone marrow constantly makes new red blood cells to replace the old ones as they wear out.",
+  "source": "Source: HealthLinkBC (Healthwise), Red blood cell (erythrocyte)"
+ },
+ {
+  "file": "03-hyoid-bone-fact.png",
+  "tag": "BODY FACT",
+  "headline": "The hyoid is the bone that touches no other bone",
+  "stat": "0",
+  "stat_note": "direct connections to other bones",
+  "body": "This U-shaped bone sits in the front of your neck below the jaw. Muscles, ligaments and cartilage hold it in place to support the tongue and help you swallow and speak.",
+  "source": "Source: Cleveland Clinic, Hyoid Bone"
+ }
+]
