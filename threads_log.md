@@ -16,3 +16,8 @@
 2026-10-31 | humans emit ultra-weak visible light, ~1000x below eye sensitivity (Kobayashi et al., PLoS ONE 2009)
 2026-10-31 | lobotomy/leucotomy won Egas Moniz the 1949 Nobel Prize (nobelprize.org)
 2026-10-31 | weekend catch-up sleep doesn't prevent insulin sensitivity loss (Depner et al., Current Biology 2019; NIH)
+2026-11-01 | swallowed gum doesn't stay 7 years, passes through (Mayo Clinic, Dr. Mark Larson)
+2026-11-01 | cornea has no blood vessels, takes oxygen from air when eyes open (NCBI; Univ. of Michigan Health)
+2026-11-01 | "More doctors smoke Camels" ads, 1940s, "survey" of 113,597 physicians (Stanford SRITA; Gardner & Brandt AJPH 2006)
+2026-11-01 | ~10% report penicillin allergy, <1% truly allergic (CDC)
+2026-11-01 | cold nose (~5°C drop) cuts antiviral extracellular vesicles ~42% (Huang et al., J Allergy Clin Immunol 2022)
