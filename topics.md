@@ -31,3 +31,4 @@
 2026-11-01 | long  | 12 cranial nerves: names, functions, sensory/motor/both, mnemonics (12 Cranial Nerves Made Easy) — scheduled 2026-11-01 06:00 youtube
 2026-11-01 | short | heart valves order mnemonic (Try Pulling My Aorta: tricuspid, pulmonary, mitral, aortic) — published 17:00 tiktok,youtube + pinterest (video 17:00, pin 20:10)
 2026-11-01 | long  | bones of the hand and wrist: 8 carpals (2 rows), 5 metacarpals, 14 phalanges, joints (Bones of the Hand and Wrist Made Easy) — scheduled 2026-11-02 00:00 youtube
+2026-11-01 | short | pes anserinus mnemonic (Say Grace before Tea: sartorius, gracilis, semitendinosus) | IN PROGRESS
