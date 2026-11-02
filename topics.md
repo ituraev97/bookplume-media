@@ -37,3 +37,4 @@
 2026-11-02 | short | cubital fossa contents mnemonic (Really Need Beer To Be At My Nicest: radial nerve, biceps tendon, brachial artery, median nerve) + borders, median cubital vein — scheduled 05:00 tiktok,youtube,facebook + instagram 07:05 (05:00 taken by a cranial-nerves trial reel) + pinterest (video 05:00, pin 08:10)
 2026-11-02 | short | diaphragm openings mnemonic (I 8 10 Eggs At 12: IVC T8 central tendon, esophagus T10 + vagus, aorta T12 + thoracic duct; letter-count bonus) — scheduled 17:00 tiktok,youtube + instagram TRIAL_REEL + pinterest (video 17:00, pin 20:20)
 2026-11-02 | long | vertebral column: 5 regions (7-12-5 + sacrum + coccyx, 33 → 26 bones), 4 curves, typical vertebra parts, cervical (transverse foramina, bifid, C7, atlas/axis), thoracic, lumbar, discs, ligaments (Vertebral Column Anatomy Made Easy) — scheduled 2026-11-03 00:00 youtube
+2026-11-02 | short | facial nerve 5 branches mnemonic (To Zanzibar By Motor Car) | IN PROGRESS
