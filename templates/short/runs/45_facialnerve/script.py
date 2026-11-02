@@ -1,0 +1,15 @@
+S=[
+("Can you name the five branches of the facial nerve?",0.35),
+("It's cranial nerve seven, and it moves the muscles of your face.",0.3),
+("It leaves the skull just below your ear, then fans out through the parotid gland.",0.45),
+("Just remember: To Zanzibar By Motor Car.",0.5),
+("Temporal, zygomatic, buccal, marginal mandibular, cervical.",0.45),
+("Top to bottom, they follow your face.",0.3),
+("Temporal to the forehead. Zygomatic to the eye. Buccal to the cheek.",0.25),
+("Marginal mandibular along the jaw. And cervical down to the neck.",0.45),
+("Here they are on a nineteen eighteen atlas plate.",1.0),
+("Quick test. Which branch reaches the platysma in your neck?",1.6),
+("The cervical branch. C for Car.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
