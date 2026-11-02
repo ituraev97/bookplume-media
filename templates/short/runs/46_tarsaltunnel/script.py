@@ -1,0 +1,18 @@
+S=[
+("What runs behind the bump on your inner ankle?",0.35),
+("That bump is the medial malleolus, and behind it is the tarsal tunnel.",0.3),
+("Its roof is a tough band called the flexor retinaculum.",0.45),
+("Six structures pass through. Just remember: Tom, Dick, And Very Nervous Harry.",0.5),
+("Front to back: tibialis posterior,",0.12),
+("flexor digitorum longus,",0.12),
+("posterior tibial artery,",0.08),
+("posterior tibial vein,",0.08),
+("tibial nerve,",0.12),
+("and flexor hallucis longus.",0.45),
+("Two tendons in front, the artery, vein and nerve in the middle, and one tendon at the back.",0.45),
+("Here they are on nineteen eighteen atlas plates: the tendons, then the artery and nerve.",0.9),
+("Quick test. What runs between the vein and the hallucis tendon?",1.6),
+("The tibial nerve. N for Nervous.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
