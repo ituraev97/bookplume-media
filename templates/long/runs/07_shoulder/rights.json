@@ -1,0 +1,68 @@
+{
+ "clavicle.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n200",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 200: Left clavicle (recoloured color)"
+ },
+ "scapula_back.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n204",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 203: Left scapula, dorsal surface (recoloured color)"
+ },
+ "scapula_front.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n203",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 202: Left scapula (recoloured color)"
+ },
+ "humerus_top.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n209",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 207: Left humerus (recoloured color)"
+ },
+ "girdle_back.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n205",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 204: Posterior view of the thorax and shoulder girdle (recoloured duotone)"
+ },
+ "sc_joint.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n313",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 325: Sternoclavicular articulation (recoloured color)"
+ },
+ "ac_ligaments.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n315",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 326: The left shoulder and acromioclavicular joints, and the proper ligaments of the scapula (recoloured color)"
+ },
+ "glenoid.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n318",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 328: Glenoid fossa of right side (recoloured color)"
+ },
+ "capsule.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n317",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 327: Capsule of shoulder-joint (distended), anterior aspect (recoloured color)"
+ },
+ "cuff_back.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n440",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 412: Muscles on the dorsum of the scapula, and the Triceps brachii (recoloured color)"
+ },
+ "nerves.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n933",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 810: Suprascapular and axillary nerves of right side, seen from behind (recoloured color)"
+ }
+}
