@@ -21,3 +21,8 @@
 2026-11-01 | "More doctors smoke Camels" ads, 1940s, "survey" of 113,597 physicians (Stanford SRITA; Gardner & Brandt AJPH 2006)
 2026-11-01 | ~10% report penicillin allergy, <1% truly allergic (CDC)
 2026-11-01 | cold nose (~5°C drop) cuts antiviral extracellular vesicles ~42% (Huang et al., J Allergy Clin Immunol 2022)
+2026-11-02 | brain tissue has no pain receptors, enables awake craniotomy; headaches from meninges/vessels/nerves (BrainFacts.org, SfN 2021)
+2026-11-02 | 18th-c. tobacco smoke enemas to revive drowning victims, Royal Humane Society 1774; faded after Brodie 1811 nicotine cardiotoxicity (BCMJ)
+2026-11-02 | can't sweat out toxins; sweat ~99% water, liver/kidneys/gut eliminate toxins (UAMS Health)
+2026-11-02 | waking a sleepwalker isn't dangerous in itself, may cause confusion; guide gently (Sleep Foundation)
+2026-11-02 | hair/nails don't grow after death, skin dehydrates and retracts (UAMS Health)
