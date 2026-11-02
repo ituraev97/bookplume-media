@@ -15,3 +15,6 @@
 - 2026-11-03: WBC mnemonic "Never Let Monkeys Eat Bananas" + differential % (MedlinePlus) — sched 11-03 21:17
 - 2026-11-03: red blood cells live ~120 days (HealthLinkBC/Healthwise) — sched 11-04 02:17
 - 2026-11-03: hyoid bone has no direct connection to other bones (Cleveland Clinic) — sched 11-04 06:17
+- 2026-11-04: meninges mnemonic "your brain is PADded" pia/arachnoid/dura (Cleveland Clinic) — sched 11-04 21:17
+- 2026-11-04: femur longest bone, ~18 in (Cleveland Clinic) — sched 11-05 02:17
+- 2026-11-04: skin largest organ, ~8 lb / 16–21.5 sq ft (Guinness World Records) — sched 11-05 06:17
