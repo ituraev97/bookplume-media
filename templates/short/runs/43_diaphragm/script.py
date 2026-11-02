@@ -1,0 +1,15 @@
+S=[
+("Can you name the three big openings in your diaphragm?",0.35),
+("Your diaphragm is a dome of muscle between your chest and your abdomen.",0.3),
+("Three big tubes pass through it, at three different levels.",0.45),
+("Just remember: I ate ten eggs at twelve.",0.5),
+("I ate: the inferior vena cava, at T eight, through the central tendon.",0.4),
+("Ten eggs: the esophagus, at T ten, with the vagus nerves.",0.4),
+("At twelve: the aorta, at T twelve, with the thoracic duct.",0.45),
+("Bonus trick: count the letters. Vena cava, eight. Oesophagus, British spelling, ten. Aortic hiatus, twelve.",0.5),
+("Here they are on a nineteen eighteen atlas plate.",1.0),
+("Quick test. What passes through at T ten?",1.6),
+("The esophagus. Ten eggs.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]

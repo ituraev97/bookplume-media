@@ -1,0 +1,26 @@
+{
+ "diaphragm.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n406",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 391: The diaphragm. Under surface (recoloured, paper toned to brand Paper)"
+ },
+ "diagram (diaphragm openings SVG, side view)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "Own illustration (Book Plume), all rights reserved",
+  "content": "Schematic side view of the trunk: diaphragm dome with central tendon, IVC through the caval opening at T8, esophagus + vagus nerves through the esophageal hiatus at T10, aorta + thoracic duct through the aortic hiatus at T12, vertebrae T6-L4"
+ },
+ "music + sfx": {
+  "source_page": "own synthesis + templates/sfx (Kenney)",
+  "author": "Book Plume; Kenney.nl",
+  "license": "Own synthesized music; Kenney sound packs CC0 1.0",
+  "content": "music bed and UI/impact sound effects"
+ },
+ "voice": {
+  "source_page": "own synthesis",
+  "author": "Book Plume (Kokoro TTS, voice am_michael, Apache-2.0 model)",
+  "license": "Own synthesized narration",
+  "content": "English narration"
+ }
+}
