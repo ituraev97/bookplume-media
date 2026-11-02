@@ -1,0 +1,15 @@
+S=[
+("Can you name the three layers that wrap your brain?",0.35),
+("They're called the meninges, and one tiny word makes them stick.",0.45),
+("The meninges PAD your brain.",0.5),
+("From the brain outward: P is pia mater, a thin layer that hugs every fold.",0.3),
+("A is arachnoid mater, a delicate, web-like layer.",0.3),
+("D is dura mater, the tough outer layer, right under the skull.",0.45),
+("Bonus: dura means hard in Latin.",0.45),
+("Under the arachnoid is the subarachnoid space, filled with cerebrospinal fluid.",0.4),
+("Here they are on a nineteen eighteen atlas plate. And the same three layers wrap the spinal cord.",0.9),
+("Quick test. Which layer touches the brain itself?",1.6),
+("Pia mater. P comes first in PAD, right on the brain.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
