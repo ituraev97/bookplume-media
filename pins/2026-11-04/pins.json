@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-meninges-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Meninges mnemonic: your brain is PADded",
+  "stat": "P-A-D",
+  "stat_note": "Pia, Arachnoid, Dura: from the brain out",
+  "body": "Pia mater hugs the brain, arachnoid mater is the middle layer, and dura mater is the tough outer layer next to the skull. Cerebrospinal fluid cushions the brain between pia and arachnoid.",
+  "source": "Source: Cleveland Clinic, Meninges"
+ },
+ {
+  "file": "02-femur-longest-bone.png",
+  "tag": "BODY FACT",
+  "headline": "The femur is your body's longest bone",
+  "stat": "~18 in",
+  "stat_note": "typical length of an adult femur",
+  "body": "Your thigh bone is also the strongest and largest bone you have. It links the hip to the knee and carries your weight when you stand, walk and run.",
+  "source": "Source: Cleveland Clinic, Femur"
+ },
+ {
+  "file": "03-skin-largest-organ.png",
+  "tag": "BODY FACT",
+  "headline": "Skin is your body's largest organ",
+  "stat": "~8 lb",
+  "stat_note": "skin weight of an average adult man",
+  "body": "Spread out, it would cover about 16 to 21.5 square feet (1.5 to 2 square meters), measured for a 5 ft 11 in adult weighing about 154 lb.",
+  "source": "Source: Guinness World Records, Largest human organ"
+ }
+]
