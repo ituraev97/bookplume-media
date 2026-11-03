@@ -26,3 +26,8 @@
 2026-11-02 | can't sweat out toxins; sweat ~99% water, liver/kidneys/gut eliminate toxins (UAMS Health)
 2026-11-02 | waking a sleepwalker isn't dangerous in itself, may cause confusion; guide gently (Sleep Foundation)
 2026-11-02 | hair/nails don't grow after death, skin dehydrates and retracts (UAMS Health)
+2026-11-03 | waiting 30 min to swim after eating is a myth, no added drowning risk (American Red Cross Scientific Advisory Council)
+2026-11-03 | Bayer sold heroin from 1898 for coughs/bronchitis/asthma/TB, tried as morphine-addiction cure (UNODC Bulletin on Narcotics 1953)
+2026-11-03 | fever is a defense: poliovirus replication drops >200x at fever temps, blocking fever lowers survival in animals (Evans, Repasky & Fisher, Nat Rev Immunol 2015)
+2026-11-03 | ~30% of US outpatient antibiotic prescriptions inappropriate, ~half for acute respiratory conditions (Fleming-Dutra et al., CDC, JAMA 2016)
+2026-11-03 | intestinal lining renews every 3-5 days, fastest self-renewing tissue in adult mammals (Lodish, Molecular Cell Biology 8e)
