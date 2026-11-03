@@ -1,0 +1,17 @@
+S=[
+("Which lung has three lobes, and which has only two?",0.35),
+("Here's how to never mix them up.",0.4),
+("The right lung has three lobes: superior, middle and inferior.",0.3),
+("Two fissures split it. The oblique and the horizontal.",0.35),
+("The left lung has only two lobes, superior and inferior, split by one oblique fissure.",0.35),
+("Why? The heart leans left, so the left lung makes room with a dent: the cardiac notch.",0.3),
+("Below it hangs the lingula, a little tongue that matches the right middle lobe.",0.45),
+("Remember: right, three. Left, two, plus a notch for the heart.",0.45),
+("Bonus: the right main bronchus is wider, shorter and more vertical.",0.3),
+("Inhale a bite, it goes down the right.",0.5),
+("Here they are in a nineteen eighteen atlas. Careful: the patient's right is on your left.",0.7),
+("Quick test. Which lung has the lingula?",1.6),
+("The left lung. It sits just below the cardiac notch.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
