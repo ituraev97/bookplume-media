@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-cranial-nerves-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Learn the 12 cranial nerves in order",
+  "stat": "12 pairs",
+  "stat_note": "Ooh, Ooh, Ooh To Touch And Feel Very Good Velvet. Such Heaven!",
+  "body": "Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Spinal accessory, Hypoglossal.",
+  "source": "Source: Cleveland Clinic, Cranial Nerves"
+ },
+ {
+  "file": "02-baby-bones-fact.png",
+  "tag": "BODY FACT",
+  "headline": "Babies have more bones than adults do",
+  "stat": "~270",
+  "stat_note": "bones at birth vs about 206 in adults",
+  "body": "Many newborn bones fuse together as the skeleton grows, so the count drops to about 206 to 213 in adults.",
+  "source": "Source: Cleveland Clinic, Bones"
+ },
+ {
+  "file": "03-alveoli-count-fact.png",
+  "tag": "LUNG FACT",
+  "headline": "About 480 million alveoli fill your lungs",
+  "stat": "480M",
+  "stat_note": "average alveoli in both adult lungs",
+  "body": "These tiny air sacs are where oxygen passes into the blood. In the study, counts ranged from 274 to 790 million.",
+  "source": "Source: Ochs et al., Am J Respir Crit Care Med, 2004"
+ }
+]
