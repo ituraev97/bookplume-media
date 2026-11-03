@@ -1,0 +1,15 @@
+S=[
+("Can you name the three tiny bones inside your ear?",0.35),
+("They're the smallest bones in your body, and one trick puts them in order.",0.4),
+("Many Ice Skaters. M, I, S, from the eardrum inward.",0.45),
+("M, malleus. Latin for hammer. Its handle is attached to the eardrum.",0.35),
+("I, incus, the anvil, right in the middle.",0.35),
+("S, stapes, the stirrup. Its footplate sits in the oval window.",0.4),
+("Sound shakes the eardrum, and the chain passes the vibration to the inner ear.",0.45),
+("Here they are in a nineteen eighteen atlas, drawn larger than life.",0.3),
+("The stapes is the smallest bone in the human body.",0.5),
+("Quick test. Which ossicle is attached to the eardrum?",1.6),
+("The malleus, the hammer. It's first in the chain.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
