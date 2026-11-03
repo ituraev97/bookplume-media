@@ -18,3 +18,6 @@
 - 2026-11-04: meninges mnemonic "your brain is PADded" pia/arachnoid/dura (Cleveland Clinic) — sched 11-04 21:17
 - 2026-11-04: femur longest bone, ~18 in (Cleveland Clinic) — sched 11-05 02:17
 - 2026-11-04: skin largest organ, ~8 lb / 16–21.5 sq ft (Guinness World Records) — sched 11-05 06:17
+- 2026-11-05: cranial nerves mnemonic "Ooh, Ooh, Ooh To Touch And Feel Very Good Velvet. Such Heaven!" (Cleveland Clinic) — sched 11-05 21:17
+- 2026-11-05: babies born with ~270 bones vs 206–213 adults (Cleveland Clinic) — sched 11-06 02:17
+- 2026-11-05: ~480 million alveoli in both lungs, range 274–790 M (Ochs et al. 2004) — sched 11-06 06:17
