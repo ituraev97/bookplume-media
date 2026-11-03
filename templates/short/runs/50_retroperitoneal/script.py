@@ -1,0 +1,15 @@
+S=[
+("Can you name the retroperitoneal organs?",0.35),
+("One word gets you all of them: SAD PUCKER.",0.45),
+("Retroperitoneal means behind the peritoneum, the lining of the abdomen.",0.3),
+("These organs sit on the back wall, covered by peritoneum only in front.",0.45),
+("S, suprarenal glands. A, aorta and I V C. D, duodenum.",0.35),
+("P, pancreas. U, ureters. C, colon, the ascending and descending parts.",0.35),
+("K, kidneys. E, esophagus. And R, rectum.",0.45),
+("Two catches: the tail of the pancreas and the first part of the duodenum are not retroperitoneal.",0.45),
+("Here they are in a nineteen eighteen atlas: kidneys, adrenals, aorta and vena cava, right on the back wall.",0.5),
+("Quick test. Is the stomach retroperitoneal?",1.6),
+("No. The stomach is intraperitoneal, wrapped in peritoneum all the way around.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
