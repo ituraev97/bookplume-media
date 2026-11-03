@@ -1,0 +1,17 @@
+S=[
+("Can you name the five parts of the brachial plexus?",0.35),
+("It's the nerve network that runs your whole arm, and one silly sentence makes it stick.",0.45),
+("Randy Travis Drinks Cold Beer.",0.5),
+("Roots: five of them, from C five to T one.",0.3),
+("Trunks: three. Upper, middle and lower.",0.3),
+("Divisions: six, because each trunk splits in two, front and back.",0.3),
+("Cords: three. Lateral, posterior and medial, named for where they sit around the axillary artery.",0.3),
+("Branches: five big nerves for the arm.",0.4),
+("So the numbers go five, three, six, three, five.",0.45),
+("The five branches are musculocutaneous, axillary, radial, median and ulnar.",0.5),
+("Here's the same plan in a nineteen eighteen atlas.",0.7),
+("Quick test. Which cord gives you the radial nerve?",1.6),
+("The posterior cord. It gives off the axillary nerve too.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
