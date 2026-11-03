@@ -1,0 +1,50 @@
+{
+  "eye869.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n1005",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 869: Horizontal section of the eyeball (recoloured color)"
+  },
+  "choroid872.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n1008",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 872: The choroid and iris (recoloured color)"
+  },
+  "fundus879.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n1013",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 879: Interior of posterior half of bulb of left eye (recoloured color; page area outside the circular drawing filled with paper colour to remove cut-off page labels)"
+  },
+  "orbit889.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n1021",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 889: Muscles of the right orbit (recoloured color)"
+  },
+  "ring890.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n1022",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 890: Dissection showing origins of right ocular muscles, and nerves entering by the superior orbital fissure (recoloured color)"
+  },
+  "sfx (Kenney interface sounds)": {
+    "source_page": "https://kenney.nl/assets/interface-sounds",
+    "author": "Kenney (kenney.nl)",
+    "license": "CC0 1.0 (public domain)",
+    "content": "tick, pop, ding, question, maximize, pluck UI sounds"
+  },
+  "illustrations (IllusEye.tsx: eye section, retina layers, eye muscles, eyelids)": {
+    "source_page": "own work",
+    "author": "Book Plume",
+    "license": "own work",
+    "content": "SVG diagrams drawn in code for this video"
+  },
+  "music + voice": {
+    "source_page": "own work",
+    "author": "Book Plume",
+    "license": "own synthesis (music: audio.py; voice: Kokoro TTS am_michael, Apache-2.0 model)",
+    "content": "music bed without drums, narration"
+  }
+}
