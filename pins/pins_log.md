@@ -21,3 +21,6 @@
 - 2026-11-05: cranial nerves mnemonic "Ooh, Ooh, Ooh To Touch And Feel Very Good Velvet. Such Heaven!" (Cleveland Clinic) — sched 11-05 21:17
 - 2026-11-05: babies born with ~270 bones vs 206–213 adults (Cleveland Clinic) — sched 11-06 02:17
 - 2026-11-05: ~480 million alveoli in both lungs, range 274–790 M (Ochs et al. 2004) — sched 11-06 06:17
+- 2026-11-06: heart valves mnemonic "Try Pulling My Aorta" tricuspid/pulmonary/mitral/aortic (Cleveland Clinic) — sched 11-06 21:17
+- 2026-11-06: taste receptor cells replaced ~every 10 days, 2,000–10,000 taste buds (Cleveland Clinic) — sched 11-07 02:17
+- 2026-11-06: tooth enamel hardest substance, ~95% mineral (Cleveland Clinic) — sched 11-07 06:17
