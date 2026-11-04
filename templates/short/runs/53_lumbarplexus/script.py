@@ -1,0 +1,15 @@
+S=[
+("Can you name the six nerves of the lumbar plexus?",0.35),
+("One silly sentence puts them in order, from top to bottom.",0.4),
+("The lumbar plexus forms inside the psoas major muscle, from L one to L four, with a little help from T twelve.",0.45),
+("Here's the trick: I, I Get Leftovers On Fridays.",0.5),
+("I, iliohypogastric. I, ilioinguinal. H comes before I, so hypo goes first.",0.4),
+("G, genitofemoral. L, lateral femoral cutaneous, skin on the side of the thigh.",0.4),
+("O, obturator, to the inner thigh. F, femoral, the biggest branch, to the front of the thigh.",0.45),
+("Bonus for the roots: two from one, two from two, two from three.",0.45),
+("Here's the same plexus in a nineteen eighteen atlas.",0.5),
+("Quick test. Which nerve supplies the adductors of your inner thigh?",1.6),
+("The obturator nerve. That's the O in On.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
