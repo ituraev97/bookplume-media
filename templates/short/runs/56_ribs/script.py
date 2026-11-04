@@ -1,0 +1,15 @@
+S=[
+("How many of your ribs actually reach your breastbone?",0.35),
+("Remember three numbers: seven, three, two.",0.45),
+("You have twelve pairs of ribs, and every one joins a thoracic vertebra at the back.",0.35),
+("Seven true ribs. Ribs one to seven attach straight to the sternum by their own costal cartilage.",0.4),
+("Three false ribs. Ribs eight to ten join the cartilage of the rib above, so they reach the sternum only indirectly.",0.4),
+("Two floating ribs. Ribs eleven and twelve don't reach the front at all.",0.4),
+("Technically, they count as false ribs too, so false means eight to twelve.",0.4),
+("Seven, three, two. Twelve pairs.",0.45),
+("Here's the rib cage in a nineteen eighteen atlas.",0.5),
+("Quick test. Rib nine. True, false, or floating?",1.6),
+("False. Its cartilage joins rib eight, not the sternum.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
