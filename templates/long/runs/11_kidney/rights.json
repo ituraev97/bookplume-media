@@ -1,0 +1,56 @@
+{
+ "post1121.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 1121:  (recoloured color)"
+ },
+ "sect1127.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n1216",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 1127: \\ ertical section of kidney (recoloured color)"
+ },
+ "neph1128.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 1128:  (recoloured color)"
+ },
+ "glom1130.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 1130:  (recoloured color)"
+ },
+ "caps1126.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 1126:  (recoloured color)"
+ },
+ "aorta531.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n601",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 531: The abdominal aorta and its bwnches (recoloured color)"
+ },
+ "sfx (kenney_interface-sounds)": {
+  "source_page": "https://kenney.nl/assets/interface-sounds",
+  "author": "Kenney (kenney.nl)",
+  "license": "Creative Commons Zero (CC0) \u2014 see templates/sfx/KENNEY_LICENSE.txt",
+  "content": "UI sound effects (pop, tick, ding, question, maximize, pluck)"
+ },
+ "music + diagrams": {
+  "source_page": "own work",
+  "author": "Book Plume (synthesized in audio.py; SVG illustrations in IllusKidney.tsx)",
+  "license": "own work",
+  "content": "music bed, all schematic kidney/nephron diagrams"
+ },
+ "voice": {
+  "source_page": "own work",
+  "author": "Book Plume (Kokoro TTS am_michael, Apache-2.0 model)",
+  "license": "own synthesized narration",
+  "content": "narration"
+ }
+}

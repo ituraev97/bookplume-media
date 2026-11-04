@@ -1,0 +1,4 @@
+export const SERIES = "Learn Anatomy in 10 Minutes";
+export const TOPIC = "Kidney Anatomy Made Easy";
+export const KEYWORDS =
+  "kidney kidneys renal urinary system ureter ureters bladder urethra adrenal suprarenal retroperitoneal peritoneum vertebra liver ribs psoas quadratus lumborum diaphragm capsule perirenal pararenal fascia gerota hilum vein artery pelvis sinus cortex medulla pyramids pyramid papilla papillae columns column lobe calyx calyces minor major peristalsis aorta mesenteric vena cava segmental interlobar arcuate cortical radiate afferent efferent arteriole arterioles glomerulus glomerular bowman podocytes filtration filtrate peritubular capillaries vasa recta nephron nephrons proximal convoluted tubule microvilli loop henle descending ascending distal collecting duct juxtaglomerular renin juxtamedullary quiz subscribe";
