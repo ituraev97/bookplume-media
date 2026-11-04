@@ -1,0 +1,38 @@
+{
+ "hand427.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n462",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 427: The muscles of the left hand. Palmar surface (recoloured color)"
+ },
+ "dors428.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n464",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 428: The Interossei dorsales of left hand (recoloured color)"
+ },
+ "palm429.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n464",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 429: The Interossei volares of left hand (recoloured color)"
+ },
+ "Hand55.tsx / Scenes55.tsx (diagrams)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "Own work (Book Plume)",
+  "content": "Schematic hand with dorsal and palmar interossei, cards"
+ },
+ "sfx (templates/sfx/kenney_*)": {
+  "source_page": "https://kenney.nl/assets",
+  "author": "Kenney",
+  "license": "CC0 1.0 (see KENNEY_LICENSE.txt)",
+  "content": "Interface / impact sound effects"
+ },
+ "music + voice": {
+  "source_page": "own synthesis",
+  "author": "Book Plume (synthesized music; Kokoro TTS voice am_michael, Apache-2.0 model)",
+  "license": "Own work",
+  "content": "Music bed and narration"
+ }
+}

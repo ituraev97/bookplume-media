@@ -1,0 +1,17 @@
+S=[
+("Which hand muscles spread your fingers apart?",0.35),
+("Two little words fix it forever: pad and dab.",0.45),
+("Between your metacarpal bones sit small muscles called the interossei.",0.3),
+("There are two sets: palmar on the palm side, dorsal on the back.",0.4),
+("Now remember: pad, dab.",0.35),
+("Palmar adduct. They pull your fingers together.",0.35),
+("Dorsal abduct. They spread your fingers apart.",0.45),
+("Every move is measured from your middle finger.",0.3),
+("So it has no palmar interosseous, but two dorsal ones, one on each side.",0.45),
+("Both sets are supplied by the ulnar nerve.",0.45),
+("Here they are in a nineteen eighteen atlas.",0.5),
+("Quick test. You grip a card between two fingers. Which interossei hold it?",1.6),
+("The palmar ones. Pad: palmar adduct.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
