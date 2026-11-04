@@ -1,0 +1,15 @@
+S=[
+("Which artery carries oxygen-poor blood?",0.35),
+("If you said none, this one's for you.",0.45),
+("Your blood runs in two loops.",0.3),
+("Pulmonary: the right ventricle pumps blood to the lungs to pick up oxygen, then back to the left atrium.",0.4),
+("Systemic: the left ventricle pumps it through the aorta to the whole body, then back to the right atrium.",0.5),
+("Now the trick: Arteries go Away from the heart.",0.35),
+("A for artery, A for away. It's about direction, not oxygen.",0.45),
+("So the pulmonary arteries carry oxygen-poor blood to the lungs, and the pulmonary veins bring oxygen-rich blood back.",0.45),
+("Here's the same heart in a nineteen eighteen atlas.",0.5),
+("Quick test. Which ventricle pumps blood to your whole body?",1.6),
+("The left ventricle. That's why its wall is so much thicker.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
