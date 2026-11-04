@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-heart-valves-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Learn the 4 heart valves in order of blood flow",
+  "stat": "4 valves",
+  "stat_note": "Mnemonic: Try Pulling My Aorta",
+  "body": "Tricuspid (right atrium to right ventricle), Pulmonary (to the lungs), Mitral (left atrium to left ventricle), Aortic (to the body).",
+  "source": "Source: Cleveland Clinic, Heart Valves"
+ },
+ {
+  "file": "02-taste-cells-renew.png",
+  "tag": "BODY FACT",
+  "headline": "Your taste cells are replaced about every 10 days",
+  "stat": "~10 days",
+  "stat_note": "lifespan of a taste receptor cell",
+  "body": "The average adult has about 2,000 to 10,000 taste buds, and their receptor cells are constantly renewed.",
+  "source": "Source: Cleveland Clinic, Taste Buds"
+ },
+ {
+  "file": "03-enamel-hardest.png",
+  "tag": "BODY FACT",
+  "headline": "Tooth enamel is the hardest substance in your body",
+  "stat": "~95%",
+  "stat_note": "of enamel is mineral, mostly calcium and phosphorus",
+  "body": "The rest is about 4% water and 1% protein. Unlike bone, enamel does not grow back once it is lost.",
+  "source": "Source: Cleveland Clinic, Tooth Enamel"
+ }
+]
