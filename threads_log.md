@@ -31,3 +31,8 @@
 2026-11-03 | fever is a defense: poliovirus replication drops >200x at fever temps, blocking fever lowers survival in animals (Evans, Repasky & Fisher, Nat Rev Immunol 2015)
 2026-11-03 | ~30% of US outpatient antibiotic prescriptions inappropriate, ~half for acute respiratory conditions (Fleming-Dutra et al., CDC, JAMA 2016)
 2026-11-03 | intestinal lining renews every 3-5 days, fastest self-renewing tissue in adult mammals (Lodish, Molecular Cell Biology 8e)
+2026-11-04 | 98.6°F isn't "normal"; Wunderlich 1868, Stanford 618,306 readings avg ~97.9°F (Stanford Medicine 2023)
+2026-11-04 | 10,000 steps came from 1960s "manpo-kei" pedometer marketing; benefit plateaus ~6-8k (60+) / 8-10k (<60) (Paluch et al., Lancet Public Health 2022)
+2026-11-04 | can't tickle yourself: cerebellum predicts and dampens self-touch (Blakemore, UCL)
+2026-11-04 | first public ether anesthesia Oct 16 1846, MGH, Warren "Gentlemen, this is no humbug" (Linda Hall Library)
+2026-11-04 | ~98M US adults (>1 in 3) have prediabetes, >8 in 10 don't know (CDC)
