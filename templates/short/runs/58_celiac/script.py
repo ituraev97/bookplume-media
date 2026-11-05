@@ -1,0 +1,15 @@
+S=[
+("Can you name the three branches of the celiac trunk?",0.35),
+("It's the first big branch of your abdominal aorta.",0.3),
+("It leaves just below the diaphragm, at about T twelve.",0.45),
+("Then it splits three ways. Just remember: Left Hand Side.",0.5),
+("L is the left gastric artery. It runs along the stomach's lesser curvature.",0.4),
+("H is the common hepatic artery. It heads right, to the liver and gallbladder.",0.4),
+("S is the splenic artery. The biggest one, and it wiggles along the pancreas to the spleen.",0.5),
+("Together they feed the stomach, liver, spleen, pancreas, and the start of the duodenum.",0.45),
+("Here they are in a nineteen eighteen atlas.",0.5),
+("Quick test. Which branch is the smallest?",1.6),
+("The left gastric. The splenic is the biggest.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
