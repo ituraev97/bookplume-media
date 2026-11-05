@@ -1,0 +1,17 @@
+S=[
+("Can you name the three muscles that grab this groove?",0.35),
+("It's the intertubercular groove, at the top of your humerus.",0.3),
+("It runs between the greater and lesser tubercles,",0.2),
+("and the long head of biceps tendon slides right through it.",0.45),
+("Now the trick: a lady between two majors.",0.5),
+("The lady is latissimus dorsi. She lies on the floor of the groove.",0.4),
+("On the lateral lip: pectoralis major.",0.35),
+("On the medial lip: teres major.",0.45),
+("So, lateral to medial: major, lady, major.",0.45),
+("Bonus: all three pull your arm in and rotate it inward.",0.5),
+("Here it is in a nineteen eighteen atlas.",0.5),
+("Quick test. Which tendon runs inside the groove?",1.6),
+("The long head of biceps. That's why it's also called the bicipital groove.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
