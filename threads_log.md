@@ -36,3 +36,8 @@
 2026-11-04 | can't tickle yourself: cerebellum predicts and dampens self-touch (Blakemore, UCL)
 2026-11-04 | first public ether anesthesia Oct 16 1846, MGH, Warren "Gentlemen, this is no humbug" (Linda Hall Library)
 2026-11-04 | ~98M US adults (>1 in 3) have prediabetes, >8 in 10 don't know (CDC)
+2026-11-05 | blood is never blue, deoxygenated blood is dark red; veins look blue from light scattering (Kienle et al., Applied Optics 1996)
+2026-11-05 | yawning isn't driven by oxygen/CO2: 100% O2 or extra CO2 didn't change yawning (Provine et al. 1987; UW Neuroscience for Kids)
+2026-11-05 | 1500s-1600s European corpse medicine: mummy powder, skull tinctures (Charles II), human fat (Smithsonian Magazine)
+2026-11-05 | astronauts grow up to 3% taller in space, spine lengthens, returns in months (Scientific American)
+2026-11-05 | 0.67-1.35 billion people aged 12-34 at risk of hearing loss, ~24% unsafe headphone listening (Dillard et al., BMJ Global Health 2022)
