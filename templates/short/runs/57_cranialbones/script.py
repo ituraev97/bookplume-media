@@ -1,0 +1,18 @@
+S=[
+("Can you name all eight cranial bones?",0.35),
+("One silly sentence does it.",0.45),
+("Old People From Texas Eat Spiders.",0.5),
+("Each first letter is one bone.",0.4),
+("Occipital, the back of your skull.",0.35),
+("Parietal, the top and sides.",0.35),
+("Frontal, your forehead.",0.35),
+("Temporal, right above your ears.",0.35),
+("Ethmoid, tucked between your eye sockets.",0.35),
+("And sphenoid, the keystone that joins almost every other skull bone.",0.5),
+("Six names, but parietal and temporal come in pairs. That makes eight.",0.5),
+("Here they are in a nineteen eighteen atlas.",0.5),
+("Quick test. Your spinal cord leaves the skull through which bone?",1.6),
+("The occipital, through a big hole called the foramen magnum.",0.45),
+("Save this for your next anatomy exam.",0.3),
+("And follow Book Plume for anatomy you'll actually remember.",0.6),
+]
