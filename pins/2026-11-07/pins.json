@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-rotator-cuff-sits.png",
+  "tag": "STUDY TIP",
+  "headline": "Remember the 4 rotator cuff muscles with SITS",
+  "stat": "SITS",
+  "stat_note": "the 4 muscles of the rotator cuff",
+  "body": "S = Supraspinatus\nI = Infraspinatus\nT = Teres minor\nS = Subscapularis",
+  "source": "Source: Healthline, Rotator Cuff Anatomy (medically reviewed)"
+ },
+ {
+  "file": "02-gluteus-maximus-largest.png",
+  "tag": "BODY FACT",
+  "headline": "The biggest muscle in your body is in your backside",
+  "stat": "3 glutes",
+  "stat_note": "gluteus maximus, medius and minimus",
+  "body": "Your gluteus maximus is not only the biggest muscle you have, it is also the strongest.",
+  "source": "Source: Cleveland Clinic, Gluteal Muscles"
+ },
+ {
+  "file": "03-cornea-no-blood.png",
+  "tag": "BODY FACT",
+  "headline": "Your cornea has no blood vessels at all",
+  "stat": "0",
+  "stat_note": "blood vessels in a healthy cornea",
+  "body": "To stay clear, it takes oxygen from tears and directly from the air, and nutrients from tears and the aqueous humor.",
+  "source": "Source: University of Michigan Health; Healthline, Cornea"
+ }
+]
