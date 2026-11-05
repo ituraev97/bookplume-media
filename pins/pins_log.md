@@ -24,3 +24,6 @@
 - 2026-11-06: heart valves mnemonic "Try Pulling My Aorta" tricuspid/pulmonary/mitral/aortic (Cleveland Clinic) — sched 11-06 21:17
 - 2026-11-06: taste receptor cells replaced ~every 10 days, 2,000–10,000 taste buds (Cleveland Clinic) — sched 11-07 02:17
 - 2026-11-06: tooth enamel hardest substance, ~95% mineral (Cleveland Clinic) — sched 11-07 06:17
+- 2026-11-07: rotator cuff mnemonic SITS supraspinatus/infraspinatus/teres minor/subscapularis (Healthline, med-reviewed) — sched 11-07 21:17
+- 2026-11-07: gluteus maximus biggest & strongest muscle, 3 glutes (Cleveland Clinic) — sched 11-08 02:17
+- 2026-11-07: cornea has no blood vessels, oxygen from tears & air (U-M Health; Healthline) — sched 11-08 06:17
