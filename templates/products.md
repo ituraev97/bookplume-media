@@ -14,3 +14,17 @@ Pick the product that matches the video topic. Hero product first.
 | med terms + pictures | Med Term Kit – 1000 Med Term Cards + 125 Human Body Picture Cards | https://bookplume.com/products/med-term-kit-medical-terminology-1000-flash-cards-anatomy-flash-cards-nursing-med-school-study-set |
 | coloring + cards duo | Anatomy Study Duo – Coloring Book + 125 Anatomy Flash Cards | https://bookplume.com/products/anatomy-study-duo-human-body-coloring-book-anatomy-flash-cards-2-piece-med-nursing-student-set |
 | medical dictionary | Merriam-Webster's Medical Dictionary | https://bookplume.com/products/merriam-websters-medical-dictionary-newest-edition-mass-market-paperback |
+
+## Collection landing pages (better than the home page for social traffic)
+| Use for | URL |
+|---|---|
+| DEFAULT for anatomy shorts, IG bio, carousels | https://bookplume.com/collections/anatomy-medical-flash-cards |
+| nursing / NCLEX topics | https://bookplume.com/collections/nursing-school-essentials-nclex-prep |
+| medical terms topics | https://bookplume.com/collections/medical-terminology-books-flash-cards |
+| coloring / visual learners | https://bookplume.com/collections/anatomy-coloring-books |
+| long lessons, general anatomy | https://bookplume.com/collections/anatomy-education |
+
+## UTM tags — EVERY link we post must carry them so Shopify shows which network sells
+?utm_source=<instagram|tiktok|youtube|pinterest|facebook|threads>&utm_medium=social&utm_campaign=<topic-slug>&utm_content=<short|long|pin|carousel|story>
+e.g. https://bookplume.com/collections/anatomy-medical-flash-cards?utm_source=pinterest&utm_medium=social&utm_campaign=celiac-trunk&utm_content=pin
+In captions where a raw URL is ugly (Instagram/TikTok/Facebook text), write "bookplume.com" — Pinterest pinLink and YouTube descriptions MUST use the full UTM link.

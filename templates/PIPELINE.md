@@ -99,3 +99,16 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
 ## Length limits (check in code before every createScheduledPost — longer text makes the post fail at publish time)
 - Pinterest pinTitle ≤ 90 characters (hard limit 100). YouTube title ≤ 95 (hard 100). TikTok title ≤ 90. Pinterest description ≤ 480.
 - Assert len() of every title in your script before posting; shorten by dropping the " | ..." tail first.
+
+## Performance rules (from the 2026-11-06 analytics review — the weekly producer task updates this section)
+Data 26 Oct–5 Nov: Instagram Reels 1.5–2.5k views (best: lumbar plexus 11.7k views, 410 saves, 149 shares — long 6–9-item "cheat-sheet" lists win);
+TikTok stuck at ~270–330 views with AVERAGE WATCH 3–6 s of 45–50 s (hook fails); YouTube Shorts: surprising body facts (800–1250) beat mnemonics (50–470);
+YouTube long 2–21 views; Threads videos 1–12 views (text posts 10–260, history-of-medicine best); Pinterest = top social traffic source in Shopify (59 sessions).
+- SHORTS LENGTH 20–30 s (script 60–90 words). Cut intros; first spoken sentence = the challenge.
+- FIRST SECOND: huge on-screen challenge text (≤ 7 words, e.g. "90% of nursing students mix these up", "Name all 6 in 5 seconds?") + the plate/diagram already visible. No logo intro.
+- Mnemonic reveal by second 4–6; quick test in the MIDDLE (~60% mark) with a 3-2-1, answer, then 1-line "save this" — the end card ≤ 1.5 s.
+- Keywords as on-screen text (TikTok/YouTube search reads it): the structure name + "mnemonic" visible in the first 3 s.
+- Prefer LIST topics with 5–9 items (plexus branches, artery branches, foramina, cranial nerve functions, muscle groups) — they get saved.
+- 17:00 and 01:00 shorts: topic = SURPRISING BODY FACT that still teaches anatomy (e.g. "your stomach replaces its lining every few days" + the structures), not a pure mnemonic.
+- TOPIC DUPLICATES: before choosing, read topics.md AND getScheduledPosts/analytics texts of the last 30 days; reject any topic whose structure already appeared (rotator cuff, tarsal bones, epidermis, vertebrae, cranial nerves, aortic arch, carpal bones were already repeated).
+- Instagram CAROUSEL (22:00 run only): render 6 slides 1080x1350 (cover challenge → 4 cheat-sheet slides → "save + bookplume.com" slide) as stills from the same scenes; post as Instagram POST with 6 images at 13:00 Tashkent next day.
