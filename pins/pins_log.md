@@ -27,3 +27,6 @@
 - 2026-11-07: rotator cuff mnemonic SITS supraspinatus/infraspinatus/teres minor/subscapularis (Healthline, med-reviewed) — sched 11-07 21:17
 - 2026-11-07: gluteus maximus biggest & strongest muscle, 3 glutes (Cleveland Clinic) — sched 11-08 02:17
 - 2026-11-07: cornea has no blood vessels, oxygen from tears & air (U-M Health; Healthline) — sched 11-08 06:17
+- 2026-11-08: epidermis layers mnemonic "Come Let's Get Sun Burnt" corneum/lucidum/granulosum/spinosum/basale (Cleveland Clinic) — sched 11-08 21:17
+- 2026-11-08: vertebrae 7-12-5 "breakfast at 7, lunch at 12, dinner at 5", 33 total (StatPearls/NCBI) — sched 11-09 02:17
+- 2026-11-08: fingernails grow 3.47 mm/month vs toenails 1.62 mm (Yaemsiri et al. 2010) — sched 11-09 06:17
