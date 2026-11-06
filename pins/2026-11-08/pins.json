@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-epidermis-layers.png",
+  "tag": "STUDY TIP",
+  "headline": "Remember the 5 layers of the epidermis",
+  "stat": "5 layers",
+  "stat_note": "\"Come Let's Get Sun Burnt\", top to bottom",
+  "body": "C = Stratum corneum\nL = Stratum lucidum\nG = Stratum granulosum\nS = Stratum spinosum\nB = Stratum basale",
+  "source": "Source: Cleveland Clinic, Epidermis"
+ },
+ {
+  "file": "02-vertebrae-meals.png",
+  "tag": "STUDY TIP",
+  "headline": "Count your vertebrae like meal times",
+  "stat": "7-12-5",
+  "stat_note": "breakfast at 7, lunch at 12, dinner at 5",
+  "body": "7 cervical (neck), 12 thoracic (chest), 5 lumbar (lower back). Add 5 fused sacral and 4 coccygeal for 33 in total.",
+  "source": "Source: StatPearls (NCBI), Anatomy, Back, Vertebral Column"
+ },
+ {
+  "file": "03-nail-growth.png",
+  "tag": "BODY FACT",
+  "headline": "Your fingernails grow twice as fast as your toenails",
+  "stat": "3.47 mm",
+  "stat_note": "average fingernail growth per month",
+  "body": "Toenails averaged just 1.62 mm a month in a study of healthy young adults.",
+  "source": "Source: Yaemsiri et al., J Eur Acad Dermatol Venereol, 2010"
+ }
+]
