@@ -41,3 +41,8 @@
 2026-11-05 | 1500s-1600s European corpse medicine: mummy powder, skull tinctures (Charles II), human fat (Smithsonian Magazine)
 2026-11-05 | astronauts grow up to 3% taller in space, spine lengthens, returns in months (Scientific American)
 2026-11-05 | 0.67-1.35 billion people aged 12-34 at risk of hearing loss, ~24% unsafe headphone listening (Dillard et al., BMJ Global Health 2022)
+2026-11-06 | carrots-for-night-vision myth spread by WWII British Ministry of Information to hide airborne radar (RAF "Cat's Eyes" Cunningham); vitamin A only helps if deficient (Smithsonian Magazine)
+2026-11-06 | George Washington 1799: 80+ oz (~2.4 L, ~40% of blood) bled in ~12 hours for throat infection, Dr. Dick objected (PBS NewsHour)
+2026-11-06 | bone marrow makes ~2 million red blood cells per second, RBC lifespan ~100-120 days (Life: The Science of Biology 11e, Macmillan)
+2026-11-06 | Mrs. Winslow's Soothing Syrup: morphine for teething babies, AMA "Baby Killers" in Nostrums and Quackery 1911, sold until ~1930 (Wood Library-Museum of Anesthesiology; State Library of Queensland)
+2026-11-06 | doctors elicited patient agenda in 36% of 112 visits, interrupted ~2/3 of the time after median 11 seconds (Singh Ospina et al., J Gen Intern Med 2018)
