@@ -1,0 +1,15 @@
+S=[
+("Your funny bone is not a bone.",0.2),
+("It's a nerve. The ulnar nerve.",0.2),
+("Memory trick: it crosses the humerus, and humerus sounds like humorous.",0.25),
+("At the elbow, it slides behind the medial epicondyle,",0.08),
+("with only skin and a little fat on top.",0.2),
+("Bump it, and the nerve gets squashed against the bone.",0.25),
+("Quick test. Which fingers tingle?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Your little finger and half of your ring finger.",0.2),
+("That's the ulnar nerve's skin area. Roots C eight and T one.",0.25),
+("Save this for your next anatomy exam.",0.3),
+]
