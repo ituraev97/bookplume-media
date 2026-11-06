@@ -61,6 +61,8 @@ def details(ids):
                 "comments": int(st.get("commentCount", 0)),
                 "seconds": dur_s(it["contentDetails"].get("duration")),
                 "description": sn.get("description", "")[:600],
+                "lang": (sn.get("defaultAudioLanguage") or sn.get("defaultLanguage") or "").lower(),
+                "cat": sn.get("categoryId", ""),
                 "thumb": (sn.get("thumbnails", {}).get("maxres") or sn.get("thumbnails", {}).get("high") or {}).get("url", ""),
             }
     chans = {}
@@ -140,7 +142,19 @@ def main():
 
     # 3. details + channel stats
     vids = details(set(hits) | set(trend_ids))
-    niche = [vids[i] for i in hits if i in vids]
+    def keep(v):
+        if v["cat"] in ("10", "20"):  # Music, Gaming
+            return False
+        if v["lang"] and not v["lang"].startswith(a.lang):
+            return False
+        if a.lang == "en":
+            letters = [c for c in v["title"] if c.isalpha()]
+            if letters and sum(not c.isascii() for c in letters) / len(letters) > 0.3:
+                return False
+        return True
+    allniche = [vids[i] for i in hits if i in vids]
+    niche = [v for v in allniche if keep(v)]
+    dropped = len(allniche) - len(niche)
     for v in niche:
         v["queries"] = sorted(hits[v["id"]])
     trending = [vids[i] for i in trend_ids if i in vids]
@@ -188,6 +202,7 @@ def main():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     md = [f"Source: YouTube Data API ({today}; queries: {', '.join(a.q)}; last {a.days} days; {a.region}/{a.lang})", "",
           f"## 1. Trending in {a.region}" + (f" (category {a.category})" if a.category else ""), table(trending[:10]), "",
+          f"Filtered out {dropped} videos in other languages or Music/Gaming categories.", "",
           "## 2. Niche — long videos, most viewed", table(longs[:10]), "",
           "## 2b. Niche — Shorts (≤ 3 min), most viewed", table(shorts[:10]), "",
           "## 3. Outliers (views ≥ 3× subscribers, ≥ 10k views; engagement ≥ 3% preferred)", table(outliers[:10]), "",
