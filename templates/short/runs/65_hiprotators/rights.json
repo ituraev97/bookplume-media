@@ -1,0 +1,20 @@
+{
+ "gluteal434.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 434: Muscles of the gluteal and posterior femoral regions (right hip from behind; piriformis, gemelli, obturator internus/externus, quadratus femoris). Leaf 474."
+ },
+ "Hip65.tsx (diagram)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "own original illustration",
+  "content": "schematic of the right hip from behind: 6 deep lateral rotators, sciatic nerve"
+ },
+ "audio": {
+  "source_page": "templates/sfx (Kenney CC0) + own synthesized music; voice Kokoro TTS (Apache-2.0)",
+  "author": "Kenney / Book Plume",
+  "license": "CC0 / own",
+  "content": "sfx, music bed, narration"
+ }
+}
