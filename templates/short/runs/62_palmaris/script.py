@@ -1,0 +1,17 @@
+S=[
+("About fifteen percent of people lack this forearm muscle. Palmaris longus.",0.2),
+("Touch your thumb to your pinky and flex your wrist.",0.2),
+("Tendon pops up mid-wrist? You have it.",0.25),
+("Five muscles start at the medial epicondyle.",0.15),
+("Thumb pronator teres.",0.08),
+("Index flexor carpi radialis.",0.08),
+("Middle palmaris longus.",0.08),
+("Ring flexor digitorum superficialis.",0.08),
+("Pinky flexor carpi ulnaris.",0.28),
+("Quick test. Which one is your ring finger?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Flexor digitorum superficialis.",0.25),
+("Save this for your next anatomy exam.",0.3),
+]
