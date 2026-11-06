@@ -167,7 +167,11 @@ def main():
     # 5. thumbnails of the best outliers (to study the packaging); i.ytimg.com may be blocked
     tdir = os.path.splitext(a.out)[0] + "-thumbs"
     thumbs_md = []
-    for v in outliers[: a.thumbs]:
+    picks, seen = [], set()
+    for v in outliers[: a.thumbs] + longs[:3]:  # outliers first, then the most viewed long videos
+        if v["id"] not in seen:
+            seen.add(v["id"]); picks.append(v)
+    for v in picks:
         if not v.get("thumb"):
             continue
         path = os.path.join(tdir, v["id"] + ".jpg")
@@ -188,7 +192,7 @@ def main():
           "## 2b. Niche — Shorts (≤ 3 min), most viewed", table(shorts[:10]), "",
           "## 3. Outliers (views ≥ 3× subscribers, ≥ 10k views; engagement ≥ 3% preferred)", table(outliers[:10]), "",
           "## 4. Top outliers — hook and transcript", *tx, "",
-          "## 5. Thumbnails of the top outliers", *(thumbs_md or ["- none"]), ""]
+          "## 5. Thumbnails (top outliers + 3 most viewed long videos)", *(thumbs_md or ["- none"]), ""]
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     with open(a.out, "w") as f:
         f.write("\n".join(md))
