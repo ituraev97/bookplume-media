@@ -1,0 +1,15 @@
+S=[
+("This is the only bone in your body that touches no other bone.",0.2),
+("The hyoid, in your neck.",0.2),
+("Memory trick: hyoid means U-shaped, like the Greek letter upsilon.",0.2),
+("A body in front, two greater horns, two lesser horns.",0.2),
+("It sits at C three, between your jaw and your larynx,",0.08),
+("held up only by muscles and ligaments.",0.25),
+("Quick test. What does it anchor?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Your tongue.",0.15),
+("The hyoglossus runs from the hyoid straight into it.",0.25),
+("Save this for your next anatomy exam.",0.3),
+]
