@@ -46,3 +46,8 @@
 2026-11-06 | bone marrow makes ~2 million red blood cells per second, RBC lifespan ~100-120 days (Life: The Science of Biology 11e, Macmillan)
 2026-11-06 | Mrs. Winslow's Soothing Syrup: morphine for teething babies, AMA "Baby Killers" in Nostrums and Quackery 1911, sold until ~1930 (Wood Library-Museum of Anesthesiology; State Library of Queensland)
 2026-11-06 | doctors elicited patient agenda in 36% of 112 visits, interrupted ~2/3 of the time after median 11 seconds (Singh Ospina et al., J Gen Intern Med 2018)
+2026-11-07 | don't tilt head back for a nosebleed, lean forward, pinch soft part 10 min (Michigan Medicine)
+2026-11-07 | Radithor radium water, ~400,000 bottles, Eben Byers ~2,800+ oz, died 1932, FTC banned marketing (Popular Science)
+2026-11-07 | enteric nervous system: ~100-600M gut neurons, works autonomously in a dish, 30+ neurotransmitters, "second brain" (Stanford Neurosciences Institute)
+2026-11-07 | mercury pills/elixirs for syphilis, neuropathy, kidney failure, tooth loss; "a night with Venus, a lifetime with Mercury"; penicillin 1943 (Hektoen International)
+2026-11-07 | Surgeon General 2023 loneliness advisory: +29% heart disease, +32% stroke, +50% dementia in older adults, ~half of US adults lonely (ABC7 on HHS advisory)
