@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-brachial-plexus-rtdcb.png",
+  "tag": "STUDY TIP",
+  "headline": "The brachial plexus in 5 easy words",
+  "stat": "5-3-6-3-5",
+  "stat_note": "\"Randy Travis Drinks Cold Beer\"",
+  "body": "R = 5 Roots (C5 to T1)\nT = 3 Trunks\nD = 6 Divisions\nC = 3 Cords\nB = 5 terminal Branches",
+  "source": "Source: StatPearls (NCBI), Anatomy, Brachial Plexus"
+ },
+ {
+  "file": "02-cells-in-body.png",
+  "tag": "BODY FACT",
+  "headline": "How many cells make up your body?",
+  "stat": "37.2 T",
+  "stat_note": "about 37.2 trillion human cells (estimate)",
+  "body": "Researchers added up cell counts organ by organ and tissue by tissue to reach this estimate for an average adult.",
+  "source": "Source: Bianconi et al., Annals of Human Biology, 2013"
+ },
+ {
+  "file": "03-liver-largest-solid-organ.png",
+  "tag": "BODY FACT",
+  "headline": "Your liver is the biggest solid organ inside you",
+  "stat": "3-3.5 lb",
+  "stat_note": "about 1.4 to 1.6 kg, roughly football-sized",
+  "body": "It performs many vital jobs, from cleansing your blood to helping you digest food.",
+  "source": "Source: American Liver Foundation, What Does Your Liver Do?"
+ }
+]
