@@ -30,3 +30,6 @@
 - 2026-11-08: epidermis layers mnemonic "Come Let's Get Sun Burnt" corneum/lucidum/granulosum/spinosum/basale (Cleveland Clinic) — sched 11-08 21:17
 - 2026-11-08: vertebrae 7-12-5 "breakfast at 7, lunch at 12, dinner at 5", 33 total (StatPearls/NCBI) — sched 11-09 02:17
 - 2026-11-08: fingernails grow 3.47 mm/month vs toenails 1.62 mm (Yaemsiri et al. 2010) — sched 11-09 06:17
+- 2026-11-09: brachial plexus mnemonic "Randy Travis Drinks Cold Beer" 5-3-6-3-5 roots/trunks/divisions/cords/branches (StatPearls/NCBI) — sched 11-09 21:17
+- 2026-11-09: ~37.2 trillion cells in the human body (Bianconi et al. 2013) — sched 11-10 02:17
+- 2026-11-09: liver largest solid internal organ, ~3–3.5 lb, football-sized (American Liver Foundation) — sched 11-10 06:17
