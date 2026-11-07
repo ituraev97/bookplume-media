@@ -1,0 +1,15 @@
+S=[
+("Babies are born with about three hundred bones.",0.1),
+("You have two hundred six.",0.2),
+("They didn't vanish. They fused.",0.22),
+("A newborn skull has soft spots, fonta-nells, where the plates haven't joined yet.",0.18),
+("The biggest, the anterior fonta-nell, usually closes by about age two.",0.22),
+("Quick test. Which three bones fuse into one hip bone?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Ilium, ischium and pubis,",0.1),
+("meeting in the hip socket, the acetabulum.",0.2),
+("Trick: you sit on your ischium.",0.22),
+("Save this for your next anatomy exam.",0.3),
+]
