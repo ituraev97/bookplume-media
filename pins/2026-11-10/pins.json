@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-tarsal-bones-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Name all 7 tarsal bones of the foot",
+  "stat": "7",
+  "stat_note": "\"Tiger Cub Needs MILC\"",
+  "body": "T = Talus\nC = Calcaneus\nN = Navicular\nM = Medial cuneiform\nI = Intermediate cuneiform\nL = Lateral cuneiform\nC = Cuboid",
+  "source": "Source: Radiopaedia, Tarsal bones (mnemonic)"
+ },
+ {
+  "file": "02-muscles-600.png",
+  "tag": "BODY FACT",
+  "headline": "How many muscles are in your body?",
+  "stat": "600+",
+  "stat_note": "more than 600 muscles in your body",
+  "body": "They come in 3 types: skeletal (moves your bones), cardiac (only in the heart) and smooth (in organ walls like the stomach).",
+  "source": "Source: Cleveland Clinic, Muscle"
+ },
+ {
+  "file": "03-kidneys-filter-150-quarts.png",
+  "tag": "BODY FACT",
+  "headline": "How much blood do your kidneys filter?",
+  "stat": "150",
+  "stat_note": "almost 150 quarts (about 142 L) a day",
+  "body": "Healthy kidneys filter about half a cup of blood every minute, removing extra water and waste to make urine.",
+  "source": "Source: NIDDK (NIH), The Role of Your Kidneys"
+ }
+]

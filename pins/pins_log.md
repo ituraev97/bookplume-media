@@ -33,3 +33,6 @@
 - 2026-11-09: brachial plexus mnemonic "Randy Travis Drinks Cold Beer" 5-3-6-3-5 roots/trunks/divisions/cords/branches (StatPearls/NCBI) — sched 11-09 21:17
 - 2026-11-09: ~37.2 trillion cells in the human body (Bianconi et al. 2013) — sched 11-10 02:17
 - 2026-11-09: liver largest solid internal organ, ~3–3.5 lb, football-sized (American Liver Foundation) — sched 11-10 06:17
+- 2026-11-10: tarsal bones mnemonic "Tiger Cub Needs MILC" talus/calcaneus/navicular/3 cuneiforms/cuboid (Radiopaedia) — sched 11-10 21:17
+- 2026-11-10: more than 600 muscles, 3 types skeletal/cardiac/smooth (Cleveland Clinic) — sched 11-11 02:17
+- 2026-11-10: kidneys filter almost 150 quarts of blood a day, half a cup a minute (NIDDK) — sched 11-11 06:17
