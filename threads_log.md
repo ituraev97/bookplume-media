@@ -51,3 +51,8 @@
 2026-11-07 | enteric nervous system: ~100-600M gut neurons, works autonomously in a dish, 30+ neurotransmitters, "second brain" (Stanford Neurosciences Institute)
 2026-11-07 | mercury pills/elixirs for syphilis, neuropathy, kidney failure, tooth loss; "a night with Venus, a lifetime with Mercury"; penicillin 1943 (Hektoen International)
 2026-11-07 | Surgeon General 2023 loneliness advisory: +29% heart disease, +32% stroke, +50% dementia in older adults, ~half of US adults lonely (ABC7 on HHS advisory)
+2026-11-08 | hydrogen peroxide on cuts damages healthy tissue, rinse with lukewarm tap water 5-10 min instead (University of Utah Health, Dr. Troy Madsen)
+2026-11-08 | shoe-fitting fluoroscopes 1920s-50s, ~10,000 in US, 16-75 R/min (Detroit 1948), PA ban 1957, 17 states still allowed 1970 (IEEE Spectrum)
+2026-11-08 | hyoid bone has no direct connection to any other bone, "floating bone" (Cleveland Clinic)
+2026-11-08 | Lloyd Manufacturing Cocaine Toothache Drops 1885 "Instantaneous Cure!" (NLM "Pick Your Poison" exhibition)
+2026-11-08 | adherence to long-term therapies averages 50% in developed countries, US hypertension 51% (WHO 2003 report)
