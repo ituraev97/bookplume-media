@@ -1,0 +1,16 @@
+S=[
+("Can you name the muscles your radial nerve supplies?",0.15),
+("One word: beast.",0.3),
+("B, brachioradialis.",0.15),
+("E, the extensors of your wrist and fingers.",0.15),
+("A, abductor pollicis longus.",0.15),
+("S, supinator.",0.15),
+("T, triceps.",0.3),
+("Quick test. Which beast muscle bends your elbow?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Brachioradialis. An elbow flexor, on the radial nerve.",0.2),
+("Rule: radial nerve, back of the arm and forearm.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
