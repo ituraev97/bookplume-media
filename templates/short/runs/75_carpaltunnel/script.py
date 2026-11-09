@@ -1,0 +1,15 @@
+S=[
+("Can you name all ten things inside your carpal tunnel?",0.15),
+("Remember: four, four, one, one.",0.3),
+("Four tendons of flexor digitorum superficialis, on top.",0.15),
+("Four tendons of flexor digitorum profundus, underneath.",0.15),
+("One flexor pollicis longus, for the thumb.",0.15),
+("And one nerve: the median nerve.",0.3),
+("Roof: flexor retinaculum. Floor: carpal bones.",0.3),
+("Quick test. Is the ulnar nerve inside?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("No. It runs outside, through Guyon's canal.",0.2),
+("Save this for your next anatomy exam.",0.3),
+]
