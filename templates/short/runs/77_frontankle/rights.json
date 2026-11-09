@@ -1,0 +1,32 @@
+{
+ "fig437_frontleg.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n480",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 437: Muscles of the front of the leg (recoloured color; 1918 labels incl. 'Trans. crural ligament', 'Cruciate crural ligament')"
+ },
+ "fig553_anttibial.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n635",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 553: Anterior tibial and dorsalis pedis arteries (recoloured color)"
+ },
+ "Ankle77 diagram + all animation": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "own work",
+  "content": "SVG diagram of the front of the ankle, cards, animation"
+ },
+ "voice": {
+  "source_page": "Kokoro TTS (kokoro-onnx, Apache-2.0 model), voice am_michael",
+  "author": "Book Plume",
+  "license": "own synthesis",
+  "content": "narration"
+ },
+ "music + sfx": {
+  "source_page": "own synthesis + templates/sfx (Kenney, CC0)",
+  "author": "Book Plume / Kenney",
+  "license": "own work / CC0",
+  "content": "music bed and sound effects"
+ }
+}
