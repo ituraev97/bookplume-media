@@ -100,15 +100,45 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
 - Pinterest pinTitle ≤ 90 characters (hard limit 100). YouTube title ≤ 95 (hard 100). TikTok title ≤ 90. Pinterest description ≤ 480.
 - Assert len() of every title in your script before posting; shorten by dropping the " | ..." tail first.
 
-## Performance rules (from the 2026-11-06 analytics review — the weekly producer task updates this section)
-Data 26 Oct–5 Nov: Instagram Reels 1.5–2.5k views (best: lumbar plexus 11.7k views, 410 saves, 149 shares — long 6–9-item "cheat-sheet" lists win);
-TikTok stuck at ~270–330 views with AVERAGE WATCH 3–6 s of 45–50 s (hook fails); YouTube Shorts: surprising body facts (800–1250) beat mnemonics (50–470);
-YouTube long 2–21 views; Threads videos 1–12 views (text posts 10–260, history-of-medicine best); Pinterest = top social traffic source in Shopify (59 sessions).
+## Performance rules (weekly producer review, last update 2026-11-09 — the weekly producer task updates this section)
+Data 2–8 Nov (Tashkent dates; previous week 26 Oct–1 Nov in brackets). Full tables: reviews/2026-11-09.md.
+Instagram Reels: 35 reels, median 2,305 views / 53 saves (1,799 / 22), total 123k views (26k). Best: lumbar plexus 18.6k views, 681 saves.
+TikTok: 28 videos, median 294 views (306), avg watch 5 s — flat whatever the length or topic; 99–100% For You, ~0% search.
+YouTube Shorts (Metricool data only to 4 Nov): mnemonic Shorts median 206 (2–348); last week's surprising facts 820–1,257. Long videos 3–8 views.
+Facebook Reels median 166 (132). Threads text median 28 views (17), history-of-medicine posts best (263, 113, 112). Pinterest ~1 impression per pin, but 40 Shopify sessions (26).
+
 - SHORTS LENGTH 20–30 s (script 60–90 words). Cut intros; first spoken sentence = the challenge.
-- FIRST SECOND: huge on-screen challenge text (≤ 7 words, e.g. "90% of nursing students mix these up", "Name all 6 in 5 seconds?") + the plate/diagram already visible. No logo intro.
-- Mnemonic reveal by second 4–6; quick test in the MIDDLE (~60% mark) with a 3-2-1, answer, then 1-line "save this" — the end card ≤ 1.5 s.
+  (Evidence: 26–29 s TikToks kept 17% of the video vs 10% at 44–54 s; views did not change, so length alone does not fix TikTok.)
+- FIRST SECOND: huge on-screen challenge text (≤ 7 words, e.g. "Name all 6 in 5 seconds?") + the plate/diagram already visible. No logo intro.
+- Mnemonic reveal by second 4–6; quick test in the MIDDLE (~60% mark) with a 3-2-1, answer, then 1-line "save this" — end card ≤ 1.5 s.
 - Keywords as on-screen text (TikTok/YouTube search reads it): the structure name + "mnemonic" visible in the first 3 s.
-- Prefer LIST topics with 5–9 items (plexus branches, artery branches, foramina, cranial nerve functions, muscle groups) — they get saved.
-- 17:00 and 01:00 shorts: topic = SURPRISING BODY FACT that still teaches anatomy (e.g. "your stomach replaces its lining every few days" + the structures), not a pure mnemonic.
-- TOPIC DUPLICATES: before choosing, read topics.md AND getScheduledPosts/analytics texts of the last 30 days; reject any topic whose structure already appeared (rotator cuff, tarsal bones, epidermis, vertebrae, cranial nerves, aortic arch, carpal bones were already repeated).
-- Instagram CAROUSEL (22:00 run only): render 6 slides 1080x1350 (cover challenge → 4 cheat-sheet slides → "save + bookplume.com" slide) as stills from the same scenes; post as Instagram POST with 6 images at 13:00 Tashkent next day.
+- LIST TOPICS WITH 5–9 ITEMS win saves: 5–9-item lists median 3,540 IG views / 89 saves (n=12) vs 2–4 items 2,724 / 66 (n=10). Saves track views almost 1:1 (r = 0.99).
+- NEW 2026-11-09 — TOPIC TYPE: prefer BRANCHES / CONTENTS / MUSCLE-GROUP lists of the limbs, trunk and vessels (nerve plexus branches, artery branches,
+  "what passes through X", muscle groups with one shared action): median 4.5k IG views (n=15; lumbar plexus 18.6k, hip rotators 7.9k, axillary 7.5k,
+  intertubercular groove 6.6k, diaphragm openings 6.4k, brachial plexus 5.3k). Bone / organ / layer lists median 2.3k (n=7: ribs, ossicles, cranial bones, lung lobes, meninges).
+- CHANGED 2026-11-09 — SURPRISING FACTS: the "17:00 and 01:00 = surprising fact" rule is withdrawn for 17:00. Pure facts on Instagram: median 1,804 views /
+  11 saves (n=8: alveoli 1.3k/8, babies-300-bones 1.8k/7, hyoid 2.3k/26) vs lists 3,304 / 82 (n=22). The 17:00 slot (Instagram trial reel) with a list gave
+  18.6k, 6.4k, 5.3k; with a fact 1.3k, 2.1k, 2.3k. Now: 17:00 = the strongest 5–9-item branches/contents list of the day. 01:00 may stay a surprising fact
+  (it helped YouTube Shorts last week: 820–1,257 views vs mnemonics ≤ 470), but frame it as a list with a mnemonic ("3 bones fuse into 1 — name them").
+- NEW 2026-11-09 — UTM CHECK: Shopify saw 0 sessions with our utm_campaign values this week (Pinterest/Instagram visits arrive untagged), so tracking is broken.
+  Before every createScheduledPost assert in code that pinLink and every YouTube description link contains "utm_source=" AND "utm_campaign=" (format in products.md).
+- TOPIC DUPLICATES: before choosing, read topics.md AND getScheduledPosts/analytics texts of the last 30 days; reject any topic whose structure already appeared.
+  Short-caption reposts of old topics (aortic arch, vertebrae, epidermis, femoral triangle, cranial nerves) did not beat new lists (median 2,294 vs 3,304) — always make a new topic.
+- Instagram CAROUSEL (22:00 run only): render 6 slides 1080x1350 (cover challenge → 4 cheat-sheet slides → "save + bookplume.com" slide) as stills from the same scenes;
+  post as Instagram POST with 6 images at 13:00 Tashkent next day. (So far 3 carousels: 792–1,085 views, 4–17 saves — below reels; keep testing, judge at n ≥ 5.)
+
+### Topic ideas next week (follow the winning pattern; none is in topics.md yet)
+1. Anterior leg compartment, front of the ankle (Tom Hates Dick And Nervous Pigs: tibialis anterior, ext. hallucis longus, anterior tibial artery, ext. digitorum longus, deep fibular nerve, fibularis tertius) — partner of the tarsal tunnel short
+2. Muscles supplied by the radial nerve (BEAST: brachioradialis, extensors, abductor pollicis longus, supinator, triceps)
+3. Medial thigh / adductor group, 5 muscles + obturator nerve (pectineus, adductor longus, brevis, magnus, gracilis) — follow-up to the lumbar plexus hit
+4. Circle of Willis: the 7–9 vessels of the ring
+5. 9 layers of the anterior abdominal wall, skin to peritoneum (what a needle passes through)
+6. Coronary arteries and their branches (RCA → marginal, PDA; LCA → LAD, circumflex)
+7. Branches of the abdominal aorta (paired vs unpaired, top to bottom)
+8. Contents of the carotid sheath (common/internal carotid, internal jugular vein, vagus nerve)
+9. 8 endocrine glands, head to pelvis
+10. 4 paranasal sinuses (frontal, ethmoid, sphenoid, maxillary) — which one drains where (anatomy only, no symptoms)
+
+### Changelog
+- 2026-11-06: first rules from the 26 Oct–5 Nov analytics review.
+- 2026-11-09: producer review — withdrew "17:00 = surprising fact" (facts 1.8k vs lists 3.3k IG views), added branches/contents topic-type rule, added UTM assert; numbers updated.
