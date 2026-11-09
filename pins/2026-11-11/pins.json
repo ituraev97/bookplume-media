@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-cranial-bones-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Name the 8 cranial bones of the skull",
+  "stat": "8",
+  "stat_note": "\"Old People From Texas Eat Spiders\"",
+  "body": "O = Occipital\nP = Parietal (2)\nF = Frontal\nT = Temporal (2)\nE = Ethmoid\nS = Sphenoid",
+  "source": "Source: Cleveland Clinic, Skull: Anatomy & Function"
+ },
+ {
+  "file": "02-lung-lobes.png",
+  "tag": "BODY FACT",
+  "headline": "Why your two lungs aren't twins",
+  "stat": "3 vs 2",
+  "stat_note": "lobes in the right lung vs the left lung",
+  "body": "Right: superior, middle and inferior lobes. Left: superior and inferior, with a cardiac notch that makes room for your heart.",
+  "source": "Source: Cleveland Clinic, Lungs"
+ },
+ {
+  "file": "03-blood-volume.png",
+  "tag": "BODY FACT",
+  "headline": "How much blood is in your body?",
+  "stat": "~5 L",
+  "stat_note": "adult male average (females: about 4 L)",
+  "body": "Blood makes up about 8% of your body weight. Plasma is about 55% of it, red blood cells about 44%.",
+  "source": "Source: Cleveland Clinic, Blood"
+ }
+]
