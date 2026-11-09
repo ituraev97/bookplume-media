@@ -56,3 +56,8 @@
 2026-11-08 | hyoid bone has no direct connection to any other bone, "floating bone" (Cleveland Clinic)
 2026-11-08 | Lloyd Manufacturing Cocaine Toothache Drops 1885 "Instantaneous Cure!" (NLM "Pick Your Poison" exhibition)
 2026-11-08 | adherence to long-term therapies averages 50% in developed countries, US hypertension 51% (WHO 2003 report)
+2026-11-09 | left-brain/right-brain personality is a myth: 1,000+ brain scans, no hemisphere dominance (Nielsen, Anderson et al., Univ. of Utah, PLoS ONE 2013)
+2026-11-09 | Burke and Hare 1828 Edinburgh: 16 murders, bodies sold to anatomist Robert Knox (£7 10s first), Burke hanged and dissected, skeleton at Edinburgh Anatomy Museum, Anatomy Act 1832 (Popular Science)
+2026-11-09 | mammalian diving reflex: cold water on face + breath-hold → bradycardia via trigeminal/vagus, peripheral vasoconstriction (StatPearls, NCBI NBK538245)
+2026-11-09 | FDA cleared medicinal leeches as a medical device June 2004 (Ricarimpex), used mainly after limb/finger reattachment (News-Medical 2004)
+2026-11-09 | ~1 in 3 US adults sleep <7 h; linked to obesity, diabetes, hypertension, heart disease, stroke, mental distress (CDC 2016, BRFSS 2014)
