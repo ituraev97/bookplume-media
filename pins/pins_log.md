@@ -36,3 +36,6 @@
 - 2026-11-10: tarsal bones mnemonic "Tiger Cub Needs MILC" talus/calcaneus/navicular/3 cuneiforms/cuboid (Radiopaedia) — sched 11-10 21:17
 - 2026-11-10: more than 600 muscles, 3 types skeletal/cardiac/smooth (Cleveland Clinic) — sched 11-11 02:17
 - 2026-11-10: kidneys filter almost 150 quarts of blood a day, half a cup a minute (NIDDK) — sched 11-11 06:17
+- 2026-11-11: cranial bones mnemonic "Old People From Texas Eat Spiders" occipital/parietal×2/frontal/temporal×2/ethmoid/sphenoid (Cleveland Clinic) — sched 11-11 21:17
+- 2026-11-11: lung lobes right 3 vs left 2, cardiac notch (Cleveland Clinic) — sched 11-12 02:17
+- 2026-11-11: blood volume ~5 L men / ~4 L women, 8% body weight, plasma 55% (Cleveland Clinic) — sched 11-12 06:17
