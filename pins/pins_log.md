@@ -39,3 +39,6 @@
 - 2026-11-11: cranial bones mnemonic "Old People From Texas Eat Spiders" occipital/parietal×2/frontal/temporal×2/ethmoid/sphenoid (Cleveland Clinic) — sched 11-11 21:17
 - 2026-11-11: lung lobes right 3 vs left 2, cardiac notch (Cleveland Clinic) — sched 11-12 02:17
 - 2026-11-11: blood volume ~5 L men / ~4 L women, 8% body weight, plasma 55% (Cleveland Clinic) — sched 11-12 06:17
+- 2026-11-12: scalp layers mnemonic SCALP skin/connective tissue/aponeurosis/loose areolar/pericranium (StatPearls/NCBI) — sched 11-12 21:17
+- 2026-11-12: ~95% of photoreceptors are rods, 100–125 million; rods dim light, cones color (Cleveland Clinic) — sched 11-13 02:17
+- 2026-11-12: adult spinal cord ends at L1–L2, conus medullaris/cauda equina (TTUHSC El Paso; Cleveland Clinic) — sched 11-13 06:17
