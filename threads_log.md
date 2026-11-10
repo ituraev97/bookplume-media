@@ -61,3 +61,8 @@
 2026-11-09 | mammalian diving reflex: cold water on face + breath-hold → bradycardia via trigeminal/vagus, peripheral vasoconstriction (StatPearls, NCBI NBK538245)
 2026-11-09 | FDA cleared medicinal leeches as a medical device June 2004 (Ricarimpex), used mainly after limb/finger reattachment (News-Medical 2004)
 2026-11-09 | ~1 in 3 US adults sleep <7 h; linked to obesity, diabetes, hypertension, heart disease, stroke, mental distress (CDC 2016, BRFSS 2014)
+2026-11-10 | coffee isn't dehydrating for habitual drinkers: 50 men, 4x200 mL/day for 3 days vs water, no difference in total body water or 24-h urine (Killer, Blannin & Jeukendrup, PLoS ONE 2014)
+2026-11-10 | Ambroise Paré (army 1537) ran out of boiling oil for gunshot wounds, used egg yolk/rose oil/turpentine, his patients did better; published 1545 (Britannica; Delaware Academy of Medicine)
+2026-11-10 | blind spot: optic disc (~1.5 mm) has no rods/cones, brain fills in, other eye covers it (Britannica)
+2026-11-10 | prehistoric trepanation: 800+ trepanned skulls recorded, healed bone shows survival, >90% survival in parts of Europe (Discover Magazine)
+2026-11-10 | 48.1% of US adults have high blood pressure, ~22.5% (1 in 4) controlled, ~1 in 6 unaware (CDC High Blood Pressure Facts)
