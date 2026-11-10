@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-scalp-layers-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Name the 5 layers of the scalp",
+  "stat": "5",
+  "stat_note": "The word itself is the mnemonic: SCALP",
+  "body": "S = Skin\nC = Connective tissue (dense)\nA = Aponeurosis (galea aponeurotica)\nL = Loose areolar connective tissue\nP = Pericranium",
+  "source": "Source: StatPearls (NCBI), Anatomy, Head and Neck, Scalp"
+ },
+ {
+  "file": "02-rods-95-percent.png",
+  "tag": "BODY FACT",
+  "headline": "Most of your eye's light sensors can't see color",
+  "stat": "95%",
+  "stat_note": "of photoreceptors are rods: 100–125 million",
+  "body": "Rods help you see in dim light but detect no color. Cones need brighter light and handle color and detail; most sit in the macula.",
+  "source": "Source: Cleveland Clinic, Photoreceptors (Rods & Cones)"
+ },
+ {
+  "file": "03-spinal-cord-ends-L1-L2.png",
+  "tag": "BODY FACT",
+  "headline": "Your spinal cord is shorter than your spine",
+  "stat": "L1–L2",
+  "stat_note": "where the adult spinal cord ends",
+  "body": "The vertebral column grows faster than the spinal cord. The cord tapers into the conus medullaris, and the nerve roots below it form the cauda equina.",
+  "source": "Source: TTUHSC El Paso Gross Anatomy; Cleveland Clinic"
+ }
+]
