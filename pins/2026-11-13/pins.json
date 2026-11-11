@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-cranial-nerve-functions-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Cranial nerves: sensory, motor or both?",
+  "stat": "S·M·B",
+  "stat_note": "Some Say Marry Money But My Brother Says Big Brains Matter More",
+  "body": "Sensory: I, II, VIII\nMotor: III, IV, VI, XI, XII\nBoth: V, VII, IX, X",
+  "source": "Source: Radiopaedia, Cranial nerves (mnemonic)"
+ },
+ {
+  "file": "02-teeth-20-vs-32.png",
+  "tag": "BODY FACT",
+  "headline": "Kids have 20 teeth. Adults have 32.",
+  "stat": "32",
+  "stat_note": "permanent teeth in most adults",
+  "body": "Most children have 20 primary (baby) teeth. Most adults have 8 incisors, 4 canines, 8 premolars and 12 molars.",
+  "source": "Source: Cleveland Clinic, Teeth"
+ },
+ {
+  "file": "03-hands-feet-106-bones.png",
+  "tag": "BODY FACT",
+  "headline": "More than half your bones are in your hands and feet",
+  "stat": "106",
+  "stat_note": "bones in both hands and feet together",
+  "body": "Each hand has 27 bones and each foot has 26. Together that's 106 of your 206 bones.",
+  "source": "Source: Cleveland Clinic, 15 Fun Facts About Bones"
+ }
+]
