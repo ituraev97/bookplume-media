@@ -66,3 +66,8 @@
 2026-11-10 | blind spot: optic disc (~1.5 mm) has no rods/cones, brain fills in, other eye covers it (Britannica)
 2026-11-10 | prehistoric trepanation: 800+ trepanned skulls recorded, healed bone shows survival, >90% survival in parts of Europe (Discover Magazine)
 2026-11-10 | 48.1% of US adults have high blood pressure, ~22.5% (1 in 4) controlled, ~1 in 6 unaware (CDC High Blood Pressure Facts)
+2026-11-11 | sitting close to the TV doesn't damage vision, may cause eye strain/headache; habitual close sitting may signal nearsightedness (American Academy of Ophthalmology)
+2026-11-11 | Clark Stanley's Snake Oil Liniment seized/tested 1917, no snake oil; mineral oil, beef fat, chili pepper, turpentine; reportedly $20 fine under Pure Food and Drug Act (Smithsonian Magazine)
+2026-11-11 | ears keep lengthening with age, ~0.22 mm/year, 206 adults aged 30-93, cross-sectional (Heathcote, BMJ 1995)
+2026-11-11 | asthma cigarettes (stramonium) in Western medicine from 1802, "recommended by eminent physicians", sold into the 1980s, phased out over abuse/overdose (Australian Pharmacist)
+2026-11-11 | ~30M US adults have obstructive sleep apnea, ~80% undiagnosed; linked to heart disease, type 2 diabetes, depression (AASM)
