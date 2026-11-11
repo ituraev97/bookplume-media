@@ -1,0 +1,68 @@
+{
+ "palm427.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 427: The muscles of the left hand. Palmar surface (recoloured color)"
+ },
+ "dors428.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n464",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 428: The Interossei dorsales of left hand (recoloured color)"
+ },
+ "palm429.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n464",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 429: The Interossei volares of left hand (recoloured color)"
+ },
+ "nerves815.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n938",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 815: Superficial palmar nerves (Testut), as reproduced in Gray's 1918 (recoloured color; page text strip cropped)"
+ },
+ "fore415.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 415: Front of the left forearm. Deep muscles (recoloured color)"
+ },
+ "thumb426.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 426: The muscles of the thumb (recoloured color; caption cropped, the edge leader label 'Pisometacarpal lig.' outside the drawing painted out with paper colour)"
+ },
+ "wrist422.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n456",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 422: Transverse section across the wrist and digits (recoloured color)"
+ },
+ "diagrams": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "own work (SVG animation)",
+  "content": "schematic palm, finger spread, finger side-view, loaf and earthworm icons"
+ },
+ "sfx": {
+  "source_page": "https://kenney.nl",
+  "author": "Kenney (interface sounds)",
+  "license": "CC0 1.0",
+  "content": "tick, pop, ding, question, maximize, pluck"
+ },
+ "music": {
+  "source_page": "own work",
+  "author": "Book Plume (synthesized in audio.py)",
+  "license": "own work",
+  "content": "calm pad + pluck bed, no drums"
+ },
+ "voice": {
+  "source_page": "own work",
+  "author": "Kokoro TTS am_michael (Apache-2.0 model)",
+  "license": "Apache-2.0 model, own script",
+  "content": "narration"
+ }
+}
