@@ -42,3 +42,6 @@
 - 2026-11-12: scalp layers mnemonic SCALP skin/connective tissue/aponeurosis/loose areolar/pericranium (StatPearls/NCBI) — sched 11-12 21:17
 - 2026-11-12: ~95% of photoreceptors are rods, 100–125 million; rods dim light, cones color (Cleveland Clinic) — sched 11-13 02:17
 - 2026-11-12: adult spinal cord ends at L1–L2, conus medullaris/cauda equina (TTUHSC El Paso; Cleveland Clinic) — sched 11-13 06:17
+- 2026-11-13: cranial nerve functions mnemonic "Some Say Marry Money But My Brother Says Big Brains Matter More" S/M/B (Radiopaedia) — sched 11-13 21:17
+- 2026-11-13: teeth 20 primary vs 32 permanent, 8 incisors/4 canines/8 premolars/12 molars (Cleveland Clinic) — sched 11-14 02:17
+- 2026-11-13: hands + feet hold 106 of 206 bones, 27 per hand / 26 per foot (Cleveland Clinic) — sched 11-14 06:17
