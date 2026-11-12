@@ -71,3 +71,8 @@
 2026-11-11 | ears keep lengthening with age, ~0.22 mm/year, 206 adults aged 30-93, cross-sectional (Heathcote, BMJ 1995)
 2026-11-11 | asthma cigarettes (stramonium) in Western medicine from 1802, "recommended by eminent physicians", sold into the 1980s, phased out over abuse/overdose (Australian Pharmacist)
 2026-11-11 | ~30M US adults have obstructive sleep apnea, ~80% undiagnosed; linked to heart disease, type 2 diabetes, depression (AASM)
+2026-11-12 | regular vitamin C doesn't cut cold incidence in general population (RR 0.97), shortens colds ~8% adults/14% kids, ~halves risk under heavy physical stress (Hemilä & Chalker, Cochrane 2013)
+2026-11-12 | John Snow 1854 Broad Street cholera: ~500 deaths in 10 days, pump handle removed, leaky sewer; miasma believed, theory accepted after 1866 outbreak (London Museum)
+2026-11-12 | liver regrows: living donors give a lobe, donor liver back to full size in 2-3 months, recipient's piece grows too (Cleveland Clinic)
+2026-11-12 | Laennec 1816 invented stethoscope, rolled paper tube, too embarrassed for immediate auscultation on young woman (Museum of Health Care, Kingston)
+2026-11-12 | ~795,000 Americans/yr die (~371k) or permanently disabled (~424k) from diagnostic error, stroke missed 17.5% (Newman-Toker et al., BMJ Qual Saf 2023; Johns Hopkins)
