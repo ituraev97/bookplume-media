@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-small-intestine-parts-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Small intestine: its 3 parts in order",
+  "stat": "D\u00b7J\u00b7I",
+  "stat_note": "Dow Jones Industrial",
+  "body": "Duodenum: first, about 10 inches\nJejunum: middle, about 8 feet\nIleum: last and longest section",
+  "source": "Source: Cleveland Clinic, Small Intestine"
+ },
+ {
+  "file": "02-saliva-1-5-liters.png",
+  "tag": "BODY FACT",
+  "headline": "You make up to 1.5 liters of saliva a day",
+  "stat": "1.5 L",
+  "stat_note": "upper end of daily saliva in most adults",
+  "body": "Salivary glands make about 0.5 to 1.5 liters (2 to 6.3 cups) a day. Saliva is 99% water; the rest is proteins and electrolytes.",
+  "source": "Source: Cleveland Clinic, Saliva"
+ },
+ {
+  "file": "03-tongue-8-muscles.png",
+  "tag": "BODY FACT",
+  "headline": "Your tongue is run by 8 pairs of muscles",
+  "stat": "8",
+  "stat_note": "pairs: 4 extrinsic + 4 intrinsic",
+  "body": "Extrinsic muscles move the tongue; intrinsic muscles change its shape. All get the hypoglossal nerve (CN XII) except palatoglossus (CN X).",
+  "source": "Source: Kenhub, Muscles of the tongue"
+ }
+]
