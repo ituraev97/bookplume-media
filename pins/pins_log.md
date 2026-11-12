@@ -45,3 +45,6 @@
 - 2026-11-13: cranial nerve functions mnemonic "Some Say Marry Money But My Brother Says Big Brains Matter More" S/M/B (Radiopaedia) — sched 11-13 21:17
 - 2026-11-13: teeth 20 primary vs 32 permanent, 8 incisors/4 canines/8 premolars/12 molars (Cleveland Clinic) — sched 11-14 02:17
 - 2026-11-13: hands + feet hold 106 of 206 bones, 27 per hand / 26 per foot (Cleveland Clinic) — sched 11-14 06:17
+- 2026-11-14: small intestine parts mnemonic "Dow Jones Industrial" duodenum ~10 in/jejunum ~8 ft/ileum longest (Cleveland Clinic) — sched 11-14 21:17
+- 2026-11-14: saliva 0.5–1.5 L a day, 99% water (Cleveland Clinic) — sched 11-15 02:17
+- 2026-11-14: tongue 8 pairs of muscles, 4 extrinsic + 4 intrinsic, CN XII except palatoglossus CN X (Kenhub) — sched 11-15 06:17
