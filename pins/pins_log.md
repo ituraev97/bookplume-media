@@ -48,3 +48,6 @@
 - 2026-11-14: small intestine parts mnemonic "Dow Jones Industrial" duodenum ~10 in/jejunum ~8 ft/ileum longest (Cleveland Clinic) — sched 11-14 21:17
 - 2026-11-14: saliva 0.5–1.5 L a day, 99% water (Cleveland Clinic) — sched 11-15 02:17
 - 2026-11-14: tongue 8 pairs of muscles, 4 extrinsic + 4 intrinsic, CN XII except palatoglossus CN X (Kenhub) — sched 11-15 06:17
+- 2026-11-15: heart sounds auscultation mnemonic "APE To Man" aortic/pulmonic/Erb's point/tricuspid/mitral, 2nd–5th ICS (Osmosis; Kenhub) — sched 11-15 21:17
+- 2026-11-15: brain ~2% of body weight, uses nearly 20% of oxygen intake (Vanderbilt University Medical Center) — sched 11-16 02:17
+- 2026-11-15: ~5 million hair follicles, >100,000 on the head, scalp hair can grow >1 m (Cleveland Clinic) — sched 11-16 06:17
