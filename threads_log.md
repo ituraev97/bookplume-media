@@ -76,3 +76,7 @@
 2026-11-12 | liver regrows: living donors give a lobe, donor liver back to full size in 2-3 months, recipient's piece grows too (Cleveland Clinic)
 2026-11-12 | Laennec 1816 invented stethoscope, rolled paper tube, too embarrassed for immediate auscultation on young woman (Museum of Health Care, Kingston)
 2026-11-12 | ~795,000 Americans/yr die (~371k) or permanently disabled (~424k) from diagnostic error, stroke missed 17.5% (Newman-Toker et al., BMJ Qual Saf 2023; Johns Hopkins)
+2026-11-13 | "Waterloo teeth": dentures with teeth from soldiers killed at Waterloo (50,000+ dead flooded the market); human teeth otherwise from mortuaries, gallows, grave robbers (Royal College of Surgeons of Edinburgh museum)
+2026-11-13 | peeing on a jellyfish sting doesn't help and can worsen pain; rinse with seawater, remove tentacles, hot water 40-45°C, vinegar for some species (Cleveland Clinic)
+2026-11-13 | Denis 1667: ~12 oz lamb's blood into feverish young man, later patients died, murder accusation, cleared, transfusions banned ~180 years (Britannica)
+2026-11-13 | most of the adult skeleton is replaced about every 10 years via remodeling (Surgeon General's Report on Bone Health 2004, NCBI NBK45504)
