@@ -5,7 +5,8 @@ Everything here runs in a fresh cloud container. Work in /home/claude/work.
 ## CONTENT BRIEF (owner's rules, full text in BRIEF_RU.md — read it; these rules beat anything else in this file)
 - Audience: med students, nurses, nursing students, anyone learning anatomy. Content = ANATOMY STUDY: one fact / mnemonic / exam-style question
   per short (how to remember the carpal bones, 12 cranial nerves, pulmonary vs systemic circulation, heart valves, rotator cuff, brachial plexus…).
-  Long = "Learn <topic> in 10 minutes" lessons, 8–12 min, using our study cards as the learning aid.
+  Long (owner decision 2026-11-14: 4 per week, two formats — see "LONG FORMATS" below): QUIZ videos ("Can You Name…? Anatomy Quiz", template quiz/)
+  and "What Happens in Your Body When…" process stories (template long/). The old dry "Learn <topic> in 10 minutes" lesson format is retired (4–9 views each).
 - Images: ONLY public domain / open licence. Default source = Gray's Anatomy 1918 via tools/gray1918.py (reachable + verified PD).
   Other allowed sources (each file's rights field must be read): Wikimedia Commons (PD or CC; often 429 — wait 60 s+ between requests, UA "BookPlumeBot/1.0 (https://bookplume.com)"),
   Internet Archive (PD scans), DVIDS (only "Public Domain"; mp4 links on d34w7g4gy10iej.cloudfront.net) — CDC PHIL, NASA, NIH/NLM/NCI/NIGMS and Flickr are NOT reachable from the container.
@@ -23,7 +24,7 @@ Everything here runs in a fresh cloud container. Work in /home/claude/work.
   (no publisher images, no mockups); end card mentions "Book Plume study cards" + link in the description/pin only.
 - Music: own synthesized only (audio_example.py), low under the voice. No other platforms' watermarks.
 - Platforms: TikTok Shop video 9:16 15–60 s, product in frame in the first 3 s, product link attached (only possible in the TikTok app → see 5.3);
-  YouTube Shorts / Reels 9:16 15–60 s; YouTube long 16:9 8–12 min, chapters, sources in description, not made for kids;
+  YouTube Shorts / Reels 9:16 15–60 s; YouTube long 16:9 (quiz 8–11 min, what-happens 6–10 min), chapters, sources in description, not made for kids;
   Pinterest: video pin + a 1000x1500 static pin (Pin composition), keyword title ("anatomy flashcards", "nursing school study tips"), pinLink = matching product from products.md.
 
 ## 0. Setup (every run)
@@ -44,12 +45,55 @@ Research with WebSearch/WebFetch (OpenStax Anatomy & Physiology 2e, NCBI StatPea
 Write numbers as words for the voice. Short: hook question in the first second ("Can you name all 8 carpal bones?"), the mnemonic/fact, a quick self-test ("Pause and name the one we skipped"), CTA "Save this for your next exam" + "Follow Book Plume for anatomy you'll actually remember."
 Mnemonics: use well-known, clean ones (e.g. "Some Lovers Try Positions That They Can't Handle" is NOT ok — use "Sally Left The Party To Take Cathy Home"). Long: lesson structure (what you'll learn → parts → how they connect → memory tricks → 5-question quiz → recap).
 
-## 2. Voice (Kokoro, voice am_michael)
+## 2. Voice (Kokoro, voice am_michael) — OWNER DECISION 2026-11-14: keep this exact sound ("A": speed 1.15 + atempo 1.08, one sentence per call).
+The owner compared it with slower/paragraph versions and chose it. Never change voice, speed or method. tools/tts.py does the same "A" sound for quiz/long scripts
+(STYLE "A" is its default) and also writes per-sentence timings — quiz_build.py uses it. Shorts keep synth_short.py, WHAT HAPPENS long videos keep synth_long.py (both unchanged).
+Script wording (anti "AI slop"): talk like a tutor, short concrete sentences, contractions; never "Let's dive in", "In today's video", "Buckle up", "Here's the thing",
+"fascinating", "mind-blowing", "game-changer", "journey", "delve", "unlock the secrets"; no three-adjective lists; no fake suspense lines.
 - Short: script.py with `S=[(sentence, pause), ...]` → `python3 tools/synth_short.py script.py vo.wav segs.json` (speed 1.15 + atempo 1.08).
 - Long: script.py with `CH=[chapter titles]` and `S=[(chapter_idx, sentence, pause), ...]` → `python3 tools/synth_long.py script.py vo.wav segs.json` (speed 1.1; writes chapter start times).
 - Word timing: `python3 tools/align_any.py vo.wav segs.json words.json extra_dict.txt` (extra_dict lines: `word PH ON EM ES` for unknown words).
 - Then write src/words.ts (`export const WORDS = [...]`), turning number-words into digits for display.
 - Normalize voice: `ffmpeg -i vo.wav -af "highpass=f=70,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=80,loudnorm=I=-16:TP=-1.5" -ac 1 -ar 44100 voice_final.wav`
+
+## LONG FORMATS (owner decision 2026-11-14, from the YouTube competitor analysis: small anatomy channels break out with quizzes —
+## "Can You Pass This Human Body Quiz?" 225k views on a 2.6k channel — and "What happens when…" process videos — "How Digestion Works" 1.3M;
+## our "lesson" videos got 4–9 views)
+Schedule: 4 long videos a week. Mon + Fri runs = QUIZ, Wed + Sun runs = WHAT HAPPENS. Publish 00:00 Tashkent next day (US afternoon).
+QUIZ (template quiz/vid, data from one quiz.py — example quiz/example_quiz.py, a short 8-question test version):
+- 20–28 questions, 3–4 levels that get harder (Warm-up → Medium → Hard → Expert), 8–11 min. One body region or system per video
+  (hand & wrist bones, skull bones, heart, brachial plexus, muscles of the arm, cranial nerves, bones of the foot…), not repeated (topics.md).
+- Every question = a plate + red pin on ONE structure + 4 options from the same region (plausible distractors) + 5-second countdown + reveal with a
+  1–2 sentence explanation that teaches something (function, memory trick, why it matters on exams). Mix "Name this bone/muscle/nerve" with
+  "Which nerve supplies the muscle we're pointing at?" style questions. Every fact verified (sources in the description).
+- Printed 1918 labels: list EVERY printed name visible in the zoomed frame that could give away this answer or another option in `hide` (tight boxes around the
+  name words only — big boxes hide the bones); `open` = the target's own label box(es). Old 1918 names → `old`.
+- Build: `python3 tools/quiz_build.py quiz.py vid` (voice + alignment + quizdata.ts + words.ts + timeline.ts + chapters.txt), then stills: for EVERY question
+  one still at tCount+1 (stickers must cover the names, pin on the right structure) and one at tReveal+1.5 (label next to the pin, correct option green);
+  plus intro, each level card, CTA, outro. Fix and re-check. Thumbnail: `node thumb.mjs ../thumb.jpg` (QuizThumb: zoomed plate + red circle + "?" + 2–4 huge words + "0/N?").
+- Sound: `python3 quiz/audio_quiz.py` (all times from quiz.json) → loudnorm → encode_final.sh.
+- Title (≤ 70): honest challenge, e.g. "Can You Name All 27 Bones of the Hand? (Anatomy Quiz)", "Anatomy Quiz: Name These 25 Muscles", "Cranial Nerves Quiz — How Many Can You Get?".
+  Description: what's covered, chapters (chapters.txt), "Study with: <collection with UTM>", sources, image credits. Pin a comment-style question in the description end: "Comment your score".
+WHAT HAPPENS (template long/vid, ScenesCold/IllusCold = the reference — it is already this format):
+- "What Happens in Your Body When You <everyday moment>": swallow, sneeze, hold your breath, cut your finger (healing, no gore), break a bone (healing, no wounds),
+  run a mile, fall asleep, get goosebumps, eat something spicy, stand up too fast, crack your knuckles, hiccup… 6–10 min, told as a timeline (second by second /
+  minute by minute / day by day), each step naming the real structures on plates + our own SVG diagrams. Physiology for study — no advice, no diagnosis.
+- Title: "What Happens in Your Body When You <X>" or "What Happens When You <X>? (Second by Second)". Thumbnail: plate/diagram + "WHAT HAPPENS WHEN YOU <X>" + a time stamp.
+Both formats: end with the flash-card CTA (voice + card), "comment your score/question", and the next video suggestion line.
+
+## THUMBNAILS & COVERS — "BEAST" STYLE (owner 2026-11-14: "превью максимально яркие" — maximum brightness, act like a view-farming specialist)
+Applies to every YouTube long thumbnail, Shorts/Reels/TikTok cover and Pinterest pin. Reference: quiz/vid QuizThumb (render it to see).
+- Background: saturated yellow→orange radial gradient with white sunburst rays (or hot red / electric blue for variety — never paper/cream, never dark green).
+  The muted brand palette is for the video itself; thumbnails are allowed to scream.
+- ONE focal object, huge: the plate crop punched up with CSS filter contrast(1.3–1.4) saturate(1.8–2), black 10 px frame + white rim, slight tilt (−3°),
+  the target structure tinted yellow inside a glowing RED circle (16 px, white rims) + a fat red arrow with a black outline pointing at it.
+- Text: 2–3 words max, 110–140 px, white fill, 14–16 px black outline (paint-order stroke), hard 8 px black drop shadow; the key word in a red box with a black border.
+  Words must be a question or a challenge that matches the title ("NAME THIS BONE?", "WHAT HAPPENS?", "ONLY 3 SECONDS"). Never fake stats ("99% fail") — challenges are fine.
+- A red rotated sticker with the score/number ("0/25?", "3 SEC", "STEP 1→6").
+- Hide the answer on the thumbnail (sticker or "?"), so the click is the only way to find out.
+- Check at 168x94 (YouTube phone list) and 270x480 (TikTok grid): the words and the red circle must still read. Make 2 variants (different words/colour) for Test & Compare.
+- Shorts covers: same recipe vertically — the plate with red circle + arrow in the middle third, 2–3 outlined words on top, all inside y 280–1640.
+- Pinterest pins: same loud recipe in 1000x1500 (question headline at the top, plate with pin, "Answer + flashcards → bookplume.com" at the bottom).
 
 ## 3. Picture
 - Short (1080x1920): template short/vid. Chrome.tsx = header + chapter bar + word-by-word subtitles (edit CHAPTERS, END, header subtitle, KEY words). Write a new Scenes file (+ Illus/diagram file) for the topic, import it in Composition.tsx. REFERENCE EXAMPLE for the anatomy format = Scenes14.tsx + Wrist14.tsx (carpal bones: plate push-in hook, own SVG diagram lit word-by-word, mnemonic card, plate with modern label + '1918 atlas name' note, quick-test countdown, answer, save card, end card); its script = example_anatomy_script.py, sound = audio_anatomy_example.py, rights = example_rights.json. Match or beat its quality. Safe zone: content x 70–930, y 470–1410.
@@ -127,8 +171,20 @@ Facebook Reels median 166 (132). Threads text median 28 views (17), history-of-m
 - Instagram CAROUSEL (22:00 run only): render 6 slides 1080x1350 (cover challenge → 4 cheat-sheet slides → "save + bookplume.com" slide) as stills from the same scenes;
   post as Instagram POST with 6 images at 13:00 Tashkent next day. (So far 3 carousels: 792–1,085 views, 4–17 saves — below reels; keep testing, judge at n ≥ 5.)
 
+- NEW 2026-11-14 (owner decisions after the competitor review, approved "да"):
+  • QUIZ HOOK FOR TIKTOK/SHORTS: the first 4 seconds are a one-question quiz — plate with a red pin on ONE structure, huge text "Name this in 3 seconds",
+    3-2-1, reveal — then the list/mnemonic. Reason: TikTok viewers leave after 3–8 s whatever the length; a question on frame 1 gives a reason to stay and rewatch.
+  • When a long QUIZ on the same region exists (topics.md "long" lines), the Short's last line + end card say "Full quiz on our channel" (YouTube text also names it).
+  • INSTAGRAM CAROUSEL = QUIZ CAROUSEL: slide 1 "Can you name all N?" with numbered pins on the plate, slides 2–5 one structure each with its pin and the answer
+    hidden behind a sticker ("swipe for the answer"), slide 6 answers + mnemonic + "Save this · bookplume.com".
+  • PINTEREST static pins: quiz style ("Can You Name These 8 Bones?" + numbered pins) with pinLink = the matching COLLECTION page with UTM.
+  • THREADS: 3 history-of-medicine posts a day (best format: 244/139/122 views vs ~28 median), 1 myth-buster, 1 anatomy fact.
+  • SHOPIFY CHECK: Shopify data is only valid when get-shop-info shows 0g1dsy-3h.myshopify.com (Book Plume). The connector is shared with another store
+    (Scroll & Hearth, 4ta1h0-d3); if it shows any other domain, skip Shopify numbers and say so — never call switch-shop. (The 2026-11-09 "0 UTM sessions"
+    finding may have come from the wrong store — re-check before trusting it.)
+
 ### Topic ideas next week (follow the winning pattern; none is in topics.md yet)
-1. Anterior leg compartment, front of the ankle (Tom Hates Dick And Nervous Pigs: tibialis anterior, ext. hallucis longus, anterior tibial artery, ext. digitorum longus, deep fibular nerve, fibularis tertius) — partner of the tarsal tunnel short
+1. Anterior leg compartment, front of the ankle ("Tim Has A Very Nasty Dog": tibialis anterior, ext. hallucis longus, anterior tibial artery, ext. digitorum longus, deep fibular nerve, fibularis tertius) — partner of the tarsal tunnel short
 2. Muscles supplied by the radial nerve (BEAST: brachioradialis, extensors, abductor pollicis longus, supinator, triceps)
 3. Medial thigh / adductor group, 5 muscles + obturator nerve (pectineus, adductor longus, brevis, magnus, gracilis) — follow-up to the lumbar plexus hit
 4. Circle of Willis: the 7–9 vessels of the ring
@@ -141,4 +197,5 @@ Facebook Reels median 166 (132). Threads text median 28 views (17), history-of-m
 
 ### Changelog
 - 2026-11-06: first rules from the 26 Oct–5 Nov analytics review.
+- 2026-11-14: owner-approved changes: long videos → 4/week QUIZ + WHAT HAPPENS formats, quiz hook for shorts, quiz carousels/pins, Threads 3 history posts, Shopify store check; voice "A" confirmed.
 - 2026-11-09: producer review — withdrew "17:00 = surprising fact" (facts 1.8k vs lists 3.3k IG views), added branches/contents topic-type rule, added UTM assert; numbers updated.

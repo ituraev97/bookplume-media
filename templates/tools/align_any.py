@@ -29,3 +29,10 @@ for sg in segs:
         L=sum(len(w) for w in ws)+0.0; t=sg['s']; D=sg['e']-sg['s']
         for w in ws: dd=D*len(w)/L; words.append({"w":w,"s":round(t,2),"e":round(t+dd,2)}); t+=dd
 json.dump(words,open(outf,'w')); print(len(words),'words, fallbacks',fb)
+# sentence timings (tts.py breath groups hold several sentences): writes <out>.sents.json = [{text, s, e}]
+sents=[]; i=0
+for sg in segs:
+    for st in sg.get('sents',[sg['text']]):
+        n=len(st.split()); ww=words[i:i+n]; i+=n
+        if ww: sents.append({"text":st,"s":ww[0]["s"],"e":ww[-1]["e"]})
+json.dump(sents,open(outf.rsplit('.',1)[0]+'.sents.json','w'),indent=1); print(len(sents),'sentences ->',outf.rsplit('.',1)[0]+'.sents.json')

@@ -11,6 +11,8 @@ source named on the pin, no agency logos, no gore, no third-party images (pins a
    Pinterest (Metricool getScheduledPosts for blogId 7717100, last 14 days).
 3. Pick 3 NEW topics people actually search (anatomy/physiology facts, body myths, nursing/A&P study tips,
    mnemonics: cranial nerves, carpal bones, heart flow, etc.). Mix: at least 1 study tip/mnemonic per day.
+   NEW 2026-11-14 (owner): 1 of the 3 daily pins is a QUIZ pin — headline is a challenge question people want to test themselves on
+   ("Can You Name All 12 Cranial Nerves?", "Which Bone Breaks Most Often in the Wrist?"), body = the answer/mnemonic, tag "ANATOMY QUIZ".
    Verify each fact with WebSearch against a reputable source (journal, NIH/NCBI, Cleveland Clinic, Mayo,
    university). If a fact can't be verified, drop it.
 4. Write `/tmp/pins.json` (fields: file, tag, headline, stat ≤9 chars, stat_note, body, source) and run
@@ -21,7 +23,9 @@ source named on the pin, no agency logos, no gore, no third-party images (pins a
 6. Metricool createScheduledPost, one post per pin, providers [{"network":"pinterest"}], blogId 7717100,
    timezone Asia/Tashkent, times 21:17 (same day), 02:17 and 06:17 (next day) — = US midday/evening.
    pinterestData: boardId "1105563477217137717", pinTitle with search keywords (≤100 chars),
-   pinLink = matching product URL from templates/products.md, pinNewFormat true, isAiGenerated false.
+   pinLink = matching COLLECTION landing page from templates/products.md WITH UTM
+   (?utm_source=pinterest&utm_medium=social&utm_campaign=<topic-slug>&utm_content=pin — assert in code that it contains
+   "utm_source=" and "utm_campaign=" before posting), pinNewFormat true, isAiGenerated false, isAiGeneratedPerson false.
    text: hook question + the fact with source + "Study with: <product> → bookplume.com" + 4–5 hashtags.
    mediaAltText: one plain sentence describing the pin.
 7. Append the 3 topics with date to `pins/pins_log.md`, commit + push.
