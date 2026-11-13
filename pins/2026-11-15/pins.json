@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-heart-sounds-ape-to-man.png",
+  "tag": "STUDY TIP",
+  "headline": "Heart sounds: the 5 spots to listen",
+  "stat": "A·P·E·T·M",
+  "stat_note": "APE To Man, upper right to lower left",
+  "body": "Aortic: 2nd ICS, right sternal border\nPulmonic: 2nd ICS, left sternal border\nErb's point: 3rd ICS, left sternal border\nTricuspid: 4th ICS, left sternal border\nMitral: 5th ICS, left midclavicular line",
+  "source": "Sources: Osmosis, APE To Man; Kenhub, Auscultation of the heart"
+ },
+ {
+  "file": "02-brain-2-percent-20-percent.png",
+  "tag": "BODY FACT",
+  "headline": "Your brain is small but very hungry",
+  "stat": "20%",
+  "stat_note": "of the body's oxygen intake",
+  "body": "The brain makes up only about 2% of body weight, yet it uses nearly 20% of the oxygen you take in.",
+  "source": "Source: Vanderbilt University Medical Center, The brain at rest"
+ },
+ {
+  "file": "03-hair-5-million-follicles.png",
+  "tag": "BODY FACT",
+  "headline": "You have about 5 million hair follicles",
+  "stat": "5 M",
+  "stat_note": "hair follicles on the average body",
+  "body": "More than 100,000 of those hairs are on your head. Scalp hair can grow for several years, so it can reach over 1 meter.",
+  "source": "Source: Cleveland Clinic, Body Hair"
+ }
+]
