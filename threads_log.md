@@ -80,3 +80,8 @@
 2026-11-13 | peeing on a jellyfish sting doesn't help and can worsen pain; rinse with seawater, remove tentacles, hot water 40-45°C, vinegar for some species (Cleveland Clinic)
 2026-11-13 | Denis 1667: ~12 oz lamb's blood into feverish young man, later patients died, murder accusation, cleared, transfusions banned ~180 years (Britannica)
 2026-11-13 | most of the adult skeleton is replaced about every 10 years via remodeling (Surgeon General's Report on Bone Health 2004, NCBI NBK45504)
+2026-11-14 | "5 senses" is tradition not biology: temperature, interoception (heartbeat/lungs), day/night retinal sense; count debated (BBC Science Focus, Lisa Feldman Barrett)
+2026-11-14 | Werner Forssmann 1929 Eberswalde: 65 cm catheter via own antecubital vein into right atrium, walked to X-ray; boss displeased, left cardiology; Nobel 1956 with Cournand & Richards (nobelprize.org; Scientific American)
+2026-11-14 | Röntgen Nov 1895 accidental X-ray discovery (cardboard-covered tube, barium platinocyanide screen glowed); wife Anna Bertha's hand Dec 22 1895, "I have seen my death"; first physics Nobel 1901 (PBS NewsHour)
+2026-11-14 | "muscle" from Latin musculus = little mouse (flexing biceps like a mouse under skin); Greek mys = mouse & muscle → myo- (Alta Language Services; Wiktionary)
+2026-11-14 | kidneys filter ~150 quarts of blood/day, only 1-2 quarts become urine, ~1 million nephrons per kidney, fist-sized (NIDDK)
