@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'PJS';font-weight:800;src:url(pjs800.woff2)}
+body{margin:0;width:1280px;height:720px;overflow:hidden;font-family:'PJS','DejaVu Sans',sans-serif;position:relative}
+.yellow{background:radial-gradient(circle at 34% 50%,#FFF36B 0%,#FFD21F 38%,#FF8A00 100%)}
+.red{background:radial-gradient(circle at 34% 50%,#FF6B5B 0%,#E8231B 45%,#8E0B07 100%)}
+.blue{background:radial-gradient(circle at 34% 50%,#7FD3FF 0%,#1E8BFF 42%,#0A2C8A 100%)}
+.rays{position:absolute;left:-520px;top:-640px;width:2000px;height:2000px;background:repeating-conic-gradient(from 0deg at 50% 50%,rgba(255,255,255,.28) 0 7deg,transparent 7deg 18deg)}
+.box{position:absolute;left:34px;top:60px;width:600px;height:600px;transform:rotate(-3deg);border-radius:34px;overflow:hidden;background:#FFF8E6;box-shadow:0 0 0 10px #000,0 0 0 20px #fff,0 0 0 26px #000,18px 22px 0 26px rgba(0,0,0,.35)}
+.box img{position:absolute;filter:contrast(1.35) saturate(1.9) brightness(1.04)}
+.ring{position:absolute;width:176px;height:176px;border-radius:50%;border:16px solid #FF1E1E;box-shadow:0 0 0 6px #fff,inset 0 0 0 6px #fff,0 0 30px 10px rgba(255,30,30,.6)}
+.red .ring{border-color:#FFE01E;box-shadow:0 0 0 6px #000,inset 0 0 0 6px #000,0 0 30px 10px rgba(255,224,30,.6)}
+.glow{position:absolute;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(255,214,10,.75),rgba(255,170,0,.45) 60%,transparent 72%);mix-blend-mode:multiply}
+.txt{position:absolute;left:690px;top:30px;width:570px;display:flex;flex-direction:column;align-items:flex-start;gap:4px;transform:rotate(-2deg)}
+.sub{background:#000;color:#FFD21F;font-weight:800;font-size:32px;letter-spacing:2px;padding:6px 18px 10px;border-radius:12px;margin-bottom:8px}
+.w{color:#fff;font-weight:800;font-size:128px;line-height:.96;letter-spacing:-4px;-webkit-text-stroke:16px #000;paint-order:stroke fill;text-shadow:8px 8px 0 #000;white-space:nowrap}
+.hl{background:#FF1E1E;border:8px solid #000;border-radius:18px;padding:0 18px 8px;box-shadow:8px 8px 0 #000;font-size:110px;-webkit-text-stroke:10px #000}
+.red .hl{background:#FFD21F;color:#000;-webkit-text-stroke:0}
+.blue .hl{background:#FFD21F;color:#000;-webkit-text-stroke:0}
+.badge{position:absolute;right:30px;bottom:28px;transform:rotate(-8deg);background:#FF1E1E;color:#fff;font-weight:800;font-size:66px;padding:2px 24px 10px;border-radius:22px;border:8px solid #000;box-shadow:8px 8px 0 #000;-webkit-text-stroke:8px #000;paint-order:stroke fill}
+.red .badge{background:#000;color:#FFD21F;-webkit-text-stroke:0}
+</style></head><body><div class="rays"></div><div class="box" id="b"></div><svg id="arr" width="1280" height="720" style="position:absolute;left:0;top:0;overflow:visible"></svg><div class="txt" id="t"></div><div class="badge" id="bd"></div>
+<script>
+const C=JSON.parse(decodeURIComponent(location.hash.slice(1)));
+document.body.className=C.theme;
+const BW=600,BH=600,BX=34,BY=60;const iw=Math.max(BW,BH*C.aspect)*C.zoom,ih=iw/C.aspect;const [px,py]=C.pin;
+const cl=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));const L0=cl(BW/2-px*iw,BW-iw,0),T0=cl(BH/2-py*ih,BH-ih,0);const cx=L0+px*iw,cy=T0+py*ih;
+document.getElementById('b').innerHTML=`<img src="${C.plate}" style="left:${L0}px;top:${T0}px;width:${iw}px;height:${ih}px"><div class="glow" style="left:${cx-80}px;top:${cy-80}px"></div><div class="ring" style="left:${cx-88}px;top:${cy-88}px"></div>`;
+const t=document.getElementById('t');t.innerHTML=`<div class="sub">${C.sub}</div>`+C.words.map((w,j)=>`<div class="w ${j===C.hl?'hl':''}">${w}</div>`).join('');
+document.getElementById('bd').textContent=C.badge;
+for(const el of document.querySelectorAll('.w')){let f=parseFloat(getComputedStyle(el).fontSize);while(el.getBoundingClientRect().width>560&&f>50){f-=4;el.style.fontSize=f+'px';}}
+const ac=C.theme==='red'?'#FFE01E':'#FF1E1E';
+const tx=BX+cx+95,ty=BY+cy+10,sx=Math.min(760,tx+230),sy=Math.min(640,ty+150);const ang=Math.atan2(ty-sy,tx-sx);const hx=tx-Math.cos(ang)*6,hy=ty-Math.sin(ang)*6;
+const head=(d,a)=>`${hx+Math.cos(ang+a)*d},${hy+Math.sin(ang+a)*d}`;const ex=hx-Math.cos(ang)*40,ey=hy-Math.sin(ang)*40;
+const p=`M${sx},${sy} Q${(sx+tx)/2+60},${(sy+ty)/2+40} ${ex},${ey}`;
+document.getElementById('arr').innerHTML=`<path d="${p}" stroke="#000" stroke-width="42" fill="none" stroke-linecap="round"/><path d="${p}" stroke="${ac}" stroke-width="26" fill="none" stroke-linecap="round"/><polygon points="${hx},${hy} ${head(86,Math.PI-.5)} ${head(86,Math.PI+.5)}" fill="${ac}" stroke="#000" stroke-width="8" stroke-linejoin="round"/>`;
+</script></body></html>
