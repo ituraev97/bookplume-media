@@ -1,26 +1,45 @@
 <html><head><style>@font-face{font-family:'Plus Jakarta Sans';font-weight:800;src:url(pjs800.woff2)}
-body{margin:0;width:1080px;height:1920px;overflow:hidden;font-family:'Plus Jakarta Sans','DejaVu Sans',sans-serif;background:radial-gradient(circle at 50% 45%,#FFF36B 0%,#FFD21F 40%,#FF8A00 100%)}
-.rays{position:absolute;left:-460px;top:-60px;width:2000px;height:2000px;background:repeating-conic-gradient(from 0deg at 50% 50%,rgba(255,255,255,.32) 0 7deg,transparent 7deg 18deg)}
-.t{position:absolute;left:0;width:1080px;text-align:center;color:#fff;font-weight:800;-webkit-text-stroke:18px #000;paint-order:stroke fill;text-shadow:10px 10px 0 #000;letter-spacing:-3px}
-.box{position:absolute;left:120px;top:640px;width:840px;height:840px;border-radius:40px;overflow:hidden;background:#FFF8E6;box-shadow:0 0 0 12px #000,0 0 0 24px #fff,0 0 0 32px #000;transform:rotate(-3deg)}
-.box img{position:absolute;filter:contrast(1.35) saturate(1.9)}
-.ring{position:absolute;width:250px;height:250px;border-radius:50%;border:20px solid #FF1E1E;box-shadow:0 0 0 7px #fff,inset 0 0 0 7px #fff,0 0 40px 14px rgba(255,30,30,.6)}
-.glow{position:absolute;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,rgba(255,214,10,.75),rgba(255,170,0,.4) 60%,transparent 72%);mix-blend-mode:multiply}
-.stk{position:absolute;background:#FFD21F;border:5px solid #000;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:56px;font-weight:800}
-.badge{position:absolute;left:50%;transform:translateX(-50%) rotate(-4deg);background:#FF1E1E;border:10px solid #000;border-radius:26px;box-shadow:10px 10px 0 #000;padding:6px 40px 18px;color:#fff;font-weight:800;font-size:110px;-webkit-text-stroke:10px #000;paint-order:stroke fill;white-space:nowrap}
+body{margin:0;width:1080px;height:1920px;overflow:hidden;font-family:'Plus Jakarta Sans','DejaVu Sans',sans-serif}
+/* THEME dark (default) — premium: deep forest/black, film grain, faint grid, glowing accents */
+body.dark{background:radial-gradient(ellipse at 50% 42%,#2E4120 0%,#17220F 45%,#070B05 100%)}
+body.dark .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(242,209,78,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(242,209,78,.06) 1px,transparent 1px);background-size:60px 60px;-webkit-mask-image:radial-gradient(ellipse at 50% 45%,#000 30%,transparent 75%)}
+body.dark .t{color:#fff}
+body.dark .badge{background:#F2D14E;color:#111;box-shadow:0 0 60px rgba(242,209,78,.45)}
+body.dark .box{box-shadow:0 0 0 6px #F2D14E,0 40px 90px rgba(0,0,0,.65),0 0 120px rgba(242,209,78,.18)}
+body.dark .pill{background:rgba(255,255,255,.08);color:#F2D14E;border:2px solid rgba(242,209,78,.5)}
+body.dark .ans{color:rgba(255,255,255,.55)}
+/* THEME light — clean editorial: paper, ink, one bold colour block */
+body.light{background:#F7F6EC}
+body.light .grid{position:absolute;left:0;right:0;top:0;height:760px;background:#1F2A14}
+body.light .t{color:#F7F6EC}
+body.light .badge{background:#F2D14E;color:#1F2A14}
+body.light .box{box-shadow:0 0 0 6px #1F2A14,0 30px 70px rgba(31,42,20,.25)}
+body.light .pill{background:#1F2A14;color:#F2D14E}
+body.light .ans{color:rgba(31,42,20,.55)}
+.grain{position:absolute;inset:0;opacity:.22;mix-blend-mode:overlay;pointer-events:none}
+.t{position:absolute;left:0;width:1080px;text-align:center;font-weight:800;letter-spacing:-4px;font-size:140px;top:250px}
+.badge{position:absolute;left:50%;top:410px;transform:translateX(-50%);border-radius:24px;padding:4px 44px 18px;font-weight:800;font-size:124px;letter-spacing:-3px;white-space:nowrap}
+.box{position:absolute;left:120px;top:660px;width:840px;height:840px;border-radius:44px;overflow:hidden;background:#FBF8EE}
+.box img{position:absolute;filter:contrast(1.15) saturate(1.3)}
+.ring{position:absolute;width:250px;height:250px;border-radius:50%;border:16px solid #FF2D2D;box-shadow:0 0 0 5px #fff,inset 0 0 0 5px #fff,0 0 50px 18px rgba(255,45,45,.55)}
+.glow{position:absolute;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,rgba(242,209,78,.75),rgba(242,170,0,.35) 60%,transparent 72%);mix-blend-mode:multiply}
+.stk{position:absolute;background:#F2D14E;border:4px solid #1F2A14;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:800;color:#1F2A14}
 .foot{position:absolute;bottom:200px;left:0;width:1080px;text-align:center}
-.pill{display:inline-block;background:#000;color:#FFD21F;font-weight:800;font-size:46px;padding:14px 34px 20px;border-radius:20px}
-</style></head><body><div class="rays"></div>
-<div class="t" id="l1" style="top:250px;font-size:150px"></div>
-<div class="badge" id="l2" style="top:400px;font-size:120px"></div>
+.pill{display:inline-block;font-weight:800;font-size:40px;letter-spacing:4px;padding:16px 36px 20px;border-radius:999px}
+.ans{margin-top:30px;display:inline-block;transform:rotate(180deg);font-weight:800;font-size:38px}
+.logo{position:absolute;top:140px;left:0;width:1080px;text-align:center;font-weight:800;font-size:30px;letter-spacing:8px;opacity:.75}
+body.dark .logo{color:#F2D14E} body.light .logo{color:#F2D14E}
+</style></head><body><div class="grid"></div><svg class="grain" width="1080" height="1920"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg><div class="logo">BOOK PLUME ANATOMY</div>
+<div class="t" id="l1" ></div>
+<div class="badge" id="l2" ></div>
 <div class="box" id="b"></div>
-<div class="foot"><div class="pill" id="tag"></div><div style="margin-top:26px;display:inline-block;transform:rotate(180deg);font-weight:800;font-size:42px;color:#000;opacity:.85" id="ans"></div></div>
+<div class="foot"><div class="pill" id="tag"></div><br><div class="ans" id="ans"></div></div>
 <script>
 // ===== CONFIG (edit, or pass ?cfg=<urlencoded JSON>) =====
-let C={l1:"NAME THIS",l2:"BONE?",tag:"ANATOMY QUIZ · 3 SECONDS",answer:"Answer: SCAPHOID (1918 name: navicular)",
+let C={theme:"dark",l1:"NAME THIS",l2:"BONE?",tag:"ANATOMY QUIZ · 3 SECONDS",answer:"Answer: SCAPHOID (1918 name: navicular)",
  plate:"hand.png",aspect:2151/2919,zoom:2.1,pin:[0.47,0.088],stickers:[[0.423,0.035,0.11,0.027]]};
 try{const q=new URLSearchParams(location.search).get('cfg');if(q)C=Object.assign(C,JSON.parse(q));}catch(e){}
-document.getElementById('l1').textContent=C.l1;document.getElementById('l2').textContent=C.l2;
+document.body.className=C.theme;document.getElementById('l1').textContent=C.l1;document.getElementById('l2').textContent=C.l2;
 document.getElementById('tag').textContent=C.tag;document.getElementById('ans').textContent=C.answer;
 const W=840,H=840,iw=W*C.zoom,ih=iw/C.aspect,[px,py]=C.pin;
 const cl=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));const L0=cl(W/2-px*iw,W-iw,0),T0=cl(H/2-py*ih,H-ih,0);
