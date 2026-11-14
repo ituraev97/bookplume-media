@@ -81,6 +81,17 @@ WHAT HAPPENS (template long/vid, ScenesCold/IllusCold = the reference — it is 
 - Title: "What Happens in Your Body When You <X>" or "What Happens When You <X>? (Second by Second)". Thumbnail: plate/diagram + "WHAT HAPPENS WHEN YOU <X>" + a time stamp.
 Both formats: end with the flash-card CTA (voice + card), "comment your score/question", and the next video suggestion line.
 
+## TIKTOK VERSION (owner 2026-11-14 17:02, "делай все" — TikTok was stuck at ~250–310 views, avg watch 3–6 s of 26–30 s, full-watch ≈ 0%)
+TikTok gets its OWN cut and its OWN post (never shared with the Instagram/YouTube post):
+1. LENGTH 15–18 s: a separate tiktok script of 35–45 words built from the same scenes: quiz hook (3-2-1) → answer → the ONE key idea
+   (mnemonic or the surprise) → "Comment your score / the answer you guessed." No slow middle, no quick-test card. Render as tiktok.mp4 (same components,
+   own voice line set via synth_short.py, own audio mix), check 15.0–18.0 s with ffprobe.
+2. SHORT CAPTION: the hook question + 1 short line + 3–5 hashtags (#anatomy #anatomyquiz #nursingschool #medstudent + 1 topic tag), ≤ 150 characters
+   before the hashtags. Do NOT paste the full breakdown (it spoils the answer and kills watch time).
+3. PURE EDUCATION, NO PROMO LABEL: no store name, no "bookplume.com", no product mention in the TikTok video or caption, and therefore
+   commercialContentOwnBrand false (and commercialContentThirdParty false) — the "Promotional content" label hurt reach. The store stays in the profile and
+   the TikTok Shop showcase. If a TikTok video ever does show or name our product, the own-brand toggle MUST be on (TikTok rules) — so keep TikTok product-free.
+
 ## STORIES (owner 2026-11-14: "сторисы ставь везде", без ссылок)
 Metricool auto-publishes Stories only on Instagram and Facebook (TikTok/YouTube/Pinterest/Threads have no Stories via Metricool). No links/stickers
 (Instagram's API can't add link or interactive stickers — owner said: no links). One Metricool post with providers instagram + facebook,
