@@ -81,6 +81,15 @@ WHAT HAPPENS (template long/vid, ScenesCold/IllusCold = the reference — it is 
 - Title: "What Happens in Your Body When You <X>" or "What Happens When You <X>? (Second by Second)". Thumbnail: plate/diagram + "WHAT HAPPENS WHEN YOU <X>" + a time stamp.
 Both formats: end with the flash-card CTA (voice + card), "comment your score/question", and the next video suggestion line.
 
+## STORIES (owner 2026-11-14: "сторисы ставь везде", без ссылок)
+Metricool auto-publishes Stories only on Instagram and Facebook (TikTok/YouTube/Pinterest/Threads have no Stories via Metricool). No links/stickers
+(Instagram's API can't add link or interactive stickers — owner said: no links). One Metricool post with providers instagram + facebook,
+instagramData {type "STORY", isAiGenerated false}, facebookData {type "STORY"}, and NO "text" field (a Story-only post must not carry text).
+- Every short run: the finished short mp4 (≤ 60 s) as a Story, 30 min after the main post.
+- ~14:31 run also: one QUIZ IMAGE story (templates/story/quiz_story.html + render_story.js, 1080x1920, loud style: 2-line question, plate with red circle
+  on one structure, "?" sticker over its printed name, upside-down answer at the bottom) at 20:00 Tashkent the same day. Copy the folder to a temp dir,
+  put the plate png next to it, `node render_story.js '<cfg json>' story.jpg`, LOOK at it. Tested 2026-11-14 (Metricool accepted IG + FB story).
+
 ## THUMBNAILS & COVERS — "BEAST" STYLE (owner 2026-11-14: "превью максимально яркие" — maximum brightness, act like a view-farming specialist)
 Applies to every YouTube long thumbnail, Shorts/Reels/TikTok cover and Pinterest pin. Reference: quiz/vid QuizThumb (render it to see).
 - Background: saturated yellow→orange radial gradient with white sunburst rays (or hot red / electric blue for variety — never paper/cream, never dark green).

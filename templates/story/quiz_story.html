@@ -1,0 +1,31 @@
+<html><head><style>@font-face{font-family:'Plus Jakarta Sans';font-weight:800;src:url(pjs800.woff2)}
+body{margin:0;width:1080px;height:1920px;overflow:hidden;font-family:'Plus Jakarta Sans','DejaVu Sans',sans-serif;background:radial-gradient(circle at 50% 45%,#FFF36B 0%,#FFD21F 40%,#FF8A00 100%)}
+.rays{position:absolute;left:-460px;top:-60px;width:2000px;height:2000px;background:repeating-conic-gradient(from 0deg at 50% 50%,rgba(255,255,255,.32) 0 7deg,transparent 7deg 18deg)}
+.t{position:absolute;left:0;width:1080px;text-align:center;color:#fff;font-weight:800;-webkit-text-stroke:18px #000;paint-order:stroke fill;text-shadow:10px 10px 0 #000;letter-spacing:-3px}
+.box{position:absolute;left:120px;top:640px;width:840px;height:840px;border-radius:40px;overflow:hidden;background:#FFF8E6;box-shadow:0 0 0 12px #000,0 0 0 24px #fff,0 0 0 32px #000;transform:rotate(-3deg)}
+.box img{position:absolute;filter:contrast(1.35) saturate(1.9)}
+.ring{position:absolute;width:250px;height:250px;border-radius:50%;border:20px solid #FF1E1E;box-shadow:0 0 0 7px #fff,inset 0 0 0 7px #fff,0 0 40px 14px rgba(255,30,30,.6)}
+.glow{position:absolute;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,rgba(255,214,10,.75),rgba(255,170,0,.4) 60%,transparent 72%);mix-blend-mode:multiply}
+.stk{position:absolute;background:#FFD21F;border:5px solid #000;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:56px;font-weight:800}
+.badge{position:absolute;left:50%;transform:translateX(-50%) rotate(-4deg);background:#FF1E1E;border:10px solid #000;border-radius:26px;box-shadow:10px 10px 0 #000;padding:6px 40px 18px;color:#fff;font-weight:800;font-size:110px;-webkit-text-stroke:10px #000;paint-order:stroke fill;white-space:nowrap}
+.foot{position:absolute;bottom:200px;left:0;width:1080px;text-align:center}
+.pill{display:inline-block;background:#000;color:#FFD21F;font-weight:800;font-size:46px;padding:14px 34px 20px;border-radius:20px}
+</style></head><body><div class="rays"></div>
+<div class="t" id="l1" style="top:250px;font-size:150px"></div>
+<div class="badge" id="l2" style="top:400px;font-size:120px"></div>
+<div class="box" id="b"></div>
+<div class="foot"><div class="pill" id="tag"></div><div style="margin-top:26px;display:inline-block;transform:rotate(180deg);font-weight:800;font-size:42px;color:#000;opacity:.85" id="ans"></div></div>
+<script>
+// ===== CONFIG (edit, or pass ?cfg=<urlencoded JSON>) =====
+let C={l1:"NAME THIS",l2:"BONE?",tag:"ANATOMY QUIZ · 3 SECONDS",answer:"Answer: SCAPHOID (1918 name: navicular)",
+ plate:"hand.png",aspect:2151/2919,zoom:2.1,pin:[0.47,0.088],stickers:[[0.423,0.035,0.11,0.027]]};
+try{const q=new URLSearchParams(location.search).get('cfg');if(q)C=Object.assign(C,JSON.parse(q));}catch(e){}
+document.getElementById('l1').textContent=C.l1;document.getElementById('l2').textContent=C.l2;
+document.getElementById('tag').textContent=C.tag;document.getElementById('ans').textContent=C.answer;
+const W=840,H=840,iw=W*C.zoom,ih=iw/C.aspect,[px,py]=C.pin;
+const cl=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));const L0=cl(W/2-px*iw,W-iw,0),T0=cl(H/2-py*ih,H-ih,0);
+const b=document.getElementById('b');b.innerHTML=`<img src="${C.plate}" style="left:${L0}px;top:${T0}px;width:${iw}px;height:${ih}px">`;
+for(const s of C.stickers)b.innerHTML+=`<div class="stk" style="left:${L0+s[0]*iw}px;top:${T0+s[1]*ih}px;width:${s[2]*iw}px;height:${s[3]*ih}px">?</div>`;
+const cx=L0+px*iw,cy=T0+py*ih;
+b.innerHTML+=`<div class="glow" style="left:${cx-115}px;top:${cy-115}px"></div><div class="ring" style="left:${cx-145}px;top:${cy-145}px"></div>`;
+</script></body></html>
