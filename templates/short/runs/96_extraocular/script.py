@@ -1,0 +1,15 @@
+S=[
+("Name this eye muscle in three seconds.",1.85),
+("Lateral rectus. It turns your eye outward.",0.25),
+("Six muscles move your eye: four recti, two obliques.",0.25),
+("Superior, inferior, medial and lateral rectus.",0.25),
+("The nerves? Remember L R six, S O four.",0.2),
+("Lateral rectus, nerve six. Superior oblique, nerve four.",0.2),
+("The other four, nerve three.",0.25),
+("Quick test. Which nerve moves the superior oblique?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Trochlear. Cranial nerve four.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
