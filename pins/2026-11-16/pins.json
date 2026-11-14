@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-quiz-4-lobes-of-the-brain.png",
+  "tag": "ANATOMY QUIZ",
+  "headline": "Can you name the 4 lobes of the brain?",
+  "stat": "4 lobes",
+  "stat_note": "on each side of the cerebrum",
+  "body": "Frontal: movement, thinking, learning\nParietal: makes sense of body signals\nTemporal: memory, language, emotion\nOccipital: vision",
+  "source": "Source: Cleveland Clinic, Brain"
+ },
+ {
+  "file": "02-spleen-1-3-5-7-9-11-rule.png",
+  "tag": "STUDY TIP",
+  "headline": "The spleen in 6 odd numbers",
+  "stat": "1-3-5-7",
+  "stat_note": "then 9-11 for the ribs",
+  "body": "About 1 in thick, 3 in wide, 5 in long, weighs about 7 oz, and lies between ribs 9 and 11. The rule rounds real sizes.",
+  "source": "Source: Elsevier, Spleen (1x3x5x7x9x11 rule)"
+ },
+ {
+  "file": "03-achilles-strongest-tendon.png",
+  "tag": "BODY FACT",
+  "headline": "Your Achilles is the strongest tendon",
+  "stat": "4x",
+  "stat_note": "your body weight in force it can support",
+  "body": "It links your calf muscles to your heel bone (calcaneus) and is about 6 to 10 inches long in adults.",
+  "source": "Source: Cleveland Clinic, Achilles Tendon"
+ }
+]
