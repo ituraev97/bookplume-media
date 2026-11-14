@@ -51,3 +51,6 @@
 - 2026-11-15: heart sounds auscultation mnemonic "APE To Man" aortic/pulmonic/Erb's point/tricuspid/mitral, 2nd–5th ICS (Osmosis; Kenhub) — sched 11-15 21:17
 - 2026-11-15: brain ~2% of body weight, uses nearly 20% of oxygen intake (Vanderbilt University Medical Center) — sched 11-16 02:17
 - 2026-11-15: ~5 million hair follicles, >100,000 on the head, scalp hair can grow >1 m (Cleveland Clinic) — sched 11-16 06:17
+- 2026-11-16: QUIZ 4 lobes of the brain frontal/parietal/temporal/occipital + functions (Cleveland Clinic) — sched 11-16 21:17
+- 2026-11-16: spleen 1x3x5x7x9x11 rule, 1x3x5 in, ~7 oz, ribs 9–11 (Elsevier) — sched 11-17 02:17
+- 2026-11-16: Achilles thickest & strongest tendon, ~4x body weight, 6–10 in (Cleveland Clinic) — sched 11-17 06:17
