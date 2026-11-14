@@ -86,7 +86,7 @@ Metricool auto-publishes Stories only on Instagram and Facebook (TikTok/YouTube/
 (Instagram's API can't add link or interactive stickers — owner said: no links). One Metricool post with providers instagram + facebook,
 instagramData {type "STORY", isAiGenerated false}, facebookData {type "STORY"}, and NO "text" field (a Story-only post must not carry text).
 - Every short run: the finished short mp4 (≤ 60 s) as a Story, 30 min after the main post.
-- ~14:31 run also: one QUIZ IMAGE story (templates/story/quiz_story.html + render_story.js, 1080x1920, loud style: 2-line question, plate with red circle
+- ~14:31 run also: one QUIZ IMAGE story (templates/story/quiz_story.html + render_story.js, 1080x1920, theme "light" = owner choice 2026-11-14 (clean paper + forest header, NOT the sunburst): 2-line question, plate with red circle
   on one structure, "?" sticker over its printed name, upside-down answer at the bottom) at 20:00 Tashkent the same day. Copy the folder to a temp dir,
   put the plate png next to it, `node render_story.js '<cfg json>' story.jpg`, LOOK at it. Tested 2026-11-14 (Metricool accepted IG + FB story).
 

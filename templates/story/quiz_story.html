@@ -36,7 +36,7 @@ body.dark .logo{color:#F2D14E} body.light .logo{color:#F2D14E}
 <div class="foot"><div class="pill" id="tag"></div><br><div class="ans" id="ans"></div></div>
 <script>
 // ===== CONFIG (edit, or pass ?cfg=<urlencoded JSON>) =====
-let C={theme:"dark",l1:"NAME THIS",l2:"BONE?",tag:"ANATOMY QUIZ · 3 SECONDS",answer:"Answer: SCAPHOID (1918 name: navicular)",
+let C={theme:"light",l1:"NAME THIS",l2:"BONE?",tag:"ANATOMY QUIZ · 3 SECONDS",answer:"Answer: SCAPHOID (1918 name: navicular)",
  plate:"hand.png",aspect:2151/2919,zoom:2.1,pin:[0.47,0.088],stickers:[[0.423,0.035,0.11,0.027]]};
 try{const q=new URLSearchParams(location.search).get('cfg');if(q)C=Object.assign(C,JSON.parse(q));}catch(e){}
 document.body.className=C.theme;document.getElementById('l1').textContent=C.l1;document.getElementById('l2').textContent=C.l2;
