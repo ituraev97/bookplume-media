@@ -1,0 +1,26 @@
+{
+ "portal591.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n679",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 591: The portal vein and its tributaries (recoloured color)"
+ },
+ "diagrams (Portal99.tsx)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "own work",
+  "content": "SVG schematic of the hepatic portal system (portal vein + tributaries, liver, IVC, heart), drawn in code"
+ },
+ "sfx (templates/sfx)": {
+  "source_page": "https://kenney.nl",
+  "author": "Kenney",
+  "license": "CC0 1.0 (KENNEY_LICENSE.txt)",
+  "content": "interface/impact sound effects"
+ },
+ "music + voice": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "own work (synthesized in code; Kokoro TTS am_michael, Apache-2.0 model)",
+  "content": "music bed + narration"
+ }
+}

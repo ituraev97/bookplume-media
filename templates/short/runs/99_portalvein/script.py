@@ -1,0 +1,15 @@
+S=[
+("Name this vein in three seconds.",1.85),
+("The hepatic portal vein.",0.2),
+("Gut blood hits your liver first, then your heart.",0.3),
+("Remember two, one, four.",0.2),
+("Two build it: splenic and superior mesenteric.",0.25),
+("One joins the splenic: inferior mesenteric.",0.25),
+("Four drain straight in: left and right gastric, cystic, paraumbilical.",0.3),
+("Quick test. Which vein usually empties into the splenic vein?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Inferior mesenteric. It joins the splenic first.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
