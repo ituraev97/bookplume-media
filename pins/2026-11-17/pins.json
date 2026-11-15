@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-quiz-facial-nerve-branches.png",
+  "tag": "ANATOMY QUIZ",
+  "headline": "Can you name the 5 branches of the facial nerve?",
+  "stat": "T-Z-B-M-C",
+  "stat_note": "To Zanzibar By Motor Car",
+  "body": "Temporal: forehead and brow\nZygomatic: closing the eye\nBuccal: cheek and lips\nMarginal mandibular: lower lip, chin\nCervical: platysma in the neck",
+  "source": "Sources: Kenhub, Facial nerve; Radiopaedia, Facial nerve branches"
+ },
+ {
+  "file": "02-white-blood-cells-never-let-monkeys-eat-bananas.png",
+  "tag": "STUDY TIP",
+  "headline": "Never Let Monkeys Eat Bananas",
+  "stat": "N>L>M>E>B",
+  "stat_note": "white blood cells, most to least common",
+  "body": "Neutrophils 40-60%, Lymphocytes 20-40%, Monocytes 2-8%, Eosinophils 1-4%, Basophils 0.5-1% of white blood cells (typical ranges).",
+  "source": "Source: MedlinePlus (NIH), Blood differential test"
+ },
+ {
+  "file": "03-60000-miles-of-blood-vessels.png",
+  "tag": "BODY FACT",
+  "headline": "How long are all your blood vessels?",
+  "stat": "60,000",
+  "stat_note": "miles of blood vessels in your body",
+  "body": "You have billions of them. Most are tiny capillaries, venules and arterioles.",
+  "source": "Source: Cleveland Clinic, Blood Vessels"
+ }
+]
