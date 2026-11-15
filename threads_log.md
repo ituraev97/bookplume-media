@@ -85,3 +85,8 @@
 2026-11-14 | Röntgen Nov 1895 accidental X-ray discovery (cardboard-covered tube, barium platinocyanide screen glowed); wife Anna Bertha's hand Dec 22 1895, "I have seen my death"; first physics Nobel 1901 (PBS NewsHour)
 2026-11-14 | "muscle" from Latin musculus = little mouse (flexing biceps like a mouse under skin); Greek mys = mouse & muscle → myo- (Alta Language Services; Wiktionary)
 2026-11-14 | kidneys filter ~150 quarts of blood/day, only 1-2 quarts become urine, ~1 million nephrons per kidney, fist-sized (NIDDK)
+2026-11-15 | "we swallow 8 spiders a year in our sleep" is false: sleepers' breathing/heartbeat/snoring vibrations deter spiders, no evidence, rare random event at most (Scientific American)
+2026-11-15 | Fleming noticed penicillin mold Sept 1928, did little further work; Florey/Chain Oxford purified enough for human test by 1940; Nobel 1945 shared by all three (PBS NewsHour)
+2026-11-15 | Beaumont & Alexis St. Martin: 1822 Fort Mackinac gunshot left stomach fistula, 250+ digestion experiments over ~10 years (food on string), book 1833; St. Martin was his servant, consent questioned (Becker Library, WashU)
+2026-11-15 | Lister 1865 Glasgow carbolic acid (used on Carlisle sewage) on boy's compound leg fracture; amputation mortality up to 40%; 9 of 11 compound fractures 1865-67 healed without infection; London surgeons mocked "Mr. Lister's germs" (RCPSG Heritage; Hektoen International)
+2026-11-15 | ~90% of body's serotonin made in gut by enterochromaffin cells; germ-free mice ~60% less; gut serotonin affects motility and platelets (Caltech, Yano et al., Cell 2015; ScienceDaily)
