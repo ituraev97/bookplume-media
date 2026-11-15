@@ -1,0 +1,26 @@
+{
+ "back389.png": {
+  "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n397",
+  "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+  "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+  "content": "FIG. 389: Deep muscles of the back (colour plate; page-edge labels covered with paper colour)"
+ },
+ "diagrams (Deep100.tsx)": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "own work",
+  "content": "SVG schematic cross-section of the back: erector spinae (iliocostalis, longissimus, spinalis), transversospinales (semispinalis, multifidus, rotatores), vertebra, spinal nerve with posterior + anterior rami; drawn in code"
+ },
+ "sfx (templates/sfx)": {
+  "source_page": "https://kenney.nl",
+  "author": "Kenney",
+  "license": "CC0 1.0 (KENNEY_LICENSE.txt)",
+  "content": "interface/impact sound effects"
+ },
+ "music + voice": {
+  "source_page": "own work",
+  "author": "Book Plume",
+  "license": "own work (synthesized in code; Kokoro TTS am_michael, Apache-2.0 model)",
+  "content": "music bed + narration"
+ }
+}
