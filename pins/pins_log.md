@@ -54,3 +54,6 @@
 - 2026-11-16: QUIZ 4 lobes of the brain frontal/parietal/temporal/occipital + functions (Cleveland Clinic) — sched 11-16 21:17
 - 2026-11-16: spleen 1x3x5x7x9x11 rule, 1x3x5 in, ~7 oz, ribs 9–11 (Elsevier) — sched 11-17 02:17
 - 2026-11-16: Achilles thickest & strongest tendon, ~4x body weight, 6–10 in (Cleveland Clinic) — sched 11-17 06:17
+- 2026-11-17: QUIZ facial nerve 5 branches "To Zanzibar By Motor Car" temporal/zygomatic/buccal/marginal mandibular/cervical (Kenhub; Radiopaedia) — sched 11-17 21:17
+- 2026-11-17: WBC mnemonic "Never Let Monkeys Eat Bananas" neutrophils 40-60%/lymphocytes 20-40%/monocytes 2-8%/eosinophils 1-4%/basophils 0.5-1% (MedlinePlus) — sched 11-18 02:17
+- 2026-11-17: ~60,000 miles of blood vessels, mostly capillaries/venules/arterioles (Cleveland Clinic) — sched 11-18 06:17
