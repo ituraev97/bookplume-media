@@ -1,0 +1,15 @@
+S=[
+("Name this hollow in three seconds.",1.85),
+("The anatomical snuffbox.",0.3),
+("Trick: two, one, two, one.",0.25),
+("Two tendons on the thumb side: abductor pollicis longus and extensor pollicis brevis.",0.2),
+("One tendon on the other side: extensor pollicis longus.",0.2),
+("Two bones in the floor: scaphoid and trapezium.",0.2),
+("Plus one artery inside.",0.25),
+("Quick test. Which artery crosses the floor?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("The radial artery. You can feel its pulse there.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
