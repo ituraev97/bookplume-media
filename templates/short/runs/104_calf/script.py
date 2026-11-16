@@ -1,0 +1,15 @@
+S=[
+("Name this calf muscle in three seconds.",1.85),
+("Soleus. The flat one underneath.",0.25),
+("Your calf is a triceps: three heads, one tendon.",0.2),
+("Gastrocnemius gives two heads, from the femur.",0.2),
+("Soleus adds the third, from tibia and fibula.",0.2),
+("All three pour into the Achilles, your thickest tendon.",0.25),
+("Plantaris? A skinny bonus some people lack.",0.25),
+("Quick test. Gastrocnemius or soleus: which crosses the knee?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Gastrocnemius. Soleus only crosses the ankle.",0.3),
+("Full quiz on our channel.",0.3),
+]
