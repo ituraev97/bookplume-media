@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-quiz-3-layers-of-the-heart-wall.png",
+  "tag": "ANATOMY QUIZ",
+  "headline": "Can you name the 3 layers of the heart wall?",
+  "stat": "E-M-E",
+  "stat_note": "outside to inside",
+  "body": "Epicardium: outermost layer that surrounds and protects the heart\nMyocardium: the muscular middle layer\nEndocardium: the inner layer",
+  "source": "Source: Cleveland Clinic, Epicardium"
+ },
+ {
+  "file": "02-upper-limb-bones-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Some Criminals Have Underestimated Royal Canadian Mounted Police",
+  "stat": "SCHURCMP",
+  "stat_note": "upper limb bones, shoulder to hand",
+  "body": "Scapula, Clavicle, Humerus, Ulna, Radius, Carpals, Metacarpals, Phalanges",
+  "source": "Source: TeachMeAnatomy, Bones of the Upper Limb"
+ },
+ {
+  "file": "03-2-to-4-million-sweat-glands.png",
+  "tag": "BODY FACT",
+  "headline": "How many sweat glands do you have?",
+  "stat": "2-4 M",
+  "stat_note": "eccrine sweat glands in your skin",
+  "body": "They are packed tightest on your palms and soles, 250 to 500 per square centimeter. Their main job: cooling you down.",
+  "source": "Source: Cleveland Clinic, Eccrine Glands"
+ }
+]

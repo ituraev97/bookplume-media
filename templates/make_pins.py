@@ -47,10 +47,12 @@ def pin(fn, tag, headline, stat, stat_note, body, source):
     d.rounded_rectangle([M, 90, M + tw + 56, 150], radius=30, fill=MATCHA)
     d.text((M + 28, 120), tag, font=tf, fill=PAPER, anchor="lm")
     # headline
-    hf = lora(84)
+    hf, step = lora(84), 100
+    if len(wrap(d, headline, hf, W - 2 * M)) > 4:  # long mnemonic headlines: shrink so body/source don't collide
+        hf, step = lora(70), 84
     y = 200
     for ln in wrap(d, headline, hf, W - 2 * M):
-        d.text((M, y), ln, font=hf, fill=FOREST); y += 100
+        d.text((M, y), ln, font=hf, fill=FOREST); y += step
     # stat block
     y += 40
     sf = poppins("Bold", 150 if len(stat) <= 6 else 118)
