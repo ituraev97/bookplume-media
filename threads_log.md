@@ -90,3 +90,8 @@
 2026-11-15 | Beaumont & Alexis St. Martin: 1822 Fort Mackinac gunshot left stomach fistula, 250+ digestion experiments over ~10 years (food on string), book 1833; St. Martin was his servant, consent questioned (Becker Library, WashU)
 2026-11-15 | Lister 1865 Glasgow carbolic acid (used on Carlisle sewage) on boy's compound leg fracture; amputation mortality up to 40%; 9 of 11 compound fractures 1865-67 healed without infection; London surgeons mocked "Mr. Lister's germs" (RCPSG Heritage; Hektoen International)
 2026-11-15 | ~90% of body's serotonin made in gut by enterochromaffin cells; germ-free mice ~60% less; gut serotonin affects motility and platelets (Caltech, Yano et al., Cell 2015; ScienceDaily)
+2026-11-16 | baldness isn't only from mom's side: one key gene on X, but ~52,000 men / 287 genetic regions, most not on X (Hagenaars et al., PLoS Genetics 2017; ScienceDaily)
+2026-11-16 | Horace Wells Dec 1844 saw Colton's nitrous oxide show (Cooley injured, felt nothing), own wisdom tooth pulled, failed Jan 1845 MGH demo, patient groaned; Morton ether 1846 (Science History Institute, Distillations)
+2026-11-16 | Greatbatch 1956 wrong resistor in heart-sound oscillator → steady pulse → implantable pacemaker, built in barn, first human implant 1960 (University at Buffalo)
+2026-11-16 | barber pole = bloodletting ad: red blood, white bandages, pole = staff patients gripped; barber-surgeons, guild shared until 1745 (History.com)
+2026-11-16 | "1 trillion smells" (Bushdid et al., Science 2014) disputed: Gerkin & Castro eLife 2015, fragile math, conservative ~5,000 (ScienceDaily 2015)
