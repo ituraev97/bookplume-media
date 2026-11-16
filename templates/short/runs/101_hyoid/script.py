@@ -1,0 +1,15 @@
+S=[
+("Name this neck muscle in three seconds.",1.85),
+("Omohyoid. Omo means shoulder: it starts on your shoulder blade.",0.25),
+("One of eight hyoid muscles: four above, four below.",0.25),
+("Above, Don't Swallow My Gum: digastric, stylohyoid, mylohyoid, geniohyoid.",0.2),
+("They lift it when you swallow.",0.25),
+("Below, TOSS: thyrohyoid, omohyoid, sternothyroid, sternohyoid.",0.2),
+("They pull it down.",0.25),
+("Quick test. Which one is the floor of your mouth?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Mylohyoid, the sling under your tongue.",0.3),
+("Full video on our channel.",0.3),
+]
