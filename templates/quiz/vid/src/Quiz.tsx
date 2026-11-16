@@ -47,7 +47,8 @@ const QuizPlate: React.FC<{ it: Item; t: number }> = ({ it, t }) => {
   const open = new Set((it.open ?? []) as unknown as number[]);
   const lbl = smooth(t, it.tReveal + 0.15, it.tReveal + 0.5);
   const lx = left + px * iw, ly = top + py * ih;
-  const lside = lx > FW * 0.62 ? -1 : 1; // label goes left when the pin is near the right edge
+  const estW = String(it.label).length * 26 + 60; // label pill width estimate (46px bold)
+  const lside = lx + 52 + estW > FW - 12 || lx > FW * 0.62 ? -1 : 1; // label goes left when it would not fit on the right
   return (
     <div style={{ position: "absolute", left: FX, top: FY, width: FW, height: FH, borderRadius: 36, overflow: "hidden", background: C.paper, boxShadow: `0 0 0 4px ${C.line}, 0 18px 40px rgba(31,42,20,0.14)` }}>
       <Img src={staticFile(p.src)} style={{ position: "absolute", left, top, width: iw, height: ih }} />
@@ -174,7 +175,7 @@ const Intro: React.FC<{ t: number }> = ({ t }) => {
         </div>
       </div>
       <div style={{ position: "absolute", left: 1140, top: 170, width: 720, height: 720, borderRadius: 40, overflow: "hidden", boxShadow: `0 0 0 4px ${C.line}`, transform: `rotate(${2 - 2 * smooth(t, 0, e)}deg)` }}>
-        <Img src={staticFile((first.plate as unknown as { src: string }).src)} style={{ width: 720, height: 720, objectFit: "cover", transform: `scale(${1.05 + 0.1 * smooth(t, 0, e)})` }} />
+        <Img src={staticFile(((QZ as unknown as { introImg?: string }).introImg) ?? (first.plate as unknown as { src: string }).src)} style={{ width: 720, height: 720, objectFit: "cover", transform: `scale(${1.05 + 0.1 * smooth(t, 0, e)})` }} />
         <div style={{ position: "absolute", right: 30, bottom: 30, background: C.forest, color: C.banana, fontWeight: 800, fontSize: 60, padding: "6px 26px 12px", borderRadius: 22 }}>0 / {QZ.total}</div>
       </div>
     </div>
@@ -283,10 +284,11 @@ export const QuizVideo: React.FC = () => {
  * (one word in a red box = th.hl index), red "0/N?" sticker. Must stay readable at 168x94.
  */
 export const QuizThumb: React.FC = () => {
-  const th = QZ.thumb as unknown as { big: string; sub: string; q: number; zoom: number; hl?: number };
+  const th = QZ.thumb as unknown as { big: string; sub: string; q: number; zoom: number; hl?: number; bg?: string; pin?: number[]; focus?: number[] };
+  const BG: Record<string, string> = { yellow: "radial-gradient(circle at 34% 50%, #FFF36B 0%, #FFD21F 38%, #FF8A00 100%)", red: "radial-gradient(circle at 34% 50%, #FF7A59 0%, #FF2A2A 45%, #B30000 100%)", blue: "radial-gradient(circle at 34% 50%, #7FE7FF 0%, #1EA0FF 42%, #0039C9 100%)" };
   const it = QZ.items[th.q ?? 0];
   const p = it.plate as unknown as { src: string; aspect: number };
-  const [px, py] = it.pin as unknown as [number, number];
+  const [px, py] = (th.pin ?? it.pin) as unknown as [number, number];
   const z = th.zoom ?? 2.2;
   const BW = 600, BH = 600, BX = 34, BY = 60;
   const iw = Math.max(BW, BH * p.aspect) * z, ih = iw / p.aspect;
@@ -300,7 +302,7 @@ export const QuizThumb: React.FC = () => {
   const hl = th.hl ?? words.length - 1;
   const stroke = (w: number) => ({ WebkitTextStroke: `${w}px #000`, paintOrder: "stroke fill" as const, textShadow: "8px 8px 0 #000" });
   return (
-    <div style={{ position: "absolute", inset: 0, overflow: "hidden", fontFamily: FONT, background: "radial-gradient(circle at 34% 50%, #FFF36B 0%, #FFD21F 38%, #FF8A00 100%)" }}>
+    <div style={{ position: "absolute", inset: 0, overflow: "hidden", fontFamily: FONT, background: BG[th.bg ?? "yellow"] }}>
       <div style={{ position: "absolute", left: -400, top: -660, width: 2000, height: 2000, background: "repeating-conic-gradient(from 0deg at 50% 50%, rgba(255,255,255,0.32) 0deg 7deg, rgba(255,255,255,0) 7deg 18deg)", transform: "translate(-120px, 0)" }} />
       {/* plate */}
       <div style={{ position: "absolute", left: BX, top: BY, width: BW, height: BH, transform: "rotate(-3deg)", borderRadius: 34, overflow: "hidden", background: "#FFF8E6", boxShadow: "0 0 0 10px #000, 0 0 0 20px #fff, 0 0 0 26px #000, 18px 22px 0 26px rgba(0,0,0,0.35)" }}>
@@ -334,9 +336,9 @@ export const QuizThumb: React.FC = () => {
         <div style={{ background: "#000", color: "#FFD21F", fontWeight: 800, fontSize: 34, letterSpacing: 2, padding: "6px 18px 10px", borderRadius: 12, marginBottom: 8 }}>{th.sub}</div>
         {words.map((w, j) =>
           j === hl ? (
-            <div key={j} style={{ background: "#FF1E1E", border: "8px solid #000", borderRadius: 18, padding: "0 18px 8px", boxShadow: "8px 8px 0 #000", color: "#fff", fontWeight: 800, fontSize: 116, lineHeight: 1.0, letterSpacing: -3, ...stroke(10) }}>{w}</div>
+            <div key={j} style={{ background: "#FF1E1E", border: "8px solid #000", borderRadius: 18, padding: "0 18px 8px", boxShadow: "8px 8px 0 #000", color: "#fff", fontWeight: 800, fontSize: words.length > 2 ? 106 : 160, lineHeight: 1.0, letterSpacing: -3, ...stroke(10) }}>{w}</div>
           ) : (
-            <div key={j} style={{ color: "#fff", fontWeight: 800, fontSize: 132, lineHeight: 0.96, letterSpacing: -4, ...stroke(16) }}>{w}</div>
+            <div key={j} style={{ color: "#fff", fontWeight: 800, fontSize: words.length > 2 ? 132 : 180, lineHeight: 0.96, letterSpacing: -4, ...stroke(16) }}>{w}</div>
           ),
         )}
       </div>

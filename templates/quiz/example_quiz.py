@@ -66,7 +66,8 @@ OUTRO = [
     "Tell me your score in the comments, and which one got you.",
 ]
 BANDS = [["0–4", "Keep practising"], ["5–7", "Solid"], ["8/8", "Anatomy pro"]]
-THUMB = dict(big="NAME THIS BONE?", sub="HAND ANATOMY QUIZ", q=4, zoom=2.2, hl=2)  # 2–3 words; hl = index of the word in the red box
+THUMB = dict(big="NAME THIS BONE?", sub="HAND ANATOMY QUIZ", q=4, zoom=2.2, hl=2, bg="yellow")  # 2–3 words; hl = index of the word in the red box; bg yellow|red|blue (Test & Compare variants); optional pin=[x,y] override
+# INTRO_IMG = "plates/intro.png"  # optional: square plate crop with "?" stickers painted over every printed name (the intro must not show answers) — see research/long/2026-11-16-leg-muscles-quiz
 EXTRA_DICT = """scaphoid S K AE F OY D
 lunate L UW N EY T
 capitate K AE P AH T EY T

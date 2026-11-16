@@ -61,6 +61,8 @@ data = {
     "outro": {"s": round(R(outro[0])["s"] - 0.4, 2), "e": end},
     "bands": G.get("BANDS", []), "thumb": G.get("THUMB", {}), "rules": G.get("RULES", ["5 seconds each", "Keep score", "It gets harder"]),
     "end": end,
+    # INTRO_IMG: plate copy with "?" stickers over every printed name (the intro must not show answers)
+    **({"introImg": G["INTRO_IMG"]} if G.get("INTRO_IMG") else {}),
 }
 os.makedirs(f"{vid}/src", exist_ok=True)
 open(f"{vid}/src/quizdata.ts", "w").write("export const QZ = " + json.dumps(data, indent=1) + " as const;\n")
@@ -72,6 +74,13 @@ words = json.load(open("words.json"))
 for w in words:
     m = re.match(r"^([A-Za-z]+)([^A-Za-z]*)$", w["w"])
     if m and m.group(1).lower() in NUM: w["w"] = NUM[m.group(1).lower()] + m.group(2)
+# "twenty" + "seven" -> "27" (two tokens become one)
+merged = []
+for w in words:
+    if merged and merged[-1]["w"] in ("20", "30", "40", "50") and re.match(r"^[1-9][^0-9A-Za-z]*$", w["w"]):
+        merged[-1]["w"] = merged[-1]["w"][0] + w["w"]; merged[-1]["e"] = w["e"]; continue
+    merged.append(w)
+words = merged
 open(f"{vid}/src/words.ts", "w").write("export const WORDS = " + json.dumps(words) + ";\n")
 chs = [{"n": 0, "title": "Intro", "s": 0}] + [{"n": l["n"], "title": f"Level {l['n']}: {l['name']}", "s": l["s"]} for l in levels] + [{"n": len(levels) + 1, "title": "Your Score", "s": data["outro"]["s"]}]
 open(f"{vid}/src/timeline.ts", "w").write("export const CHAPTERS = " + json.dumps(chs) + ";\nexport const END = " + str(end) + ";\n")
