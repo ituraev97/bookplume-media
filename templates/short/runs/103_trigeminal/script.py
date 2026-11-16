@@ -1,0 +1,15 @@
+S=[
+("Name this nerve in three seconds.",1.85),
+("Trigeminal. Cranial nerve five. It splits into three.",0.25),
+("V one, ophthalmic: forehead and upper eyelid.",0.2),
+("V two, maxillary: cheek and upper lip.",0.2),
+("V three, mandibular: chin and lower lip, plus your chewing muscles.",0.3),
+("Exits, in order: Standing Room Only.",0.2),
+("Superior orbital fissure, rotundum, ovale.",0.3),
+("Quick test. Which hole does V two use?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Foramen rotundum. R for Room.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
