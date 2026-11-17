@@ -1,0 +1,16 @@
+S=[
+("Name this muscle in three seconds.",1.85),
+("Levator aini. The main muscle of your pelvic floor.",0.25),
+("It's three muscles in one, and the names are the map.",0.2),
+("Pubo-rec-tay-lis: from the pubis, a sling around the rectum.",0.15),
+("Pubo-cocksidgius: pubis to coccyx.",0.15),
+("Ilio-coxidgius: side wall to coccyx.",0.15),
+("Plus Coxidgius at the back, from the ischial spine.",0.2),
+("Four muscles, one floor.",0.2),
+("Quick test. Which one makes the sling?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Pubo-rec-tay-lis.",0.25),
+("Save this for your next anatomy exam.",0.3),
+]
