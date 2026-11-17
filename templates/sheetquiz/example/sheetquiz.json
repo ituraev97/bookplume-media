@@ -1,0 +1,195 @@
+{
+ "title": "SKULL QUIZ",
+ "sub": "Can you get 5/5?",
+ "end": 34.84,
+ "tEnd": 38.63,
+ "plate": {
+  "src": "sq/skull188.png",
+  "w": 1945,
+  "h": 1775
+ },
+ "labels": [
+  {
+   "box": [
+    0.205,
+    0.165,
+    0.3,
+    0.205
+   ]
+  },
+  {
+   "box": [
+    0.605,
+    0.215,
+    0.715,
+    0.25
+   ]
+  },
+  {
+   "box": [
+    0.285,
+    0.405,
+    0.395,
+    0.435
+   ]
+  },
+  {
+   "box": [
+    0.495,
+    0.475,
+    0.595,
+    0.505
+   ]
+  },
+  {
+   "box": [
+    0.195,
+    0.56,
+    0.3,
+    0.59
+   ]
+  },
+  {
+   "box": [
+    0.075,
+    0.655,
+    0.16,
+    0.685
+   ]
+  },
+  {
+   "box": [
+    0.285,
+    0.85,
+    0.375,
+    0.885
+   ]
+  },
+  {
+   "box": [
+    0.83,
+    0.61,
+    0.935,
+    0.645
+   ]
+  },
+  {
+   "box": [
+    0.03,
+    0.4,
+    0.095,
+    0.445
+   ]
+  },
+  {
+   "box": [
+    0.14,
+    0.435,
+    0.23,
+    0.465
+   ]
+  }
+ ],
+ "qs": [
+  {
+   "n": 1,
+   "pin": [
+    0.4,
+    0.8
+   ],
+   "label": 6,
+   "ask": "Name this bone",
+   "opts": [
+    "Maxilla",
+    "Mandible",
+    "Zygomatic"
+   ],
+   "a": 1,
+   "tAsk": 0.0,
+   "tCount": 3.15,
+   "tReveal": 6.3,
+   "tNext": 7.91,
+   "name": "Mandible"
+  },
+  {
+   "n": 2,
+   "pin": [
+    0.235,
+    0.505
+   ],
+   "label": 4,
+   "ask": "Name this bone",
+   "opts": [
+    "Zygomatic",
+    "Nasal",
+    "Lacrimal"
+   ],
+   "a": 0,
+   "tAsk": 7.91,
+   "tCount": 8.66,
+   "tReveal": 11.81,
+   "tNext": 14.62,
+   "name": "Zygomatic"
+  },
+  {
+   "n": 3,
+   "pin": [
+    0.57,
+    0.42
+   ],
+   "label": 3,
+   "ask": "Name this bone",
+   "opts": [
+    "Parietal",
+    "Occipital",
+    "Temporal"
+   ],
+   "a": 2,
+   "tAsk": 14.62,
+   "tCount": 15.39,
+   "tReveal": 18.54,
+   "tNext": 20.37,
+   "name": "Temporal"
+  },
+  {
+   "n": 4,
+   "pin": [
+    0.1,
+    0.61
+   ],
+   "label": 5,
+   "ask": "Name this bone",
+   "opts": [
+    "Mandible",
+    "Maxilla",
+    "Palatine"
+   ],
+   "a": 1,
+   "tAsk": 20.37,
+   "tCount": 21.15,
+   "tReveal": 24.3,
+   "tNext": 27.17,
+   "name": "Maxilla"
+  },
+  {
+   "n": 5,
+   "pin": [
+    0.41,
+    0.365
+   ],
+   "label": 2,
+   "ask": "Name this bone",
+   "opts": [
+    "Ethmoid",
+    "Frontal",
+    "Sphenoid"
+   ],
+   "a": 2,
+   "tAsk": 27.17,
+   "tCount": 27.95,
+   "tReveal": 31.1,
+   "tNext": 34.84,
+   "name": "Sphenoid"
+  }
+ ]
+}
