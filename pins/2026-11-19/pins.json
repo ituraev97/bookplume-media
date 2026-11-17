@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-quiz-3-parts-of-the-brainstem.png",
+  "tag": "ANATOMY QUIZ",
+  "headline": "Can you name the 3 parts of the brainstem?",
+  "stat": "M-P-M",
+  "stat_note": "top to bottom",
+  "body": "Midbrain: eye movements\nPons: face, hearing, balance\nMedulla oblongata: breathing, heartbeat, swallowing",
+  "source": "Source: Cleveland Clinic, Brainstem"
+ },
+ {
+  "file": "02-aortic-arch-branches-abcs-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "Aortic arch branches? Remember ABC'S",
+  "stat": "ABC'S",
+  "stat_note": "Aortic arch gives B, C, S",
+  "body": "Brachiocephalic trunk\nleft Common carotid\nleft Subclavian\nThis 3-branch pattern is seen in about 75% of people.",
+  "source": "Source: Radiopaedia, Aortic arch"
+ },
+ {
+  "file": "03-heart-pumps-2000-gallons-a-day.png",
+  "tag": "BODY FACT",
+  "headline": "How much blood does your heart pump in a day?",
+  "stat": "2,000",
+  "stat_note": "gallons of blood, every day",
+  "body": "At rest, an adult heart often beats 60 to 100 times a minute. By age 70, it will have beaten more than 2.5 billion times.",
+  "source": "Source: University Hospitals, About the Heart and Blood Vessels"
+ }
+]
