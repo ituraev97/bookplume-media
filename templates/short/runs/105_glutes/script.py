@@ -1,0 +1,16 @@
+S=[
+("Name this glute muscle in three seconds.",1.85),
+("Gluteus minimus. The deepest one.",0.25),
+("Your glutes stack in three layers.",0.15),
+("Maximus on top, the biggest one.",0.15),
+("Medius in the middle. Minimus underneath.",0.15),
+("Plus tensor fasciae latae, up front.",0.2),
+("Nerve trick: maximus gets the inferior gluteal nerve.",0.15),
+("The other three get the superior.",0.2),
+("Quick test. Which one keeps your hips level on one leg?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Gluteus medius.",0.25),
+("Full quiz on our channel.",0.3),
+]
