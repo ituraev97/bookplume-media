@@ -1,0 +1,15 @@
+S=[
+("Name this arm muscle in three seconds.",1.85),
+("Brachialis. It hides under your biceps.",0.25),
+("The front of your arm is just B, B, C.",0.2),
+("Biceps on top, with a long and a short head.",0.15),
+("Brachialis underneath. It only bends the elbow.",0.15),
+("Coracobrachialis, up high, from the coracoid to the humerus.",0.2),
+("One nerve supplies all three: the musculocutaneous.",0.2),
+("Quick test. Which one also turns your palm up?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("The biceps.",0.25),
+("Save this for your next anatomy exam.",0.3),
+]
