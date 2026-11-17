@@ -60,3 +60,6 @@
 - 2026-11-18: QUIZ 3 layers of the heart wall epicardium/myocardium/endocardium (Cleveland Clinic) — sched 11-18 21:17
 - 2026-11-18: upper limb bones mnemonic "Some Criminals Have Underestimated Royal Canadian Mounted Police" scapula→phalanges (TeachMeAnatomy) — sched 11-19 02:17
 - 2026-11-18: 2–4 million eccrine sweat glands, 250–500/cm² on palms & soles (Cleveland Clinic) — sched 11-19 06:17
+- 2026-11-19: QUIZ 3 parts of the brainstem midbrain/pons/medulla oblongata + functions (Cleveland Clinic) — sched 11-19 21:17
+- 2026-11-19: aortic arch branches mnemonic ABC'S brachiocephalic/left common carotid/left subclavian, ~75% pattern (Radiopaedia) — sched 11-20 02:17
+- 2026-11-19: heart pumps ~2,000 gallons of blood a day, >2.5 billion beats by 70 (University Hospitals) — sched 11-20 06:17
