@@ -1,0 +1,15 @@
+S=[
+("Name this hamstring muscle in three seconds.",1.85),
+("Semmy-tendinoesus. Named for its long tendon.",0.25),
+("Three hamstrings: two semmies inside, biceps outside.",0.2),
+("Semmy-tendinoesus sits on top. T for top.",0.2),
+("Semmy-membra-nosus hides underneath.",0.2),
+("Biceps femoris has a long and short head.",0.2),
+("Most start at your sit bone. One nerve runs them all: the sigh-attic.",0.25),
+("Quick test. Which part doesn't cross the hip?",0.2),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("The short head of biceps. It starts on the femur.",0.3),
+("Full quiz on our channel.",0.3),
+]
