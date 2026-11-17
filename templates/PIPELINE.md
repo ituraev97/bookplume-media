@@ -27,6 +27,16 @@ Everything here runs in a fresh cloud container. Work in /home/claude/work.
   YouTube Shorts / Reels 9:16 15–60 s; YouTube long 16:9 (quiz 8–11 min, what-happens 6–10 min), chapters, sources in description, not made for kids;
   Pinterest: video pin + a 1000x1500 static pin (Pin composition), keyword title ("anatomy flashcards", "nursing school study tips"), pinLink = matching product from products.md.
 
+## SHORT VIDEO FORMATS — OWNER DECISION 2026-11-18 (replaces the old short format on every platform)
+All short videos (Instagram Reels + trial reels, Facebook Reels, YouTube Shorts, TikTok, Pinterest video pins, video Stories) are now made ONLY in these
+three formats, one of each per day (the short-video task runs 3 times a day). Static pins and Threads are unchanged.
+1. JOURNEY 3D — templates/r3d (journey3d.js), reference templates/r3d/examples/digestion ("Where does your food actually go?").
+2. SHEET QUIZ — templates/sheetquiz, reference templates/sheetquiz/example (skull side view, "Can you get 5/5?") — owner: "квиз на листке супер получился".
+3. BEAT 3D — templates/r3d (beat3d.js), reference templates/r3d/examples/skeleton ("Every major bone in 20 seconds").
+Rules: the channel is about anatomy — NO store / flashcards / bookplume.com in the videos and no "Study with" line in captions; fixed text zones
+(templates/r3d/ui.js) so no text ever overlaps; 3D sound = effects + soft pad only (no jokey music). The old "Name this in 3 seconds" short,
+its 15–18 s TikTok cut and the rapid-quiz cut are retired; the same final file goes to every platform.
+
 ## 0. Setup (every run)
 ```
 git clone https://github.com/ituraev97/bookplume-media /home/claude/bookplume-media   # after add_repo(owner=ituraev97, repo=bookplume-media, access=push)

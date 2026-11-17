@@ -1,0 +1,62 @@
+[
+ {
+  "text": "Where does your food actually go after you swallow?",
+  "s": 0,
+  "e": 2.3645416666666668
+ },
+ {
+  "text": "First stop: the stomach.",
+  "s": 2.714541666666667,
+  "e": 3.896291666666667
+ },
+ {
+  "text": "Acid and churning turn your meal into a thick liquid called chyme.",
+  "s": 4.096291666666667,
+  "e": 7.144833333333333
+ },
+ {
+  "text": "Next, the duodenum.",
+  "s": 7.494833333333332,
+  "e": 8.506374999999998
+ },
+ {
+  "text": "The liver and gallbladder add bile. The pancreas adds enzymes.",
+  "s": 8.706374999999998,
+  "e": 12.253708333333332
+ },
+ {
+  "text": "Then the small intestine. About twenty feet of it.",
+  "s": 12.603708333333332,
+  "e": 15.067041666666665
+ },
+ {
+  "text": "This is where most nutrients get absorbed.",
+  "s": 15.317041666666665,
+  "e": 17.335624999999997
+ },
+ {
+  "text": "Stomach plus small intestine: about six to eight hours.",
+  "s": 17.635624999999997,
+  "e": 20.74595833333333
+ },
+ {
+  "text": "Last stop, the large intestine. About five feet.",
+  "s": 21.14595833333333,
+  "e": 23.876999999999995
+ },
+ {
+  "text": "It pulls water out. That part alone takes about thirty-six hours.",
+  "s": 24.126999999999995,
+  "e": 27.803374999999996
+ },
+ {
+  "text": "Start to finish? Roughly two to five days.",
+  "s": 28.203374999999994,
+  "e": 30.607749999999996
+ },
+ {
+  "text": "Save this for your next anatomy exam.",
+  "s": 31.007749999999994,
+  "e": 32.90425
+ }
+]

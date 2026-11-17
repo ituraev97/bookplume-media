@@ -1,0 +1,17 @@
+<!doctype html><html><head><style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/r3d/node_modules/three/build/three.module.js","three/addons/":"/r3d/node_modules/three/examples/jsm/"}}</script>
+</head><body><script type="module">
+import * as THREE from 'three';
+const p=new URLSearchParams(location.search);
+const W=+p.get('w')||1080,H=+p.get('h')||1920;
+const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true,alpha:true});
+renderer.setPixelRatio(1);renderer.setSize(W,H);
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.outputColorSpace=THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const mod=await import(p.get('mod')+'?v='+Date.now());
+const args=p.get('argsfile')?await (await fetch(p.get('argsfile'))).json():JSON.parse(p.get('args')||'{}');
+const ctx=await mod.init({THREE,renderer,W,H,args});
+window.renderAt=async(t)=>{await mod.frame(ctx,t);renderer.render(ctx.scene,ctx.camera);return true};
+window.info=ctx.info||{};
+window.READY=true;
+</script></body></html>

@@ -1,0 +1,125 @@
+{
+ "items": [
+  {
+   "name": "Cranium",
+   "plain": "skull",
+   "meshes": [
+    16
+   ],
+   "t0": 0.25,
+   "t1": 1.25
+  },
+  {
+   "name": "Mandible",
+   "plain": "jaw",
+   "meshes": [
+    17
+   ],
+   "t0": 1.25,
+   "t1": 2.25
+  },
+  {
+   "name": "Clavicle + scapula",
+   "plain": "shoulder girdle",
+   "meshes": [
+    12,
+    14
+   ],
+   "t0": 2.25,
+   "t1": 3.75
+  },
+  {
+   "name": "Humerus",
+   "plain": "upper arm",
+   "meshes": [
+    9,
+    11
+   ],
+   "t0": 3.75,
+   "t1": 4.75
+  },
+  {
+   "name": "Radius + ulna",
+   "plain": "forearm",
+   "meshes": [
+    0,
+    1
+   ],
+   "t0": 4.75,
+   "t1": 6.25
+  },
+  {
+   "name": "Carpals \u00b7 metacarpals \u00b7 phalanges",
+   "plain": "hand",
+   "meshes": [
+    13,
+    18
+   ],
+   "t0": 6.25,
+   "t1": 8.75,
+   "focus": [
+    13
+   ]
+  },
+  {
+   "name": "Ribs + sternum",
+   "plain": "rib cage",
+   "meshes": [
+    7
+   ],
+   "t0": 8.75,
+   "t1": 10.25
+  },
+  {
+   "name": "Vertebral column",
+   "plain": "spine",
+   "meshes": [
+    19
+   ],
+   "t0": 10.25,
+   "t1": 11.75
+  },
+  {
+   "name": "Pelvis",
+   "plain": "hip bones + sacrum",
+   "meshes": [
+    15
+   ],
+   "t0": 11.75,
+   "t1": 12.75
+  },
+  {
+   "name": "Femur",
+   "plain": "thigh \u00b7 longest bone",
+   "meshes": [
+    3,
+    4
+   ],
+   "t0": 12.75,
+   "t1": 13.75
+  },
+  {
+   "name": "Tibia + fibula",
+   "plain": "lower leg",
+   "meshes": [
+    5,
+    6
+   ],
+   "t0": 13.75,
+   "t1": 15.25
+  },
+  {
+   "name": "Tarsals \u00b7 metatarsals \u00b7 phalanges",
+   "plain": "foot",
+   "meshes": [
+    2,
+    8
+   ],
+   "t0": 15.25,
+   "t1": 17.75
+  }
+ ],
+ "tEndLine": 18.0,
+ "end": 20.95,
+ "bpm": 120
+}
