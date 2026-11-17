@@ -95,3 +95,8 @@
 2026-11-16 | Greatbatch 1956 wrong resistor in heart-sound oscillator → steady pulse → implantable pacemaker, built in barn, first human implant 1960 (University at Buffalo)
 2026-11-16 | barber pole = bloodletting ad: red blood, white bandages, pole = staff patients gripped; barber-surgeons, guild shared until 1745 (History.com)
 2026-11-16 | "1 trillion smells" (Bushdid et al., Science 2014) disputed: Gerkin & Castro eLife 2015, fragile math, conservative ~5,000 (ScienceDaily 2015)
+2026-11-17 | muscle soreness (DOMS) isn't lactic acid: lactate clears soon after exercise, soreness from micro-damage to fibers/tendon connections + swelling over 1-2 days (Robergs & Torrens, QUT, The Conversation via ScienceAlert 2024)
+2026-11-17 | Frances Kelsey 1960 first FDA assignment withheld thalidomide approval; late 1961 linked to birth defects, at least 4,000 children in Europe affected; JFK President's Award Aug 7 1962 (NLM Changing the Face of Medicine)
+2026-11-17 | 1721 Newgate experiment: 6 prisoners inoculated against smallpox for freedom (Princess Caroline), all survived and freed, one back for stealing periwigs; Lady Mary Wortley Montagu saw it in Turkey, son 1718, daughter 1721 (History of Parliament)
+2026-11-17 | Halsted 1889 had Goodyear make thin rubber gloves for nurse Caroline Hampton (dermatitis from mercuric chloride/carbolic), married June 1890; Bloodgood wore gloves 1896, 1899 report 450+ hernias, infections near-zero (PMC2943454)
+2026-11-17 | transplanted heart is denervated, SA node keeps it beating, resting HR ~90-110 bpm without vagal tone, exercise response via circulating catecholamines (OpenAnesthesia, Denervated heart)
