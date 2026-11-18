@@ -1,0 +1,62 @@
+[
+ {
+  "text": "Brain quiz. Can you get five out of five?",
+  "s": 0,
+  "e": 2.090375
+ },
+ {
+  "text": "Number one.",
+  "s": 2.590375,
+  "e": 3.195125
+ },
+ {
+  "text": "B. The cerebellum.",
+  "s": 6.395125,
+  "e": 7.416875
+ },
+ {
+  "text": "Number two.",
+  "s": 8.116875,
+  "e": 8.815
+ },
+ {
+  "text": "A. The corpus callosum. It links your two hemispheres.",
+  "s": 12.015,
+  "e": 14.89275
+ },
+ {
+  "text": "Number three.",
+  "s": 15.592749999999999,
+  "e": 16.31733333333333
+ },
+ {
+  "text": "C. The pons. Latin for bridge.",
+  "s": 19.51733333333333,
+  "e": 21.44133333333333
+ },
+ {
+  "text": "Number four.",
+  "s": 22.14133333333333,
+  "e": 22.871874999999996
+ },
+ {
+  "text": "B. The medulla oblongata. It helps control your breathing.",
+  "s": 26.071874999999995,
+  "e": 29.304041666666663
+ },
+ {
+  "text": "Number five.",
+  "s": 30.004041666666662,
+  "e": 30.73604166666666
+ },
+ {
+  "text": "C. The pituitary gland. It hangs on a thin stalk below your brain.",
+  "s": 33.93604166666666,
+  "e": 37.70399999999999
+ },
+ {
+  "text": "How many did you get? Comment your score.",
+  "s": 38.303999999999995,
+  "e": 40.19441666666666
+ }
+]

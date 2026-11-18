@@ -5,7 +5,7 @@ import Q from "./sheetquiz.json";
 
 // ---------- data shape (sheetquiz.json) ----------
 // {title, sub, plate:{src,w,h}, labels:[{box:[x0,y0,x1,y1], name}], end, qs:[{n, pin:[fx,fy], label: idx, ask, opts:[..3], a:0..2, tAsk, tCount, tReveal, tNext, name}]}
-type Qn = { n: number; pin: [number, number]; label: number; ask: string; opts: string[]; a: number; tAsk: number; tCount: number; tReveal: number; tNext: number; name: string; zoom?: number };
+type Qn = { n: number; pin: [number, number]; label: number; ask: string; opts: string[]; a: number; tAsk: number; tCount: number; tReveal: number; tNext: number; name: string; zoom?: number; badge?: [number, number] };
 const DATA = Q as unknown as {
   title: string; sub: string; end: number; tEnd: number;
   plate: { src: string; w: number; h: number };
@@ -69,20 +69,38 @@ const Plate: React.FC<{ t: number }> = ({ t }) => {
     <div style={{ position: "absolute", left: 30, top: 0, width: PW, height: PH, overflow: "hidden", borderRadius: 18, border: `4px solid ${C.forest}`, background: "#F2EFDC" }}>
       <Img src={staticFile(plate.src)} style={{ position: "absolute", left: tx, top: ty, width: plate.w * scale, height: plate.h * scale, filter: "contrast(1.12) saturate(1.25)" }} />
       {/* stickers over every printed bone name */}
-      {labels.map((lb, k) => {
+      {labels.map((lb, k) => ({ lb, k })).sort((A, B) => {
+        const rank = (k: number) => { const qq = qs.find((qx) => qx.label === k); if (!qq) return 0; if (qq === q) return 30; return t >= qq.tReveal ? 2 + qq.n : 1; };
+        return rank(A.k) - rank(B.k);
+      }).map(({ lb, k }) => {
         const [x0, y0] = P(lb.box[0], lb.box[1]);
         const [x1, y1] = P(lb.box[2], lb.box[3]);
         const qq = qs.find((qx) => qx.label === k);
         const revealed = qq ? t >= qq.tReveal : false;
         const flip = qq ? r(t, qq.tReveal, qq.tReveal + 0.25) : 0;
         const isCur = qq && qq === q && live;
-        const h = Math.max(y1 - y0, 40); const fs = Math.min(h * 0.75, 34); const w = Math.max(x1 - x0, 64, (qq && revealed) ? qq.name.length * fs * 0.78 + 10 : 0);
         const showName = revealed && flip >= 0.5;
+        const h0 = Math.max(y1 - y0, 30 + 10 * zin); const past = !!qq && revealed && !(qq === q && live); const h = h0; const fs = Math.min(h * 0.75, 34); const w = Math.max(x1 - x0, 48 + 16 * zin, (qq && revealed) ? qq.name.length * fs * 0.78 + 10 : 0);
         const sy = Math.abs(1 - 2 * flip);
+        if (past) {
+          const hs = Math.max(y1 - y0, 30 + 10 * zin), ws = Math.max(x1 - x0, 48 + 16 * zin);
+          const cf = 26, cw = qq!.name.length * cf * 0.8 + 24, ch = 44;
+          const ca = (lb as any).chipAt ? P((lb as any).chipAt[0], (lb as any).chipAt[1]) : [(x0 + x1) / 2, (y0 + y1) / 2];
+          const cxm = Math.min(Math.max(ca[0], cw / 2 + 10), PW - cw / 2 - 14), cym = Math.min(Math.max(ca[1], ch / 2 + 10), PH - ch / 2 - 14);
+          return (
+            <React.Fragment key={k}>
+              <div style={{ position: "absolute", left: (x0 + x1) / 2 - ws / 2 - 8, top: (y0 + y1) / 2 - hs / 2 - 6, width: ws + 16, height: hs + 12, transform: "rotate(-3deg)", borderRadius: 10, zIndex: 1,
+                background: C.banana, border: `3px solid ${C.forest}`, boxShadow: "2px 3px 0 rgba(31,42,20,0.35)" }} />
+              <div style={{ position: "absolute", left: cxm - cw / 2, top: cym - ch / 2, width: cw, height: ch, transform: "rotate(-3deg)", borderRadius: 10, zIndex: 5, background: C.matcha,
+                border: `3px solid ${C.forest}`, boxShadow: "2px 3px 0 rgba(31,42,20,0.35)", display: "flex", alignItems: "center", justifyContent: "center",
+                fontFamily: FONT, fontWeight: 800, fontSize: cf, color: "#fff", whiteSpace: "nowrap" }}>{qq!.name.toUpperCase()}</div>
+            </React.Fragment>
+          );
+        }
         return (
           <div key={k} style={{
-            position: "absolute", left: (x0 + x1) / 2 - w / 2 - 8, top: (y0 + y1) / 2 - h / 2 - 6, width: w + 16, height: h + 12,
-            transform: `rotate(-3deg) scaleY(${revealed ? sy : 1})`, borderRadius: 10,
+            position: "absolute", left: revealed ? Math.min(Math.max((x0 + x1) / 2 - w / 2 - 8, 8), PW - w - 30) : (x0 + x1) / 2 - w / 2 - 8, top: revealed ? Math.min(Math.max((y0 + y1) / 2 - h / 2 - 6, 8), PH - h - 26) : (y0 + y1) / 2 - h / 2 - 6, width: w + 16, height: h + 12,
+            transform: `rotate(-3deg) scaleY(${revealed ? sy : 1})`, borderRadius: 10, zIndex: isCur ? 8 : 1,
             background: showName ? C.matcha : C.banana, border: `3px solid ${C.forest}`,
             boxShadow: isCur ? `0 0 0 6px ${C.red}` : "2px 3px 0 rgba(31,42,20,0.35)",
             display: "flex", alignItems: "center", justifyContent: "center",
@@ -94,11 +112,11 @@ const Plate: React.FC<{ t: number }> = ({ t }) => {
       })}
       {/* pin */}
       {live && pinIn > 0 && (
-        <svg width={PW} height={PH} style={{ position: "absolute", left: 0, top: 0 }}>
+        <svg width={PW} height={PH} style={{ position: "absolute", left: 0, top: 0, zIndex: 9 }}>
           <circle cx={px} cy={py} r={44 * pulse * pinIn} fill="none" stroke="#fff" strokeWidth={14} opacity={0.9} />
           <circle cx={px} cy={py} r={44 * pulse * pinIn} fill="rgba(201,72,60,0.18)" stroke={C.red} strokeWidth={8} />
           <circle cx={px} cy={py} r={9 * pinIn} fill={C.red} stroke="#fff" strokeWidth={3} />
-          <g transform={`translate(${px + 40} ${py - 92}) scale(${pinIn})`}>
+          <g transform={`translate(${px + (q.badge ? q.badge[0] : 40)} ${py + (q.badge ? q.badge[1] : -92)}) scale(${pinIn})`}>
             <circle r={36} fill={C.red} stroke="#fff" strokeWidth={5} />
             <text y={14} textAnchor="middle" fontFamily={FONT} fontWeight={800} fontSize={42} fill="#fff">{q.n}</text>
           </g>
