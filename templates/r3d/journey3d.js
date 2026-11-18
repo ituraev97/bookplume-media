@@ -1,5 +1,5 @@
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
-import {setupOverlay,background,frameDist,applyOffset,fitFont} from './ui.js';
+import {setupOverlay,background,frameDist,applyOffset,fitFont,setFrame,ZONE} from './ui.js';
 // 3D JOURNEY: a glowing bolus travels through organs stage by stage. args: {model, cfg}
 // cfg = {
 //  title:["line1","line2 with <b>hl</b>"], credit:"3D: ...", hide:[meshIdx],
@@ -13,7 +13,7 @@ import {setupOverlay,background,frameDist,applyOffset,fitFont} from './ui.js';
 const sm=x=>x<0?0:x>1?1:x*x*(3-2*x);
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 export async function init({THREE,renderer,W,H,args}){
-  const ov=await setupOverlay(); const cfg=args.cfg;
+  const cfg=args.cfg; setFrame(W,H,cfg.plain); const ov=await setupOverlay();
   renderer.toneMappingExposure=1.1;
   const scene=new THREE.Scene(); scene.background=background(THREE);
   const camera=new THREE.PerspectiveCamera(28,W/H,0.0005,50);
@@ -94,5 +94,5 @@ export async function frame(ctx,t){
       return `<div class="f${c.kind==='t'?' t':''}" style="opacity:${a};transform:scale(${sc})">${c.txt}</div>`; }).join('')+`</div>`; }
   if(t>=cfg.tEnd0){ const a=clamp((t-cfg.tEnd0)/0.3,0,1); const sc=0.6+0.4*(1-Math.pow(1-a,3));
     h+=`<div class="end" style="transform:scale(${sc.toFixed(3)}) rotate(-2deg);opacity:${a}"><div class="a">${cfg.endA}</div><div class="b">${cfg.endB}</div></div>`; }
-  ov.innerHTML=h;
+  ov.innerHTML=ZONE.plain?'':h;
 }

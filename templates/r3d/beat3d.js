@@ -1,12 +1,12 @@
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {mergeVertices} from 'three/addons/utils/BufferGeometryUtils.js';
-import {setupOverlay,background,frameDist,applyOffset,fitFont} from './ui.js';
+import {setupOverlay,background,frameDist,applyOffset,fitFont,setFrame,ZONE} from './ui.js';
 // 3D LABELS TO THE BEAT. args: {model, cfg}
 // cfg: {title:["line 1","<b>line 2</b>"], credit, hide:[meshIdx], smooth:true, baseColor:"#EDE6D2", keepMaterials:false,
 //       bpm, items:[{name, plain, meshes:[idx], focus?:[idx], t0, t1}], tEndLine, end, endA, endB, yaw:0.42}
 const sm=x=>x<0?0:x>1?1:x*x*(3-2*x);
 export async function init({THREE,renderer,W,H,args}){
-  const ov=await setupOverlay(); const cfg=args.cfg;
+  const cfg=args.cfg; setFrame(W,H,cfg.plain); const ov=await setupOverlay();
   renderer.toneMappingExposure=1.05;
   const scene=new THREE.Scene(); scene.background=background(THREE);
   const camera=new THREE.PerspectiveCamera(28,W/H,0.001,100);
@@ -59,5 +59,5 @@ export async function frame(ctx,t){
     h+=`<div class="lab" style="opacity:${a};transform:scale(${sc.toFixed(3)});transform-origin:50% 0"><div class="n" style="font-size:${fz}px">${it.name}</div>${it.plain?`<div class="p">${it.plain}</div>`:''}</div>`; }
   if(t>=cfg.tEndLine-0.1){ const a=Math.min(1,(t-cfg.tEndLine+0.1)/0.3); const sc=0.6+0.4*(1-Math.pow(1-a,3));
     h+=`<div class="end" style="transform:scale(${sc.toFixed(3)}) rotate(-2deg);opacity:${a}"><div class="a">${cfg.endA}</div><div class="b">${cfg.endB}</div></div>`; }
-  ov.innerHTML=h;
+  ov.innerHTML=ZONE.plain?'':h;
 }

@@ -51,3 +51,8 @@ Stills per stage, LOOK, then frames as above with /r3d/journey3d.js.
 voice: ffmpeg loudnorm chain (PIPELINE §2) → voice_final.wav; mix.json like the example (events: pop at each label / chip, whoosh at stage changes,
 ding for timer facts, confirm at the end card; music pad only) → python3 r3d/mix.py mix.json → loudnorm −15 → mix_final.wav
 ffmpeg -framerate 30 -i <ep>/frames/f%05d.png -c:v libx264 -crf 12 -preset veryfast -pix_fmt yuv420p video_silent.mp4 → tools/encode_final.sh.
+
+## Long videos (16:9) — 3D scenes for "WHAT HAPPENS" and quiz long videos (owner 2026-11-19)
+The same engine renders clean landscape 3D B-roll: add "plain": true to cfg (no overlay text; the long-video template adds its own captions/labels)
+and capture at 1920x1080: SHOT=1 node r3d/cap.mjs /r3d/journey3d.js <out> 30 <t0> <t1> 1920 1080 @/<ep>/args3d.json  (or beat3d.js).
+Then use the PNG sequence (or an mp4 made from it) as a scene/clip in templates/long/vid. Frame time ~1–2 s at 1080p — render only the seconds you use.

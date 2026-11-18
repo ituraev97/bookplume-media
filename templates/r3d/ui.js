@@ -44,13 +44,15 @@ export function background(THREE){
   const t=new THREE.CanvasTexture(cv); t.colorSpace=THREE.SRGBColorSpace; return t;
 }
 // camera framing: box must fit inside the MODEL zone (x 70–1010, y 450–1150 of the 1080x1920 frame)
-export const ZONE={cy:800, h:700, w:940};
+export const ZONE={cy:800, h:700, w:940, W:1080, H:1920, plain:false};
+// landscape / long-video use: setFrame(1920,1080,true) -> no overlay, model framed in the centre 80% of the frame
+export function setFrame(W,H,plain){ ZONE.W=W; ZONE.H=H; ZONE.plain=!!plain; if(W>H||plain){ ZONE.cy=H/2; ZONE.h=H*0.8; ZONE.w=W*0.8; } }
 export function frameDist(THREE,box,fovDeg,aspect,fill=0.9){
   const s=box.getSize(new THREE.Vector3());
-  const vfov=fovDeg*Math.PI/180; const fracH=ZONE.h/1920*fill, fracW=ZONE.w/1080*fill;
+  const vfov=fovDeg*Math.PI/180; const fracH=ZONE.h/ZONE.H*fill, fracW=ZONE.w/ZONE.W*fill;
   const dH=(s.y/fracH)/(2*Math.tan(vfov/2));
   const hfov=2*Math.atan(Math.tan(vfov/2)*aspect); const dW=(Math.max(s.x,s.z*0.6)/fracW)/(2*Math.tan(hfov/2));
   return Math.max(dH,dW)+s.z*0.5;
 }
 // shift the projection so the camera target lands at ZONE.cy instead of the frame centre
-export const applyOffset=(camera)=>camera.setViewOffset(1080,1920,0,960-ZONE.cy,1080,1920);
+export const applyOffset=(camera)=>camera.setViewOffset(ZONE.W,ZONE.H,0,ZONE.H/2-ZONE.cy,ZONE.W,ZONE.H);
