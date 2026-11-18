@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-quiz-4-basic-tissue-types.png",
+  "tag": "ANATOMY QUIZ",
+  "headline": "Can you name the 4 basic tissue types?",
+  "stat": "4",
+  "stat_note": "tissue types build every organ",
+  "body": "Epithelial: covers surfaces, lines cavities\nConnective: binds and supports\nMuscle: contracts to move\nNervous: carries signals",
+  "source": "Source: OpenStax Anatomy & Physiology, 4.1 Types of Tissues"
+ },
+ {
+  "file": "02-spinal-nerves-8-12-5-5-1.png",
+  "tag": "STUDY TIP",
+  "headline": "Spinal nerves? Remember 8-12-5-5-1",
+  "stat": "31",
+  "stat_note": "pairs: 8 C, 12 T, 5 L, 5 S, 1 Co",
+  "body": "8 cervical, 12 thoracic, 5 lumbar,\n5 sacral, 1 coccygeal.\nTrick: 8 cervical nerves but 7 cervical vertebrae. C8 exits between C7 and T1.",
+  "source": "Source: StatPearls (NCBI), Neuroanatomy, Spinal Nerves"
+ },
+ {
+  "file": "03-ribs-7-3-2.png",
+  "tag": "BODY FACT",
+  "headline": "How many ribs do you have? 12 pairs",
+  "stat": "7-3-2",
+  "stat_note": "true - false - floating, per side",
+  "body": "Ribs 1 to 7: true ribs\nRibs 8 to 10: false ribs\nRibs 11 and 12: floating ribs\n24 ribs in total, 12 on each side.",
+  "source": "Source: Cleveland Clinic, Rib Cage"
+ }
+]
