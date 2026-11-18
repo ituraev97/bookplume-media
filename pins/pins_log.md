@@ -63,3 +63,6 @@
 - 2026-11-19: QUIZ 3 parts of the brainstem midbrain/pons/medulla oblongata + functions (Cleveland Clinic) — sched 11-19 21:17
 - 2026-11-19: aortic arch branches mnemonic ABC'S brachiocephalic/left common carotid/left subclavian, ~75% pattern (Radiopaedia) — sched 11-20 02:17
 - 2026-11-19: heart pumps ~2,000 gallons of blood a day, >2.5 billion beats by 70 (University Hospitals) — sched 11-20 06:17
+- 2026-11-20: QUIZ 4 basic tissue types epithelial/connective/muscle/nervous + functions (OpenStax A&P 4.1) — sched 11-20 21:17
+- 2026-11-20: spinal nerves 31 pairs 8-12-5-5-1 cervical/thoracic/lumbar/sacral/coccygeal, C8 exits between C7–T1 (StatPearls/NCBI) — sched 11-21 02:17
+- 2026-11-20: ribs 12 pairs, 7 true / 3 false / 2 floating per side (Cleveland Clinic) — sched 11-21 06:17
