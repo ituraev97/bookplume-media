@@ -1,0 +1,62 @@
+[
+ {
+  "text": "Where does the water you drink actually go?",
+  "s": 0,
+  "e": 1.8455
+ },
+ {
+  "text": "First stop: the stomach.",
+  "s": 2.1955,
+  "e": 3.37725
+ },
+ {
+  "text": "Very little gets absorbed here.",
+  "s": 3.5772500000000003,
+  "e": 5.081625000000001
+ },
+ {
+  "text": "Next, the small intestine.",
+  "s": 5.431625,
+  "e": 6.7348333333333334
+ },
+ {
+  "text": "It soaks up about ninety percent of the water you take in.",
+  "s": 6.934833333333334,
+  "e": 9.801208333333333
+ },
+ {
+  "text": "Then the large intestine pulls out most of what's left.",
+  "s": 10.151208333333333,
+  "e": 12.983833333333333
+ },
+ {
+  "text": "Now that water is in your blood, and your blood runs through your kidneys.",
+  "s": 13.383833333333333,
+  "e": 17.050375
+ },
+ {
+  "text": "Every day, they filter about a hundred and fifty quarts from your blood.",
+  "s": 17.350375,
+  "e": 20.683625
+ },
+ {
+  "text": "Only one to two quarts become urine.",
+  "s": 20.983625,
+  "e": 22.859333333333332
+ },
+ {
+  "text": "It flows down two thin tubes, the ureters, into your bladder.",
+  "s": 23.25933333333333,
+  "e": 26.43570833333333
+ },
+ {
+  "text": "Your bladder holds about one and a half to two cups.",
+  "s": 26.73570833333333,
+  "e": 29.315541666666665
+ },
+ {
+  "text": "Save this for your next anatomy exam.",
+  "s": 29.715541666666663,
+  "e": 31.612041666666663
+ }
+]

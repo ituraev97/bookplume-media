@@ -1,0 +1,8 @@
+# Sources — Where does the water you drink go? (JOURNEY 3D, 2026-11-18)
+- OpenStax A&P 2e 23.4 The Stomach — "Little if any nutrient absorption occurs in the stomach"; "almost all absorption takes place in the small intestine" https://openstax.org/books/anatomy-and-physiology/pages/23-4-the-stomach
+- Britannica, Gastric secretion — "The net absorption of water from the stomach is small" (fact-check agent) https://www.britannica.com/science/human-digestive-system/Gastric-secretion
+- OpenStax A&P 2e 23.5 — "The small intestine absorbs about 90 percent of the water you ingest"; "The large intestine absorbs most of the remaining water" https://openstax.org/books/anatomy-and-physiology/pages/23-5-the-small-and-large-intestines
+- NIDDK Your Kidneys & How They Work — "your kidneys filter about 150 quarts of blood"; "Only 1 to 2 quarts become urine"; "two thin tubes of muscle called ureters" https://niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work
+- NIDDK The Urinary Tract & How It Works — bladder "can hold 1.5 to 2 cups of urine" https://niddk.nih.gov/health-information/urologic-diseases/urinary-tract-how-it-works
+Fact-check (independent agent): 2 fixes applied — "Almost nothing gets absorbed here yet" → "Very little gets absorbed here"; "150 quarts of blood" → "150 quarts from your blood" (kidneys filter plasma).
+3D: Digestive System by Focus Medica (lokeshk), CC BY 4.0, https://sketchfab.com/3d-models/digestive-system-a94865413b994323b7692c176478f690 — meshes: 6 stomach, 11 duodenum, 7 small intestine, 4 colon+rectum, 15 aorta + branches, 16 renal arteries, 17 renal veins, 3/9 kidneys, 8 renal pelvis + ureters (identified on preview sheet 2026-11-18).
