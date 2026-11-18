@@ -1,0 +1,148 @@
+[
+ {
+  "name": "Liver",
+  "plain": "largest internal organ",
+  "meshes": [
+   14
+  ]
+ },
+ {
+  "name": "Gallbladder",
+  "plain": "stores bile",
+  "meshes": [
+   10
+  ],
+  "ghost": {
+   "14": 0.3
+  }
+ },
+ {
+  "name": "Stomach",
+  "plain": "acid + enzymes",
+  "meshes": [
+   6
+  ],
+  "ghost": {
+   "14": 0.35
+  }
+ },
+ {
+  "name": "Spleen",
+  "plain": "stores + filters blood",
+  "meshes": [
+   1
+  ],
+  "ghost": {
+   "6": 0.35,
+   "4": 0.35
+  }
+ },
+ {
+  "name": "Pancreas",
+  "plain": "digestive enzymes",
+  "meshes": [
+   5
+  ],
+  "ghost": {
+   "6": 0.18,
+   "14": 0.3,
+   "4": 0.3
+  }
+ },
+ {
+  "name": "Duodenum",
+  "plain": "first part of small intestine",
+  "meshes": [
+   11
+  ],
+  "ghost": {
+   "14": 0.25,
+   "6": 0.3,
+   "4": 0.3,
+   "10": 0.4
+  }
+ },
+ {
+  "name": "Small intestine",
+  "plain": "absorbs most nutrients",
+  "meshes": [
+   7
+  ]
+ },
+ {
+  "name": "Large intestine",
+  "plain": "water → stool",
+  "meshes": [
+   4
+  ]
+ },
+ {
+  "name": "Adrenal glands",
+  "plain": "one on top of each kidney",
+  "meshes": [
+   2
+  ],
+  "ghost": {
+   "4": 0.12,
+   "7": 0.12,
+   "6": 0.14,
+   "14": 0.14,
+   "11": 0.14,
+   "5": 0.16,
+   "10": 0.14,
+   "1": 0.18
+  }
+ },
+ {
+  "name": "Kidneys",
+  "plain": "filter blood → urine",
+  "meshes": [
+   3,
+   9
+  ],
+  "ghost": {
+   "4": 0.12,
+   "7": 0.12,
+   "6": 0.14,
+   "14": 0.14,
+   "11": 0.14,
+   "5": 0.16,
+   "10": 0.14,
+   "1": 0.18
+  }
+ },
+ {
+  "name": "Ureters",
+  "plain": "kidneys → bladder",
+  "meshes": [
+   8
+  ],
+  "ghost": {
+   "4": 0.12,
+   "7": 0.12,
+   "6": 0.14,
+   "14": 0.14,
+   "11": 0.14,
+   "5": 0.16,
+   "10": 0.14,
+   "1": 0.18
+  }
+ },
+ {
+  "name": "Abdominal aorta",
+  "plain": "largest blood vessel",
+  "meshes": [
+   15
+  ],
+  "ghost": {
+   "4": 0.12,
+   "7": 0.12,
+   "6": 0.14,
+   "14": 0.14,
+   "11": 0.14,
+   "5": 0.16,
+   "10": 0.14,
+   "1": 0.18
+  }
+ }
+]

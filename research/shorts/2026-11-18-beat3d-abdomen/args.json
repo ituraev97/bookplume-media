@@ -1,0 +1,199 @@
+{
+ "model": "/models/dig_lokesh/model.glb",
+ "cfg": {
+  "title": [
+   "INSIDE YOUR ABDOMEN",
+   "IN <b>20 SECONDS</b>"
+  ],
+  "credit": "3D: Digestive System by Focus Medica (Sketchfab, CC BY 4.0)",
+  "hide": [
+   0,
+   12,
+   13,
+   16,
+   17,
+   18
+  ],
+  "bpm": 100,
+  "items": [
+   {
+    "name": "Liver",
+    "plain": "largest internal organ",
+    "meshes": [
+     14
+    ],
+    "t0": 0.25,
+    "t1": 1.45
+   },
+   {
+    "name": "Gallbladder",
+    "plain": "stores bile",
+    "meshes": [
+     10
+    ],
+    "ghost": {
+     "14": 0.1
+    },
+    "t0": 1.45,
+    "t1": 2.65
+   },
+   {
+    "name": "Stomach",
+    "plain": "acid + enzymes",
+    "meshes": [
+     6
+    ],
+    "ghost": {
+     "14": 0.3
+    },
+    "t0": 2.65,
+    "t1": 3.85
+   },
+   {
+    "name": "Spleen",
+    "plain": "stores + filters blood",
+    "meshes": [
+     1
+    ],
+    "ghost": {
+     "6": 0.25,
+     "4": 0.2
+    },
+    "t0": 3.85,
+    "t1": 5.05
+   },
+   {
+    "name": "Pancreas",
+    "plain": "digestive enzymes",
+    "meshes": [
+     5
+    ],
+    "ghost": {
+     "6": 0.0,
+     "14": 0.2,
+     "4": 0.15,
+     "7": 0.4
+    },
+    "t0": 5.05,
+    "t1": 6.25
+   },
+   {
+    "name": "Duodenum",
+    "plain": "first part of small intestine",
+    "meshes": [
+     11
+    ],
+    "ghost": {
+     "14": 0.08,
+     "6": 0,
+     "4": 0,
+     "10": 0.3,
+     "7": 0.25,
+     "5": 0.5
+    },
+    "t0": 6.25,
+    "t1": 7.45
+   },
+   {
+    "name": "Small intestine",
+    "plain": "absorbs most nutrients",
+    "meshes": [
+     7
+    ],
+    "t0": 7.45,
+    "t1": 8.65
+   },
+   {
+    "name": "Large intestine",
+    "plain": "water → stool",
+    "meshes": [
+     4
+    ],
+    "t0": 8.65,
+    "t1": 10.45
+   },
+   {
+    "name": "Adrenal glands",
+    "plain": "one on top of each kidney",
+    "meshes": [
+     2
+    ],
+    "ghost": {
+     "4": 0,
+     "7": 0,
+     "6": 0,
+     "14": 0,
+     "11": 0.1,
+     "5": 0.1,
+     "10": 0,
+     "1": 0.12
+    },
+    "t0": 10.45,
+    "t1": 11.65
+   },
+   {
+    "name": "Kidneys",
+    "plain": "filter blood → urine",
+    "meshes": [
+     3,
+     9
+    ],
+    "ghost": {
+     "4": 0,
+     "7": 0,
+     "6": 0,
+     "14": 0,
+     "11": 0.1,
+     "5": 0.1,
+     "10": 0,
+     "1": 0.12
+    },
+    "t0": 11.65,
+    "t1": 12.85
+   },
+   {
+    "name": "Ureters",
+    "plain": "kidneys → bladder",
+    "meshes": [
+     8
+    ],
+    "ghost": {
+     "4": 0,
+     "7": 0,
+     "6": 0,
+     "14": 0,
+     "11": 0.1,
+     "5": 0.1,
+     "10": 0,
+     "1": 0.12
+    },
+    "t0": 12.85,
+    "t1": 14.05
+   },
+   {
+    "name": "Abdominal aorta",
+    "plain": "part of largest blood vessel",
+    "meshes": [
+     15
+    ],
+    "ghost": {
+     "4": 0,
+     "7": 0,
+     "6": 0,
+     "14": 0,
+     "11": 0.1,
+     "5": 0.1,
+     "10": 0,
+     "1": 0.12
+    },
+    "t0": 14.05,
+    "t1": 15.85
+   }
+  ],
+  "tEndLine": 16.1,
+  "end": 20.3,
+  "endA": "Save this.",
+  "endB": "Then name all 12<br>without looking 👀",
+  "minDist": 0.2
+ }
+}

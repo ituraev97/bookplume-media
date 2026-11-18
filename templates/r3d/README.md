@@ -21,6 +21,10 @@ Models: the orphan branch bp-models of this repo holds tested models (<slug>/mod
   skel_polyone  — full skeleton, 20 separate meshes (see examples/skeleton/cfg.json for the mesh → bone map; 10 empty, 20 outline: hide)
   dig_lokesh    — digestive organs (Focus Medica): 4 colon+rectum, 5 pancreas, 6 stomach, 7 small intestine, 10 gallbladder+bile ducts,
                   11 duodenum, 14 liver, 1 spleen, 3/9 kidneys; hide 0,2,8,12,13,15,16,17,18 (18 = logo plane — always hide)
+                  full map (checked 2026-11-18 on preview sheets): 0 diaphragm (left dome), 2 adrenal glands, 8 renal pelves + ureters (no bladder),
+                  15 abdominal aorta + celiac/hepatic/splenic branches, 16 intrarenal arteries, 17 renal veins, 12/13 tiny dots (hide).
+  beat3d.js options (2026-11-18): item.ghost {meshIdx: opacity} = x-ray for organs behind others (0 hides the mesh), cfg.endSpin (default 0.35 rad/s) keeps the end card moving.
+  cover3d.js renders the model in its ORIGINAL colours on a transparent background for BEAST covers (example: research/shorts/2026-11-18-beat3d-abdomen/cover.html).
 New models: python3 sfsearch.py "<query>" (SFT=<owner Sketchfab token> in the env, never written to files) → ONLY "CC Attribution" or "CC0"
 (never NonCommercial/NoDerivs/ShareAlike/Free Standard) → python3 sfdl.py <uid> <slug> → glbnames.py → render preview.js / zoom.js sheets and LOOK
 which mesh is which. Only label a mesh when you are sure (mesh names + visual check against a Gray's 1918 plate). Add good models to bp-models.

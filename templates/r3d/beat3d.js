@@ -39,9 +39,15 @@ export async function frame(ctx,t){
     tgt=prev.c.clone().lerp(cur.c,k); dist=Math.min(prev.d+(cur.d-prev.d)*k, F.d); }
   else { const last=V(boxes[items.length-1]); const k=sm((t-items[items.length-1].t1)/0.6); tgt=last.c.clone().lerp(F.c,k); dist=Math.min(last.d,F.d)+(F.d-Math.min(last.d,F.d))*k; }
   const beat=60/cfg.bpm; const ph=((t-items[0].t0)%beat+beat)%beat; const bump=Math.exp(-ph*10)*0.02;
-  const yaw=(cfg.yaw??0.42)*Math.sin(t*0.45)-0.1, pitch=0.08; const d=dist*(1-bump);
+  const yaw=(cfg.yaw??0.42)*Math.sin(t*0.45)-0.1+(ended?(t-items[items.length-1].t1)*(cfg.endSpin??0.35):0), pitch=0.08; const d=dist*(1-bump);
   camera.position.set(tgt.x+Math.sin(yaw)*d, tgt.y+Math.sin(pitch)*d, tgt.z+Math.cos(yaw)*d); camera.lookAt(tgt); applyOffset(camera);
   meshes.forEach(m=>{ if(m.userData.base){ m.material.color.copy(m.userData.base); m.material.emissive&&m.material.emissive.copy(m.userData.em); m.material.emissiveIntensity=1; } });
+  // optional x-ray: item.ghost {meshIdx: opacity} fades organs in front of the current one (fades in over 0.3 s)
+  meshes.forEach(m=>{ if(m.userData.base){ m.visible=true; m.material.transparent=false; m.material.opacity=1; m.material.depthWrite=true; } });
+  if(!ended){ const g=items[i].ghost||{}, gp=i>0?(items[i-1].ghost||{}):{}; const k=sm((t-items[i].t0+0.02)/0.3);
+    const keys=new Set([...Object.keys(g),...Object.keys(gp)]);
+    keys.forEach(j=>{ const m=meshes[+j]; if(!m||!m.userData.base) return; const a=g[j]??1, b=gp[j]??1; const o=b+(a-b)*k;
+      if(o<0.02){ m.visible=false; } else if(o<0.999){ m.material.transparent=true; m.material.opacity=o; m.material.depthWrite=false; } }); }
   items.forEach((it,k)=>{
     if(k<i||ended) it.meshes.forEach(j=>{ const mt=meshes[j].material; mt.color.set(0xBFD39A); mt.emissive&&mt.emissive.set(0x2E4A12); });
     if(k===i&&!ended){ const f=0.75+0.25*Math.exp(-(((t-it.t0)%beat+beat)%beat)*6); it.meshes.forEach(j=>{ const mt=meshes[j].material; mt.color.set(0xF2D14E); if(mt.emissive){mt.emissive.set(0xF2B10E); mt.emissiveIntensity=0.55*f;} }); }
