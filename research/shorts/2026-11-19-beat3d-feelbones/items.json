@@ -1,0 +1,89 @@
+[
+ {
+  "name": "Mandible",
+  "plain": "your jawline",
+  "meshes": [
+   17
+  ]
+ },
+ {
+  "name": "Clavicle + scapula",
+  "plain": "collarbone \u00b7 tip of shoulder",
+  "meshes": [
+   12,
+   14
+  ]
+ },
+ {
+  "name": "Sternum + ribs",
+  "plain": "breastbone + ribs at your sides",
+  "meshes": [
+   7
+  ]
+ },
+ {
+  "name": "Vertebral column",
+  "plain": "neck bump = C7 vertebra",
+  "meshes": [
+   19
+  ]
+ },
+ {
+  "name": "Humerus",
+  "plain": "funny bone = ulnar nerve",
+  "meshes": [
+   9,
+   11
+  ]
+ },
+ {
+  "name": "Ulna + radius",
+  "plain": "elbow tip = ulna",
+  "meshes": [
+   0,
+   1
+  ]
+ },
+ {
+  "name": "Hand bones",
+  "plain": "big knuckles = metacarpals",
+  "meshes": [
+   13,
+   18
+  ],
+  "focus": [
+   13
+  ]
+ },
+ {
+  "name": "Pelvis",
+  "plain": "waist ridge = iliac crest",
+  "meshes": [
+   15
+  ]
+ },
+ {
+  "name": "Femur",
+  "plain": "greater trochanter",
+  "meshes": [
+   3,
+   4
+  ]
+ },
+ {
+  "name": "Tibia + fibula",
+  "plain": "shin + outer ankle bump",
+  "meshes": [
+   5,
+   6
+  ]
+ },
+ {
+  "name": "Foot bones",
+  "plain": "heel = calcaneus",
+  "meshes": [
+   2,
+   8
+  ]
+ }
+]

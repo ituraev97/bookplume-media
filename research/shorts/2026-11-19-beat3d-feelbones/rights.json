@@ -1,0 +1,3 @@
+{"model.glb":{"source_page":"https://sketchfab.com/3d-models/free-pack-human-skeleton-950d0a46531f492ab8715777e312a5bf","author":"PolyOne Studio","license":"CC Attribution (CC BY 4.0)","content":"3D human skeleton, 20 meshes"},
+ "voice":{"source_page":"kokoro-onnx am_michael","author":"Book Plume (TTS)","license":"Apache-2.0 model","content":"narration"},
+ "music+sfx":{"source_page":"templates/r3d/mix.py + templates/sfx","author":"Book Plume","license":"own","content":"soft pad + pops/whoosh/confirm"}}

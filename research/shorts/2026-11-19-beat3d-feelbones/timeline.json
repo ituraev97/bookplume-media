@@ -1,0 +1,116 @@
+{
+ "items": [
+  {
+   "name": "Mandible",
+   "plain": "your jawline",
+   "meshes": [
+    17
+   ],
+   "t0": 0.25,
+   "t1": 2.65
+  },
+  {
+   "name": "Clavicle + scapula",
+   "plain": "collarbone \u00b7 tip of shoulder",
+   "meshes": [
+    12,
+    14
+   ],
+   "t0": 2.65,
+   "t1": 5.65
+  },
+  {
+   "name": "Sternum + ribs",
+   "plain": "breastbone + ribs at your sides",
+   "meshes": [
+    7
+   ],
+   "t0": 5.65,
+   "t1": 8.05
+  },
+  {
+   "name": "Vertebral column",
+   "plain": "neck bump = C7 vertebra",
+   "meshes": [
+    19
+   ],
+   "t0": 8.05,
+   "t1": 10.45
+  },
+  {
+   "name": "Humerus",
+   "plain": "funny bone = ulnar nerve",
+   "meshes": [
+    9,
+    11
+   ],
+   "t0": 10.45,
+   "t1": 12.25
+  },
+  {
+   "name": "Ulna + radius",
+   "plain": "elbow tip = ulna",
+   "meshes": [
+    0,
+    1
+   ],
+   "t0": 12.25,
+   "t1": 14.05
+  },
+  {
+   "name": "Hand bones",
+   "plain": "big knuckles = metacarpals",
+   "meshes": [
+    13,
+    18
+   ],
+   "focus": [
+    13
+   ],
+   "t0": 14.05,
+   "t1": 15.85
+  },
+  {
+   "name": "Pelvis",
+   "plain": "waist ridge = iliac crest",
+   "meshes": [
+    15
+   ],
+   "t0": 15.85,
+   "t1": 18.25
+  },
+  {
+   "name": "Femur",
+   "plain": "greater trochanter",
+   "meshes": [
+    3,
+    4
+   ],
+   "t0": 18.25,
+   "t1": 20.05
+  },
+  {
+   "name": "Tibia + fibula",
+   "plain": "shin + outer ankle bump",
+   "meshes": [
+    5,
+    6
+   ],
+   "t0": 20.05,
+   "t1": 22.45
+  },
+  {
+   "name": "Foot bones",
+   "plain": "heel = calcaneus",
+   "meshes": [
+    2,
+    8
+   ],
+   "t0": 22.45,
+   "t1": 24.25
+  }
+ ],
+ "tEndLine": 24.5,
+ "end": 27.87,
+ "bpm": 100.0
+}
