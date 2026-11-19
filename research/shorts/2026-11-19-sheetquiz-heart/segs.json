@@ -1,0 +1,62 @@
+[
+ {
+  "text": "Heart quiz. Can you get five out of five?",
+  "s": 0,
+  "e": 1.9559166666666667
+ },
+ {
+  "text": "Number one.",
+  "s": 2.455916666666667,
+  "e": 3.060666666666667
+ },
+ {
+  "text": "A. The aortic arch.",
+  "s": 6.260666666666667,
+  "e": 7.433916666666667
+ },
+ {
+  "text": "Number two.",
+  "s": 8.133916666666666,
+  "e": 8.832041666666665
+ },
+ {
+  "text": "B. The left ventricle. Left and right are the patient's sides.",
+  "s": 12.032041666666665,
+  "e": 15.242249999999999
+ },
+ {
+  "text": "Number three.",
+  "s": 15.942249999999998,
+  "e": 16.66683333333333
+ },
+ {
+  "text": "C. The superior vena cava. It brings blood back from your upper body.",
+  "s": 19.86683333333333,
+  "e": 23.675958333333327
+ },
+ {
+  "text": "Number four.",
+  "s": 24.375958333333326,
+  "e": 25.106499999999993
+ },
+ {
+  "text": "A. The pulmonary trunk. It carries blood to your lungs.",
+  "s": 28.306499999999993,
+  "e": 31.262083333333326
+ },
+ {
+  "text": "Number five.",
+  "s": 31.962083333333325,
+  "e": 32.694083333333325
+ },
+ {
+  "text": "B. The right ventricle. It makes up most of the front of your heart.",
+  "s": 35.89408333333333,
+  "e": 39.09929166666666
+ },
+ {
+  "text": "How many did you get? Comment your score.",
+  "s": 39.69929166666666,
+  "e": 41.58970833333333
+ }
+]
