@@ -66,3 +66,6 @@
 - 2026-11-20: QUIZ 4 basic tissue types epithelial/connective/muscle/nervous + functions (OpenStax A&P 4.1) — sched 11-20 21:17
 - 2026-11-20: spinal nerves 31 pairs 8-12-5-5-1 cervical/thoracic/lumbar/sacral/coccygeal, C8 exits between C7–T1 (StatPearls/NCBI) — sched 11-21 02:17
 - 2026-11-20: ribs 12 pairs, 7 true / 3 false / 2 floating per side (Cleveland Clinic) — sched 11-21 06:17
+- 2026-11-21: QUIZ 4 main blood types A/B/AB/O by A & B antigens, + Rh = 8 common types (Cleveland Clinic) — sched 11-21 21:17
+- 2026-11-21: mitosis phases mnemonic PMAT prophase/metaphase/anaphase/telophase + cytokinesis (OpenStax A&P 2e 3.5) — sched 11-22 02:17
+- 2026-11-21: MYTH gut not a tennis court, digestive tract surface 30–40 m² ≈ half a badminton court, old est. 180–300 m², large intestine ~2 m² (Helander & Fändriks 2014) — sched 11-22 06:17
