@@ -105,3 +105,8 @@
 2026-11-18 | Leonard Thompson, 14, Toronto Jan 1922: first insulin dose impure, reaction; Collip purified, second shot 12 days later worked; lived 13 more years, died of pneumonia at 27 (Canadian Stamp News OTD; Banting & Best)
 2026-11-18 | Phineas Gage 1848: tamping iron >3 ft through skull, conscious, "no longer Gage" personality change, frontal lobe/personality link; died 1860 (Discover Magazine)
 2026-11-18 | plica semilunaris = vestigial nictitating membrane ("third eyelid") in humans (Heralgi et al., Indian J Ophthalmol 2017, PMC5426135)
+2026-11-19 | heart doesn't stop during a sneeze: intrathoracic pressure + vagal tone briefly change rhythm, "stop" = 3+ s pause, long-term monitors show no meaningful pauses; sneeze syncope very rare (Cleveland Clinic, Dr. Kenneth Mayuga)
+2026-11-19 | Haygarth 1799 placebo test of Perkins' metallic tractors (5 guineas): wooden fakes, 4 of 5 rheumatism patients reported less pain; published 1800 "Of the Imagination..." (Discover Magazine; James Lind Library)
+2026-11-19 | James Lind 1747 HMS Salisbury: 12 scurvy sailors, 6 treatments (cider, vinegar, dilute sulfuric acid, sea water, barley water, oranges & lemons), citrus recovered in days; ~50 years before citrus in navy rations (Linda Hall Library)
+2026-11-19 | Broca & Leborgne "Tan": speechless ~21 years, died Apr 17 1861, autopsy Apr 18, left frontal lobe lesion → Broca's area; brain at Dupuytren Museum (Live Science)
+2026-11-19 | brain clearance during sleep debated: Xie et al. Science 2013 mice extracellular space +60%, beta-amyloid cleared faster (ScienceDaily) vs Miao et al. Nature Neuroscience 2024 clearance -30% asleep, -50% anesthesia (Imperial College London)
