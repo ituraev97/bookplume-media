@@ -1,0 +1,16 @@
+S=[
+("What happens to a pill after you swallow it?",0.35),
+("First stop: the stomach.",0.2),
+("In stomach acid, most tablets start to break apart and dissolve.",0.35),
+("Next, the small intestine.",0.2),
+("This is where most drugs actually get absorbed.",0.3),
+("They pass through the gut wall and into your blood.",0.3),
+("But that blood goes to your liver first.",0.25),
+("Your gut wall and liver can break down part of the drug before the rest of your body sees it.",0.3),
+("That's called the first-pass effect.",0.4),
+("What's left rides your bloodstream all over your body.",0.35),
+("Then your kidneys filter about a hundred and fifty quarts of blood every day.",0.3),
+("Each kidney has about a million tiny filters.",0.3),
+("Most drugs and their leftovers leave in your urine, down the ureters.",0.4),
+("Save this for your next pharmacology exam.",0.6),
+]

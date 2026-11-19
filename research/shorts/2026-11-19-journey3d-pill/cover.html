@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:P;src:url(pjs800.woff2)}
+html,body{margin:0}
+#c{position:relative;overflow:hidden;font-family:P,sans-serif;background:radial-gradient(circle at 50% 45%,#FFF36B 0%,#FFC21A 38%,#FF7A00 100%)}
+.rays{position:absolute;left:50%;top:45%;width:400%;height:400%;transform:translate(-50%,-50%);
+ background:repeating-conic-gradient(rgba(255,255,255,.38) 0 7deg,rgba(255,255,255,0) 7deg 18deg);
+ -webkit-mask:radial-gradient(circle,#000 0%,rgba(0,0,0,.7) 25%,transparent 60%)}
+.model{position:absolute;left:50%;transform:translateX(-50%) rotate(-3deg);filter:contrast(1.25) saturate(1.6) drop-shadow(0 0 0 #fff) drop-shadow(10px 14px 0 rgba(0,0,0,.55))}
+.w{position:absolute;left:0;right:0;text-align:center;color:#fff;-webkit-text-stroke:16px #000;paint-order:stroke fill;text-shadow:8px 8px 0 #000;line-height:1;letter-spacing:-2px}
+.w b{display:inline-block;background:#E8131B;padding:4px 22px 10px;border:8px solid #000;-webkit-text-stroke:14px #000}
+.ring{position:absolute;border-radius:50%;border:16px solid #E8131B;box-shadow:0 0 0 6px #fff,inset 0 0 0 6px #fff,0 0 40px 10px rgba(255,0,0,.6)}
+.q{position:absolute;font-size:170px;color:#fff;-webkit-text-stroke:12px #000;paint-order:stroke fill;text-shadow:6px 6px 0 #000}
+.cap{position:absolute;width:var(--w);height:calc(var(--w)*.42);border-radius:999px;border:9px solid #000;overflow:hidden;display:flex;box-shadow:0 0 0 6px #fff,0 0 60px 20px rgba(255,255,255,.9),10px 12px 0 rgba(0,0,0,.5)}.cap i{flex:1}.cap i:first-child{background:linear-gradient(#ff6b6b,#E8131B 60%,#a50b10)}.cap i:last-child{background:linear-gradient(#fff,#eee 60%,#c9c9c9);border-left:7px solid #000}
+.st{position:absolute;background:#E8131B;color:#fff;border:8px solid #000;border-radius:24px;transform:rotate(8deg);-webkit-text-stroke:8px #000;paint-order:stroke fill;text-align:center;line-height:.95;box-shadow:8px 8px 0 #000}
+</style></head><body><div id="c"></div><script>
+const P=JSON.parse(decodeURIComponent(location.hash.slice(1)));const c=document.getElementById('c');
+c.style.width=P.W+'px';c.style.height=P.H+'px';
+c.innerHTML=`<div class="rays"></div><img class="model" src="model.png" style="top:${P.my}px;height:${P.mh}px">
+<div class="w" style="top:${P.t1}px;font-size:${P.f1}px">${P.l1}</div><div class="w" style="top:${P.t2}px;font-size:${P.f2}px">${P.l2}</div>
+<div class="ring" style="left:${P.rx}px;top:${P.ry}px;width:${P.rw}px;height:${P.rh}px"></div><div class="q" style="left:${P.qx}px;top:${P.qy}px">?</div>
+<div class="cap" style="left:${P.cx}px;top:${P.cy}px;--w:${P.cw}px;transform:rotate(${P.cr}deg)"><i></i><i></i></div><div class="st" style="left:${P.sx}px;top:${P.sy}px;font-size:${P.sf}px;padding:16px 22px">${P.s}</div>`;
+</script></body></html>

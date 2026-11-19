@@ -1,0 +1,72 @@
+[
+ {
+  "text": "What happens to a pill after you swallow it?",
+  "s": 0,
+  "e": 2.0421666666666667
+ },
+ {
+  "text": "First stop: the stomach.",
+  "s": 2.3921666666666668,
+  "e": 3.573916666666667
+ },
+ {
+  "text": "In stomach acid, most tablets start to break apart and dissolve.",
+  "s": 3.773916666666667,
+  "e": 7.270416666666668
+ },
+ {
+  "text": "Next, the small intestine.",
+  "s": 7.620416666666667,
+  "e": 8.923625000000001
+ },
+ {
+  "text": "This is where most drugs actually get absorbed.",
+  "s": 9.123625,
+  "e": 11.389958333333334
+ },
+ {
+  "text": "They pass through the gut wall and into your blood.",
+  "s": 11.689958333333335,
+  "e": 13.991791666666668
+ },
+ {
+  "text": "But that blood goes to your liver first.",
+  "s": 14.291791666666668,
+  "e": 16.089291666666668
+ },
+ {
+  "text": "Your gut wall and liver can break down part of the drug before the rest of your body sees it.",
+  "s": 16.339291666666668,
+  "e": 20.749916666666667
+ },
+ {
+  "text": "That's called the first-pass effect.",
+  "s": 21.049916666666668,
+  "e": 22.576375000000002
+ },
+ {
+  "text": "What's left rides your bloodstream all over your body.",
+  "s": 22.976375,
+  "e": 25.488375
+ },
+ {
+  "text": "Then your kidneys filter about a hundred and fifty quarts of blood every day.",
+  "s": 25.838375000000003,
+  "e": 29.54204166666667
+ },
+ {
+  "text": "Each kidney has about a million tiny filters.",
+  "s": 29.84204166666667,
+  "e": 32.20370833333334
+ },
+ {
+  "text": "Most drugs and their leftovers leave in your urine, down the ureters.",
+  "s": 32.503708333333336,
+  "e": 36.050291666666666
+ },
+ {
+  "text": "Save this for your next pharmacology exam.",
+  "s": 36.450291666666665,
+  "e": 38.66670833333333
+ }
+]
