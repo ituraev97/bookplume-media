@@ -69,3 +69,6 @@
 - 2026-11-21: QUIZ 4 main blood types A/B/AB/O by A & B antigens, + Rh = 8 common types (Cleveland Clinic) — sched 11-21 21:17
 - 2026-11-21: mitosis phases mnemonic PMAT prophase/metaphase/anaphase/telophase + cytokinesis (OpenStax A&P 2e 3.5) — sched 11-22 02:17
 - 2026-11-21: MYTH gut not a tennis court, digestive tract surface 30–40 m² ≈ half a badminton court, old est. 180–300 m², large intestine ~2 m² (Helander & Fändriks 2014) — sched 11-22 06:17
+- 2026-11-22: QUIZ 4 chambers of the heart right/left atrium + right/left ventricle + what each does (Cleveland Clinic) — sched 11-22 21:17
+- 2026-11-22: external carotid branches mnemonic SALFOPMS "Some Anatomists Like Freaking Out Poor Medical Students", 8 branches, maxillary + superficial temporal terminal (Kenhub; Radiopaedia) — sched 11-23 02:17
+- 2026-11-22: MYTH 100 bn neurons → ~86 bn neurons + ~85 bn non-neuronal cells, 19% of neurons in cerebral cortex (Azevedo et al. 2009) — sched 11-23 06:17
