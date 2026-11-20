@@ -1,0 +1,6 @@
+# Vertebra quiz (sheet quiz) — sources
+Plate: Gray's Anatomy 1918, Fig. 82 "A typical thoracic vertebra, viewed from above" — https://archive.org/details/anatomyofhumanbo00grayrich/page/n95 (public domain); 1918 "Costal fovea" = modern costal facet (TA98 fovea costalis = costal facet).
+- OpenStax A&P 2e 7.3 The Vertebral Column — https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column ("the part that supports the body weight"; "vertebral spines can easily be felt as a series of bumps just under the skin down the middle of the back"; "pedicles are anchored to the posterior side of the vertebral body"; "each lamina forms part of the posterior roof of the vertebral arch"; thoracic body facets "for articulation with the head of a rib")
+- TeachMeAnatomy, The Thoracic Spine — https://teachmeanatomy.info/thorax/bones/thoracic-spine/ (costal facets on the sides of the bodies articulate with the heads of the ribs)
+- IFAA TA98 02.2.03.003 inferior costal facet / 02.2.03.004 transverse costal facet — https://ifaa.unifr.ch/Public/EntryPage/TA98%20Tree/Entity%20TA98%20EN/02.2.03.003%20Entity%20TA98%20EN.htm
+Independent fact-check (separate agent): all 5 answers, option sets and lines OK, no FIX. Note applied: Q5 pin on the facet on the body (not the transverse costal facet).

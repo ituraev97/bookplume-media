@@ -91,9 +91,9 @@ const Plate: React.FC<{ t: number }> = ({ t }) => {
             <React.Fragment key={k}>
               <div style={{ position: "absolute", left: (x0 + x1) / 2 - ws / 2 - 8, top: (y0 + y1) / 2 - hs / 2 - 6, width: ws + 16, height: hs + 12, transform: "rotate(-3deg)", borderRadius: 10, zIndex: 1,
                 background: C.banana, border: `3px solid ${C.forest}`, boxShadow: "2px 3px 0 rgba(31,42,20,0.35)" }} />
-              <div style={{ position: "absolute", left: cxm - cw / 2, top: cym - ch / 2, width: cw, height: ch, transform: "rotate(-3deg)", borderRadius: 10, zIndex: 5, background: C.matcha,
+              {ca[0] > -20 && ca[0] < PW + 20 && ca[1] > -10 && ca[1] < PH + 10 && <div style={{ position: "absolute", left: cxm - cw / 2, top: cym - ch / 2, width: cw, height: ch, transform: "rotate(-3deg)", borderRadius: 10, zIndex: 5, background: C.matcha,
                 border: `3px solid ${C.forest}`, boxShadow: "2px 3px 0 rgba(31,42,20,0.35)", display: "flex", alignItems: "center", justifyContent: "center",
-                fontFamily: FONT, fontWeight: 800, fontSize: cf, color: "#fff", whiteSpace: "nowrap" }}>{qq!.name.toUpperCase()}</div>
+                fontFamily: FONT, fontWeight: 800, fontSize: cf, color: "#fff", whiteSpace: "nowrap" }}>{qq!.name.toUpperCase()}</div>}
             </React.Fragment>
           );
         }
@@ -212,7 +212,7 @@ const Question: React.FC<{ t: number }> = ({ t }) => {
 const Header: React.FC<{ t: number }> = ({ t }) => {
   return (
     <div style={{ position: "absolute", left: 30, top: 0, width: PW, height: 240 }}>
-      <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: 104, color: C.forest, letterSpacing: -3, lineHeight: 1 }}>
+      <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: Math.min(104, Math.floor(1040 / DATA.title.length)), color: C.forest, letterSpacing: -3, lineHeight: 1, whiteSpace: "nowrap" }}>
         {DATA.title}
       </div>
       <div style={{ position: "absolute", left: 0, top: 112, height: 16, width: 560, background: C.banana, borderRadius: 8, opacity: 0.9 }} />
