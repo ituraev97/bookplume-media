@@ -110,3 +110,8 @@
 2026-11-19 | James Lind 1747 HMS Salisbury: 12 scurvy sailors, 6 treatments (cider, vinegar, dilute sulfuric acid, sea water, barley water, oranges & lemons), citrus recovered in days; ~50 years before citrus in navy rations (Linda Hall Library)
 2026-11-19 | Broca & Leborgne "Tan": speechless ~21 years, died Apr 17 1861, autopsy Apr 18, left frontal lobe lesion → Broca's area; brain at Dupuytren Museum (Live Science)
 2026-11-19 | brain clearance during sleep debated: Xie et al. Science 2013 mice extracellular space +60%, beta-amyloid cleared faster (ScienceDaily) vs Miao et al. Nature Neuroscience 2024 clearance -30% asleep, -50% anesthesia (Imperial College London)
+2026-11-20 | alcohol doesn't warm you: vasodilation sends blood to skin, pulls heat from core, faster heat loss, raises hypothermia risk (Cleveland Clinic 2024)
+2026-11-20 | Galen dissected pigs, dogs, Barbary apes; Vesalius Fabrica 1543 at ~28, Galen deviated 200+ times from human anatomy, ~1,400 years of errors (Harvard Magazine; Stanford history13 Vesalius reading)
+2026-11-20 | C-section probably not named after Julius Caesar: mother Aurelia reputedly lived to hear of Britain invasion; alt origins Roman law, caedare "to cut", caesones; origin uncertain (NLM Cesarean Section exhibition)
+2026-11-20 | William Harvey 1628 De Motu Cordis (~70 pages) circulation vs Galen's liver-made/consumed blood; accused of quackery, private practice suffered (National Geographic 2018)
+2026-11-20 | fingers contain no muscles, moved by forearm flexors/extensors via tendons + intrinsic hand muscles (Jacksonville Orthopaedic Institute)
