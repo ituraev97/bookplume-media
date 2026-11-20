@@ -1,0 +1,29 @@
+[
+ {
+  "file": "01-quiz-4-chambers-of-the-heart.png",
+  "tag": "ANATOMY QUIZ",
+  "headline": "Can you name the 4 chambers of the heart?",
+  "stat": "4",
+  "stat_note": "chambers: 2 atria on top, 2 ventricles below",
+  "body": "Right atrium: takes in oxygen-poor blood\nRight ventricle: pumps it to the lungs\nLeft atrium: holds oxygen-rich blood\nLeft ventricle: pumps it to the body",
+  "source": "Source: Cleveland Clinic, Heart Chambers"
+ },
+ {
+  "file": "02-external-carotid-branches-mnemonic.png",
+  "tag": "STUDY TIP",
+  "headline": "8 external carotid branches in one sentence",
+  "stat": "SALFOPMS",
+  "stat_note": "Some Anatomists Like Freaking Out Poor Medical Students",
+  "body": "Superior thyroid, Ascending pharyngeal, Lingual, Facial, Occipital, Posterior auricular, Maxillary, Superficial temporal.\nThe last 2 are the terminal branches.",
+  "source": "Source: Kenhub, External Carotid Artery; Radiopaedia"
+ },
+ {
+  "file": "03-brain-86-billion-neurons.png",
+  "tag": "BODY MYTH",
+  "headline": "100 billion neurons? Closer to 86 billion",
+  "stat": "86 bn",
+  "stat_note": "neurons in the adult brain",
+  "body": "A 2009 count found about 86 billion neurons and about 85 billion other cells. Only 19% of the neurons sit in the cerebral cortex.",
+  "source": "Source: Azevedo et al., J Comp Neurol, 2009"
+ }
+]
