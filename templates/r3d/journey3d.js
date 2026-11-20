@@ -9,6 +9,7 @@ import {setupOverlay,background,frameDist,applyOffset,fitFont,setFrame,ZONE} fro
 //           move:{type:"path", pts:[names], a:t0, b:t1, ease:"smooth"|"linear"} | {type:"swirl", at:name, r:0.012} | {type:"hold", at:name},
 //           lightAt:[{t, meshes:[k]}] }],
 //  particles:[{from:name, to:name, t0, t1, color:"#7CFF6B", n:12}],
+//  colors:[{t, color:"#hex"}] (optional: bolus/trail/glow colour keys, 0.6 s blend; default yellow),
 //  chips:[{txt, kind:"n"|"f"|"t", t0, t1}],  final:t (all organs lit, full view), tEnd0, endA, endB, bolusSize:0.0075 }
 const sm=x=>x<0?0:x>1?1:x*x*(3-2*x);
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
@@ -66,6 +67,9 @@ export async function frame(ctx,t){
   const p=pos(t); bol.position.copy(p); glow.position.copy(p); const pul=1+0.25*Math.sin(t*10); glow.scale.set(ctx.bs*7.3*pul,ctx.bs*7.3*pul,1);
   trail.forEach((s,i)=>{ s.position.copy(pos(t-(i+1)*0.05)); s.material.opacity=0.55*(1-i/trail.length); s.scale.setScalar(1-i/trail.length*0.6); });
   const k=stageAt(t), fin=k===-2; [bol,glow,...trail].forEach(o=>o.visible=!fin);
+  if(cfg.colors&&cfg.colors.length){ const K=cfg.colors; let i=-1; K.forEach((c,j)=>{ if(t>=c.t) i=j; });
+    const col=new THREE.Color(K[Math.max(0,i)].color); if(i>0){ const u=sm((t-K[i].t)/0.6); col.copy(new THREE.Color(K[i-1].color)).lerp(new THREE.Color(K[i].color),u); }
+    bol.material.color.copy(col); trail.forEach(s=>s.material.color.copy(col).multiplyScalar(0.9)); glow.material.color.copy(col).lerp(new THREE.Color(1,1,1),0.35); }
   // camera
   const fov=camera.fov, asp=camera.aspect;
   const V=i=>{ if(i<0) return {c:ctx.full.getCenter(new THREE.Vector3()), d:frameDist(THREE,ctx.full,fov,asp,0.92)};
@@ -73,7 +77,7 @@ export async function frame(ctx,t){
   const st0= fin?cfg.final : k<0?0 : S[k].t0; const prevK= fin? S.length-1 : k-1; const curK= fin?-1:k;
   const A=V(fin||k>0?prevK:-1), B=V(curK); const a=sm((t-st0)/0.7);
   const tgt=A.c.clone().lerp(B.c,a); const d=A.d+(B.d-A.d)*a; if(curK>=0) tgt.lerp(p,0.25*a);
-  const yaw=0.35*Math.sin(t*0.35)+0.05, pitch=0.12;
+  const yaw=0.35*Math.sin(t*0.35)+0.05+(fin?(t-cfg.final)*(cfg.endSpin??0.35):0), pitch=0.12; // endSpin keeps the end card moving (no frozen frames)
   camera.position.set(tgt.x+Math.sin(yaw)*d, tgt.y+Math.sin(pitch)*d, tgt.z+Math.cos(yaw)*d); camera.lookAt(tgt); applyOffset(camera);
   // organ looks
   const lit=new Set(); let ghost={}, semi={};
@@ -92,7 +96,7 @@ export async function frame(ctx,t){
   if(act.length && t<cfg.tEnd0){ h+=`<div class="lab">`+act.map(c=>{ const a=clamp((t-c.t0)/0.18,0,1)*clamp((c.t1-t)/0.18,0,1); const sc=0.75+0.25*clamp((t-c.t0)/0.18,0,1);
       if(c.kind==='n') return `<div class="n" style="font-size:${fitFont(c.txt,70)}px;opacity:${a};transform:scale(${sc})">${c.txt}</div>`;
       return `<div class="f${c.kind==='t'?' t':''}" style="opacity:${a};transform:scale(${sc})">${c.txt}</div>`; }).join('')+`</div>`; }
-  if(t>=cfg.tEnd0){ const a=clamp((t-cfg.tEnd0)/0.3,0,1); const sc=0.6+0.4*(1-Math.pow(1-a,3));
+  if(t>=cfg.tEnd0){ const a=clamp((t-cfg.tEnd0)/0.3,0,1); const sc=(0.6+0.4*(1-Math.pow(1-a,3)))*(1+0.025*Math.sin(Math.max(0,t-cfg.tEnd0-0.3)*4.2));
     h+=`<div class="end" style="transform:scale(${sc.toFixed(3)}) rotate(-2deg);opacity:${a}"><div class="a">${cfg.endA}</div><div class="b">${cfg.endB}</div></div>`; }
   ov.innerHTML=ZONE.plain?'':h;
 }

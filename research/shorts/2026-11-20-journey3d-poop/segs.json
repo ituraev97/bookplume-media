@@ -1,0 +1,67 @@
+[
+ {
+  "text": "Why is your poop brown?",
+  "s": 0,
+  "e": 1.0842916666666667
+ },
+ {
+  "text": "It starts with old red blood cells.",
+  "s": 1.4342916666666667,
+  "e": 3.2582916666666666
+ },
+ {
+  "text": "They live up to a hundred and twenty days.",
+  "s": 3.4582916666666668,
+  "e": 5.39725
+ },
+ {
+  "text": "Then macrophages in your spleen, liver and bone marrow break them down.",
+  "s": 5.64725,
+  "e": 9.330708333333334
+ },
+ {
+  "text": "Heme loses its iron and becomes green biliverdin, then yellow bilirubin.",
+  "s": 9.630708333333335,
+  "e": 13.929416666666668
+ },
+ {
+  "text": "Bilirubin rides your blood to the liver.",
+  "s": 14.279416666666668,
+  "e": 16.360833333333336
+ },
+ {
+  "text": "Your liver puts it into bile, about half a liter to a liter a day.",
+  "s": 16.560833333333335,
+  "e": 19.838958333333334
+ },
+ {
+  "text": "Your gallbladder stores that bile and concentrates it.",
+  "s": 20.138958333333335,
+  "e": 22.76154166666667
+ },
+ {
+  "text": "When you eat, bile flows into the duodenum to help break up fats.",
+  "s": 23.06154166666667,
+  "e": 26.47891666666667
+ },
+ {
+  "text": "In your large intestine, bacteria turn bilirubin into urobilinogen, then stercobilin.",
+  "s": 26.82891666666667,
+  "e": 32.26579166666667
+ },
+ {
+  "text": "Stercobilin is the brown in your poop.",
+  "s": 32.56579166666667,
+  "e": 34.468375
+ },
+ {
+  "text": "And the yellow in your urine? Urobilins, cleared by your kidneys.",
+  "s": 34.818375,
+  "e": 38.19525
+ },
+ {
+  "text": "Save this for your next physiology exam.",
+  "s": 38.59525,
+  "e": 40.663375
+ }
+]

@@ -1,0 +1,48 @@
+import json
+ex=json.load(open('/home/claude/bookplume-media/templates/r3d/examples/digestion/args3d.json'))
+wp=ex['cfg']['wp']
+wp.update({
+ "splC":{"mesh":1,"sel":[],"zfrac":0.4},
+ "livC":{"mesh":14,"sel":[],"zfrac":0.55},
+ "kidL":{"mesh":3,"sel":[]},
+ "siEnd":{"mesh":7,"sel":[],"zfrac":0.3},
+})
+G={"15":0.04,"16":0.04,"17":0.04,"8":0.04}
+stages=[
+ {"key":"spl","label":"SPLEEN","t0":1.3,"t1":14.2,"light":[1],"focus":[1],"zoom":1.25,"ghost":{"14":0.25,"6":0.2,**G},
+  "move":{"type":"swirl","at":"splC","r":0.010}},
+ {"key":"liv","label":"LIVER","t0":14.2,"t1":20.0,"light":[14],"focus":[14],"ghost":{"6":0.2,"4":0.15,"7":0.15,**G},
+  "move":{"type":"path","pts":["splC","livC"],"a":14.3,"b":16.2}},
+ {"key":"gb","label":"BILE","t0":20.0,"t1":22.95,"light":[10],"focus":[10,14],"semi":{},"ghost":{"14":0.3,"6":0.2,**G},
+  "move":{"type":"path","pts":["livC","gb"],"a":20.05,"b":21.2}},
+ {"key":"duo","label":"DUODENUM","t0":22.95,"t1":26.75,"light":[11],"focus":[11,10],"ghost":{"14":0.2,"10":0.5,"6":0.25,"5":0.3,**G},
+  "move":{"type":"path","pts":["gb","dTop","dLeft","dBot"],"a":23.0,"b":26.4}},
+ {"key":"col","label":"COLON","t0":26.75,"t1":34.65,"light":[4],"focus":[4,7],"zoom":0.88,"ghost":{"7":0.3,"14":0.12,"6":0.12,**G},
+  "move":{"type":"path","pts":["dBot","@si","siEnd","cecum","hep","trans","spl","desc","sig","rect"],"a":26.8,"b":34.3,"ease":"linear"}},
+ {"key":"kid","label":"KIDNEYS","t0":34.65,"t1":38.5,"light":[3,9],"focus":[3,9],"zoom":1.05,"ghost":{"4":0.15,"7":0.1,"14":0.1,"6":0.1,"8":0.35,"15":0.1,"16":0.1,"17":0.1},
+  "move":{"type":"path","pts":["rect","desc","kidL"],"a":34.7,"b":35.9}},
+]
+colors=[{"t":0,"color":"#E8333A"},{"t":11.2,"color":"#3DBE5A"},{"t":12.9,"color":"#FFE24D"},{"t":31.2,"color":"#8B4A1C"},{"t":34.7,"color":"#FFE24D"}]
+chips=[
+ {"txt":"SPLEEN","kind":"n","t0":1.5,"t1":14.15},
+ {"txt":"red cells live <em>up to 120 days</em>","kind":"f","t0":3.5,"t1":9.55},
+ {"txt":"eaten by <em>macrophages</em>","kind":"f","t0":5.8,"t1":14.15},
+ {"txt":"heme → <em>biliverdin</em> → <em>bilirubin</em>","kind":"f","t0":9.75,"t1":14.15},
+ {"txt":"LIVER","kind":"n","t0":14.35,"t1":19.95},
+ {"txt":"bilirubin rides <em>albumin</em>","kind":"f","t0":14.6,"t1":19.95},
+ {"txt":"⏱ 0.5–1 L of bile a day","kind":"t","t0":17.9,"t1":19.95},
+ {"txt":"GALLBLADDER","kind":"n","t0":20.2,"t1":22.9},
+ {"txt":"stores + <em>concentrates</em> bile","kind":"f","t0":21.0,"t1":22.9},
+ {"txt":"DUODENUM","kind":"n","t0":23.15,"t1":26.7},
+ {"txt":"bile helps <em>break up fats</em>","kind":"f","t0":24.7,"t1":26.7},
+ {"txt":"LARGE INTESTINE","kind":"n","t0":26.95,"t1":34.6},
+ {"txt":"bacteria → <em>urobilinogen</em>","kind":"f","t0":28.7,"t1":34.6},
+ {"txt":"→ <em>stercobilin</em> = brown","kind":"f","t0":31.1,"t1":34.6},
+ {"txt":"KIDNEYS","kind":"n","t0":34.85,"t1":38.45},
+ {"txt":"urobilins = <em>yellow urine</em>","kind":"f","t0":36.0,"t1":38.45},
+]
+cfg={"title":["WHY IS YOUR","<b>POOP BROWN?</b>"],"credit":"3D: Digestive System by Focus Medica (Sketchfab, CC BY 4.0)",
+ "hide":[0,2,12,13,18],"wp":wp,"meander":ex['cfg']['meander'],"stages":stages,"colors":colors,"particles":[],"chips":chips,
+ "final":38.5,"tEnd0":38.6,"endA":"Save this","endB":"for your next physiology exam 📌"}
+json.dump({"model":"/models/dig_lokesh/model.glb","cfg":cfg},open('args3d.json','w'),indent=1,ensure_ascii=False)
+print("ok")

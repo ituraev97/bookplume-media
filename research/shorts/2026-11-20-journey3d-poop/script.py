@@ -1,0 +1,15 @@
+S=[
+("Why is your poop brown?",0.35),
+("It starts with old red blood cells.",0.2),
+("They live up to a hundred and twenty days.",0.25),
+("Then macrophages in your spleen, liver and bone marrow break them down.",0.3),
+("Heme loses its iron and becomes green biliverdin, then yellow bilirubin.",0.35),
+("Bilirubin rides your blood to the liver.",0.2),
+("Your liver puts it into bile, about half a liter to a liter a day.",0.3),
+("Your gallbladder stores that bile and concentrates it.",0.3),
+("When you eat, bile flows into the duodenum to help break up fats.",0.35),
+("In your large intestine, bacteria turn bilirubin into urobilinogen, then stercobilin.",0.3),
+("Stercobilin is the brown in your poop.",0.35),
+("And the yellow in your urine? Urobilins, cleared by your kidneys.",0.4),
+("Save this for your next physiology exam.",0.6),
+]
