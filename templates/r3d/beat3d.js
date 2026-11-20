@@ -3,7 +3,7 @@ import {mergeVertices} from 'three/addons/utils/BufferGeometryUtils.js';
 import {setupOverlay,background,frameDist,applyOffset,fitFont,setFrame,ZONE} from './ui.js';
 // 3D LABELS TO THE BEAT. args: {model, cfg}
 // cfg: {title:["line 1","<b>line 2</b>"], credit, hide:[meshIdx], smooth:true, baseColor:"#EDE6D2", keepMaterials:false,
-//       bpm, items:[{name, plain, meshes:[idx], focus?:[idx], t0, t1}], tEndLine, end, endA, endB, yaw:0.42}
+//       bpm, items:[{name, plain, meshes:[idx], focus?:[idx], t0, t1}], tEndLine, end, endA, endB, yaw:0.42, trans?:0.32 (camera move time, s — use 1–2 for long-video B-roll)}
 const sm=x=>x<0?0:x>1?1:x*x*(3-2*x);
 export async function init({THREE,renderer,W,H,args}){
   const cfg=args.cfg; setFrame(W,H,cfg.plain); const ov=await setupOverlay();
@@ -35,7 +35,7 @@ export async function frame(ctx,t){
   const V=b=>({c:b.getCenter(new THREE.Vector3()), d:Math.max(frameDist(THREE,b,fov,asp,0.85), cfg.minDist||0)});
   const F=V(full);
   let tgt,dist;
-  if(!ended){ const cur=V(boxes[i]), prev=i>0?V(boxes[i-1]):cur; const k=sm((t-items[i].t0+0.02)/0.32);
+  if(!ended){ const cur=V(boxes[i]), prev=i>0?V(boxes[i-1]):cur; const k=sm((t-items[i].t0+0.02)/(cfg.trans||0.32));
     tgt=prev.c.clone().lerp(cur.c,k); dist=Math.min(prev.d+(cur.d-prev.d)*k, F.d); }
   else { const last=V(boxes[items.length-1]); const k=sm((t-items[items.length-1].t1)/0.6); tgt=last.c.clone().lerp(F.c,k); dist=Math.min(last.d,F.d)+(F.d-Math.min(last.d,F.d))*k; }
   const beat=60/cfg.bpm; const ph=((t-items[0].t0)%beat+beat)%beat; const bump=Math.exp(-ph*10)*0.02;

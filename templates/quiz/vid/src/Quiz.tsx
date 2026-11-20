@@ -175,7 +175,12 @@ const Intro: React.FC<{ t: number }> = ({ t }) => {
         </div>
       </div>
       <div style={{ position: "absolute", left: 1140, top: 170, width: 720, height: 720, borderRadius: 40, overflow: "hidden", boxShadow: `0 0 0 4px ${C.line}`, transform: `rotate(${2 - 2 * smooth(t, 0, e)}deg)` }}>
-        <Img src={staticFile(((QZ as unknown as { introImg?: string }).introImg) ?? (first.plate as unknown as { src: string }).src)} style={{ width: 720, height: 720, objectFit: "cover", transform: `scale(${1.05 + 0.1 * smooth(t, 0, e)})` }} />
+        {(QZ as unknown as { intro3d?: number }).intro3d ? (
+          <Img src={staticFile(`intro3d/f${String(Math.min(Math.round(t * 30), (QZ as unknown as { intro3d: number }).intro3d - 1)).padStart(5, "0")}.png`)} style={{ width: 720, height: 720, objectFit: "cover" }} />
+        ) : (
+          <Img src={staticFile(((QZ as unknown as { introImg?: string }).introImg) ?? (first.plate as unknown as { src: string }).src)} style={{ width: 720, height: 720, objectFit: "cover", transform: `scale(${1.05 + 0.1 * smooth(t, 0, e)})` }} />
+        )}
+        {(QZ as unknown as { intro3d?: number }).intro3d ? <div style={{ position: "absolute", left: 24, top: 22, color: "rgba(247,246,236,0.75)", fontWeight: 700, fontSize: 18 }}>3D: PolyOne Studio · Sketchfab · CC BY 4.0</div> : null}
         <div style={{ position: "absolute", right: 30, bottom: 30, background: C.forest, color: C.banana, fontWeight: 800, fontSize: 60, padding: "6px 26px 12px", borderRadius: 22 }}>0 / {QZ.total}</div>
       </div>
     </div>

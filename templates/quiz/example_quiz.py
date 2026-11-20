@@ -68,6 +68,7 @@ OUTRO = [
 BANDS = [["0–4", "Keep practising"], ["5–7", "Solid"], ["8/8", "Anatomy pro"]]
 THUMB = dict(big="NAME THIS BONE?", sub="HAND ANATOMY QUIZ", q=4, zoom=2.2, hl=2, bg="yellow")  # 2–3 words; hl = index of the word in the red box; bg yellow|red|blue (Test & Compare variants); optional pin=[x,y] override
 # INTRO_IMG = "plates/intro.png"  # optional: square plate crop with "?" stickers painted over every printed name (the intro must not show answers) — see research/long/2026-11-16-leg-muscles-quiz
+# 3D intro (2026-11-20): render beat3d.js plain 1080x1080 frames into vid/public/intro3d/f00000.png… and set quiz.json/quizdata "intro3d": <frame count> — the intro panel then plays them (see research/long/2026-11-20-skull-quiz/intro3d_args.json)
 EXTRA_DICT = """scaphoid S K AE F OY D
 lunate L UW N EY T
 capitate K AE P AH T EY T
