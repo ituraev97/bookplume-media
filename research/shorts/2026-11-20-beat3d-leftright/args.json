@@ -1,0 +1,204 @@
+{
+ "model": "/models/dig_lokesh/model.glb",
+ "cfg": {
+  "title": [
+   "LEFT OR RIGHT?",
+   "11 ORGANS IN <b>20s</b>"
+  ],
+  "credit": "3D: Digestive System by Focus Medica (Sketchfab, CC BY 4.0)",
+  "hide": [
+   0,
+   12,
+   13,
+   16,
+   17,
+   18,
+   15
+  ],
+  "bpm": 75,
+  "items": [
+   {
+    "name": "Liver",
+    "side": "YOUR RIGHT",
+    "plain": "left lobe crosses over",
+    "meshes": [
+     14
+    ],
+    "t0": 0.25,
+    "t1": 1.85,
+    "sideAt": 0.57
+   },
+   {
+    "name": "Gallbladder",
+    "side": "YOUR RIGHT",
+    "plain": "under the right lobe of liver",
+    "meshes": [
+     10
+    ],
+    "ghost": {
+     "14": 0.1
+    },
+    "t0": 1.85,
+    "t1": 3.45,
+    "sideAt": 2.339
+   },
+   {
+    "name": "Stomach",
+    "side": "YOUR LEFT",
+    "plain": "its exit (pylorus) is on the right",
+    "meshes": [
+     6
+    ],
+    "ghost": {
+     "14": 0.3
+    },
+    "t0": 3.45,
+    "t1": 5.05,
+    "sideAt": 3.85
+   },
+   {
+    "name": "Spleen",
+    "side": "YOUR LEFT",
+    "plain": "high up, under the ribs",
+    "meshes": [
+     1
+    ],
+    "ghost": {
+     "6": 0.25,
+     "4": 0.2
+    },
+    "t0": 5.05,
+    "t1": 6.65,
+    "sideAt": 5.51
+   },
+   {
+    "name": "Pancreas",
+    "side": "BOTH SIDES",
+    "plain": "head right \u00b7 tail left",
+    "meshes": [
+     5
+    ],
+    "ghost": {
+     "6": 0.0,
+     "14": 0.2,
+     "4": 0.15,
+     "7": 0.4
+    },
+    "t0": 6.65,
+    "t1": 8.25,
+    "sideAt": 7.141
+   },
+   {
+    "name": "Duodenum",
+    "side": "MOSTLY RIGHT",
+    "plain": "C round pancreas head, ends left",
+    "meshes": [
+     11
+    ],
+    "ghost": {
+     "14": 0.08,
+     "6": 0,
+     "4": 0,
+     "10": 0.3,
+     "7": 0.25,
+     "5": 0.5
+    },
+    "t0": 8.25,
+    "t1": 9.85,
+    "sideAt": 9.017
+   },
+   {
+    "name": "Small intestine",
+    "side": "BOTH SIDES",
+    "plain": "jejunum left \u00b7 ileum right",
+    "meshes": [
+     7
+    ],
+    "t0": 9.85,
+    "t1": 12.25,
+    "sideAt": 10.888
+   },
+   {
+    "name": "Large intestine",
+    "side": "BOTH SIDES",
+    "plain": "up the right \u00b7 down the left",
+    "meshes": [
+     4
+    ],
+    "t0": 12.25,
+    "t1": 14.65,
+    "sideAt": 13.293
+   },
+   {
+    "name": "Kidneys",
+    "side": "BOTH SIDES",
+    "plain": "the right one sits a bit lower",
+    "meshes": [
+     3,
+     9
+    ],
+    "ghost": {
+     "4": 0,
+     "7": 0,
+     "6": 0,
+     "14": 0,
+     "11": 0.1,
+     "5": 0.1,
+     "10": 0,
+     "1": 0.12
+    },
+    "t0": 14.65,
+    "t1": 16.25,
+    "sideAt": 15.121
+   },
+   {
+    "name": "Adrenal glands",
+    "side": "BOTH SIDES",
+    "plain": "one on top of each kidney",
+    "meshes": [
+     2
+    ],
+    "ghost": {
+     "4": 0,
+     "7": 0,
+     "6": 0,
+     "14": 0,
+     "11": 0.1,
+     "5": 0.1,
+     "10": 0,
+     "1": 0.12
+    },
+    "t0": 16.25,
+    "t1": 17.85,
+    "sideAt": 17.158
+   },
+   {
+    "name": "Ureters",
+    "side": "BOTH SIDES",
+    "plain": "one from each kidney",
+    "meshes": [
+     8
+    ],
+    "ghost": {
+     "4": 0,
+     "7": 0,
+     "6": 0,
+     "14": 0,
+     "11": 0.1,
+     "5": 0.1,
+     "10": 0,
+     "1": 0.12
+    },
+    "t0": 17.85,
+    "t1": 19.45,
+    "sideAt": 18.394
+   }
+  ],
+  "tEndLine": 19.7,
+  "end": 22.79,
+  "endA": "How many right?",
+  "endB": "Comment your<br>score out of 11 \ud83d\udc47",
+  "minDist": 0.2,
+  "sideTags": false
+ }
+}

@@ -24,6 +24,8 @@ Models: the orphan branch bp-models of this repo holds tested models (<slug>/mod
                   full map (checked 2026-11-18 on preview sheets): 0 diaphragm (left dome), 2 adrenal glands, 8 renal pelves + ureters (no bladder),
                   15 abdominal aorta + celiac/hepatic/splenic branches, 16 intrarenal arteries, 17 renal veins, 12/13 tiny dots (hide).
   beat3d.js options (2026-11-18): item.ghost {meshIdx: opacity} = x-ray for organs behind others (0 hides the mesh), cfg.endSpin (default 0.35 rad/s) keeps the end card moving.
+  item.side + item.sideAt (2026-11-20, quiz variant "LEFT OR RIGHT?"): an 'L or R?' chip under the name, replaced at sideAt by the answer chip
+  (text containing RIGHT = blue, LEFT = red, else dark); the sub-line (plain) appears with the answer. Example: research/shorts/2026-11-20-beat3d-leftright.
   cover3d.js renders the model in its ORIGINAL colours on a transparent background for BEAST covers (example: research/shorts/2026-11-18-beat3d-abdomen/cover.html).
 New models: python3 sfsearch.py "<query>" (SFT=<owner Sketchfab token> in the env, never written to files) → ONLY "CC Attribution" or "CC0"
 (never NonCommercial/NoDerivs/ShareAlike/Free Standard) → python3 sfdl.py <uid> <slug> → glbnames.py → render preview.js / zoom.js sheets and LOOK

@@ -56,7 +56,9 @@ export async function frame(ctx,t){
   let h=`<div class="topshade"></div><div class="botshade"></div><div class="title"><div>${cfg.title[0]}</div><div>${cfg.title[1]}</div></div>`;
   h+=`<div class="prog"><i style="width:${(done/n*100).toFixed(1)}%"></i></div><div class="count">${done}/${n}</div><div class="credit">${cfg.credit}</div>`;
   if(!ended){ const it=items[i]; const a=i===0?1:Math.min(1,(t-it.t0)/0.16); const sc=0.7+0.3*a; const fz=fitFont(it.name);
-    h+=`<div class="lab" style="opacity:${a};transform:scale(${sc.toFixed(3)});transform-origin:50% 0"><div class="n" style="font-size:${fz}px">${it.name}</div>${it.plain?`<div class="p">${it.plain}</div>`:''}</div>`; }
+    let sd=''; if(it.side){ const ta=it.sideAt??it.t0; if(t>=ta){ const b=Math.min(1,(t-ta)/0.14); const col=it.side.includes('RIGHT')?'#3E7CC9':it.side==='YOUR LEFT'?'#C9483C':'#1F2A14'; sd=`<div class="f" style="background:${col};color:#fff;border-color:#fff;font-size:54px;letter-spacing:3px;transform:scale(${(0.6+0.4*b).toFixed(3)});opacity:${b}">${it.side}</div>`; } else sd=`<div class="f" style="opacity:.9;font-size:54px;letter-spacing:3px">L or R?</div>`; }
+    h+=`<div class="lab" style="opacity:${a};transform:scale(${sc.toFixed(3)});transform-origin:50% 0"><div class="n" style="font-size:${fz}px">${it.name}</div>${sd}${it.plain&&(!it.side||t>=(it.sideAt??it.t0))?`<div class="p">${it.plain}</div>`:''}</div>`; }
+  if(cfg.sideTags&&!ended){ h+=`<div style="position:absolute;top:452px;left:34px;font-weight:800;font-size:30px;line-height:1;color:#fff;background:#3E7CC9;padding:8px 16px;border-radius:14px;border:3px solid #fff">◀ YOUR RIGHT</div><div style="position:absolute;top:452px;right:34px;font-weight:800;font-size:30px;line-height:1;color:#fff;background:#C9483C;padding:8px 16px;border-radius:14px;border:3px solid #fff">YOUR LEFT ▶</div>`; }
   if(t>=cfg.tEndLine-0.1){ const a=Math.min(1,(t-cfg.tEndLine+0.1)/0.3); const sc=0.6+0.4*(1-Math.pow(1-a,3));
     h+=`<div class="end" style="transform:scale(${sc.toFixed(3)}) rotate(-2deg);opacity:${a}"><div class="a">${cfg.endA}</div><div class="b">${cfg.endB}</div></div>`; }
   ov.innerHTML=ZONE.plain?'':h;

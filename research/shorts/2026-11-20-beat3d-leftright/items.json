@@ -1,0 +1,145 @@
+[
+ {
+  "name": "Liver",
+  "side": "YOUR RIGHT",
+  "plain": "left lobe crosses over",
+  "meshes": [
+   14
+  ]
+ },
+ {
+  "name": "Gallbladder",
+  "side": "YOUR RIGHT",
+  "plain": "under the right lobe of liver",
+  "meshes": [
+   10
+  ],
+  "ghost": {
+   "14": 0.1
+  }
+ },
+ {
+  "name": "Stomach",
+  "side": "YOUR LEFT",
+  "plain": "its exit (pylorus) is on the right",
+  "meshes": [
+   6
+  ],
+  "ghost": {
+   "14": 0.3
+  }
+ },
+ {
+  "name": "Spleen",
+  "side": "YOUR LEFT",
+  "plain": "high up, under the ribs",
+  "meshes": [
+   1
+  ],
+  "ghost": {
+   "6": 0.25,
+   "4": 0.2
+  }
+ },
+ {
+  "name": "Pancreas",
+  "side": "BOTH SIDES",
+  "plain": "head right \u00b7 tail left",
+  "meshes": [
+   5
+  ],
+  "ghost": {
+   "6": 0.0,
+   "14": 0.2,
+   "4": 0.15,
+   "7": 0.4
+  }
+ },
+ {
+  "name": "Duodenum",
+  "side": "MOSTLY RIGHT",
+  "plain": "C round pancreas head, ends left",
+  "meshes": [
+   11
+  ],
+  "ghost": {
+   "14": 0.08,
+   "6": 0,
+   "4": 0,
+   "10": 0.3,
+   "7": 0.25,
+   "5": 0.5
+  }
+ },
+ {
+  "name": "Small intestine",
+  "side": "BOTH SIDES",
+  "plain": "jejunum left \u00b7 ileum right",
+  "meshes": [
+   7
+  ]
+ },
+ {
+  "name": "Large intestine",
+  "side": "BOTH SIDES",
+  "plain": "up the right \u00b7 down the left",
+  "meshes": [
+   4
+  ]
+ },
+ {
+  "name": "Kidneys",
+  "side": "BOTH SIDES",
+  "plain": "the right one sits a bit lower",
+  "meshes": [
+   3,
+   9
+  ],
+  "ghost": {
+   "4": 0,
+   "7": 0,
+   "6": 0,
+   "14": 0,
+   "11": 0.1,
+   "5": 0.1,
+   "10": 0,
+   "1": 0.12
+  }
+ },
+ {
+  "name": "Adrenal glands",
+  "side": "BOTH SIDES",
+  "plain": "one on top of each kidney",
+  "meshes": [
+   2
+  ],
+  "ghost": {
+   "4": 0,
+   "7": 0,
+   "6": 0,
+   "14": 0,
+   "11": 0.1,
+   "5": 0.1,
+   "10": 0,
+   "1": 0.12
+  }
+ },
+ {
+  "name": "Ureters",
+  "side": "BOTH SIDES",
+  "plain": "one from each kidney",
+  "meshes": [
+   8
+  ],
+  "ghost": {
+   "4": 0,
+   "7": 0,
+   "6": 0,
+   "14": 0,
+   "11": 0.1,
+   "5": 0.1,
+   "10": 0,
+   "1": 0.12
+  }
+ }
+]
