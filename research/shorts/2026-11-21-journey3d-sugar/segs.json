@@ -1,0 +1,72 @@
+[
+ {
+  "text": "Where does the sugar you eat go?",
+  "s": 0,
+  "e": 1.3855416666666667
+ },
+ {
+  "text": "Starch starts breaking down in your mouth, with an enzyme in your saliva.",
+  "s": 1.7355416666666668,
+  "e": 5.4070833333333335
+ },
+ {
+  "text": "Then it passes through your stomach.",
+  "s": 5.607083333333334,
+  "e": 7.04125
+ },
+ {
+  "text": "In your small intestine, pancreatic amylase does the heavy lifting.",
+  "s": 7.29125,
+  "e": 10.959291666666667
+ },
+ {
+  "text": "Brush border enzymes finish the job, leaving glucose, fructose and galactose.",
+  "s": 11.209291666666667,
+  "e": 15.654250000000001
+ },
+ {
+  "text": "These simple sugars pass into the blood in your villi.",
+  "s": 15.954250000000002,
+  "e": 18.5055
+ },
+ {
+  "text": "That blood goes to your liver first, through the hepatic portal vein.",
+  "s": 18.805500000000002,
+  "e": 22.13216666666667
+ },
+ {
+  "text": "Your liver stores extra glucose as glycogen.",
+  "s": 22.38216666666667,
+  "e": 24.99429166666667
+ },
+ {
+  "text": "As blood sugar rises, beta cells in your pancreas release insulin.",
+  "s": 25.34429166666667,
+  "e": 29.227750000000004
+ },
+ {
+  "text": "Insulin helps your muscle and fat cells take glucose in.",
+  "s": 29.477750000000004,
+  "e": 32.434583333333336
+ },
+ {
+  "text": "Your kidneys filter glucose out of your blood all day long.",
+  "s": 32.78458333333334,
+  "e": 35.73983333333334
+ },
+ {
+  "text": "Then they pull almost all of it back.",
+  "s": 35.93983333333334,
+  "e": 37.51295833333334
+ },
+ {
+  "text": "That's why urine normally has almost no glucose.",
+  "s": 37.76295833333334,
+  "e": 40.55691666666667
+ },
+ {
+  "text": "Save this for your next physiology exam.",
+  "s": 40.95691666666667,
+  "e": 43.025041666666674
+ }
+]

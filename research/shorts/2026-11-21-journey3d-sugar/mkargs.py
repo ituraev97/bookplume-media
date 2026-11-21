@@ -1,0 +1,62 @@
+import json
+ex=json.load(open('/home/claude/bookplume-media/templates/r3d/examples/digestion/args3d.json'))
+wp=ex['cfg']['wp']
+wp.update({
+ "aortaRen":{"p":[0.0,0.296,0.026]},
+ "aoTop":{"mesh":15,"sel":[["y","max",0.006]]},
+ "renR":{"p":[-0.033,0.296,0.014]},
+ "kidR":{"mesh":9,"sel":[]},
+ "kidL":{"mesh":3,"sel":[]},
+ "siEnd":{"mesh":7,"sel":[],"zfrac":0.3},
+ "livC":{"mesh":14,"sel":[],"zfrac":0.55},
+ "panC":{"mesh":5,"sel":[],"zfrac":0.5},
+})
+G={"15":0.04,"16":0.04,"17":0.04,"8":0.04}
+K={"4":0.07,"7":0.07,"6":0.08,"14":0.1,"11":0.08,"5":0.1,"10":0.1,"1":0.1,"8":0.25}
+stages=[
+ {"key":"stomach","label":"STOMACH","t0":1.6,"t1":7.2,"light":[6],"focus":[6],"ghost":{"14":0.35,**G},
+  "move":{"type":"path","pts":["esoTop","stomC"],"a":1.7,"b":3.2}},
+ {"key":"small","label":"SMALL INT.","t0":7.2,"t1":18.7,"light":[7,11],"focus":[7,11],"ghost":{"14":0.35,"6":0.3,**G},
+  "lightAt":[{"t":7.9,"meshes":[5]}],
+  "move":{"type":"path","pts":["stomC","dTop","dLeft","dBot","@si","siEnd"],"a":7.3,"b":18.4,"ease":"linear"}},
+ {"key":"liver","label":"LIVER","t0":18.7,"t1":25.2,"light":[14],"focus":[14],"ghost":{"4":0.15,"7":0.15,"6":0.2,**G},
+  "move":{"type":"path","pts":["siEnd","livC"],"a":18.8,"b":20.4}},
+ {"key":"pan","label":"PANCREAS","t0":25.2,"t1":32.6,"light":[5],"focus":[5],"zoom":1.3,
+  "ghost":{"6":0.15,"14":0.2,"11":0.4,"7":0.15,"4":0.15,"10":0.3,**G},
+  "move":{"type":"path","pts":["livC","panC"],"a":25.3,"b":26.8}},
+ {"key":"kid","label":"KIDNEYS","t0":32.6,"t1":40.9,"light":[3,9],"focus":[3,9,16],"zoom":1.05,"ghost":dict(K),
+  "move":{"type":"path","pts":["panC","aortaRen","renR","kidR"],"a":32.7,"b":34.4}},
+]
+parts=[
+ {"from":"panC","to":"aoTop","t0":27.3,"t1":32.5,"color":"#7FD6FF","n":12},
+ {"from":"aortaRen","to":"kidL","t0":33.6,"t1":36.0,"color":"#FFD23F","n":12},
+ {"from":"kidL","to":"aortaRen","t0":36.0,"t1":40.8,"color":"#FFD23F","n":12},
+]
+colors=[{"t":0,"color":"#F4F1E8"},{"t":13.0,"color":"#FFD23F"}]
+chips=[
+ {"txt":"STOMACH","kind":"n","t0":1.9,"t1":7.15},
+ {"txt":"mouth: <em>salivary amylase</em>","kind":"f","t0":2.7,"t1":7.15},
+ {"txt":"stomach: little carb digestion","kind":"f","t0":5.7,"t1":7.15},
+ {"txt":"SMALL INTESTINE","kind":"n","t0":7.4,"t1":18.65},
+ {"txt":"<em>pancreatic amylase</em>: main work","kind":"f","t0":8.6,"t1":13.0},
+ {"txt":"glucose · fructose · galactose","kind":"f","t0":13.0,"t1":18.65},
+ {"txt":"into <em>villus capillaries</em>","kind":"f","t0":16.1,"t1":18.65},
+ {"txt":"LIVER","kind":"n","t0":18.9,"t1":25.15},
+ {"txt":"via the <em>hepatic portal vein</em>","kind":"f","t0":19.6,"t1":25.15},
+ {"txt":"extra glucose → <em>glycogen</em>","kind":"f","t0":22.6,"t1":25.15},
+ {"txt":"PANCREAS","kind":"n","t0":25.4,"t1":32.55},
+ {"txt":"beta cells → <em>insulin</em>","kind":"f","t0":27.2,"t1":32.55},
+ {"txt":"beta cells ≈ <em>75%</em> of each islet","kind":"f","t0":28.0,"t1":29.6},
+ {"txt":"<em>muscle + fat cells</em> take it in","kind":"f","t0":29.6,"t1":32.55},
+ {"txt":"KIDNEYS","kind":"n","t0":32.85,"t1":40.85},
+ {"txt":"glucose <em>filtered</em> from blood","kind":"f","t0":33.9,"t1":36.0},
+ {"txt":"≈100% <em>reabsorbed</em> (prox. tubule)","kind":"f","t0":36.0,"t1":40.85},
+ {"txt":"urine: normally <em>~no glucose</em>","kind":"f","t0":38.0,"t1":40.85},
+]
+for c in chips:
+    import re; L=len(re.sub('<[^>]+>','',c['txt'])); assert L<=32,(c,L)
+cfg={"title":["WHERE DOES THE","<b>SUGAR</b> YOU EAT GO?"],"credit":"3D: Digestive System by Focus Medica (Sketchfab, CC BY 4.0)",
+ "hide":[0,2,12,13,18],"wp":wp,"meander":ex['cfg']['meander'],"stages":stages,"colors":colors,"particles":parts,"chips":chips,
+ "final":40.9,"tEnd0":41.0,"endA":"Save this","endB":"for your next physiology exam 📌"}
+json.dump({"model":"/models/dig_lokesh/model.glb","cfg":cfg},open('args3d.json','w'),indent=1,ensure_ascii=False)
+print("ok")

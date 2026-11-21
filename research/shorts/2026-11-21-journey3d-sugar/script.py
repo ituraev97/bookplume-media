@@ -1,0 +1,16 @@
+S=[
+("Where does the sugar you eat go?",0.35),
+("Starch starts breaking down in your mouth, with an enzyme in your saliva.",0.2),
+("Then it passes through your stomach.",0.25),
+("In your small intestine, pancreatic amylase does the heavy lifting.",0.25),
+("Brush border enzymes finish the job, leaving glucose, fructose and galactose.",0.3),
+("These simple sugars pass into the blood in your villi.",0.3),
+("That blood goes to your liver first, through the hepatic portal vein.",0.25),
+("Your liver stores extra glucose as glycogen.",0.35),
+("As blood sugar rises, beta cells in your pancreas release insulin.",0.25),
+("Insulin helps your muscle and fat cells take glucose in.",0.35),
+("Your kidneys filter glucose out of your blood all day long.",0.2),
+("Then they pull almost all of it back.",0.25),
+("That's why urine normally has almost no glucose.",0.4),
+("Save this for your next physiology exam.",0.6),
+]
