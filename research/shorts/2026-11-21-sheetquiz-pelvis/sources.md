@@ -1,0 +1,7 @@
+# Pelvis quiz (sheet quiz) — sources
+Plate: Gray's Anatomy 1918, Fig. 241 "Male pelvis" — https://archive.org/details/anatomyofhumanbo00grayrich/page/n240 (public domain). Printed labels Ilium, Sacrum, Arcuate line, Coccyx, Pubis, Ischium, Pubic arch all under "?" stickers; 3 extra name tags on blank paper (obturator foramen, pubic symphysis, ischium).
+- OpenStax A&P 2e 8.3 The Pelvic Girdle and Pelvis — https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis ("The ilium is the fan-like, superior region that forms the largest part of the hip bone"; "The large opening in the anteroinferior hip bone between the ischium and pubis is the obturator foramen"; ischial tuberosity "supports the body when sitting"; "pubic body is joined to the pubic body of the opposite hip bone by the pubic symphysis")
+- OpenStax A&P 2e 7.3 The Vertebral Column — https://open.oregonstate.education/anatomy2e/chapter/vertebral-column/ (sacrum "typically formed by the fusion of five sacral vertebrae")
+- Radiopaedia, Pubic symphysis — https://radiopaedia.org/articles/28496 (cartilaginous joint, fibrocartilaginous interpubic disc)
+- Radiopaedia, Obturator foramen — https://radiopaedia.org/articles/51966
+Independent fact-check (separate agent): all answers and option sets OK; FIX applied: Q3 "largest foramen in your body" removed (not supported) → "A big opening in your hip bone"; pin 5 placed on the ischial body/tuberosity (not the ischiopubic ramus); pin 2 on the sacrum beside the foramina.
