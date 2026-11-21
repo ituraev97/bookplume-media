@@ -72,3 +72,6 @@
 - 2026-11-22: QUIZ 4 chambers of the heart right/left atrium + right/left ventricle + what each does (Cleveland Clinic) — sched 11-22 21:17
 - 2026-11-22: external carotid branches mnemonic SALFOPMS "Some Anatomists Like Freaking Out Poor Medical Students", 8 branches, maxillary + superficial temporal terminal (Kenhub; Radiopaedia) — sched 11-23 02:17
 - 2026-11-22: MYTH 100 bn neurons → ~86 bn neurons + ~85 bn non-neuronal cells, 19% of neurons in cerebral cortex (Azevedo et al. 2009) — sched 11-23 06:17
+- 2026-11-23: CHEAT SHEET 6 types of synovial joints hinge/pivot/condyloid/saddle/plane/ball-and-socket + examples (OpenStax A&P 9.4) — sched 11-24 02:17
+- 2026-11-23: STUDY TIP parts of the nephron in order glomerulus+Bowman's capsule/PCT/loop of Henle/DCT → collecting duct, 1M+ nephrons per kidney (Lumen Learning A&P) — sched 11-24 06:17
+- 2026-11-23: PRODUCT pin slot 21:17 NOT made — product images (cdn.shopify.com) blocked by sandbox egress; planned product: The Human Body Coloring Book (DK), in stock 490

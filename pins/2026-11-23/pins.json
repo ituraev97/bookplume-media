@@ -1,0 +1,20 @@
+[
+ {
+  "file": "01-synovial-joint-types.png",
+  "tag": "CHEAT SHEET",
+  "headline": "6 types of synovial joints",
+  "stat": "6",
+  "stat_note": "types: 2 uniaxial, 2 biaxial, 2 multiaxial",
+  "body": "Hinge: elbow, knee, ankle\nPivot: C1–C2, proximal radioulnar\nCondyloid: wrist, knuckles (MCP)\nSaddle: base of the thumb (CMC)\nPlane: intercarpal, AC joint\nBall-and-socket: shoulder, hip",
+  "source": "Source: OpenStax Anatomy & Physiology, 9.4 Synovial Joints"
+ },
+ {
+  "file": "02-nephron-parts-in-order.png",
+  "tag": "STUDY TIP",
+  "headline": "Parts of the nephron in order",
+  "stat": "1M+",
+  "stat_note": "nephrons in each kidney",
+  "body": "1. Glomerulus + Bowman's capsule\n2. Proximal convoluted tubule\n3. Loop of Henle: down, then up\n4. Distal convoluted tubule\nNext: collecting duct (past the nephron)",
+  "source": "Source: Lumen Learning A&P, Nephrons – Structure"
+ }
+]

@@ -5,6 +5,8 @@ Brand: Matcha #5C7A2F, Banana #F2D14E (fill only, never text on Paper), Forest #
 Rules (content brief): education only, no medical promises/diagnosis/treatment, every number from a real
 source named on the pin, no agency logos, no gore, no third-party images (pins are drawn by code).
 
+**RULES 2026-11-21 (owner, overrides the steps below where they differ):** 3 pins/day = 2 EDUCATIONAL (02:17, 06:17; one pin per topic, no topic with a static/video pin in the last 30 days) + 1 PRODUCT pin (21:17: in-stock anatomy/medical product, its own Shopify images large + one short hook in our voice, no people/fake reviews/prices, pinLink = product page + utm_campaign=<product-slug>&utm_content=product-pin, same product max once per 14 days, log it); titles = specific search queries, no repeated tail, assert len(title) <= 90; descriptions 1–3 natural sentences + source, no "Study with" line on educational pins. Note: this sandbox cannot download cdn.shopify.com images (egress 403) — allow that domain or the product pin can't be built.
+
 ## Each run
 1. `cd /home/claude && git clone --depth 1 --filter=blob:none --sparse https://github.com/ituraev97/bookplume-media && cd bookplume-media && git sparse-checkout set pins templates`
 2. Read `pins/pins_log.md` — never repeat a topic listed there. Also avoid topics already on the account's
