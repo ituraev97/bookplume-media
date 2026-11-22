@@ -1,0 +1,20 @@
+[
+ {
+  "file": "01-nine-abdominal-regions.png",
+  "tag": "CHEAT SHEET",
+  "headline": "The 9 abdominal regions",
+  "stat": "3×3",
+  "stat_note": "a grid of 3 rows × 3 columns",
+  "body": "Upper middle: epigastric\nCenter: umbilical\nLower middle: hypogastric\nUpper sides: R + L hypochondriac\nMiddle sides: R + L lumbar\nLower sides: R + L iliac",
+  "source": "Source: Hartline, Human Anatomy Lab Manual 1.6 (LibreTexts)"
+ },
+ {
+  "file": "02-endocrine-glands-and-hormones.png",
+  "tag": "STUDY CHART",
+  "headline": "Endocrine glands and what they do",
+  "stat": "8",
+  "stat_note": "glands to know for A&P",
+  "body": "Hypothalamus: controls the pituitary\nPituitary: runs other glands\nThyroid: metabolism\nParathyroids: calcium balance\nAdrenals: adrenaline, corticosteroids\nPancreas: insulin + glucagon\nOvaries + testes: sex hormones",
+  "source": "Source: Cedars-Sinai, Anatomy of the Endocrine System"
+ }
+]

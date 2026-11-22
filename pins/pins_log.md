@@ -75,3 +75,6 @@
 - 2026-11-23: CHEAT SHEET 6 types of synovial joints hinge/pivot/condyloid/saddle/plane/ball-and-socket + examples (OpenStax A&P 9.4) — sched 11-24 02:17
 - 2026-11-23: STUDY TIP parts of the nephron in order glomerulus+Bowman's capsule/PCT/loop of Henle/DCT → collecting duct, 1M+ nephrons per kidney (Lumen Learning A&P) — sched 11-24 06:17
 - 2026-11-23: PRODUCT pin slot 21:17 NOT made — product images (cdn.shopify.com) blocked by sandbox egress; planned product: The Human Body Coloring Book (DK), in stock 490
+- 2026-11-22: PRODUCT pin The Human Body Coloring Book (DK) (handle the-human-body-coloring-book-the-ultimate-anatomy-study-guide-second-edition-dk-human-body-guides, in stock 484), hook "Learning anatomy? Color it in.", cover + inside spread from store media — sched 11-23 21:17 (next product allowed 2026-12-07)
+- 2026-11-22: CHEAT SHEET 9 abdominal regions epigastric/umbilical/hypogastric + R/L hypochondriac/lumbar/iliac (Hartline, Human Anatomy Lab Manual 1.6, LibreTexts) — sched 11-25 02:17
+- 2026-11-22: STUDY CHART 8 endocrine glands + main job: hypothalamus/pituitary/thyroid/parathyroids/adrenals/pancreas/ovaries+testes (Cedars-Sinai) — sched 11-25 06:17
