@@ -1,0 +1,1 @@
+mesh 0 = larynx + trachea + main bronchi (one mesh), mesh 1 = both lungs. Checked 2026-11-22.

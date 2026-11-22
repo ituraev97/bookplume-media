@@ -1,0 +1,1 @@
+single mesh: diaphragm with both domes, central tendon and crura (crura point down). keepMaterials. Checked 2026-11-22.

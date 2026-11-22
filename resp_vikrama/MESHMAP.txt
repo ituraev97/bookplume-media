@@ -1,0 +1,1 @@
+0 = right lung, 1 = left lung (cardiac notch), 5 = trachea + main bronchi, 2,3,4,6,7,8 = bronchial tree branches. Use keepMaterials. Checked 2026-11-22.
