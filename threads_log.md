@@ -120,3 +120,8 @@
 2026-11-21 | John Gorrie, Apalachicola: cooled yellow fever infirmary 1841, ice machine US patent 1851, ridiculed in press, backer died 1851, died 1855 aged 51; refrigeration/AC pioneer (Smithsonian Magazine "Chilly Reception")
 2026-11-21 | Cowasjee, bullock driver for British army, nose cut off 1792 by Tipu Sultan's order, Kumhar (potter community) surgeon forehead-flap rhinoplasty, 1794 Madras Gazette/Gentleman's Magazine letter, "Indian method", Sushruta Samhita (Royal College of Physicians history blog 2024)
 2026-11-21 | daily height loss: mean 19.3 mm (1.1% of stature), 54% in first hour after rising, ~70% regained first half of night (Spine 1985;10(2):161-164, "Circadian variation in stature and the effects of spinal loading")
+2026-11-22 | wet hair outside doesn't cause colds, viruses do; winter spread from crowding indoors (Cleveland Clinic, Dr. Matthew Goldman 2021)
+2026-11-22 | Elizabeth Blackwell 1847 admitted to Geneva Medical College after students voted yes as a joke; 1849 first woman M.D. from a US medical school (Smithsonian; NLM Changing the Face of Medicine)
+2026-11-22 | Daniel Hale Williams July 1893 Provident Hospital Chicago: James Cornish stab wound, repaired severed artery + pericardial tear without antibiotics/adequate anesthesia, Cornish lived 20 more years (AHA News 2022)
+2026-11-22 | Goldberger 1916 "filth parties": 8 parties, 17 guests incl. wife Mary, pellagra patient samples eaten/injected, no one got sick; 1915 Mississippi prison diet experiment; niacin (B3) isolated 1937 (Science History Institute)
+2026-11-22 | ear canal self-cleaning: epithelium migrates outward from eardrum, mean ~145 µm/day, carries wax/debris (J Laryngol Otol systematic review 2022; AudiologyOnline)
