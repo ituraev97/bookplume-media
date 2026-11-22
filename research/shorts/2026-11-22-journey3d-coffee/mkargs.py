@@ -1,0 +1,62 @@
+import json,re
+ex=json.load(open('/home/claude/bookplume-media/templates/r3d/examples/digestion/args3d.json'))
+wp=ex['cfg']['wp']
+wp.update({
+ "aortaRen":{"p":[0.0,0.296,0.026]},
+ "aoTop":{"mesh":15,"sel":[["y","max",0.006]]},
+ "renR":{"p":[-0.033,0.296,0.014]},
+ "kidR":{"mesh":9,"sel":[]},
+ "kidL":{"mesh":3,"sel":[]},
+ "siEnd":{"mesh":7,"sel":[],"zfrac":0.3},
+ "livC":{"mesh":14,"sel":[],"zfrac":0.55},
+})
+G={"15":0.04,"16":0.04,"17":0.04,"8":0.04}
+K={"4":0.07,"7":0.07,"6":0.08,"14":0.1,"11":0.08,"5":0.1,"10":0.1,"1":0.1}
+B={"4":0.12,"7":0.12,"6":0.15,"14":0.2,"11":0.12,"5":0.15,"10":0.15,"1":0.15,"16":0.3,"17":0.3,"8":0.1}
+stages=[
+ {"key":"stomach","label":"STOMACH","t0":2.5,"t1":6.0,"light":[6],"focus":[6],"ghost":{"14":0.35,**G},
+  "move":{"type":"path","pts":["esoTop","stomC"],"a":2.6,"b":3.9}},
+ {"key":"small","label":"SMALL INT.","t0":6.0,"t1":12.75,"light":[7,11],"focus":[7,11],"ghost":{"14":0.35,"6":0.3,**G},
+  "move":{"type":"path","pts":["stomC","dTop","dLeft","dBot","@si","siEnd"],"a":6.1,"b":12.6,"ease":"linear"}},
+ {"key":"liver","label":"LIVER","t0":12.75,"t1":17.6,"light":[14],"focus":[14],"ghost":{"4":0.15,"7":0.15,"6":0.2,**G},
+  "move":{"type":"path","pts":["siEnd","livC"],"a":12.85,"b":14.6}},
+ {"key":"blood","label":"BLOOD","t0":17.6,"t1":26.5,"light":[15],"focus":[15,14],"ghost":dict(B),
+  "move":{"type":"path","pts":["livC","aoTop"],"a":17.7,"b":19.4}},
+ {"key":"break","label":"CLEANUP","t0":26.5,"t1":35.45,"light":[14],"focus":[14],"ghost":{"4":0.15,"7":0.15,"6":0.2,**G},
+  "move":{"type":"path","pts":["aoTop","livC"],"a":26.6,"b":28.0}},
+ {"key":"kid","label":"KIDNEYS","t0":35.45,"t1":41.4,"light":[3,9],"focus":[3,9,16],"zoom":1.05,"ghost":dict(K),
+  "lightAt":[{"t":36.6,"meshes":[8]}],
+  "move":{"type":"path","pts":["livC","aortaRen","renR","kidR"],"a":35.55,"b":37.2}},
+]
+parts=[
+ {"from":"aortaRen","to":"kidL","t0":36.2,"t1":38.8,"color":"#FFD23F","n":12},
+]
+colors=[{"t":0,"color":"#8A5A33"},{"t":30.6,"color":"#E8B27A"},{"t":36.0,"color":"#FFD23F"}]
+chips=[
+ {"txt":"STOMACH","kind":"n","t0":2.8,"t1":5.95},
+ {"txt":"caffeine → <em>more stomach acid</em>","kind":"f","t0":4.1,"t1":5.95},
+ {"txt":"SMALL INTESTINE","kind":"n","t0":6.2,"t1":12.7},
+ {"txt":"<em>most</em> caffeine absorbed here","kind":"f","t0":6.9,"t1":12.7},
+ {"txt":"⏱ ≈ 45 min: almost all absorbed","kind":"t","t0":9.6,"t1":12.7},
+ {"txt":"LIVER","kind":"n","t0":12.95,"t1":17.55},
+ {"txt":"via the <em>hepatic portal vein</em>","kind":"f","t0":13.6,"t1":17.55},
+ {"txt":"most passes <em>right through</em>","kind":"f","t0":16.0,"t1":17.55},
+ {"txt":"BLOODSTREAM","kind":"n","t0":17.8,"t1":26.45},
+ {"txt":"liver → <em>heart</em> → <em>brain</em>","kind":"f","t0":18.4,"t1":26.45},
+ {"txt":"brain: blocks <em>adenosine</em>","kind":"f","t0":20.7,"t1":26.45},
+ {"txt":"⏱ peak: 15 min – 2 h","kind":"t","t0":23.6,"t1":26.45},
+ {"txt":"LIVER","kind":"n","t0":26.75,"t1":35.4},
+ {"txt":"breakdown enzyme <em>CYP1A2</em>","kind":"f","t0":28.5,"t1":35.4},
+ {"txt":"mostly → <em>paraxanthine</em>","kind":"f","t0":30.7,"t1":35.4},
+ {"txt":"⏱ half gone ≈ 4–5 h (average)","kind":"t","t0":32.5,"t1":35.4},
+ {"txt":"KIDNEYS","kind":"n","t0":35.75,"t1":41.35},
+ {"txt":"leftovers → <em>urine</em>","kind":"f","t0":36.6,"t1":41.35},
+ {"txt":"only <em>2–3%</em> leaves unchanged","kind":"f","t0":38.9,"t1":41.35},
+]
+for c in chips:
+    L=len(re.sub('<[^>]+>','',c['txt'])); assert L<=32,(c,L)
+cfg={"title":["WHAT HAPPENS TO","YOUR <b>COFFEE</b>?"],"credit":"3D: Digestive System by Focus Medica (Sketchfab, CC BY 4.0)",
+ "hide":[0,2,12,13,18],"wp":wp,"meander":ex['cfg']['meander'],"stages":stages,"colors":colors,"particles":parts,"chips":chips,
+ "final":41.4,"tEnd0":41.5,"endA":"Save this","endB":"for your next physiology exam 📌"}
+json.dump({"model":"/models/dig_lokesh/model.glb","cfg":cfg},open('args3d.json','w'),indent=1,ensure_ascii=False)
+print("ok")

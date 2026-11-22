@@ -1,0 +1,18 @@
+S=[
+("What actually happens to your coffee after you drink it?",0.35),
+("First stop, your stomach.",0.2),
+("Caffeine makes it release more acid.",0.3),
+("Then your small intestine absorbs most of the caffeine.",0.2),
+("Almost all of it is absorbed within about forty-five minutes.",0.3),
+("It reaches your liver first, through the hepatic portal vein.",0.2),
+("Most of it passes right through.",0.3),
+("Your blood carries it to your heart, then up to your brain.",0.2),
+("There it blocks adenosine, which builds sleep pressure.",0.25),
+("Blood levels peak anywhere from fifteen minutes to two hours.",0.3),
+("Over the next hours, your liver breaks it down with C Y P one A two.",0.2),
+("Most of it becomes paraxanthine.",0.2),
+("On average, half is gone in about four to five hours.",0.35),
+("Finally, your kidneys filter the leftovers into your urine.",0.2),
+("Only about two to three percent leaves unchanged.",0.4),
+("Save this for your next physiology exam.",0.6),
+]

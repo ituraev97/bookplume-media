@@ -1,0 +1,82 @@
+[
+ {
+  "text": "What actually happens to your coffee after you drink it?",
+  "s": 0,
+  "e": 2.4170416666666665
+ },
+ {
+  "text": "First stop, your stomach.",
+  "s": 2.7670416666666666,
+  "e": 3.88475
+ },
+ {
+  "text": "Caffeine makes it release more acid.",
+  "s": 4.08475,
+  "e": 5.808375
+ },
+ {
+  "text": "Then your small intestine absorbs most of the caffeine.",
+  "s": 6.108375,
+  "e": 9.029791666666666
+ },
+ {
+  "text": "Almost all of it is absorbed within about forty-five minutes.",
+  "s": 9.229791666666666,
+  "e": 12.582749999999999
+ },
+ {
+  "text": "It reaches your liver first, through the hepatic portal vein.",
+  "s": 12.88275,
+  "e": 15.795083333333332
+ },
+ {
+  "text": "Most of it passes right through.",
+  "s": 15.995083333333332,
+  "e": 17.430874999999997
+ },
+ {
+  "text": "Your blood carries it to your heart, then up to your brain.",
+  "s": 17.730874999999997,
+  "e": 20.442666666666664
+ },
+ {
+  "text": "There it blocks adenosine, which builds sleep pressure.",
+  "s": 20.642666666666663,
+  "e": 23.265916666666662
+ },
+ {
+  "text": "Blood levels peak anywhere from fifteen minutes to two hours.",
+  "s": 23.515916666666662,
+  "e": 26.373333333333328
+ },
+ {
+  "text": "Over the next hours, your liver breaks it down with C Y P one A two.",
+  "s": 26.67333333333333,
+  "e": 30.421458333333327
+ },
+ {
+  "text": "Most of it becomes paraxanthine.",
+  "s": 30.621458333333326,
+  "e": 32.25679166666666
+ },
+ {
+  "text": "On average, half is gone in about four to five hours.",
+  "s": 32.45679166666666,
+  "e": 35.26741666666666
+ },
+ {
+  "text": "Finally, your kidneys filter the leftovers into your urine.",
+  "s": 35.617416666666664,
+  "e": 38.62058333333333
+ },
+ {
+  "text": "Only about two to three percent leaves unchanged.",
+  "s": 38.82058333333333,
+  "e": 41.19858333333333
+ },
+ {
+  "text": "Save this for your next physiology exam.",
+  "s": 41.59858333333333,
+  "e": 43.66670833333333
+ }
+]
