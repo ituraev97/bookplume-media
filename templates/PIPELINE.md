@@ -37,6 +37,33 @@ Rules: the channel is about anatomy — NO store / flashcards / bookplume.com in
 (templates/r3d/ui.js) so no text ever overlaps; 3D sound = effects + soft pad only (no jokey music). The old "Name this in 3 seconds" short,
 its 15–18 s TikTok cut and the rapid-quiz cut are retired; the same final file goes to every platform.
 
+## Shorts: cadence + hook rules — owner decision 2026-11-23
+Full text: yt-pilot HOOK_RULES (30 days of Metricool data, 10 channels). Why: our YouTube Shorts median fell 329 → 335 → 65 → 42 per week while we posted
+3–4 look-alike Shorts a day — YouTube throttles mass-produced template clones. Applies to YOUTUBE SHORTS ONLY. Nothing is paused: keep making all 3
+short videos a day in the 3 formats above; TikTok, Instagram (Reel + trial), Facebook, Pinterest, Stories keep getting every one of them exactly as now.
+- CADENCE: max 2 YouTube Shorts per Tashkent day (1 is fine). Each run scores its finished Short (scorecard below) and adds the `youtube` provider to the
+  main post ONLY if ALL hold: score ≥ 7/10; getScheduledPosts (blogId 7717100) shows < 2 posts with a youtube short on that Tashkent day; ≥ 6 h from the
+  other YouTube Short of that day; a different format (JOURNEY / SHEET QUIZ / BEAT) from the other YouTube Short that day, and preferably not the format of
+  yesterday's last YouTube Short. Otherwise create the main post without `youtube` (all other providers unchanged). Append "YT score N/10, youtube yes/no"
+  to the topics.md line and say it in the run report.
+- QUIZZES (SHEET QUIZ) stay in production and on all other networks, but on our channel "Name This X in 3 Seconds?" / "Anatomy Quiz: 5/5" Shorts got 6–112
+  views (Nov 14–19) — a quiz takes a YouTube slot only if it scores ≥ 7, i.e. its first second and YouTube title carry a number or a "Why…?" paradox, not
+  just "Can you name…?".
+- SCORECARD (publish on YouTube only if ≥ 7/10): Hook 0–4 (the first second has a hard number, a famous name, or a "Why…?" paradox — on screen AND spoken;
+  0 = generic "here is the anatomy of…"); Payoff 0–3 (the hook's promise is paid in the last 2–3 s: the reveal, the number, the twist); Freshness 0–2 (new
+  topic/angle, not yesterday's format); Clarity 0–1 (understandable with sound off).
+- WHAT WINS HERE: "Why do…?" body/science facts — "Why Do We Hiccup? The Weird Reason Starts in the Womb" 1262, "Why Do Fingers Prune in Water? It's Your
+  Nerves, Not Water" 1147, goosebumps 825 — and one-number/one-fact Shorts ("The Only Bone That Touches No Other Bone: the Hyoid" 1028, "9 Abdominal Regions in
+  1 Trick" 1083). YouTube title formulas: "Why Do We <everyday body thing>? <unexpected cause>"; "[number] + [stakes]" ("The Only Bone That…", "206 Bones…");
+  ≤ 60 characters + #shorts (youtubeData.title may differ from the TikTok/IG text). Banned on YouTube: "Name this X in 3 seconds", "Can you get 5/5?" alone,
+  "Did you know…", "Here's what happened…".
+- HOOK: second 0 = the most surprising sentence, no logo/title card; on-screen hook ≤ 7 words, large, upper third (r3d/ui.js top zone). Length 20–40 s
+  (hard cap 50 s); end on the payoff and cut — end card ≤ 1 s; a loopable last line is a plus.
+- On a long-video publish day, one of the (max 2) YouTube Shorts should end with "Full video on the channel." pointing to that long video.
+- Dead-hook check: a YouTube Short whose average view duration is < 5 s after 48 h (Metricool) = that hook style is dead, don't repeat it.
+- WEEKLY (Monday run / weekly producer review): read the last 7 days of YouTube Shorts (views + avg view duration), list top 3 / bottom 3 and add one line
+  "what won" here — repeat the winners' hook pattern, drop the losers'.
+
 ## 0. Setup (every run)
 ```
 git clone https://github.com/ituraev97/bookplume-media /home/claude/bookplume-media   # after add_repo(owner=ituraev97, repo=bookplume-media, access=push)
@@ -155,14 +182,14 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
    Public URLs: https://raw.githubusercontent.com/ituraev97/bookplume-media/$B/v/video.mp4 (and v/thumb.jpg).
    Metricool copies media to its own storage when the post is created (the response shows static.metricool.com URLs). After ALL posts using it are created, delete the branch: `git push origin --delete $B`.
 2. Metricool createScheduledPost with media = [that URL]. Date must be in the future.
-   - Short: providers tiktok, instagram (REEL, isAiGenerated false), facebook (REEL), youtube (type "short", madeForKids false, isAiGeneratedContent false, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc false, commercialContentOwnBrand true, title; videoCoverMilliseconds 300.
+   - Short: providers tiktok, instagram (REEL, isAiGenerated false), facebook (REEL), youtube ONLY if this Short won a YouTube slot (section "Shorts: cadence + hook rules — owner decision 2026-11-23") (type "short", madeForKids false, isAiGeneratedContent false, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc false, commercialContentOwnBrand true, title; videoCoverMilliseconds 300.
      Then a SECOND post for pinterest only: video pin (pinterestData boardId "bookplume", pinTitle with keywords, pinLink = matching product URL from products.md, pinNewFormat true, isAiGenerated false) — keep it separate so a Pinterest error can't block the others.
      Then a THIRD post for pinterest only: the 1000x1500 static pin.jpg (host it on the same media branch), same board, keyword title, product pinLink, publish 3+ hours after the video pin.
      Descriptions everywhere: hook + what they'll learn + "Study with: <product name> → bookplume.com" (no medical claims) + image credit line + hashtags.
    - Long: provider youtube only (type "video", privacy public, madeForKids false, isAiGeneratedContent false, category EDUCATION, tags list, title ≤ 100 chars), text = full SEO description with chapter timestamps (first one 0:00), videoThumbnailUrl = raw URL of thumb.jpg.
 3. TikTok Shop (product link can ONLY be attached in the TikTok app, Metricool/API cannot):
    - If the video uses our product footage: render a second cut final_tiktokshop.mp4 (product clip in the first 3 s, then the lesson, ≤ 60 s). Do NOT post it via Metricool;
-     SendUserFile it to the owner with the TikTok caption, hashtags and the exact product to attach, so they post it by hand with the product link. Post 1 then goes to instagram, facebook, youtube only.
+     SendUserFile it to the owner with the TikTok caption, hashtags and the exact product to attach, so they post it by hand with the product link. Post 1 then goes to instagram, facebook, youtube only (youtube only if it won a YouTube slot).
    - If there is no product footage: post 1 includes tiktok as before (educational video, no product).
 4. Read back with getScheduledPosts after publish time if possible; report links.
 
