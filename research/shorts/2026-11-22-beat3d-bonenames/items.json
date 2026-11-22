@@ -1,0 +1,81 @@
+[
+ {
+  "name": "Mandible",
+  "plain": "from Latin ‘to chew’",
+  "meshes": [
+   17
+  ]
+ },
+ {
+  "name": "Clavicle + scapula",
+  "plain": "Latin clavicula = ‘little key’",
+  "meshes": [
+   12,
+   14
+  ]
+ },
+ {
+  "name": "Sternum + ribs",
+  "plain": "sternum = Greek ‘chest’",
+  "meshes": [
+   7
+  ]
+ },
+ {
+  "name": "Vertebral column",
+  "plain": "vertebra: Latin ‘to turn’",
+  "meshes": [
+   19
+  ]
+ },
+ {
+  "name": "Humerus",
+  "plain": "Latin: ‘shoulder’",
+  "meshes": [
+   9,
+   11
+  ]
+ },
+ {
+  "name": "Radius + ulna",
+  "plain": "‘spoke’ · ‘elbow’",
+  "meshes": [
+   0,
+   1
+  ]
+ },
+ {
+  "name": "Hand bones",
+  "plain": "phalanges = ‘lines of soldiers’",
+  "meshes": [
+   13,
+   18
+  ],
+  "focus": [
+   13
+  ]
+ },
+ {
+  "name": "Pelvis",
+  "plain": "Latin: ‘basin’",
+  "meshes": [
+   15
+  ]
+ },
+ {
+  "name": "Femur",
+  "plain": "Latin: ‘thigh’",
+  "meshes": [
+   3,
+   4
+  ]
+ },
+ {
+  "name": "Tibia + fibula",
+  "plain": "‘flute’ · ‘brooch pin’",
+  "meshes": [
+   5,
+   6
+  ]
+ }
+]

@@ -1,0 +1,106 @@
+{
+ "items": [
+  {
+   "name": "Mandible",
+   "plain": "from Latin \u2018to chew\u2019",
+   "meshes": [
+    17
+   ],
+   "t0": 0.25,
+   "t1": 2.05
+  },
+  {
+   "name": "Clavicle + scapula",
+   "plain": "Latin clavicula = \u2018little key\u2019",
+   "meshes": [
+    12,
+    14
+   ],
+   "t0": 2.05,
+   "t1": 4.45
+  },
+  {
+   "name": "Sternum + ribs",
+   "plain": "sternum = Greek \u2018chest\u2019",
+   "meshes": [
+    7
+   ],
+   "t0": 4.45,
+   "t1": 6.25
+  },
+  {
+   "name": "Vertebral column",
+   "plain": "vertebra: Latin \u2018to turn\u2019",
+   "meshes": [
+    19
+   ],
+   "t0": 6.25,
+   "t1": 8.65
+  },
+  {
+   "name": "Humerus",
+   "plain": "Latin: \u2018shoulder\u2019",
+   "meshes": [
+    9,
+    11
+   ],
+   "t0": 8.65,
+   "t1": 10.45
+  },
+  {
+   "name": "Radius + ulna",
+   "plain": "\u2018spoke\u2019 \u00b7 \u2018elbow\u2019",
+   "meshes": [
+    0,
+    1
+   ],
+   "t0": 10.45,
+   "t1": 13.45
+  },
+  {
+   "name": "Hand bones",
+   "plain": "phalanges = \u2018lines of soldiers\u2019",
+   "meshes": [
+    13,
+    18
+   ],
+   "focus": [
+    13
+   ],
+   "t0": 13.45,
+   "t1": 16.45
+  },
+  {
+   "name": "Pelvis",
+   "plain": "Latin: \u2018basin\u2019",
+   "meshes": [
+    15
+   ],
+   "t0": 16.45,
+   "t1": 18.25
+  },
+  {
+   "name": "Femur",
+   "plain": "Latin: \u2018thigh\u2019",
+   "meshes": [
+    3,
+    4
+   ],
+   "t0": 18.25,
+   "t1": 20.05
+  },
+  {
+   "name": "Tibia + fibula",
+   "plain": "\u2018flute\u2019 \u00b7 \u2018brooch pin\u2019",
+   "meshes": [
+    5,
+    6
+   ],
+   "t0": 20.05,
+   "t1": 23.05
+  }
+ ],
+ "tEndLine": 23.3,
+ "end": 26.05,
+ "bpm": 100.0
+}

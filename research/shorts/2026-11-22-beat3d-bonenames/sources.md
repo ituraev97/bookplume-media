@@ -1,0 +1,12 @@
+# Sources — BEAT 3D "What your bone names actually mean" (independent fact-check: all 10 OK; fixes applied: mandible → "from the Latin to chew" (mandibula = jaw, from mandere 'to chew'); clavicle sub → "Latin clavicula = 'little key'")
+- Mandible: Late Latin mandibula, from Latin mandere "to chew" — https://www.merriam-webster.com/medical/mandible ; https://www.dictionary.com/browse/mandible
+- Clavicle: Latin clavicula, diminutive of clavis "key" — https://www.dictionary.com/browse/clavicle ; https://humananatomy.host.dartmouth.edu/BHA/public_html/resources/etymology/Shoulder_arm.htm
+- Sternum: Greek sternon "chest, breast" — https://www.etymonline.com/word/sternum
+- Vertebra: Latin "joint", from vertere "to turn" — https://www.merriam-webster.com/dictionary/vertebra
+- Humerus: Latin (h)umerus "shoulder" — https://www.etymonline.com/word/humerus
+- Radius "staff, rod, spoke, ray" — https://www.dictionary.com/browse/radius ; Ulna = Latin "elbow" — https://humananatomy.host.dartmouth.edu/BHA/public_html/resources/etymology/Forearm_hand.htm
+- Phalanges: Greek phalanx, line of battle / ranks of infantry — Dartmouth Forearm_hand.htm (above)
+- Pelvis: Latin "basin" — https://humananatomy.host.dartmouth.edu/BHA/public_html/resources/etymology/Pelvis.htm
+- Femur: Latin "thigh" — https://www.merriam-webster.com/dictionary/femur
+- Tibia: Latin "flute" + "shinbone"; Fibula: Latin "clasp, brooch pin" — https://humananatomy.host.dartmouth.edu/BHA/public_html/resources/etymology/Lower_limb.htm
+- Mesh identification: preview sheet of skel_polyone 2026-11-22 (0/1 forearms, 3/4 femurs, 5/6 lower legs, 7 rib cage, 9/11 humeri, 12/14 clavicle+scapula, 13/18 hands, 15 pelvis, 16 cranium, 17 mandible, 19 spine; 10 empty, 20 outline hidden)
