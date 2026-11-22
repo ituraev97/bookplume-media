@@ -1,0 +1,8 @@
+# Sources — superficial forearm flexors mnemonic short (2026-11-22)
+- Epomedicine, Muscles of forearm: quick review: https://epomedicine.com/medical-students/muscles-of-forearm-quick-review/ — "Pass, Fail, Pass, Fail, and Fail (at last)"; heel (thenar/hypothenar eminence) over the medial epicondyle, fan out the fingers: index = pronator teres, middle = FCR, ring = palmaris longus, little = FCU, thumb = FDS (intermediate); "Median nerve except FCU which is supplied by ulnar nerve"; 4 superficial + 1 intermediate + 3 deep
+- Kenhub, Superficial flexors of the forearm: https://kenhub.com/en/library/anatomy/the-superficial-flexors-of-the-forearm — common flexor tendon from the medial epicondyle; median nerve except FCU (ulnar nerve); PT ulnar (coronoid) head, FCU ulnar head
+- Lecturio, Anterior compartment of the forearm: https://www.lecturio.com/medical-courses/anterior-compartment-anatomy-of-the-forearm.lecture — superficial layer PT, FCR, PL, FCU lateral → medial
+- WISC Human Anatomy Lab Manual, Lab 19: https://wisc.pb.unizin.org/humananatomylabmanual/?p=165 — flexor mass from the medial epicondyle; palmaris longus "not present in 10-20% of the population"; FDS = intermediate layer
+- AnatomyAtlases, Flexor digitorum superficialis variants: https://anatomyatlases.org/AnatomicVariants/MuscularSystem/Text/F/17Flexor.shtml — synonym "Flexor digitorum sublimis"
+- Gray's Anatomy 1918, Fig. 414 Front of the left forearm, superficial muscles (archive.org leaf 446)
+Independent fact-check: all items OK; 1 FIX applied (voice "All four start at that bump" → "All four share one starting point, the medial epicondyle", hold card "all 4 share one start: medial epicondyle" — PT and FCU also have ulnar heads).
