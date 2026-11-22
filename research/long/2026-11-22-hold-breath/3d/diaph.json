@@ -1,0 +1,1 @@
+{"model": "/models/diaph_devden/model.glb", "cfg": {"plain": true, "keepMaterials": true, "bpm": 60, "trans": 1.4, "yaw": 0.7, "minDist": 0, "tEndLine": 999, "endA": "", "endB": "", "title": ["", ""], "credit": "", "endSpin": 0.25, "items": [{"name": "", "meshes": [], "focus": [0], "t0": 0, "t1": 99}], "end": 99}}

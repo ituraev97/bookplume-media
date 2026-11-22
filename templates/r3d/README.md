@@ -23,6 +23,10 @@ Models: the orphan branch bp-models of this repo holds tested models (<slug>/mod
                   11 duodenum, 14 liver, 1 spleen, 3/9 kidneys; hide 0,2,8,12,13,15,16,17,18 (18 = logo plane — always hide)
                   full map (checked 2026-11-18 on preview sheets): 0 diaphragm (left dome), 2 adrenal glands, 8 renal pelves + ureters (no bladder),
                   15 abdominal aorta + celiac/hepatic/splenic branches, 16 intrarenal arteries, 17 renal veins, 12/13 tiny dots (hide).
+  diaph_devden  — "Human Diaphragm" by Devden (CC BY): 1 mesh (domes + central tendon + crura, crura point down); keepMaterials (added 2026-11-22)
+  lungs_neshal  — "Realistic Human Lungs" by neshallads (CC BY): 0 = larynx + trachea + main bronchi, 1 = both lungs; keepMaterials (2026-11-22)
+  resp_vikrama  — "Respiratory System" by Vikrama Raghuraman (CC BY): 0 = right lung, 1 = left lung, 5 = trachea + main bronchi,
+                  2,3,4,6,7,8 = bronchial tree; keepMaterials, ghost {0:0.18,1:0.18} for the x-ray airway view (2026-11-22)
   beat3d.js options (2026-11-18): item.ghost {meshIdx: opacity} = x-ray for organs behind others (0 hides the mesh), cfg.endSpin (default 0.35 rad/s) keeps the end card moving.
   item.side + item.sideAt (2026-11-20, quiz variant "LEFT OR RIGHT?"): an 'L or R?' chip under the name, replaced at sideAt by the answer chip
   (text containing RIGHT = blue, LEFT = red, else dark); the sub-line (plain) appears with the answer. Example: research/shorts/2026-11-20-beat3d-leftright.
