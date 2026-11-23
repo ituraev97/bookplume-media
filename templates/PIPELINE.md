@@ -1,11 +1,38 @@
 # Book Plume video pipeline (for scheduled runs)
 
+Run notes go to RUNBOOK_NOTES.md (append there, never here). Promote a note into a rule section only if it must apply to every future run.
+
 Everything here runs in a fresh cloud container. Work in /home/claude/work.
+
+## Long-video cadence — owner decision 2026-11-23
+ONE long YouTube video every 2 days (replaces "4 long videos a week"). Shorts/TikTok/Reels/Pins/Stories cadence is unchanged (only the Shorts hook/cadence rules below apply).
+- FIRST step of any run that would make a long video (before research, voice or render): Metricool getScheduledPosts for this brand (blogId 7717100) covering the
+  previous and the target US Eastern (ET, America/New_York) day — target = the day of the planned publish time (00:00 Tashkent = 14:00 ET the day before;
+  Metricool times are UTC, ET = UTC−5 in winter). If either day already has a long YouTube video (youtube post with type "video", not "short") → skip the
+  long video entirely and report one line: "Long video skipped: cadence (last long <date>)". Otherwise make it.
+- Format: alternate — the opposite of the last published long video (QUIZ ↔ WHAT HAPPENS, see "LONG FORMATS"; last = latest "long" line in topics.md).
+
+## Long jobs (renders, frame captures, encodes) — never poll
+Start every job longer than ~1 min with nohup + a log + a pid file, then wait ONLY with tools/waitfor.sh (one call waits up to 9 min, prints the status + 3 log lines):
+```
+nohup sh -c 'bash tools/encode_final.sh video_silent.mp4 mix_final.wav final.mp4; echo EXIT $?' > enc.log 2>&1 &  echo $! > enc.pid
+bash tools/waitfor.sh enc.log "EXIT [0-9]+|Error|error" 540 $(cat enc.pid)    # repeat while it prints WAITING; DONE/EXITED → check "EXIT 0" and the file
+```
+Same pattern for `npx remotion render …` (render.log/render.pid), r3d `cap.mjs` frame captures (frames.log/frames.pid) and quiz_build.py.
+(tools/ = /home/claude/bookplume-media/templates/tools.) Never cat/tail/sleep-loop a big log; never re-run a job that is still running.
+
+## Lessons from past runs (distilled 2026-11-23)
+- Metricool post timestamps are UTC: add 5 h for the Tashkent slot (subtract 5 h for ET).
+- Metricool YouTube data lags 2–4 days: don't judge a video (or a hook) before it has data; judge long thumbnails in YouTube Studio Test & Compare.
+- Assert every title/pinTitle length in code before createScheduledPost (a ~100-char Pinterest title was rejected with HTTP 400).
+- Before trusting any Shopify number, confirm the store is 0g1dsy-3h.myshopify.com; never call switch-shop.
+- The cloud sandbox cannot download cdn.shopify.com images (egress 403): use the theme_screenshot workaround in PINS.md.
+- Weekly analytics numbers go to reviews/YYYY-MM-DD.md, not into this file; only rules (with a one-line reason) live here.
 
 ## CONTENT BRIEF (owner's rules, full text in BRIEF_RU.md — read it; these rules beat anything else in this file)
 - Audience: med students, nurses, nursing students, anyone learning anatomy. Content = ANATOMY STUDY: one fact / mnemonic / exam-style question
   per short (how to remember the carpal bones, 12 cranial nerves, pulmonary vs systemic circulation, heart valves, rotator cuff, brachial plexus…).
-  Long (owner decision 2026-11-14: 4 per week, two formats — see "LONG FORMATS" below): QUIZ videos ("Can You Name…? Anatomy Quiz", template quiz/)
+  Long (one every 2 days — see "Long-video cadence"; two formats — see "LONG FORMATS" below): QUIZ videos ("Can You Name…? Anatomy Quiz", template quiz/)
   and "What Happens in Your Body When…" process stories (template long/). The old dry "Learn <topic> in 10 minutes" lesson format is retired (4–9 views each).
 - Images: ONLY public domain / open licence. Default source = Gray's Anatomy 1918 via tools/gray1918.py (reachable + verified PD).
   Other allowed sources (each file's rights field must be read): Wikimedia Commons (PD or CC; often 429 — wait 60 s+ between requests, UA "BookPlumeBot/1.0 (https://bookplume.com)"),
@@ -80,7 +107,7 @@ Render with `--concurrency 2` (2 CPU cores).
 ## 1. Facts and script
 Research with WebSearch/WebFetch (OpenStax Anatomy & Physiology 2e, NCBI StatPearls/Bookshelf, TeachMeAnatomy, Cleveland Clinic, MedlinePlus). No invented numbers; every anatomical fact checked against a textbook/open source and listed in sources.
 Write numbers as words for the voice. Short: hook question in the first second ("Can you name all 8 carpal bones?"), the mnemonic/fact, a quick self-test ("Pause and name the one we skipped"), CTA "Save this for your next exam" + "Follow Book Plume for anatomy you'll actually remember."
-Mnemonics: use well-known, clean ones (e.g. "Some Lovers Try Positions That They Can't Handle" is NOT ok — use "Sally Left The Party To Take Cathy Home"). Long: lesson structure (what you'll learn → parts → how they connect → memory tricks → 5-question quiz → recap).
+Mnemonics: use well-known, clean ones (e.g. "Some Lovers Try Positions That They Can't Handle" is NOT ok — use "Sally Left The Party To Take Cathy Home"). Long: structure per "LONG FORMATS" (QUIZ or WHAT HAPPENS).
 
 ## 2. Voice (Kokoro, voice am_michael) — OWNER DECISION 2026-11-14: keep this exact sound ("A": speed 1.15 + atempo 1.08, one sentence per call).
 The owner compared it with slower/paragraph versions and chose it. Never change voice, speed or method. tools/tts.py does the same "A" sound for quiz/long scripts
@@ -96,7 +123,7 @@ Script wording (anti "AI slop"): talk like a tutor, short concrete sentences, co
 ## LONG FORMATS (owner decision 2026-11-14, from the YouTube competitor analysis: small anatomy channels break out with quizzes —
 ## "Can You Pass This Human Body Quiz?" 225k views on a 2.6k channel — and "What happens when…" process videos — "How Digestion Works" 1.3M;
 ## our "lesson" videos got 4–9 views)
-Schedule: 4 long videos a week. Mon + Fri runs = QUIZ, Wed + Sun runs = WHAT HAPPENS. Publish 00:00 Tashkent next day (US afternoon).
+Schedule: one long video every 2 days, alternating QUIZ / WHAT HAPPENS (section "Long-video cadence" — check it first). Publish 00:00 Tashkent next day (US afternoon).
 QUIZ (template quiz/vid, data from one quiz.py — example quiz/example_quiz.py, a short 8-question test version):
 - 20–28 questions, 3–4 levels that get harder (Warm-up → Medium → Hard → Expert), 8–11 min. One body region or system per video
   (hand & wrist bones, skull bones, heart, brachial plexus, muscles of the arm, cranial nerves, bones of the foot…), not repeated (topics.md).
@@ -119,13 +146,10 @@ WHAT HAPPENS (template long/vid, ScenesCold/IllusCold = the reference — it is 
 Both formats: end with the flash-card CTA (voice + card), "comment your score/question", and the next video suggestion line.
 
 ## TIKTOK VERSION (owner 2026-11-14 17:02, "делай все" — TikTok was stuck at ~250–310 views, avg watch 3–6 s of 26–30 s, full-watch ≈ 0%)
-TikTok gets its OWN cut and its OWN post (never shared with the Instagram/YouTube post):
-1. LENGTH 15–18 s: a separate tiktok script of 35–45 words built from the same scenes: quiz hook (3-2-1) → answer → the ONE key idea
-   (mnemonic or the surprise) → "Comment your score / the answer you guessed." No slow middle, no quick-test card. Render as tiktok.mp4 (same components,
-   own voice line set via synth_short.py, own audio mix), check 15.0–18.0 s with ffprobe.
-2. SHORT CAPTION: the hook question + 1 short line + 3–5 hashtags (#anatomy #anatomyquiz #nursingschool #medstudent + 1 topic tag), ≤ 150 characters
+(The separate 15–18 s TikTok cut was retired by the owner on 2026-11-18: the same final file goes to every platform.)
+1. SHORT CAPTION: the hook question + 1 short line + 3–5 hashtags (#anatomy #anatomyquiz #nursingschool #medstudent + 1 topic tag), ≤ 150 characters
    before the hashtags. Do NOT paste the full breakdown (it spoils the answer and kills watch time).
-3. PURE EDUCATION, NO PROMO LABEL: no store name, no "bookplume.com", no product mention in the TikTok video or caption, and therefore
+2. PURE EDUCATION, NO PROMO LABEL: no store name, no "bookplume.com", no product mention in the TikTok video or caption, and therefore
    commercialContentOwnBrand false (and commercialContentThirdParty false) — the "Promotional content" label hurt reach. The store stays in the profile and
    the TikTok Shop showcase. If a TikTok video ever does show or name our product, the own-brand toggle MUST be on (TikTok rules) — so keep TikTok product-free.
 
@@ -162,14 +186,15 @@ Applies to every YouTube long thumbnail, Shorts/Reels/TikTok cover and Pinterest
 - Always render ~15–30 stills first (`node stills.mjs t1 t2 ...` → ../stills/), LOOK at them, fix overlaps / cut-off text, then render:
   `npx remotion render src/index.ts Main ../video_silent.mp4 --codec h264 --concurrency 2`
   (MAX QUALITY: remotion.config.ts already sets jpegQuality 100 + CRF 12 master — do NOT pass --crf or lower these. 30 fps, 1080p.)
+  Long renders: run it with nohup + render.log/render.pid and wait with tools/waitfor.sh (section "Long jobs").
 
 ## 4. Sound
 Copy audio_example.py, set END, the SFX list (whoosh at scene/chapter changes, pop at each card, boom + riser at the twist) and music sections (silence the music ~0.8 s before the twist). It writes mix_pre.wav. Then:
 ```
 ffmpeg -i mix_pre.wav -af "loudnorm=I=-15:TP=-1.0:LRA=11,alimiter=limit=0.89" -ar 48000 mix_final.wav
-bash tools/encode_final.sh video_silent.mp4 mix_final.wav final.mp4
+bash tools/encode_final.sh video_silent.mp4 mix_final.wav final.mp4   # > ~1 min (every long video): nohup + waitfor, section "Long jobs"
 ```
-encode_final.sh = MAX QUALITY for shorts and long videos: x264 CRF 17 preset slower tune animation + AAC 256k; if the result is > 94 MB it automatically re-encodes two-pass at the exact bitrate that fits ~93 MB (GitHub raw file limit 100 MB; releases and LFS are blocked from the container). Never use CRF > 17 or preset faster than slower to save time. A 6-min long video takes ~25–35 min to encode — start it early, run it in the background.
+encode_final.sh = MAX QUALITY for shorts and long videos: x264 CRF 17 preset slower tune animation + AAC 256k; if the result is > 94 MB it automatically re-encodes two-pass at the exact bitrate that fits ~93 MB (GitHub raw file limit 100 MB; releases and LFS are blocked from the container). Never use CRF > 17 or preset faster than slower to save time. A 6-min long video takes ~25–35 min to encode — start it early with nohup + enc.log/enc.pid and wait only with tools/waitfor.sh (section "Long jobs").
 Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs of identical frames), size ≤ 94 MB.
 
 ## 5. Publish (Metricool, brand blogId 7717100, timezone Asia/Tashkent)
@@ -182,10 +207,10 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
    Public URLs: https://raw.githubusercontent.com/ituraev97/bookplume-media/$B/v/video.mp4 (and v/thumb.jpg).
    Metricool copies media to its own storage when the post is created (the response shows static.metricool.com URLs). After ALL posts using it are created, delete the branch: `git push origin --delete $B`.
 2. Metricool createScheduledPost with media = [that URL]. Date must be in the future.
-   - Short: providers tiktok, instagram (REEL, isAiGenerated false), facebook (REEL), youtube ONLY if this Short won a YouTube slot (section "Shorts: cadence + hook rules — owner decision 2026-11-23") (type "short", madeForKids false, isAiGeneratedContent false, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc false, commercialContentOwnBrand true, title; videoCoverMilliseconds 300.
+   - Short: providers tiktok, instagram (REEL, isAiGenerated false), facebook (REEL), youtube ONLY if this Short won a YouTube slot (section "Shorts: cadence + hook rules — owner decision 2026-11-23") (type "short", madeForKids false, isAiGeneratedContent false, category EDUCATION, title ≤ 100 chars ending "#shorts"); tiktokData isAigc false, commercialContentOwnBrand false + commercialContentThirdParty false (see TIKTOK VERSION), title; videoCoverMilliseconds 300.
      Then a SECOND post for pinterest only: video pin (pinterestData boardId "bookplume", pinTitle with keywords, pinLink = matching product URL from products.md, pinNewFormat true, isAiGenerated false) — keep it separate so a Pinterest error can't block the others.
      Then a THIRD post for pinterest only: the 1000x1500 static pin.jpg (host it on the same media branch), same board, keyword title, product pinLink, publish 3+ hours after the video pin.
-     Descriptions everywhere: hook + what they'll learn + "Study with: <product name> → bookplume.com" (no medical claims) + image credit line + hashtags.
+     Descriptions: hook + what they'll learn (no medical claims) + image/3D credit line + hashtags — no store / "Study with" line on short videos (owner 2026-11-18).
    - Long: provider youtube only (type "video", privacy public, madeForKids false, isAiGeneratedContent false, category EDUCATION, tags list, title ≤ 100 chars), text = full SEO description with chapter timestamps (first one 0:00), videoThumbnailUrl = raw URL of thumb.jpg.
 3. TikTok Shop (product link can ONLY be attached in the TikTok app, Metricool/API cannot):
    - If the video uses our product footage: render a second cut final_tiktokshop.mp4 (product clip in the first 3 s, then the lesson, ≤ 60 s). Do NOT post it via Metricool;
@@ -201,22 +226,8 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
 - Pinterest pinTitle ≤ 90 characters (hard limit 100). YouTube title ≤ 95 (hard 100). TikTok title ≤ 90. Pinterest description ≤ 480.
 - Assert len() of every title in your script before posting; shorten by dropping the " | ..." tail first.
 
-## Performance rules (weekly producer review, last update 2026-11-23 — the weekly producer task updates this section)
-Data 16–22 Nov, Tashkent dates (previous week 9–15 Nov in brackets). Metricool post timestamps are UTC — add 5 h for the Tashkent slot. Full tables: reviews/2026-11-23.md.
-Instagram Reels (main posts): 24 reels, 47.2k views (97.1k, −51%), median 1,840 (2,595, −29%), saves 459 (2,541, −82%), shares 178 (1,122). Daily IG views 5–10k (9–10 Nov: 22–28k).
-  By format (16–22 Nov): SHEET QUIZ median 2,020 (n=4, avg watch 10.2 s) · old quiz-hook/mnemonic 1,840 (n=12, saves median 21) · JOURNEY 1,495 (n=5, watch 8.8 s,
-  saves median 6) · BEAT 1,382 (n=3, watch 5.1 s, saves 6). Best: pelvis quiz 3,418; hyoid muscles 3,333 (97 saves); arm veins 3,239.
-  IG TRIAL_REEL duplicates (same video 1 h after the main reel): 14 posts, median 117 views, total 1,237.
-IG quiz carousels: 7, median 925 views (3,165 for 6 the week before; 21.9k on 9 Nov) — falling every day, 1 follow all week.
-TikTok: 24 videos, median 305 (312), total 7.3k (−11%), avg watch 4.5 s, 98–100% For You, ~0% search. Same ~300 ceiling for 4 weeks (n≈100). Best: brain quiz 5/5 505.
-  JOURNEY keeps the highest share watched (9 s = 23% of 39–44 s) but not more views (288).
-YouTube Shorts (Metricool data only to 19 Nov): median 41 (69), 16 Shorts, 966 views. "Name this…in 3 seconds" / "5/5" titles median 41 (n=12) vs others 64 (n=4);
-  brain + heart "5/5" Shorts = 6 views each. Best: "Where Does the Water You Drink Go? 3D" 155. Traffic 16–22 Nov: Shorts feed 21.8k, YouTube search 2.5k (≈10%), channel 580, suggested 186.
-YouTube long: quiz "27 Leg Muscles" 10 views / 55 s avg; WHAT HAPPENS "Stand Up Too Fast" 14 / 80 s avg; "Swallow" 5 / 19 s. Skull quiz + breath-hold: no data yet (Metricool lag).
-  Subscribers +7 (16–19 Nov only) vs +19 net the week before.
-Facebook Reels: 19, median 152 (130), total 2.5k (+45%). Threads: 35 posts, 21.4k views (2.5k, +769%), median 500 (42). Pinterest: 65 pins, 42 impressions (106).
-Shopify (Book Plume, valid): social sessions 42 (68): Facebook 24 (22 of them meta_catalog), Instagram 12 (53), Pinterest 3 → 1 cart → 1 order (first attributed social order),
-  Threads 2, YouTube 1. Orders 22 / $865 (23 / $955), almost all without referrer.
+## Performance rules (weekly producer review, last update 2026-11-23 — the weekly producer task updates this section: rules only, numbers go to reviews/)
+Numbers behind these rules: reviews/YYYY-MM-DD.md (latest reviews/2026-11-23.md).
 
 - SHORTS LENGTH: follow the format specs (BEAT 20–30 s, JOURNEY ≤ 45 s, SHEET QUIZ ≤ 45 s, MNEMONIC ≤ 35 s); YouTube Shorts 20–40 s (owner rule 2026-11-23).
   The old 15–18 s TikTok cut is retired (owner 2026-11-18: the same final file goes everywhere).
@@ -248,21 +259,16 @@ Shopify (Book Plume, valid): social sessions 42 (68): Facebook 24 (22 of them me
 - Instagram CAROUSEL = QUIZ CAROUSEL (owner rule). 7 quiz carousels: median 925 views, falling daily (1,877 → 675) — judged at n = 13: weaker than the old
   cheat-sheet carousels (median 3,165) → see owner recommendation in reviews/2026-11-23.md; until the owner decides, slide 1 must show the whole plate with numbered pins
   and "0/5?" (as the best carousel, 16 Nov 1,877).
-- SHOPIFY CHECK: only trust Shopify when get-shop-info / query shopDomain = 0g1dsy-3h.myshopify.com (Book Plume); never call switch-shop.
 - Retired 2026-11-23 (formats retired by the owner on 2026-11-18): the 1-question "Name this in 3 seconds" hook test and the RAPID-QUIZ TikTok cut test.
 
-- OWNER DECISIONS 2026-11-14 (after the competitor review, approved "да"; kept verbatim — the producer may not change them):
-  • QUIZ HOOK FOR TIKTOK/SHORTS: the first 4 seconds are a one-question quiz — plate with a red pin on ONE structure, huge text "Name this in 3 seconds",
-    3-2-1, reveal — then the list/mnemonic. Reason: TikTok viewers leave after 3–8 s whatever the length; a question on frame 1 gives a reason to stay and rewatch.
+- OWNER DECISIONS 2026-11-14 (approved "да"; still in force — the producer may not change them; verbatim original in RUNBOOK_NOTES.md):
   • When a long QUIZ on the same region exists (topics.md "long" lines), the Short's last line + end card say "Full quiz on our channel" (YouTube text also names it).
   • INSTAGRAM CAROUSEL = QUIZ CAROUSEL: slide 1 "Can you name all N?" with numbered pins on the plate, slides 2–5 one structure each with its pin and the answer
     hidden behind a sticker ("swipe for the answer"), slide 6 answers + mnemonic + "Save this · bookplume.com".
   • PINTEREST static pins: quiz style ("Can You Name These 8 Bones?" + numbered pins) with pinLink = the matching COLLECTION page with UTM.
   • THREADS: 3 history-of-medicine posts a day (best format: 244/139/122 views vs ~28 median), 1 myth-buster, 1 anatomy fact.
   • SHOPIFY CHECK: Shopify data is only valid when get-shop-info shows 0g1dsy-3h.myshopify.com (Book Plume). The connector is shared with another store
-    (Scroll & Hearth, 4ta1h0-d3); if it shows any other domain, skip Shopify numbers and say so — never call switch-shop. (The 2026-11-09 "0 UTM sessions"
-    finding may have come from the wrong store — re-check before trusting it.)
-  (Note 2026-11-23: the first bullet's "Name this in 3 seconds" short was replaced by the owner's 2026-11-18 SHORT VIDEO FORMATS decision; kept here verbatim.)
+    (Scroll & Hearth, 4ta1h0-d3); if it shows any other domain, skip Shopify numbers and say so — never call switch-shop.
 
 ### Topic ideas next week (none is in topics.md yet; each ends on a SAVE FRAME)
 Shorts:
@@ -284,8 +290,4 @@ Long WHAT HAPPENS:
 14. "What Happens in Your Body When You Sneeze (Second by Second)" — trigeminal irritation, sneeze center in the medulla, deep breath, glottis closes, soft palate, ~sneeze airflow facts from a source
 
 ### Changelog
-- 2026-11-06: first rules from the 26 Oct–5 Nov analytics review.
-- 2026-11-09: producer review — withdrew "17:00 = surprising fact" (facts 1.8k vs lists 3.3k IG views), added branches/contents topic-type rule, added UTM assert; numbers updated.
-- 2026-11-14: owner-approved changes: long videos → 4/week QUIZ + WHAT HAPPENS formats, quiz hook for shorts, quiz carousels/pins, Threads 3 history posts, Shopify store check; voice "A" confirmed.
-- 2026-11-16: producer review — added ONE-PICTURE ANSWER topic rule (top-4 reels 7.5–11.4k, 112–305 shares), RAPID-QUIZ TikTok cut test for the 05:00 run (vidIQ 13–16 s quiz breakouts), WHAT HAPPENS title/topic formula (vidIQ); quiz hook marked "under test" (1.8k vs 2.3k) with "+ N more" promise; numbers updated; the 14 Nov owner decisions block is kept verbatim.
-- 2026-11-23: producer review — NEW save frame in every short format (IG saves −82% after the 3D formats), NEW SHEET QUIZ famous-region + score rule (best new format, IG median 2,020), NEW Threads history formula (+769%); retired the quiz-hook and rapid-quiz tests (formats retired 18 Nov); YouTube search ≈10% → search phrase first in long titles; pin title length assert after a 400 error; numbers updated; owner blocks kept verbatim. vidIQ had no credits (no breakout data).
+Append producer-review changelog lines to RUNBOOK_NOTES.md (history up to 2026-11-23 is there).

@@ -43,7 +43,8 @@ cfg.json = examples/skeleton/cfg.json with title (["EVERY MAJOR BONE","IN <b>20 
 tEndLine, end, endA/endB ("Save this." / "Then name them<br>without looking 👀"), minDist (≈0.8 × the model's smallest focus size).
 args.json = {"model":"/models/<slug>/model.glb","cfg":<cfg>} saved under /home/claude/work/<ep>/ →
 stills: SHOT=1 node r3d/cap.mjs /r3d/beat3d.js /tmp/st 30 0 0 1080 1920 @/<ep>/args.json <t1,t2,...>   (one still per item + end)
-frames: SHOT=1 node r3d/cap.mjs /r3d/beat3d.js <ep>/frames 30 0 <END> 1080 1920 @/<ep>/args.json   (~0.5–1 s/frame, run in background)
+frames (~0.5–1 s/frame): nohup sh -c 'SHOT=1 node r3d/cap.mjs /r3d/beat3d.js <ep>/frames 30 0 <END> 1080 1920 @/<ep>/args.json; echo EXIT $?' > frames.log 2>&1 &  echo $! > frames.pid
+  then wait ONLY with: bash /home/claude/bookplume-media/templates/tools/waitfor.sh frames.log "EXIT [0-9]+|Error" 540 $(cat frames.pid)   (repeat while WAITING; never tail the log)
 
 ## JOURNEY 3D — a glowing bolus travels through organs, one stage at a time (30–45 s)
 "Where does your food go / What happens to a pill / Path of blood through the heart / Where does the air go / How urine is made…"

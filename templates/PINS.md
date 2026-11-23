@@ -5,11 +5,17 @@ Brand: Matcha #5C7A2F, Banana #F2D14E (fill only, never text on Paper), Forest #
 Rules (content brief): education only, no medical promises/diagnosis/treatment, every number from a real
 source named on the pin, no agency logos, no gore, no third-party images (pins are drawn by code).
 
-**RULES 2026-11-21 (owner, overrides the steps below where they differ):** 3 pins/day = 2 EDUCATIONAL (02:17, 06:17; one pin per topic, no topic with a static/video pin in the last 30 days) + 1 PRODUCT pin (21:17: in-stock anatomy/medical product, its own Shopify images large + one short hook in our voice, no people/fake reviews/prices, pinLink = product page + utm_campaign=<product-slug>&utm_content=product-pin, same product max once per 14 days, log it); titles = specific search queries, no repeated tail, assert len(title) <= 90; descriptions 1–3 natural sentences + source, no "Study with" line on educational pins. Note: this sandbox cannot download cdn.shopify.com images (egress 403) — allow that domain or the product pin can't be built.
+Run notes go to RUNBOOK_NOTES.md (append there, never here).
 
-**RULES 2026-11-22 (owner, confirmed again):** 2 educational (02:17, 06:17) + 1 PRODUCT pin (21:17); one pin per topic, nothing on a topic pinned/videoed in the last 30 days (check getScheduledPosts + pins_log.md); titles = specific search queries, no shared tail, no two pins in a week with the same ending, `assert len(title) <= 90`; descriptions 1–3 sentences + source, no "Study with" line on educational pins; product pins: no people, fake reviews/ratings, prices or discounts; same product max once per 14 days. PRODUCT IMAGES WORKAROUND: Shopify `theme_screenshot` (themeId = MAIN theme) of path `/cdn/shop/files/<file>?v=..&width=1200` (desktop) saves the image as a .webp in the session tool-results folder → crop the screenshot margins → `python3 templates/make_product_pin.py cover.png inside.png "<hook>" out.png`.
-
-**RULES 2026-11-23 (owner, unchanged + note):** same as 2026-11-22 — 2 educational (02:17, 06:17) + 1 PRODUCT pin (21:17), one pin per topic (nothing pinned/videoed in the last 30 days), titles written as specific Pinterest search queries with `assert len(title) <= 90` and no shared tail, descriptions 1–3 sentences + source, product pins with no people/fake reviews/prices and the same product at most once per 14 days. Slot rule: if a slot already holds a static pin, use that slot on the next free day (max 3 static pins/day; video pins do not count). Product images: cdn.shopify.com stays blocked by sandbox egress — use the Shopify `theme_screenshot` workaround on `/cdn/shop/files/<file>?v=..&width=1200`, auto-crop the black margins, then `make_product_pin.py cover.png inside.png "<hook>" out.png ["<bottom caption>"]` (the bottom caption is now an optional 5th argument instead of the hard-coded coloring-book line).
+**CURRENT RULES (owner 2026-11-21, confirmed 2026-11-22 and 2026-11-23; override the steps below where they differ):**
+- 3 static pins/day = 2 EDUCATIONAL (02:17, 06:17) + 1 PRODUCT pin (21:17). Max 3 static pins/day (video pins don't count); if a slot already holds a static pin, use that slot on the next free day.
+- One pin per topic; nothing on a topic pinned or videoed in the last 30 days (check getScheduledPosts + pins_log.md).
+- Titles = specific Pinterest search queries, no shared/repeated tail (no two pins in a week with the same ending), `assert len(title) <= 90`.
+- Descriptions 1–3 natural sentences + source; no "Study with" line on educational pins.
+- PRODUCT pin: in-stock anatomy/medical product, its own Shopify images large + one short hook in our voice; no people, fake reviews/ratings, prices or discounts;
+  pinLink = product page + utm_campaign=<product-slug>&utm_content=product-pin; same product max once per 14 days; log it.
+- Product images: cdn.shopify.com is blocked by sandbox egress → Shopify `theme_screenshot` (themeId = MAIN theme) of `/cdn/shop/files/<file>?v=..&width=1200` (desktop)
+  saves a .webp in the session tool-results folder → auto-crop the black margins → `python3 templates/make_product_pin.py cover.png inside.png "<hook>" out.png ["<bottom caption>"]`.
 
 ## Each run
 1. `cd /home/claude && git clone --depth 1 --filter=blob:none --sparse https://github.com/ituraev97/bookplume-media && cd bookplume-media && git sparse-checkout set pins templates`
