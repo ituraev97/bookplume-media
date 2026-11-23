@@ -4,6 +4,14 @@ Pipeline: the AI (FLUX.2 klein on the office PC, free) paints ONLY the picture (
 thumbkit.py lays out text, labels, stamps, highlights and real documents on top. Never let the AI draw text
 or documents: it produces gibberish ("FEDERAL COURT OF ELHENTS") that looks like a forged record.
 
+## EMOTION FIRST (owner rule 2026-11-24: "the faces were cute — need rage and drama")
+- Every thumbnail must carry a strong emotion at first glance: anger, shock, fear, panic, disbelief, triumph. A neutral, calm or smiling face = REJECT, even if it is well lit.
+- People: scan the real footage/photos for the PEAK moment (mouth open mid-shout, wide eyes, frown, pointing finger, hands on head). Extract 20–40 candidate frames around the key quote (`ffmpeg -vf fps=1/2,crop=...,tile=8x5`), look at the sheet, pick the most extreme. Prefer the moment the video is about (the rant, the verdict reaction, the arrest).
+- The AI then dramatizes WITHOUT changing the face: harsh rim light (red for the aggressor, cold cyan for the other side), deep shadows, smoke/haze, gritty high contrast, tight crop (face fills 40–60 % of its half). Prompt must say "keep the exact same face and the exact same facial expression".
+- Never invent an expression a real person did not make. If no emotional real frame exists for someone, give the emotion to the scene instead (fire, sirens, red alarm light, stamp "GUILTY", shattered glass) or build the thumbnail around the person who did show it.
+- Words add emotion too: conflict verbs and stakes ("SNAPS", "EXPOSED", "BANNED", "FATAL", "20 YEARS"), red/yellow accent line, a tag like "LIVE ON STREAM", "BREAKING", "SENTENCED".
+- Before publishing, look at the thumbnail at 320 px: can you name the emotion in one word in under a second? If not, redo.
+
 ## Template "doc" — documentary split (REEL 41, NOT MEANT TO KNOW, LAST CONTACT, COLD WARRANT history/cases)
 - Left ~45 %: near-black panel (#0B0B0B), 2–4 lines of huge condensed caps (Anton / Bebas), left-aligned,
   line 1 cream #EEE7D7, last line(s) accent: gold #D4A64A (history) or red #D62828 (mystery/crime).
