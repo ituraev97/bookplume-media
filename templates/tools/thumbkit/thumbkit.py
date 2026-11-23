@@ -292,14 +292,14 @@ def render_doc(spec, br):
     if spec.get("bw", False):
         pl = ImageOps.grayscale(pl).convert("RGB")
         pl = ImageEnhance.Contrast(pl).enhance(1.15)
-    mask = Image.linear_gradient("L").rotate(90, expand=True).resize((pw, H))   # left 255 -> right 0
-    mask = ImageOps.invert(mask).point(lambda v: min(255, int(v * 2.2)))           # fade in over the left 45 %
+    ramp = np.clip(np.linspace(0, 1, pw) / .45, 0, 1) ** 1.5                         # fade in over the left 45 %
+    mask = Image.fromarray((np.tile(ramp, (H, 1)) * 255).astype(np.uint8))
     canvas.paste(pl, (W - pw, 0), mask)
     lines = spec["lines"]
     acc = hexrgb(spec["accent"]) if spec.get("accent") else GOLD
     k = spec.get("accent_from", len(lines) - 1)
     d = ImageDraw.Draw(canvas)
-    area_w, area_h = W * .50, H * (.62 if spec.get("label") else .74)
+    area_w, area_h = W * .44, H * (.62 if spec.get("label") else .74)
     lh = area_h / len(lines)
     fs = min(fit_font(d, l, FONT_BIG, area_w, lh * 1.05).size for l in lines)
     f = ImageFont.truetype(FONT_BIG, fs)
@@ -423,8 +423,8 @@ def render_split(spec, br):
         left = _side(spec.get("left", {}), lw, H)
         right = _side(spec.get("right", {}), W - sx + bw // 2, H)
         canvas.paste(right, (sx - bw // 2, 0))
-        m = Image.linear_gradient("L").rotate(90, expand=True).resize((lw, H))   # 255 left -> 0 right
-        m = m.point(lambda v: 255 if v > 255 * bw / lw else int(v / (bw / lw)))
+        ramp = np.clip((lw - np.arange(lw)) / bw, 0, 1)                         # 1 on the left, fades over bw px
+        m = Image.fromarray((np.tile(ramp, (H, 1)) * 255).astype(np.uint8))
         canvas.paste(left, (0, 0), m)
         return canvas
     canvas.paste(_side(spec.get("left", {}), sx - 3, H), (0, 0))
@@ -626,4 +626,12 @@ if __name__ == "__main__":
             spec["brand"]["logo"] = os.path.join(base, spec["brand"]["logo"])
         out = spec.get("out") or ("thumb.jpg" if i == 0 else f"thumb_{'ABCDEF'[i]}.jpg")
         spec["out"] = out if os.path.isabs(out) else os.path.join(base, out)
-        print(render(spec))
+        try:
+            print(render(spec))
+        except Exception as e:                       # one bad spec (missing AI picture...) must not kill the others
+            print(f"thumbkit: spec {i} failed: {e}", file=sys.stderr)
+    first = os.path.join(base, "thumb.jpg")
+    if not os.path.exists(first):                    # A failed -> promote the first variant that exists
+        for alt in ("thumb_B.jpg", "thumb_C.jpg"):
+            if os.path.exists(os.path.join(base, alt)):
+                import shutil; shutil.copy(os.path.join(base, alt), first); print("thumbkit: A failed, using", alt); break
