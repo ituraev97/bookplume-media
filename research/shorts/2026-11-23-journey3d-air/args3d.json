@@ -1,0 +1,462 @@
+{
+ "model": "/models/resp_vikrama/model.glb",
+ "cfg": {
+  "title": [
+   "WHERE DOES THE AIR",
+   "YOU <b>BREATHE</b> GO?"
+  ],
+  "credit": "3D: Respiratory System by Vikrama Raghuraman (Sketchfab, CC BY 4.0)",
+  "hide": [],
+  "wp": {
+   "trTop": {
+    "mesh": 5,
+    "sel": [
+     [
+      "y",
+      "max",
+      0.15
+     ]
+    ]
+   },
+   "carina": {
+    "mesh": 5,
+    "sel": [
+     [
+      "x",
+      "abs",
+      0.15
+     ],
+     [
+      "y",
+      "min",
+      0.2
+     ]
+    ]
+   },
+   "trMid": {
+    "lerp": [
+     "trTop",
+     "carina",
+     0.5
+    ]
+   },
+   "rBr": {
+    "mesh": 5,
+    "sel": [
+     [
+      "x",
+      "min",
+      0.3
+     ]
+    ]
+   },
+   "lBr": {
+    "mesh": 5,
+    "sel": [
+     [
+      "x",
+      "max",
+      0.3
+     ]
+    ]
+   },
+   "rMid": {
+    "mesh": 2,
+    "sel": []
+   },
+   "rDeep": {
+    "mesh": 3,
+    "sel": []
+   },
+   "lLung": {
+    "mesh": 1,
+    "sel": []
+   },
+   "rLat": {
+    "mesh": 0,
+    "sel": [
+     [
+      "x",
+      "min",
+      0.9
+     ]
+    ]
+   },
+   "lLat": {
+    "mesh": 1,
+    "sel": [
+     [
+      "x",
+      "max",
+      0.9
+     ]
+    ]
+   },
+   "heart": {
+    "p": [
+     0.6,
+     -3.3,
+     0.9
+    ]
+   }
+  },
+  "stages": [
+   {
+    "key": "tr",
+    "label": "TRACHEA",
+    "t0": 3.8869583333333333,
+    "t1": 10.567791666666668,
+    "light": [
+     5
+    ],
+    "focus": [
+     5
+    ],
+    "zoom": 1.25,
+    "dy": -0.25,
+    "ghost": {
+     "0": 0.12,
+     "1": 0.12
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "trTop",
+      "trMid",
+      "carina"
+     ],
+     "a": 4.186958333333333,
+     "b": 10.267791666666668
+    }
+   },
+   {
+    "key": "br",
+    "label": "BRONCHI",
+    "t0": 10.567791666666668,
+    "t1": 20.01825,
+    "light": [
+     5
+    ],
+    "focus": [
+     5
+    ],
+    "zoom": 1.15,
+    "ghost": {
+     "0": 0.12,
+     "1": 0.12
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "carina",
+      "rBr"
+     ],
+     "a": 10.767791666666668,
+     "b": 14.331375
+    }
+   },
+   {
+    "key": "tree",
+    "label": "BRANCHES",
+    "t0": 20.01825,
+    "t1": 23.864291666666666,
+    "light": [
+     2,
+     3,
+     4,
+     6,
+     7,
+     8
+    ],
+    "focus": [
+     0,
+     1
+    ],
+    "ghost": {
+     "0": 0.14,
+     "1": 0.14,
+     "5": 0.5
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "rBr",
+      "rMid",
+      "rDeep"
+     ],
+     "a": 20.11825,
+     "b": 23.364291666666666
+    }
+   },
+   {
+    "key": "alv",
+    "label": "ALVEOLI",
+    "t0": 23.864291666666666,
+    "t1": 28.243333333333336,
+    "light": [
+     0,
+     1
+    ],
+    "focus": [
+     0,
+     1
+    ],
+    "semi": {
+     "0": 0.55,
+     "1": 0.55
+    },
+    "move": {
+     "type": "swirl",
+     "at": "rDeep",
+     "r": 0.25
+    }
+   },
+   {
+    "key": "blood",
+    "label": "BLOOD",
+    "t0": 28.243333333333336,
+    "t1": 35.511291666666665,
+    "light": [
+     0,
+     1
+    ],
+    "focus": [
+     0,
+     1
+    ],
+    "semi": {
+     "0": 0.35,
+     "1": 0.35
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "rDeep",
+      "heart"
+     ],
+     "a": 31.685375000000004,
+     "b": 34.085375000000006
+    }
+   },
+   {
+    "key": "out",
+    "label": "OUT",
+    "t0": 35.511291666666665,
+    "t1": 41.24,
+    "light": [
+     5,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8
+    ],
+    "focus": [
+     0,
+     1
+    ],
+    "ghost": {
+     "0": 0.14,
+     "1": 0.14
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "heart",
+      "rDeep",
+      "rMid",
+      "rBr",
+      "carina",
+      "trMid",
+      "trTop"
+     ],
+     "a": 35.71129166666667,
+     "b": 40.786
+    }
+   }
+  ],
+  "particles": [
+   {
+    "from": "rDeep",
+    "to": "heart",
+    "t0": 28.843333333333337,
+    "t1": 35.511291666666665,
+    "color": "#FF5A5A",
+    "n": 14
+   },
+   {
+    "from": "lLung",
+    "to": "heart",
+    "t0": 28.843333333333337,
+    "t1": 35.511291666666665,
+    "color": "#FF5A5A",
+    "n": 14
+   },
+   {
+    "from": "heart",
+    "to": "lLung",
+    "t0": 35.511291666666665,
+    "t1": 38.17366666666667,
+    "color": "#8FB8FF",
+    "n": 10
+   }
+  ],
+  "chips": [
+   {
+    "txt": "\u2248 <em>20,000</em> breaths a day",
+    "kind": "f",
+    "t0": 0.4,
+    "t1": 3.7369583333333334
+   },
+   {
+    "txt": "TRACHEA",
+    "kind": "n",
+    "t0": 4.0869583333333335,
+    "t1": 10.517791666666668
+   },
+   {
+    "txt": "16\u201320 <em>C-shaped</em> cartilage rings",
+    "kind": "f",
+    "t0": 7.226583333333333,
+    "t1": 10.517791666666668
+   },
+   {
+    "txt": "MAIN BRONCHI",
+    "kind": "n",
+    "t0": 10.767791666666668,
+    "t1": 19.968249999999998
+   },
+   {
+    "txt": "right = <em>wider, shorter, steeper</em>",
+    "kind": "f",
+    "t0": 13.731375,
+    "t1": 19.968249999999998
+   },
+   {
+    "txt": "adults: objects land <em>right</em>",
+    "kind": "f",
+    "t0": 16.498416666666664,
+    "t1": 19.968249999999998
+   },
+   {
+    "txt": "BRONCHIAL TREE",
+    "kind": "n",
+    "t0": 20.218249999999998,
+    "t1": 23.814291666666666
+   },
+   {
+    "txt": "\u2248 23 generations (18\u201330)",
+    "kind": "f",
+    "t0": 21.61825,
+    "t1": 23.814291666666666
+   },
+   {
+    "txt": "ALVEOLI",
+    "kind": "n",
+    "t0": 24.064291666666666,
+    "t1": 28.193333333333335
+   },
+   {
+    "txt": "\u2248 480 million air sacs",
+    "kind": "t",
+    "t0": 25.864291666666666,
+    "t1": 28.193333333333335
+   },
+   {
+    "txt": "CAPILLARIES",
+    "kind": "n",
+    "t0": 28.443333333333335,
+    "t1": 35.46129166666667
+   },
+   {
+    "txt": "O\u2082 <em>in</em> \u00b7 CO\u2082 <em>out</em>",
+    "kind": "f",
+    "t0": 29.443333333333335,
+    "t1": 35.46129166666667
+   },
+   {
+    "txt": "lungs \u2192 <em>left heart</em> \u2192 body",
+    "kind": "f",
+    "t0": 32.085375000000006,
+    "t1": 35.46129166666667
+   },
+   {
+    "txt": "BREATHE OUT",
+    "kind": "n",
+    "t0": 35.71129166666667,
+    "t1": 41.190000000000005
+   },
+   {
+    "txt": "CO\u2082 leaves the <em>same tubes</em>",
+    "kind": "f",
+    "t0": 37.973666666666674,
+    "t1": 41.190000000000005
+   }
+  ],
+  "bolusSize": 0.13,
+  "endSpin": 0.15,
+  "colors": [
+   {
+    "t": 0,
+    "color": "#CFEFFF"
+   },
+   {
+    "t": 28.543333333333337,
+    "color": "#FF4D4D"
+   },
+   {
+    "t": 35.71129166666667,
+    "color": "#8FA6D8"
+   }
+  ],
+  "final": 41.24,
+  "finalGhost": {
+   "0": 0.3,
+   "1": 0.3
+  },
+  "finalLight": [
+   5,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8
+  ],
+  "tEnd0": 43.55,
+  "endA": "Save this",
+  "endB": "for your next physiology exam \ud83d\udccc",
+  "saveMap": {
+   "t0": 41.24,
+   "title": "THE PATH \u00b7 SAVE THIS \ud83d\udccc",
+   "items": [
+    {
+     "n": 1,
+     "txt": "Trachea",
+     "wp": "trMid"
+    },
+    {
+     "n": 2,
+     "txt": "Main bronchi",
+     "wp": "lBr"
+    },
+    {
+     "n": 3,
+     "txt": "Bronchial tree",
+     "wp": "rMid"
+    },
+    {
+     "n": 4,
+     "txt": "Alveoli",
+     "wp": "lLat"
+    },
+    {
+     "n": 5,
+     "txt": "Capillaries",
+     "wp": "rLat"
+    }
+   ]
+  }
+ }
+}

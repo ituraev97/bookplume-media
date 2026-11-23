@@ -83,9 +83,9 @@ export async function frame(ctx,t){
   const lit=new Set(); let ghost={}, semi={};
   if(k>=0){ const s=S[k]; s.light.forEach(x=>lit.add(x)); (s.lightAt||[]).forEach(l=>{ if(t>=l.t) l.meshes.forEach(x=>lit.add(x)); }); ghost=s.ghost||{}; semi=s.semi||{}; }
   meshes.forEach(m=>{ const j=m.userData.k; if(!m.visible) return; const mt=m.material;
-    let op= fin?1 : k<0?0.85 : lit.has(j)?(semi[j]??1):(ghost[j]??0.16);
+    let op= fin?((cfg.finalGhost||{})[j]??1) : k<0?0.85 : lit.has(j)?(semi[j]??1):(ghost[j]??0.16);
     mt.opacity=op; mt.depthWrite=op>0.9;
-    if(mt.emissive){ mt.emissive.copy(m.userData.em||new THREE.Color(0)); if(lit.has(j)&&!fin) mt.emissive.set(0x5a4500); } });
+    if(mt.emissive){ mt.emissive.copy(m.userData.em||new THREE.Color(0)); if((lit.has(j)&&!fin)||(fin&&(cfg.finalLight||[]).includes(j))) mt.emissive.set(0x5a4500); } });
   parts.forEach(pp=>{ pp.objs.forEach((s,i)=>{ const ph=((t-pp.t0)*0.9+i/pp.objs.length)%1; s.visible=t>pp.t0&&t<pp.t1;
     if(s.visible){ s.position.copy(pp.a).lerp(pp.b,ph); s.material.opacity=Math.sin(ph*Math.PI); } }); });
   // overlay
@@ -93,10 +93,14 @@ export async function frame(ctx,t){
   let h=`<div class="topshade"></div><div class="botshade"></div><div class="title"><div>${cfg.title[0]}</div><div>${cfg.title[1]}</div></div>`;
   h+=`<div class="steps">${S.map((s,i)=>`<div class="${i<idx?'done':i===idx?'on':''}">${s.label}</div>`).join('')}</div><div class="credit">${cfg.credit}</div>`;
   const act=cfg.chips.filter(c=>t>=c.t0&&t<c.t1);
-  if(act.length && t<cfg.tEnd0){ h+=`<div class="lab">`+act.map(c=>{ const a=clamp((t-c.t0)/0.18,0,1)*clamp((c.t1-t)/0.18,0,1); const sc=0.75+0.25*clamp((t-c.t0)/0.18,0,1);
+  if(act.length && t<cfg.tEnd0 && !(cfg.saveMap&&t>=cfg.saveMap.t0)){ h+=`<div class="lab">`+act.map(c=>{ const a=clamp((t-c.t0)/0.18,0,1)*clamp((c.t1-t)/0.18,0,1); const sc=0.75+0.25*clamp((t-c.t0)/0.18,0,1);
       if(c.kind==='n') return `<div class="n" style="font-size:${fitFont(c.txt,70)}px;opacity:${a};transform:scale(${sc})">${c.txt}</div>`;
       return `<div class="f${c.kind==='t'?' t':''}" style="opacity:${a};transform:scale(${sc})">${c.txt}</div>`; }).join('')+`</div>`; }
   if(t>=cfg.tEnd0){ const a=clamp((t-cfg.tEnd0)/0.3,0,1); const sc=(0.6+0.4*(1-Math.pow(1-a,3)))*(1+0.025*Math.sin(Math.max(0,t-cfg.tEnd0-0.3)*4.2));
     h+=`<div class="end" style="transform:scale(${sc.toFixed(3)}) rotate(-2deg);opacity:${a}"><div class="a">${cfg.endA}</div><div class="b">${cfg.endB}</div></div>`; }
+  const SM=cfg.saveMap; if(SM && t>=SM.t0 && t<cfg.tEnd0){ camera.updateMatrixWorld(); const a=clamp((t-SM.t0)/0.3,0,1);
+    h+=`<svg class="smap" width="1080" height="1920" style="position:absolute;left:0;top:0;opacity:${a}">`+SM.items.map(it=>{ const v=resolve(it.wp).clone().project(camera);
+      const x=(v.x+1)/2*ZONE.W, y=(1-v.y)/2*ZONE.H; return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="34" fill="#F2D14E" stroke="#1F2A14" stroke-width="6"/><text x="${x.toFixed(1)}" y="${(y+15).toFixed(1)}" text-anchor="middle" font-family="PJS" font-weight="800" font-size="42" fill="#1F2A14">${it.n}</text>`; }).join('')+`</svg>`;
+    h+=`<div class="lab" style="opacity:${a}"><div class="n" style="font-size:60px">${SM.title}</div><div class="smleg">${SM.items.map(it=>`<span><b>${it.n}</b>${it.txt}</span>`).join('')}</div></div>`; }
   ov.innerHTML=ZONE.plain?'':h;
 }

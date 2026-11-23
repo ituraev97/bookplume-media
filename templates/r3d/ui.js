@@ -25,6 +25,9 @@ export const CSS = `
 .lab .f{background:rgba(247,246,236,.96);color:#1F2A14;font-weight:800;font-size:44px;padding:10px 26px;border-radius:18px;border:5px solid #1F2A14;white-space:nowrap;box-shadow:6px 8px 0 rgba(0,0,0,.35)}
 .lab .f em{font-style:normal;color:#C9483C}
 .lab .f.t{background:#C9483C;color:#fff;border-color:#fff}
+.lab .smleg{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 18px;width:960px}
+.lab .smleg span{background:rgba(247,246,236,.96);color:#1F2A14;font-weight:800;font-size:38px;padding:6px 20px 6px 8px;border-radius:16px;border:4px solid #1F2A14;white-space:nowrap;display:flex;align-items:center;gap:12px}
+.lab .smleg b{display:inline-flex;width:48px;height:48px;border-radius:24px;background:#F2D14E;border:4px solid #1F2A14;align-items:center;justify-content:center;font-size:30px}
 .end{position:absolute;left:90px;top:700px;width:900px;padding:56px 30px;background:#F2D14E;border:6px solid #1F2A14;border-radius:36px;box-shadow:12px 14px 0 rgba(0,0,0,.4);text-align:center;color:#1F2A14}
 .end .a{font-weight:800;font-size:80px;line-height:1.05}.end .b{margin-top:22px;font-weight:800;font-size:50px;color:#C9483C;line-height:1.15}
 `;

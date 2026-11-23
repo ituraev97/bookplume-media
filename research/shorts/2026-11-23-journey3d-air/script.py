@@ -1,0 +1,15 @@
+S=[
+("You take about twenty thousand breaths a day. Where does all that air go?",0.35),
+("In through your nose or mouth, then down your windpipe, the trachea.",0.2),
+("Rings of cartilage, shaped like the letter C, hold it open.",0.3),
+("Then it splits into two main bronchi, one for each lung.",0.2),
+("The right one is wider, shorter and more vertical.",0.2),
+("So in adults, inhaled objects more often land on the right.",0.35),
+("Inside each lung, the tubes keep branching, about twenty-three times.",0.3),
+("They end in tiny air sacs called alveoli. Hundreds of millions of them.",0.3),
+("Here oxygen crosses into tiny blood vessels called capillaries.",0.2),
+("Your blood carries it to your heart, which pumps it to your whole body.",0.3),
+("Carbon dioxide travels the other way.",0.2),
+("Back up the bronchi and trachea, and out with your next breath.",0.4),
+("Save this for your next physiology exam.",0.6),
+]
