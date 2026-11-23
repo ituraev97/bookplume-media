@@ -125,3 +125,8 @@
 2026-11-22 | Daniel Hale Williams July 1893 Provident Hospital Chicago: James Cornish stab wound, repaired severed artery + pericardial tear without antibiotics/adequate anesthesia, Cornish lived 20 more years (AHA News 2022)
 2026-11-22 | Goldberger 1916 "filth parties": 8 parties, 17 guests incl. wife Mary, pellagra patient samples eaten/injected, no one got sick; 1915 Mississippi prison diet experiment; niacin (B3) isolated 1937 (Science History Institute)
 2026-11-22 | ear canal self-cleaning: epithelium migrates outward from eardrum, mean ~145 µm/day, carries wax/debris (J Laryngol Otol systematic review 2022; AudiologyOnline)
+2026-11-23 | up to 80% of UV passes through clouds, snow reflects UV ~doubling exposure, sunburn on cloudy days (Skin Cancer Foundation; McGill OSS)
+2026-11-23 | Scribonius Largus ~45 AD: live torpedo ray on the head for headache until numbness, stand on one for gout (Long Now Foundation, history of electric fish)
+2026-11-23 | Einthoven string galvanometer ECG ~272 kg, limbs in saline buckets, 1905 recording via ~1.5 km telephone wire hospital-to-lab, Nobel 1924 (IEEE Spectrum)
+2026-11-23 | Claude Beck Dec 1947 Cleveland: first successful human defibrillation, 14-year-old boy, chest wall defect surgery, 2nd shock worked, normal life (UH Hospitals)
+2026-11-23 | saccadic masking: brain suppresses vision during saccades, can't see own eyes move in a mirror, Erdmann & Dodge 1898 (Wikipedia: Saccadic masking)
