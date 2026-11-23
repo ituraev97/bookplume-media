@@ -1,0 +1,20 @@
+[
+ {
+  "file": "01-types-of-bones-by-shape.png",
+  "tag": "CHEAT SHEET",
+  "headline": "5 types of bones by shape",
+  "stat": "5",
+  "stat_note": "shapes: long, short, flat, irregular, sesamoid",
+  "body": "Long: femur, humerus, phalanges\nShort: carpals + tarsals only\nFlat: skull, scapula, sternum, ribs\nIrregular: vertebrae, some facial bones\nSesamoid: patella (forms in a tendon)",
+  "source": "Source: OpenStax Anatomy & Physiology, 6.2 Bone Classification"
+ },
+ {
+  "file": "02-anatomical-directional-terms.png",
+  "tag": "STUDY CHART",
+  "headline": "Anatomical directional terms",
+  "stat": "5 pairs",
+  "stat_note": "of opposite terms to learn first",
+  "body": "Anterior / posterior: front / back\nSuperior / inferior: above / below\nMedial / lateral: to the midline / side\nProximal / distal: near / far from trunk\nSuperficial / deep: near / far from surface",
+  "source": "Source: OpenStax Anatomy & Physiology, 1.6 Anatomical Terminology"
+ }
+]
