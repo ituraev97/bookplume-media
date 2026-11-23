@@ -1,0 +1,207 @@
+{
+ "title": "LIVER QUIZ",
+ "sub": "Can you get 5/5?",
+ "end": 40.5,
+ "tSave": 38.25,
+ "tEnd": 44.29,
+ "plate": {
+  "src": "sq/liver1086.png",
+  "w": 1842,
+  "h": 1238
+ },
+ "labels": [
+  {
+   "box": [
+    0.64,
+    0.7,
+    0.725,
+    0.77
+   ]
+  },
+  {
+   "box": [
+    0.76,
+    0.02,
+    0.885,
+    0.13
+   ]
+  },
+  {
+   "box": [
+    0.075,
+    0.265,
+    0.165,
+    0.385
+   ],
+   "chipAt": [
+    0.14,
+    0.25
+   ]
+  },
+  {
+   "box": [
+    0.425,
+    0.245,
+    0.525,
+    0.35
+   ]
+  },
+  {
+   "box": [
+    0.375,
+    0.35,
+    0.47,
+    0.415
+   ],
+   "chipAt": [
+    0.36,
+    0.385
+   ]
+  },
+  {
+   "box": [
+    0.49,
+    0.4,
+    0.585,
+    0.445
+   ]
+  },
+  {
+   "box": [
+    0.5,
+    0.64,
+    0.6,
+    0.71
+   ]
+  },
+  {
+   "box": [
+    0.27,
+    0.92,
+    0.39,
+    0.955
+   ]
+  },
+  {
+   "box": [
+    0.605,
+    0.4,
+    0.72,
+    0.525
+   ]
+  },
+  {
+   "box": [
+    0.165,
+    0.425,
+    0.29,
+    0.485
+   ]
+  }
+ ],
+ "qs": [
+  {
+   "n": 1,
+   "pin": [
+    0.67,
+    0.62
+   ],
+   "label": 0,
+   "ask": "Name this organ",
+   "opts": [
+    "Pancreas",
+    "Gallbladder",
+    "Duodenum"
+   ],
+   "a": 1,
+   "tAsk": 0.0,
+   "tCount": 3.21,
+   "tReveal": 6.36,
+   "tNext": 8.89,
+   "name": "Gallbladder"
+  },
+  {
+   "n": 2,
+   "pin": [
+    0.83,
+    0.46
+   ],
+   "label": 1,
+   "ask": "Name this lobe",
+   "opts": [
+    "Left lobe",
+    "Caudate lobe",
+    "Right lobe"
+   ],
+   "a": 2,
+   "tAsk": 8.89,
+   "tCount": 9.64,
+   "tReveal": 12.79,
+   "tNext": 15.27,
+   "name": "Right lobe"
+  },
+  {
+   "n": 3,
+   "pin": [
+    0.25,
+    0.65
+   ],
+   "label": 2,
+   "ask": "Name this lobe",
+   "opts": [
+    "Left lobe",
+    "Right lobe",
+    "Quadrate lobe"
+   ],
+   "a": 0,
+   "tAsk": 15.27,
+   "tCount": 16.04,
+   "tReveal": 19.19,
+   "tNext": 22.66,
+   "name": "Left lobe"
+  },
+  {
+   "n": 4,
+   "pin": [
+    0.415,
+    0.31
+   ],
+   "label": 3,
+   "ask": "Name this vessel",
+   "opts": [
+    "Aorta",
+    "Inferior vena cava",
+    "Portal vein"
+   ],
+   "a": 1,
+   "tAsk": 22.66,
+   "tCount": 23.45,
+   "tReveal": 26.6,
+   "tNext": 31.7,
+   "name": "Inferior vena cava",
+   "zoom": 1.9,
+   "chip": "IVC"
+  },
+  {
+   "n": 5,
+   "pin": [
+    0.44,
+    0.47
+   ],
+   "label": 4,
+   "ask": "Name this lobe",
+   "opts": [
+    "Caudate lobe",
+    "Quadrate lobe",
+    "Left lobe"
+   ],
+   "a": 0,
+   "tAsk": 31.7,
+   "tCount": 32.48,
+   "tReveal": 35.63,
+   "tNext": 40.5,
+   "name": "Caudate lobe",
+   "zoom": 1.8
+  }
+ ]
+}
