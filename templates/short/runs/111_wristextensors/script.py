@@ -1,0 +1,17 @@
+S=[
+("Can you name all six wrist extensor compartments?",0.15),
+("Here's the trick. Count the tendons, thumb side first. Two, two, one, two, one, one.",0.3),
+("One. Abductor pollicis longus and extensor pollicis brevis.",0.12),
+("Two. Extensor carpi radialis longus and brevis.",0.12),
+("Three. Extensor pollicis longus.",0.12),
+("Four. Extensor digitorum and extensor indicis.",0.12),
+("Five. Extensor digiti minimi.",0.12),
+("Six. Extensor carpi ulnaris.",0.3),
+("Nine tendons in six compartments.",0.3),
+("Quick test. Which compartment holds the little finger's own extensor?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Compartment five. Extensor digiti minimi.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
