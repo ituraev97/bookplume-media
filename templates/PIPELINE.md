@@ -201,42 +201,55 @@ Check: ebur128 ≈ -14 LUFS, `python3 tools/still_check.py final.mp4` (no runs o
 - Pinterest pinTitle ≤ 90 characters (hard limit 100). YouTube title ≤ 95 (hard 100). TikTok title ≤ 90. Pinterest description ≤ 480.
 - Assert len() of every title in your script before posting; shorten by dropping the " | ..." tail first.
 
-## Performance rules (weekly producer review, last update 2026-11-16 — the weekly producer task updates this section)
-Data 9–15 Nov, Tashkent dates (previous week 2–8 Nov in brackets). Metricool post timestamps are UTC — add 5 h for the Tashkent slot. Full tables: reviews/2026-11-16.md.
-Instagram Reels: 27 reels, total 93k views (159k, −41%; 34 reels), median 2,468 (2,628, −6%), saves 2,413 (4,195). Best: Circle of Willis 11.4k / 369 saves.
-  Daily IG views fell from 25k/day (9–10 Nov) to 8.7k/day (11–15 Nov) across every format and slot — cause unknown (see review).
-TikTok: 27 videos, median 304 views (300), total 8.1k (+2%); avg watch 4 s; 99–100% For You, ~0% search. Flat ~300 for 3 weeks whatever length, hook or topic.
-YouTube Shorts (Metricool data only up to 11 Nov 05:00): median 100 (n=10; prev 316, n=27); abdominal regions 1,045. Subscribers +10 in 9–12 Nov (prev week +47).
-Facebook Reels median 129 (167). Threads 34 posts, median 41 views (29), total +65%; best 371 / 293 / 244. Pinterest 75 pins, 16 impressions total (120); 0 impressions since 11 Nov.
-Shopify (Book Plume, valid): social sessions 63 (81): Instagram 50 (41), Pinterest 8 (39), YouTube 4 (1), Facebook 1; 0 add-to-carts from social in both weeks.
+## Performance rules (weekly producer review, last update 2026-11-23 — the weekly producer task updates this section)
+Data 16–22 Nov, Tashkent dates (previous week 9–15 Nov in brackets). Metricool post timestamps are UTC — add 5 h for the Tashkent slot. Full tables: reviews/2026-11-23.md.
+Instagram Reels (main posts): 24 reels, 47.2k views (97.1k, −51%), median 1,840 (2,595, −29%), saves 459 (2,541, −82%), shares 178 (1,122). Daily IG views 5–10k (9–10 Nov: 22–28k).
+  By format (16–22 Nov): SHEET QUIZ median 2,020 (n=4, avg watch 10.2 s) · old quiz-hook/mnemonic 1,840 (n=12, saves median 21) · JOURNEY 1,495 (n=5, watch 8.8 s,
+  saves median 6) · BEAT 1,382 (n=3, watch 5.1 s, saves 6). Best: pelvis quiz 3,418; hyoid muscles 3,333 (97 saves); arm veins 3,239.
+  IG TRIAL_REEL duplicates (same video 1 h after the main reel): 14 posts, median 117 views, total 1,237.
+IG quiz carousels: 7, median 925 views (3,165 for 6 the week before; 21.9k on 9 Nov) — falling every day, 1 follow all week.
+TikTok: 24 videos, median 305 (312), total 7.3k (−11%), avg watch 4.5 s, 98–100% For You, ~0% search. Same ~300 ceiling for 4 weeks (n≈100). Best: brain quiz 5/5 505.
+  JOURNEY keeps the highest share watched (9 s = 23% of 39–44 s) but not more views (288).
+YouTube Shorts (Metricool data only to 19 Nov): median 41 (69), 16 Shorts, 966 views. "Name this…in 3 seconds" / "5/5" titles median 41 (n=12) vs others 64 (n=4);
+  brain + heart "5/5" Shorts = 6 views each. Best: "Where Does the Water You Drink Go? 3D" 155. Traffic 16–22 Nov: Shorts feed 21.8k, YouTube search 2.5k (≈10%), channel 580, suggested 186.
+YouTube long: quiz "27 Leg Muscles" 10 views / 55 s avg; WHAT HAPPENS "Stand Up Too Fast" 14 / 80 s avg; "Swallow" 5 / 19 s. Skull quiz + breath-hold: no data yet (Metricool lag).
+  Subscribers +7 (16–19 Nov only) vs +19 net the week before.
+Facebook Reels: 19, median 152 (130), total 2.5k (+45%). Threads: 35 posts, 21.4k views (2.5k, +769%), median 500 (42). Pinterest: 65 pins, 42 impressions (106).
+Shopify (Book Plume, valid): social sessions 42 (68): Facebook 24 (22 of them meta_catalog), Instagram 12 (53), Pinterest 3 → 1 cart → 1 order (first attributed social order),
+  Threads 2, YouTube 1. Orders 22 / $865 (23 / $955), almost all without referrer.
 
-- SHORTS LENGTH 20–30 s main cut (script 60–90 words); TikTok own cut 15–18 s (owner rule). First spoken sentence = the challenge. No intros.
-  (Evidence this week: TikTok 15–17 s cuts n=5 median 324 views, watch 20% vs 26–30 s n=22 median 300, watch 16%: shorter = better retention, same reach.)
-- FIRST SECOND: huge on-screen challenge text (≤ 7 words) + the plate/diagram already visible. No logo intro. Structure name + "mnemonic"/"quiz" as on-screen text in the first 3 s.
-- Mnemonic/answer reveal by second 4–6; quick test at ~60% with 3-2-1; end card ≤ 1.5 s.
-- TOPIC TYPE (holds, 3rd week): BRANCHES / CONTENTS / MUSCLE-GROUP lists with 4–9 items win. Lists median 3,338 IG views (n=40, two weeks) vs surprising facts 2,131 (n=7)
-  vs one-question quiz-hook reels 1,808 (n=6, young). 01:00 may stay a fact only if framed as a list.
-- NEW 2026-11-16 — ONE-PICTURE ANSWER: pick topics whose whole answer fits ONE diagram a student would screenshot (grid, ring, tunnel cross-section, hand/arm map),
-  and hold the complete labelled diagram on screen ≥ 1.5 s right after the mnemonic. Evidence: the 4 best reels of the week were all one-picture sets —
-  Circle of Willis ring 11.4k, carpal tunnel cross-section 9.9k, 9-region grid 9.2k, BEAST arm map 7.5k — with 112–305 shares each vs a weekly median of 11 shares;
-  last week thenar/hypothenar hand map 26k. Sets spread along a long path (abdominal aorta by vertebral level 775, coronary arteries 1.5k, carotid sheath 1.5k) lost.
-  For such topics, draw our own SVG map that shows ALL items at once instead of panning along the plate.
-- QUIZ HOOK (owner rule 2026-11-14) — UNDER TEST: IG reels with the 1-question hook n=6, median 1,808 vs 2,279 for lists published the same days (11–15 Nov, n=13);
-  all are 0–2 days old. Keep it, but the hook must also promise the list on frame 1 ("Name this + 4 more in 3 sec") so the viewer knows the payoff. Judge 23 Nov at n ≥ 14.
-- NEW 2026-11-16 — RAPID-QUIZ TIKTOK CUT (test): the 05:00 run's TikTok cut = 3 rapid questions from the same region in 15–18 s (pin → "?" → 2-s countdown → answer
-  word, ×3), last line "Comment your score /3". Same caption/no-promo rules. Other runs keep the 1-question cut. Evidence: vidIQ Shorts breakouts for "anatomy quiz"
-  are 13–16 s multi-question tests — "Anatomy Test" 350k views on a 6.2k channel (8x), "Anatomy quiz - can you get all right?" 287k / 224k (9–11x); our 1-question
-  TikTok cuts did not move views (324 vs 300). Judge at n ≥ 7: if rapid cuts beat 400 median views, extend to all runs.
-- NEW 2026-11-16 — WHAT HAPPENS TITLES + TOPICS: use a time unit + an everyday or extreme moment: "What Happens to Your Body Every Second You Hold Your Breath",
-  "What Happens in Your Body When You Stay Awake 24 Hours (Hour by Hour)". Thumbnail sticker = the time stamp ("0 → 24 H", "SEC 1→30"). Evidence: vidIQ long breakouts
-  ≤ 200k subs: "What Happens to Your Body After Every Hour Without Sleep?" 99.9k on 3.5k subs; "Weird Things Your Body Does Every Day, Explained!" 47.9k on 221 subs (59x);
-  "What If You Talk Non-Stop?" 50k (5.7x). Physiology only — no advice, no diagnosis, no "you could die" bait (BRIEF_RU).
-- UTM CHECK (keep): assert "utm_source=" AND "utm_campaign=" in every pinLink and YouTube description link before createScheduledPost.
-  (ShopifyQL here has no UTM columns, so the producer can only see referrer: Instagram 50, Pinterest 8, YouTube 4 sessions; the 24 orders / $1,000 of the week carry no referrer.)
-- TOPIC DUPLICATES: read topics.md + last 30 days of posts; reject any structure already used. Reposts of old topics underperform — always a new topic.
-- Instagram CAROUSEL = QUIZ CAROUSEL (owner rule). Old cheat-sheet carousels 9–13 Nov: 17.6k, 3.6k, 3.2k, 1.5k, 2.0k (median 2.6k); first quiz carousel (15 Nov) 1.1k after 1 day — judge at n ≥ 5.
-- THREADS: keep 3 history-of-medicine posts/day; the 22:00 and 07:00 Tashkent slots had the best medians (73 and 47 views vs 13 at 04:00).
+- SHORTS LENGTH: follow the format specs (BEAT 20–30 s, JOURNEY ≤ 45 s, SHEET QUIZ ≤ 45 s, MNEMONIC ≤ 35 s); YouTube Shorts 20–40 s (owner rule 2026-11-23).
+  The old 15–18 s TikTok cut is retired (owner 2026-11-18: the same final file goes everywhere).
+- FIRST SECOND: huge on-screen challenge (≤ 7 words) + the plate/model already visible, no logo intro; spoken line 1 = the challenge or a hard number.
+- NEW 2026-11-23 — SAVE FRAME IN EVERY FORMAT: the last 1.5–2 s before the end card = ONE complete labelled picture of the whole answer + on-screen "SAVE THIS"
+  (JOURNEY: the full path with every stop numbered and named; BEAT: all items labelled at once on the model; SHEET QUIZ: the plate with all 5 answers;
+  MNEMONIC: the full map, as now). Evidence: after the switch to the 3D formats IG saves fell 2,541 → 459 (−82%) and shares 1,122 → 178; this week MNEMONIC/list
+  reels had a median of 21 saves (wrist bones 51, hyoid 97) vs 6 for JOURNEY and BEAT, which end on a moving model with no "screenshot" frame.
+  (Successor of the 2026-11-16 ONE-PICTURE ANSWER rule, which still holds: Circle of Willis 11.8k, carpal tunnel 10.7k, 9 regions 9.5k were all one-picture sets.)
+- NEW 2026-11-23 — SHEET QUIZ = FAMOUS REGION + SCORE: SHEET QUIZ is the best new format (IG median 2,020 vs 1,382–1,495 for the 3D formats, avg watch 10.2 s,
+  most comments; TikTok best of the week brain quiz 505, pelvis 337). Pick big, famous, high-search regions first (brain, heart, pelvis, skull, spine, femur,
+  kidney, lung, scapula) before small structures; caption/TikTok text ends "Comment your score 👇"; cover = the plate with 5 numbered red pins + "0/5?" sticker.
+  On YouTube the "5/5" title alone is banned (owner rule 2026-11-23: 6 views) — YouTube title = number + stakes, e.g. "5 Pelvis Parts Every Nursing Student
+  Must Know (Quiz)", or a "Why…?" paradox; never a fake stat ("only 1 in 5 get this").
+- NEW 2026-11-23 — THREADS HISTORY FORMULA: line 1 = "In <year>, <a person> <did something shocking/absurd>." + the twist + an argument question
+  ("Who deserves the credit?", "Genius or reckless?"). Evidence: Threads 21.4k views (+769%); top 3 all this formula — Lister carbolic acid 2,073, Fauchard
+  tooth worms 1,812, Lind scurvy trial 1,737; slot medians 04:00 840, 22:00 543, 07:00 fact 406, 18:00 myth 370, 01:00 328. Myths/facts stay (owner rule), but give
+  them the same "year/person" opening when the fact has one.
+- TOPIC TYPE (holds, 4th week): BRANCHES / CONTENTS / MUSCLE-GROUP lists with 4–9 items + one diagram still win the MNEMONIC slot (wrist bones 2,414 / 51 saves;
+  hyoid 8 muscles 3,333 / 97 saves); JOURNEY topics: an everyday thing you swallow (water, poop, coffee, sugar, pill) — "Why is poop brown?" beat the rest (2,470, 27 shares).
+- WHAT HAPPENS TITLES + TOPICS (holds): time unit + everyday/extreme moment ("Every Second You Hold Your Breath", "Stay Awake 24 Hours (Hour by Hour)"); thumbnail sticker =
+  the time stamp. WHAT HAPPENS long keeps viewers longer than QUIZ long (80 s vs 55 s avg) but both are still at 5–14 views — judge thumbnails in YouTube Studio
+  Test & Compare, not in Metricool. Physiology only — no advice, no diagnosis, no "you could die" bait (BRIEF_RU).
+- YOUTUBE SEARCH ≈ 10% of channel views: long-video titles = the phrase a student types ("Heart Anatomy Quiz", "Skull Anatomy Quiz") at the start of the title.
+- UTM CHECK (keep): assert "utm_source=" AND "utm_campaign=" in every pinLink and YouTube description link before createScheduledPost. ShopifyQL now has
+  utm_source/utm_campaign: this week Pinterest utm 1 session → 1 order, ig 12 sessions → 0 carts.
+- LENGTH CHECK (keep, it failed once this week): assert len(pinTitle) <= 90 in code — the 20 Nov 02:17 aortic-arch pin (~100 chars) was rejected with 400.
+- TOPIC DUPLICATES: read topics.md + pins/pins_log.md + last 30 days of posts; reject any structure already used. Always a new topic.
+- Instagram CAROUSEL = QUIZ CAROUSEL (owner rule). 7 quiz carousels: median 925 views, falling daily (1,877 → 675) — judged at n = 13: weaker than the old
+  cheat-sheet carousels (median 3,165) → see owner recommendation in reviews/2026-11-23.md; until the owner decides, slide 1 must show the whole plate with numbered pins
+  and "0/5?" (as the best carousel, 16 Nov 1,877).
 - SHOPIFY CHECK: only trust Shopify when get-shop-info / query shopDomain = 0g1dsy-3h.myshopify.com (Book Plume); never call switch-shop.
+- Retired 2026-11-23 (formats retired by the owner on 2026-11-18): the 1-question "Name this in 3 seconds" hook test and the RAPID-QUIZ TikTok cut test.
 
 - OWNER DECISIONS 2026-11-14 (after the competitor review, approved "да"; kept verbatim — the producer may not change them):
   • QUIZ HOOK FOR TIKTOK/SHORTS: the first 4 seconds are a one-question quiz — plate with a red pin on ONE structure, huge text "Name this in 3 seconds",
@@ -249,28 +262,30 @@ Shopify (Book Plume, valid): social sessions 63 (81): Instagram 50 (41), Pintere
   • SHOPIFY CHECK: Shopify data is only valid when get-shop-info shows 0g1dsy-3h.myshopify.com (Book Plume). The connector is shared with another store
     (Scroll & Hearth, 4ta1h0-d3); if it shows any other domain, skip Shopify numbers and say so — never call switch-shop. (The 2026-11-09 "0 UTM sessions"
     finding may have come from the wrong store — re-check before trusting it.)
+  (Note 2026-11-23: the first bullet's "Name this in 3 seconds" short was replaced by the owner's 2026-11-18 SHORT VIDEO FORMATS decision; kept here verbatim.)
 
-### Topic ideas next week (follow the one-picture list pattern; none is in topics.md yet)
+### Topic ideas next week (none is in topics.md yet; each ends on a SAVE FRAME)
 Shorts:
-1. Superficial calf: gastrocnemius (2 heads) + soleus + plantaris → one Achilles tendon (own SVG back-of-leg map)
-2. Pelvic floor: levator ani = puborectalis, pubococcygeus, iliococcygeus + coccygeus (bowl diagram seen from above)
-3. Trigeminal nerve: V1/V2/V3 + "Standing Room Only" exits (superior orbital fissure, rotundum, ovale) — face map with 3 zones
-4. Branches of the external carotid artery, 8 ("Some Anatomists Like Freaking Out Poor Medical Students") — one tree diagram
-5. Lateral cord of the brachial plexus: lateral pectoral, musculocutaneous, lateral root of median — completes the cord series (posterior, medial done)
-6. Front of the arm: BBC = biceps, brachialis, coracobrachialis + musculocutaneous nerve (arm map)
-7. Superficial veins of the arm: cephalic (thumb side), basilic (pinky side), median cubital (the blood-draw vein) — one arm map
-8. Great saphenous vein path: front of the medial malleolus → medial knee → saphenous opening (one leg map)
-9. Femoral artery branches: superficial epigastric, superficial circumflex iliac, external pudendals, profunda femoris (+ its perforators)
-10. Intercostal space VAN: vein, artery, nerve under each rib, top → bottom (cross-section of one space)
-Long QUIZ (Mon + Fri runs):
-11. "Can You Name These 22 Skull Bones? (Anatomy Quiz)" — cranial + facial bones, sutures, foramen magnum
-12. "Heart Anatomy Quiz: Chambers, Valves & Vessels — How Many Can You Get?" — 4 chambers, 4 valves, great vessels, coronary branches
-Long WHAT HAPPENS (Wed + Sun runs):
-13. "What Happens in Your Body When You Stand Up Too Fast (Second by Second)" — baroreceptors, venous pooling, heart rate, cerebral blood flow
-14. "What Happens in Your Body When You Get Goosebumps (Second by Second)" — sympathetic nerves, arrector pili, hair follicles, adrenal medulla
+1. SHEET QUIZ — femur 5/5 (head, neck, greater trochanter, lesser trochanter, linea aspera)
+2. SHEET QUIZ — kidney section 5/5 (cortex, renal pyramid, minor calyx, renal pelvis, ureter)
+3. SHEET QUIZ — scapula 5/5 (acromion, coracoid process, glenoid cavity, spine, inferior angle)
+4. JOURNEY — where does the air you breathe go (nose → pharynx → larynx → trachea → bronchi → alveoli → blood → heart)
+5. JOURNEY — where does the protein you eat go (stomach pepsin + acid → pancreatic enzymes → small intestine amino acids → liver via portal vein → muscles; urea → kidneys)
+6. JOURNEY — what happens to alcohol after you drink it (some absorbed in the stomach → small intestine → liver breaks it down → brain → a little leaves via lungs/kidneys; physiology only)
+7. BEAT — your biggest internal organs ranked by weight (liver, brain, lungs, heart, kidneys, spleen, pancreas — numbers from a textbook)
+8. BEAT — find your pulse in 7 places, head to foot (carotid, brachial, radial, femoral, popliteal, posterior tibial, dorsalis pedis)
+9. MNEMONIC — lateral cord of the brachial plexus (lateral pectoral, lateral root of median, musculocutaneous) — completes the cord series
+10. MNEMONIC — intercostal space VAN (vein, artery, nerve under each rib, top → bottom; one cross-section diagram)
+Long QUIZ:
+11. "Heart Anatomy Quiz: Can You Name All 25?" — chambers, valves, great vessels, coronary branches, conduction (SA/AV node)
+12. "Brain Anatomy Quiz: Can You Name All 25?" — lobes, gyri/sulci, cerebellum, brainstem parts, corpus callosum, thalamus, ventricles
+Long WHAT HAPPENS:
+13. "What Happens to Your Body When You Stay Awake 24 Hours (Hour by Hour)" — circadian clock (SCN), adenosine, cortisol/melatonin, prefrontal cortex, microsleeps
+14. "What Happens in Your Body When You Sneeze (Second by Second)" — trigeminal irritation, sneeze center in the medulla, deep breath, glottis closes, soft palate, ~sneeze airflow facts from a source
 
 ### Changelog
 - 2026-11-06: first rules from the 26 Oct–5 Nov analytics review.
 - 2026-11-09: producer review — withdrew "17:00 = surprising fact" (facts 1.8k vs lists 3.3k IG views), added branches/contents topic-type rule, added UTM assert; numbers updated.
 - 2026-11-14: owner-approved changes: long videos → 4/week QUIZ + WHAT HAPPENS formats, quiz hook for shorts, quiz carousels/pins, Threads 3 history posts, Shopify store check; voice "A" confirmed.
 - 2026-11-16: producer review — added ONE-PICTURE ANSWER topic rule (top-4 reels 7.5–11.4k, 112–305 shares), RAPID-QUIZ TikTok cut test for the 05:00 run (vidIQ 13–16 s quiz breakouts), WHAT HAPPENS title/topic formula (vidIQ); quiz hook marked "under test" (1.8k vs 2.3k) with "+ N more" promise; numbers updated; the 14 Nov owner decisions block is kept verbatim.
+- 2026-11-23: producer review — NEW save frame in every short format (IG saves −82% after the 3D formats), NEW SHEET QUIZ famous-region + score rule (best new format, IG median 2,020), NEW Threads history formula (+769%); retired the quiz-hook and rapid-quiz tests (formats retired 18 Nov); YouTube search ≈10% → search phrase first in long titles; pin title length assert after a 400 error; numbers updated; owner blocks kept verbatim. vidIQ had no credits (no breakout data).
