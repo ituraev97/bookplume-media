@@ -317,3 +317,7 @@ Owner: "make them like the thumbnails YouTube Studio's AI draws — bright, illu
 4. LOOK at every thumb at full size and at 320 px: AI picture has no garbage text/extra fingers/melted objects, faces unchanged, words readable. Bad picture → new seed/prompt (one retry), otherwise fall back to the real-frame layout.
 
 - **EMOTION FIRST (owner 2026-11-24):** every thumbnail must show a strong emotion at first glance (rage, shock, fear, disbelief) — never a calm or smiling face. Pick the PEAK real frame/photo, let the AI dramatize light/smoke/contrast while keeping the exact face and expression; if no emotional real frame exists, put the emotion into the scene (fire, sirens, red stamp). Details: STYLE.md "EMOTION FIRST".
+
+## Promise rule (owner decision 2026-11-24)
+- The title/hook promise is delivered fast and fully: long videos show the promised thing within the first 60 s and spend >= 25% of the runtime on it; Shorts pay the hook in the last 3 s. Never a title that sells one moment the video barely shows.
+- Against the "AI slop" impression: real material first (real photos, pages, footage), clear opinions, no filler or repeated recaps.
