@@ -35,6 +35,19 @@ W, H = 1280, 720
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT_BIG = os.path.join(HERE, "fonts", "Anton-Regular.ttf")
 FONT_SMALL = os.path.join(HERE, "fonts", "Inter-Black.ttf")
+FONT_URLS = {FONT_BIG: "https://github.com/google/fonts/raw/main/ofl/anton/Anton-Regular.ttf",
+             FONT_SMALL: "https://github.com/google/fonts/raw/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf"}
+
+
+def ensure_fonts():
+    """Fonts are OFL; fetched from github.com/google/fonts when the fonts/ folder is missing."""
+    import urllib.request
+    for path, url in FONT_URLS.items():
+        if not os.path.exists(path):
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            urllib.request.urlretrieve(url, path)
+
+
 TINTS = {"warm": ((255, 60, 40), (255, 150, 60)), "cold": ((40, 120, 255), (90, 220, 255)),
          "toxic": ((90, 255, 60), (230, 255, 60)), "gold": ((255, 170, 30), (255, 230, 120))}
 
@@ -241,6 +254,7 @@ def sticker(canvas, text, xy, color, max_w=430):
 
 
 def render(spec):
+    ensure_fonts()
     br = {"accent": "#FF4D1F", "sticker": "#E6FF3B", "ink": "#0B0B0F", "border": True, **spec.get("brand", {})}
     acc, stk = hexrgb(br["accent"]), hexrgb(br["sticker"])
     layout = spec.get("layout", "solo")
