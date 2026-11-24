@@ -130,3 +130,8 @@
 2026-11-23 | Einthoven string galvanometer ECG ~272 kg, limbs in saline buckets, 1905 recording via ~1.5 km telephone wire hospital-to-lab, Nobel 1924 (IEEE Spectrum)
 2026-11-23 | Claude Beck Dec 1947 Cleveland: first successful human defibrillation, 14-year-old boy, chest wall defect surgery, 2nd shock worked, normal life (UH Hospitals)
 2026-11-23 | saccadic masking: brain suppresses vision during saccades, can't see own eyes move in a mirror, Erdmann & Dodge 1898 (Wikipedia: Saccadic masking)
+2026-11-24 | turkey tryptophan isn't why Thanksgiving makes you sleepy: ~250-300 mg/3 oz, also in chicken/cheese/eggs; quantity, carbs, alcohol, lost sleep (Cleveland Clinic 2023; Mayo Clinic News Network 2022)
+2026-11-24 | Finlay mosquito theory mocked "Mosquito Man"; Jesse Lazear died of yellow fever Sept 25 1900 aged 34; Havana yellow fever virtually eradicated in <1 year after mosquito control (PBS American Experience; UVA Today)
+2026-11-24 | Typhoid Mary Mallon: 1907 first known healthy carrier in N. America, carving fork (Soper's account), linked to 47 cases/3 deaths, quarantined 1907-10 and 1915-38, died 1938 (Smithsonian Magazine; Army NMHM)
+2026-11-24 | Jenner May 1796 cowpox to 8-yr-old James Phipps, July smallpox inoculation no disease, Royal Society rejected, self-published 1798, vaccine from vacca (Nature d42859-020-00007-6; Indiana Univ. Libraries)
+2026-11-24 | stomach acid pH ~1.5-2, protected by bicarbonate-rich mucus layer, NSAIDs can weaken it (Discover Magazine 2023; Live Science 2026)
