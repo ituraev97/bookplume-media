@@ -15,15 +15,20 @@ for ln in wrap(d, hook, hf, W - 2*M):
 y += 20
 # inside spread band at bottom, cover large in the middle
 band_top, band_h = 1085, 255
+noband = (inside == "-")
+if noband: band_top = 1330
 c = Image.open(cover).convert("RGB")
 ch = band_top - 20 - y
 c = ImageOps.contain(c, (W - 2*M + 60, ch), Image.LANCZOS)
 img.paste(c, ((W - c.width)//2, y))
-i = Image.open(inside).convert("RGB")
-i = ImageOps.fit(i, (W - 2*M, band_h), Image.LANCZOS, centering=(0.5, 0.45))
-d.rounded_rectangle([M-6, band_top-6, W-M+6, band_top+band_h+6], radius=18, fill=MATCHA)
-img.paste(i, (M, band_top))
-d.text((W//2, band_top+band_h+28), caption, font=poppins("Medium", 30), fill=FOREST, anchor="mt")
+if noband:
+    d.text((W//2, band_top+20), caption, font=poppins("Medium", 32), fill=FOREST, anchor="mt")
+else:
+    i = Image.open(inside).convert("RGB")
+    i = ImageOps.fit(i, (W - 2*M, band_h), Image.LANCZOS, centering=(0.5, 0.45))
+    d.rounded_rectangle([M-6, band_top-6, W-M+6, band_top+band_h+6], radius=18, fill=MATCHA)
+    img.paste(i, (M, band_top))
+    d.text((W//2, band_top+band_h+28), caption, font=poppins("Medium", 30), fill=FOREST, anchor="mt")
 d.rectangle([0, 1410, W, H], fill=FOREST)
 x = logo(d, M, 1427, 56)
 d.text((x + 24, 1455), "Book Plume", font=poppins("Bold", 44), fill=PAPER, anchor="lm")

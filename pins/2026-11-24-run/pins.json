@@ -1,0 +1,20 @@
+[
+ {
+  "file": "01-blood-vessel-wall-layers.png",
+  "tag": "CHEAT SHEET",
+  "headline": "3 layers of a blood vessel wall",
+  "stat": "3",
+  "stat_note": "tunics in every artery and vein",
+  "body": "Intima: endothelium lining the lumen\nMedia: smooth muscle + elastic fibers\nExterna: tough collagen outer sheath\nArteries: thick wall, small lumen\nVeins: thin wall, large lumen, valves",
+  "source": "Source: OpenStax Anatomy & Physiology 2e, 20.1 Blood Vessels"
+ },
+ {
+  "file": "02-neuron-parts-in-order.png",
+  "tag": "STUDY TIP",
+  "headline": "Parts of a neuron in order",
+  "stat": "1 axon",
+  "stat_note": "dendrites receive, the axon sends",
+  "body": "1. Dendrites: receive signals\n2. Cell body: nucleus + organelles\n3. Axon hillock: axon starts here\n4. Axon + myelin: carries the impulse\n5. Terminals: pass it on at the synapse",
+  "source": "Source: OpenStax Anatomy & Physiology 2e, 12.2 Nervous Tissue"
+ }
+]
