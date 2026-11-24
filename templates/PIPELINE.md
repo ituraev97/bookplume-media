@@ -1,3 +1,11 @@
+# FORMAT RESTORE 2026-11-24 (owner) — THIS SECTION BEATS EVERYTHING BELOW
+
+Metricool (IG, 25 Oct–24 Nov): "Can you name all N …? + one mnemonic" reels got 9–29K views; since 14 Nov quiz hook / "Name this in 3 s" / 3D journey / sheet quiz got 0.6–3.5K. TikTok flat (300–500) for all formats. IG cheat-sheet carousels 3.7–22K, quiz carousels 0.8–1K.
+- ALL short slots (17:00 / 22:00 / 01:00 Tashkent) = MNEMONIC "Can you name all N … / every …". No JOURNEY 3D, SHEET QUIZ, BEAT 3D, quiz hook, quiz carousel/story.
+- Carousel (19:31 run) = cheat-sheet carousel, not quiz.
+- Instagram only: final_ig.mp4 = final.mp4 + templates/outro/studyduo_outro.mp4 (tools/add_outro.sh). All other platforms get the clean final.mp4. Exception to "no store in video" applies ONLY to this IG outro.
+- Cover style stays BEAST. Note: format and cover changed together on 14 Nov, so the drop is not cleanly attributable to format alone.
+
 # Book Plume video pipeline (for scheduled runs)
 
 Run notes go to RUNBOOK_NOTES.md (append there, never here). Promote a note into a rule section only if it must apply to every future run.
