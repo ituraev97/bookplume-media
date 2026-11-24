@@ -4,6 +4,8 @@ Metricool (IG, 25 Oct–24 Nov): "Can you name all N …? + one mnemonic" reels 
 - ALL short slots (17:00 / 22:00 / 01:00 Tashkent) = MNEMONIC "Can you name all N … / every …". No JOURNEY 3D, SHEET QUIZ, BEAT 3D, quiz hook, quiz carousel/story.
 - Carousel (19:31 run) = cheat-sheet carousel, not quiz.
 - Instagram only: final_ig.mp4 = final.mp4 + templates/outro/studyduo_outro.mp4 (5.7 s: "1 of 125 cards" → full set + $39.99 → tap on link in bio; tools/add_outro.sh). All other platforms get the clean final.mp4. Exception to "no store in video" applies ONLY to this IG outro.
+- WINNER RECIPE (copy runs 71_thenar, 75_carpaltunnel, 78_circlewillis, 63_axillary, 65_hiprotators, 53_lumbarplexus, 73_abdominal in templates/short/runs): line 1 "Can you name all N …?" with N = 5–10 (big lists win; avoid N ≤ 3), optional "in five seconds" challenge; line 2 = the mnemonic itself right away (no "Here's the trick", no warm-up); one short line per item; "Quick test … Three. Two. One. <answer>"; "Save this for your next anatomy exam."; 60–80 spoken words, 12–15 lines; same Chrome/Composition layout (plate + letters revealed one by one + chapter bar + follow end card). No 3D, no quiz hook, no new formats.
+- Bundle hint ONLY at the end, ONLY on Instagram REEL + TRIAL_REEL: the outro (0.3 s cross-fade, loudness matched). Never a product, store or bookplume.com inside the lesson itself.
 - Cover style stays BEAST. Note: format and cover changed together on 14 Nov, so the drop is not cleanly attributable to format alone.
 
 # Book Plume video pipeline (for scheduled runs)
