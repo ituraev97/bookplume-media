@@ -1,0 +1,62 @@
+[
+ {
+  "text": "Can you name the three things running along the underside of a rib?",
+  "s": 0,
+  "e": 3.005375
+ },
+ {
+  "text": "Here's the trick. Think of a van. V. A. N. From the top down.",
+  "s": 3.155375,
+  "e": 6.09425
+ },
+ {
+  "text": "V. Vein, on top.",
+  "s": 6.3942499999999995,
+  "e": 7.448625
+ },
+ {
+  "text": "A. Artery, in the middle.",
+  "s": 7.568625,
+  "e": 8.667208333333333
+ },
+ {
+  "text": "N. Nerve, at the bottom.",
+  "s": 8.787208333333332,
+  "e": 9.932791666666665
+ },
+ {
+  "text": "All three tuck into the costal groove, along the lower edge of the rib.",
+  "s": 10.232791666666666,
+  "e": 13.815499999999998
+ },
+ {
+  "text": "Quick test. Which one sits lowest?",
+  "s": 14.115499999999999,
+  "e": 15.892291666666665
+ },
+ {
+  "text": "Three.",
+  "s": 16.142291666666665,
+  "e": 16.59808333333333
+ },
+ {
+  "text": "Two.",
+  "s": 16.79808333333333,
+  "e": 17.23033333333333
+ },
+ {
+  "text": "One.",
+  "s": 17.43033333333333,
+  "e": 17.81808333333333
+ },
+ {
+  "text": "The nerve. N, at the bottom.",
+  "s": 18.11808333333333,
+  "e": 19.433124999999997
+ },
+ {
+  "text": "Save this for your next anatomy exam.",
+  "s": 19.733124999999998,
+  "e": 21.629624999999997
+ }
+]

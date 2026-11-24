@@ -1,0 +1,7 @@
+# Sources — intercostal space VAN mnemonic short (2026-11-24)
+- Kenhub, Intercostal spaces: https://www.kenhub.com/en/library/anatomy/intercostal-spaces — neurovascular bundle "arranged as Vein, Artery and Nerve, from the most superior to the most inferior"; in the costal groove on the undersurface of each rib; between the internal and innermost intercostal muscles
+- Kenhub, The ribs: https://www.kenhub.com/en/library/anatomy/the-ribs — costal groove on the inferior border of a rib
+- WSU gross anatomy textbook, The thoracic wall: https://learning.medicine.wsu.edu/gross-anatomy/textbook/12-thoracic — "from superior to inferior as 'VAN'"; groove just inside the rib's inferior border; bundle between the second and third muscle layers
+- StatPearls, Anatomy, Thorax, Intercostal Space (mirror): https://www.statpearls.com/point-of-care/51380 — V-A-N from superior to inferior, nerve most inferior; 12 ribs = 11 intercostal spaces; T12 = subcostal nerve
+- Gray's Anatomy 1918, Fig. 819 "Diagram of the course and branches of a typical intercostal nerve" (archive.org leaf 944)
+Independent fact-check (separate agent, opened pages): all lines OK; fix applied: "under every rib" → "along the underside of a rib" / "UNDER THE RIB" (rib 12 has a subcostal nerve, no space below it), diagram labelled "typical intercostal space". Gray's 1918 costal-groove text could not be opened by the checker; Fig. 819 is used only as a hook plate with its printed labels.
