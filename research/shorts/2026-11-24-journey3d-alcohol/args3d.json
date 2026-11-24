@@ -1,0 +1,615 @@
+{
+ "model": "/models/dig_lokesh/model.glb",
+ "cfg": {
+  "title": [
+   "WHERE DOES",
+   "<b>ALCOHOL</b> GO?"
+  ],
+  "credit": "3D: Digestive System by Focus Medica (Sketchfab, CC BY 4.0)",
+  "hide": [
+   0,
+   2,
+   12,
+   13,
+   18
+  ],
+  "wp": {
+   "esoTop": {
+    "mesh": 6,
+    "sel": [
+     [
+      "y",
+      "max",
+      0.006
+     ]
+    ]
+   },
+   "stomC": {
+    "mesh": 6,
+    "sel": [],
+    "zfrac": 0.45
+   },
+   "dTop": {
+    "mesh": 11,
+    "sel": [
+     [
+      "y",
+      "max",
+      0.006
+     ]
+    ]
+   },
+   "dLeft": {
+    "mesh": 11,
+    "sel": [
+     [
+      "x",
+      "min",
+      0.006
+     ]
+    ]
+   },
+   "dBot": {
+    "mesh": 11,
+    "sel": [
+     [
+      "y",
+      "min",
+      0.006
+     ]
+    ]
+   },
+   "cecum": {
+    "mesh": 4,
+    "sel": [
+     [
+      "x",
+      "min",
+      0.035
+     ],
+     [
+      "y",
+      "min",
+      0.02
+     ]
+    ]
+   },
+   "hep": {
+    "mesh": 4,
+    "sel": [
+     [
+      "x",
+      "min",
+      0.035
+     ],
+     [
+      "y",
+      "max",
+      0.02
+     ]
+    ]
+   },
+   "trans": {
+    "mesh": 4,
+    "sel": [
+     [
+      "x",
+      "abs",
+      0.02
+     ],
+     [
+      "y",
+      "max",
+      0.03
+     ]
+    ]
+   },
+   "spl": {
+    "mesh": 4,
+    "sel": [
+     [
+      "x",
+      "max",
+      0.035
+     ],
+     [
+      "y",
+      "max",
+      0.02
+     ]
+    ]
+   },
+   "desc": {
+    "mesh": 4,
+    "sel": [
+     [
+      "x",
+      "max",
+      0.035
+     ],
+     [
+      "y",
+      "min",
+      0.04
+     ]
+    ]
+   },
+   "rect": {
+    "mesh": 4,
+    "sel": [
+     [
+      "y",
+      "min",
+      0.012
+     ]
+    ]
+   },
+   "sig": {
+    "lerp": [
+     "desc",
+     "rect",
+     0.5
+    ],
+    "d": [
+     0,
+     0.01,
+     0
+    ]
+   },
+   "gb": {
+    "mesh": 10,
+    "sel": []
+   },
+   "pan": {
+    "mesh": 5,
+    "sel": []
+   },
+   "aortaRen": {
+    "p": [
+     0.0,
+     0.296,
+     0.026
+    ]
+   },
+   "aoTop": {
+    "mesh": 15,
+    "sel": [
+     [
+      "y",
+      "max",
+      0.006
+     ]
+    ]
+   },
+   "renR": {
+    "p": [
+     -0.033,
+     0.296,
+     0.014
+    ]
+   },
+   "kidR": {
+    "mesh": 9,
+    "sel": []
+   },
+   "kidL": {
+    "mesh": 3,
+    "sel": []
+   },
+   "siEnd": {
+    "mesh": 7,
+    "sel": [],
+    "zfrac": 0.3
+   },
+   "livC": {
+    "mesh": 14,
+    "sel": [],
+    "zfrac": 0.55
+   },
+   "stomB": {
+    "mesh": 6,
+    "sel": [
+     [
+      "y",
+      "min",
+      0.03
+     ]
+    ]
+   }
+  },
+  "meander": {
+   "si": {
+    "mesh": 7,
+    "rows": 5,
+    "cols": 3
+   }
+  },
+  "stages": [
+   {
+    "key": "stomach",
+    "label": "STOMACH",
+    "t0": 2.26,
+    "t1": 5.34,
+    "light": [
+     6
+    ],
+    "focus": [
+     6
+    ],
+    "ghost": {
+     "14": 0.35,
+     "15": 0.04,
+     "16": 0.04,
+     "17": 0.04,
+     "8": 0.04
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "esoTop",
+      "stomC"
+     ],
+     "a": 2.36,
+     "b": 3.46
+    }
+   },
+   {
+    "key": "small",
+    "label": "SMALL INT.",
+    "t0": 5.34,
+    "t1": 10.75,
+    "light": [
+     7,
+     11
+    ],
+    "focus": [
+     7,
+     11
+    ],
+    "ghost": {
+     "14": 0.35,
+     "6": 0.3,
+     "15": 0.04,
+     "16": 0.04,
+     "17": 0.04,
+     "8": 0.04
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "stomC",
+      "dTop",
+      "dLeft",
+      "dBot",
+      "@si",
+      "siEnd"
+     ],
+     "a": 5.44,
+     "b": 10.35,
+     "ease": "linear"
+    }
+   },
+   {
+    "key": "liver",
+    "label": "LIVER",
+    "t0": 10.75,
+    "t1": 14.45,
+    "light": [
+     14
+    ],
+    "focus": [
+     14
+    ],
+    "ghost": {
+     "4": 0.15,
+     "7": 0.15,
+     "6": 0.2,
+     "15": 0.04,
+     "16": 0.04,
+     "17": 0.04,
+     "8": 0.04
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "siEnd",
+      "livC"
+     ],
+     "a": 10.85,
+     "b": 12.75
+    }
+   },
+   {
+    "key": "blood",
+    "label": "BLOOD",
+    "t0": 14.45,
+    "t1": 21.61,
+    "light": [
+     15
+    ],
+    "focus": [
+     15,
+     14
+    ],
+    "ghost": {
+     "4": 0.12,
+     "7": 0.12,
+     "6": 0.15,
+     "14": 0.2,
+     "11": 0.12,
+     "5": 0.15,
+     "10": 0.15,
+     "1": 0.15,
+     "16": 0.3,
+     "17": 0.3,
+     "8": 0.1
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "livC",
+      "aoTop"
+     ],
+     "a": 14.55,
+     "b": 16.25
+    }
+   },
+   {
+    "key": "break",
+    "label": "CLEANUP",
+    "t0": 21.61,
+    "t1": 34.18,
+    "light": [
+     14
+    ],
+    "focus": [
+     14
+    ],
+    "ghost": {
+     "4": 0.15,
+     "7": 0.15,
+     "6": 0.2,
+     "15": 0.04,
+     "16": 0.04,
+     "17": 0.04,
+     "8": 0.04
+    },
+    "move": {
+     "type": "path",
+     "pts": [
+      "aoTop",
+      "livC"
+     ],
+     "a": 21.71,
+     "b": 23.21
+    }
+   },
+   {
+    "key": "kid",
+    "label": "EXIT",
+    "t0": 34.18,
+    "t1": 39.43,
+    "light": [
+     3,
+     9
+    ],
+    "focus": [
+     3,
+     9,
+     16
+    ],
+    "zoom": 1.05,
+    "ghost": {
+     "4": 0.07,
+     "7": 0.07,
+     "6": 0.08,
+     "14": 0.1,
+     "11": 0.08,
+     "5": 0.1,
+     "10": 0.1,
+     "1": 0.1
+    },
+    "lightAt": [
+     {
+      "t": 37.57,
+      "meshes": [
+       8
+      ]
+     }
+    ],
+    "move": {
+     "type": "path",
+     "pts": [
+      "livC",
+      "aortaRen",
+      "renR",
+      "kidR"
+     ],
+     "a": 34.28,
+     "b": 35.98
+    }
+   }
+  ],
+  "colors": [
+   {
+    "t": 0,
+    "color": "#F2B84B"
+   },
+   {
+    "t": 14.65,
+    "color": "#FF5A5A"
+   },
+   {
+    "t": 24.01,
+    "color": "#F7E27A"
+   },
+   {
+    "t": 34.18,
+    "color": "#FFD23F"
+   }
+  ],
+  "particles": [
+   {
+    "from": "aortaRen",
+    "to": "kidL",
+    "t0": 35.08,
+    "t1": 39.07,
+    "color": "#FFD23F",
+    "n": 12
+   }
+  ],
+  "chips": [
+   {
+    "txt": "STOMACH",
+    "kind": "n",
+    "t0": 2.46,
+    "t1": 5.29
+   },
+   {
+    "txt": "absorbed <em>slowly</em>",
+    "kind": "f",
+    "t0": 3.58,
+    "t1": 5.29
+   },
+   {
+    "txt": "SMALL INTESTINE",
+    "kind": "n",
+    "t0": 5.54,
+    "t1": 10.7
+   },
+   {
+    "txt": "absorbed <em>faster</em>",
+    "kind": "f",
+    "t0": 6.54,
+    "t1": 10.7
+   },
+   {
+    "txt": "big surface area",
+    "kind": "f",
+    "t0": 7.51,
+    "t1": 10.7
+   },
+   {
+    "txt": "LIVER",
+    "kind": "n",
+    "t0": 10.95,
+    "t1": 14.4
+   },
+   {
+    "txt": "via the <em>portal vein</em>",
+    "kind": "f",
+    "t0": 11.75,
+    "t1": 14.4
+   },
+   {
+    "txt": "BLOODSTREAM",
+    "kind": "n",
+    "t0": 14.65,
+    "t1": 21.56
+   },
+   {
+    "txt": "spreads through <em>body water</em>",
+    "kind": "f",
+    "t0": 15.45,
+    "t1": 21.56
+   },
+   {
+    "txt": "⏱ peak ≈ 1 h (empty stomach)",
+    "kind": "t",
+    "t0": 18.0,
+    "t1": 21.56
+   },
+   {
+    "txt": "LIVER",
+    "kind": "n",
+    "t0": 21.81,
+    "t1": 34.13
+   },
+   {
+    "txt": "<em>ADH</em> → acetaldehyde",
+    "kind": "f",
+    "t0": 24.81,
+    "t1": 34.13
+   },
+   {
+    "txt": "<em>ALDH</em> → acetate",
+    "kind": "f",
+    "t0": 28.1,
+    "t1": 34.13
+   },
+   {
+    "txt": "> 90% broken down here",
+    "kind": "t",
+    "t0": 30.43,
+    "t1": 34.13
+   },
+   {
+    "txt": "LEAVES UNCHANGED",
+    "kind": "n",
+    "t0": 34.38,
+    "t1": 39.38
+   },
+   {
+    "txt": "≈ <em>2–5%</em> of the alcohol",
+    "kind": "f",
+    "t0": 35.38,
+    "t1": 39.38
+   },
+   {
+    "txt": "breath · urine · sweat",
+    "kind": "f",
+    "t0": 37.57,
+    "t1": 39.38
+   }
+  ],
+  "final": 39.43,
+  "tEnd0": 41.75,
+  "endA": "Save this",
+  "endB": "for your next physiology exam 📌",
+  "endSpin": 0.15,
+  "finalGhost": {
+   "15": 0.04,
+   "16": 0.04,
+   "17": 0.04,
+   "8": 0.1,
+   "1": 0.15,
+   "4": 0.2,
+   "5": 0.2,
+   "10": 0.2,
+   "11": 0.5
+  },
+  "finalLight": [
+   6,
+   7,
+   14,
+   3,
+   9
+  ],
+  "saveMap": {
+   "t0": 39.43,
+   "title": "THE PATH · SAVE THIS 📌",
+   "items": [
+    {
+     "n": 1,
+     "txt": "Stomach",
+     "wp": "stomB"
+    },
+    {
+     "n": 2,
+     "txt": "Small intestine",
+     "wp": "siEnd"
+    },
+    {
+     "n": 3,
+     "txt": "Liver",
+     "wp": "livC"
+    },
+    {
+     "n": 4,
+     "txt": "Exit routes",
+     "wp": "kidL"
+    }
+   ]
+  }
+ }
+}

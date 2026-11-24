@@ -1,0 +1,17 @@
+S=[
+("Where does alcohol go after you drink it?",0.35),
+("First stop, your stomach.",0.2),
+("It's absorbed here, but slowly.",0.3),
+("The rest moves on to your small intestine.",0.2),
+("Its large surface area absorbs alcohol faster.",0.3),
+("From the gut, blood carries it to your liver first, through the portal vein.",0.3),
+("Then it spreads through the water in your body, including your brain.",0.25),
+("On an empty stomach, blood alcohol typically peaks in about an hour.",0.3),
+("Meanwhile, your liver does most of the work.",0.2),
+("An enzyme called A D H turns alcohol into acetaldehyde.",0.25),
+("Then A L D H turns that into acetate.",0.25),
+("More than ninety percent of the alcohol is broken down by your liver.",0.3),
+("A small amount, about two to five percent, leaves unchanged.",0.2),
+("That's in your breath, urine, and sweat.",0.4),
+("Save this for your next physiology exam.",0.6),
+]

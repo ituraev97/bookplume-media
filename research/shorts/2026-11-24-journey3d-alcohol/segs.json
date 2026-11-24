@@ -1,0 +1,77 @@
+[
+ {
+  "text": "Where does alcohol go after you drink it?",
+  "s": 0,
+  "e": 1.9103333333333334
+ },
+ {
+  "text": "First stop, your stomach.",
+  "s": 2.2603333333333335,
+  "e": 3.378041666666667
+ },
+ {
+  "text": "It's absorbed here, but slowly.",
+  "s": 3.578041666666667,
+  "e": 5.041708333333334
+ },
+ {
+  "text": "The rest moves on to your small intestine.",
+  "s": 5.341708333333334,
+  "e": 7.312375
+ },
+ {
+  "text": "Its large surface area absorbs alcohol faster.",
+  "s": 7.5123750000000005,
+  "e": 10.449
+ },
+ {
+  "text": "From the gut, blood carries it to your liver first, through the portal vein.",
+  "s": 10.749,
+  "e": 14.151
+ },
+ {
+  "text": "Then it spreads through the water in your body, including your brain.",
+  "s": 14.451,
+  "e": 17.452666666666666
+ },
+ {
+  "text": "On an empty stomach, blood alcohol typically peaks in about an hour.",
+  "s": 17.702666666666666,
+  "e": 21.306416666666664
+ },
+ {
+  "text": "Meanwhile, your liver does most of the work.",
+  "s": 21.606416666666664,
+  "e": 23.806791666666665
+ },
+ {
+  "text": "An enzyme called A D H turns alcohol into acetaldehyde.",
+  "s": 24.006791666666665,
+  "e": 27.653541666666666
+ },
+ {
+  "text": "Then A L D H turns that into acetate.",
+  "s": 27.903541666666666,
+  "e": 29.981624999999998
+ },
+ {
+  "text": "More than ninety percent of the alcohol is broken down by your liver.",
+  "s": 30.231624999999998,
+  "e": 33.881875
+ },
+ {
+  "text": "A small amount, about two to five percent, leaves unchanged.",
+  "s": 34.181875,
+  "e": 37.371583333333334
+ },
+ {
+  "text": "That's in your breath, urine, and sweat.",
+  "s": 37.571583333333336,
+  "e": 39.18466666666667
+ },
+ {
+  "text": "Save this for your next physiology exam.",
+  "s": 39.58466666666667,
+  "e": 41.65279166666667
+ }
+]
