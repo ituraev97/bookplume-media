@@ -1,0 +1,44 @@
+{
+  "arch.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n545",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 505: The arch of the aorta, and its branches (recoloured color)"
+  },
+  "rightint.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n529",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 493: Interior of right side of heart (recoloured duotone)"
+  },
+  "leftint.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n532",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 496: Interior of left side of heart (recoloured duotone)"
+  },
+  "septum.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n534",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 498: Section of the heart showing tne ventricular septum (recoloured duotone)"
+  },
+  "base.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n527",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 491: Base and diaphragmatic surface of heart (recoloured color)"
+  },
+  "bundle.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n537",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 501: Schematic representation of the atrioventricular bundle of His (recoloured color)"
+  },
+  "pulm.png": {
+    "source_page": "https://archive.org/details/anatomyofhumanbo00grayrich/page/n543",
+    "author": "Henry Gray; illustrations by Henry Vandyke Carter and others (Gray's Anatomy, 20th US edition, 1918, Lea & Febiger)",
+    "license": "Public domain (published 1918; Internet Archive: possible-copyright-status NOT_IN_COPYRIGHT)",
+    "content": "FIG. 504: Pulmonary vessels, seen in a dorsal view of the heart and lungs (recoloured color)"
+  }
+}
