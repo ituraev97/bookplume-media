@@ -1,0 +1,72 @@
+[
+ {
+  "text": "Can you name all five main structures of the cavernous sinus?",
+  "s": 0,
+  "e": 3.085541666666667
+ },
+ {
+  "text": "Just remember: Oh, COAT.",
+  "s": 3.2355416666666668,
+  "e": 4.514
+ },
+ {
+  "text": "O. Oculomotor nerve.",
+  "s": 4.814,
+  "e": 6.082541666666667
+ },
+ {
+  "text": "C. Internal carotid artery.",
+  "s": 6.202541666666667,
+  "e": 7.825791666666667
+ },
+ {
+  "text": "O. Ophthalmic nerve.",
+  "s": 7.9457916666666675,
+  "e": 9.178666666666668
+ },
+ {
+  "text": "A. Abducens nerve.",
+  "s": 9.298666666666668,
+  "e": 10.413625000000001
+ },
+ {
+  "text": "T. Trochlear nerve.",
+  "s": 10.533625,
+  "e": 11.64225
+ },
+ {
+  "text": "Only the artery and the abducens run through the sinus itself. The other three sit in its wall.",
+  "s": 11.942250000000001,
+  "e": 16.962375
+ },
+ {
+  "text": "Quick test. Which cranial nerve runs inside the sinus, beside the artery?",
+  "s": 17.262375000000002,
+  "e": 21.335500000000003
+ },
+ {
+  "text": "Three.",
+  "s": 21.585500000000003,
+  "e": 22.04129166666667
+ },
+ {
+  "text": "Two.",
+  "s": 22.24129166666667,
+  "e": 22.67354166666667
+ },
+ {
+  "text": "One.",
+  "s": 22.873541666666668,
+  "e": 23.26129166666667
+ },
+ {
+  "text": "The abducens nerve.",
+  "s": 23.56129166666667,
+  "e": 24.658500000000004
+ },
+ {
+  "text": "Save this for your next anatomy exam.",
+  "s": 24.958500000000004,
+  "e": 26.855000000000004
+ }
+]

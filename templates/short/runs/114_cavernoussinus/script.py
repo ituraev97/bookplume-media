@@ -1,0 +1,16 @@
+S=[
+("Can you name all five main structures of the cavernous sinus?",0.15),
+("Just remember: Oh, COAT.",0.3),
+("O. Oculomotor nerve.",0.12),
+("C. Internal carotid artery.",0.12),
+("O. Ophthalmic nerve.",0.12),
+("A. Abducens nerve.",0.12),
+("T. Trochlear nerve.",0.3),
+("Only the artery and the abducens run through the sinus itself. The other three sit in its wall.",0.3),
+("Quick test. Which cranial nerve runs inside the sinus, beside the artery?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("The abducens nerve.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]

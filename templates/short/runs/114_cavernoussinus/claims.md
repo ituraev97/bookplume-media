@@ -1,0 +1,5 @@
+1 five main structures = the 5 letters of Oh, COAT (Kenhub); V2 deliberately not counted (sources disagree)
+2 O oculomotor CN III, C internal carotid artery, O ophthalmic V1, A abducens CN VI, T trochlear CN IV (Kenhub)
+3 only the ICA + abducens run through the sinus itself; III, IV, V1 sit in the lateral wall (Kenhub, Gray 1918)
+4 wall order top to bottom III, IV, V1 (Kenhub, Gray 1918)
+5 quick test: the cranial nerve inside the sinus beside the artery = abducens (Gray 1918, Kenhub, Radiopaedia)
