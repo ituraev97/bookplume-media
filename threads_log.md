@@ -135,3 +135,8 @@
 2026-11-24 | Typhoid Mary Mallon: 1907 first known healthy carrier in N. America, carving fork (Soper's account), linked to 47 cases/3 deaths, quarantined 1907-10 and 1915-38, died 1938 (Smithsonian Magazine; Army NMHM)
 2026-11-24 | Jenner May 1796 cowpox to 8-yr-old James Phipps, July smallpox inoculation no disease, Royal Society rejected, self-published 1798, vaccine from vacca (Nature d42859-020-00007-6; Indiana Univ. Libraries)
 2026-11-24 | stomach acid pH ~1.5-2, protected by bicarbonate-rich mucus layer, NSAIDs can weaken it (Discover Magazine 2023; Live Science 2026)
+2026-11-25 | milk doesn't make extra mucus/phlegm; milk+saliva coats mouth, feels like mucus (Mayo Clinic 2023; Live Science on Balfour-Lynn, Arch Dis Child 2018)
+2026-11-25 | Wagner-Jauregg 1917 injected 9 paralysis (neurosyphilis) patients with malaria, quinine cured malaria, ~30% practical cure, Nobel 1927 (nobelprize.org ceremony speech; Tsay, Yale J Biol Med 2013, PMC3670443)
+2026-11-25 | McDowell Christmas Day 1809 Danville KY, Jane Todd Crawford 20-22 lb ovarian tumor, no anesthesia, sang hymns, ~half hour, lived 30+ yrs (Kentucky Historical Society; Explore KY History; Britannica)
+2026-11-25 | Evan O'Neill Kane Feb 15 1921 self-appendectomy under local anesthesia, 1932 hernia self-repair at 70 (LITFL; Mental Floss; details vary by source)
+2026-11-25 | newborns 275-300 bones vs 206 adult, cartilage fuses until puberty or shortly after, skull fontanelles (Cleveland Clinic, Dr. Badgett 2024)
