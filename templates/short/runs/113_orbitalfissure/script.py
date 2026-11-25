@@ -1,0 +1,18 @@
+S=[
+("Can you name all eight structures of the superior orbital fissure?",0.15),
+("Just remember: L F T S, then S A N I.",0.3),
+("Outside the ring. L. Lacrimal nerve.",0.12),
+("F. Frontal nerve.",0.12),
+("T. Trochlear nerve.",0.12),
+("S. Superior ophthalmic vein.",0.3),
+("Inside the ring. S. Superior division of oculomotor.",0.12),
+("A. Abducens nerve.",0.12),
+("N. Nasociliary nerve.",0.12),
+("I. Inferior division of oculomotor.",0.3),
+("Quick test. Which one is the vein?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("The superior ophthalmic vein.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
