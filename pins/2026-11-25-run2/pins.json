@@ -1,0 +1,20 @@
+[
+ {
+  "file": "01-parts-of-a-long-bone.png",
+  "tag": "CHEAT SHEET",
+  "headline": "Parts of a long bone, labeled",
+  "stat": "18–21 yrs",
+  "stat_note": "when the growth plate typically becomes an epiphyseal line",
+  "body": "Diaphysis: the shaft\nEpiphysis: the wider spongy ends\nMetaphysis: holds the growth plate\nArticular cartilage: cuts friction\nPeriosteum: fibrous outer cover",
+  "source": "Source: OpenStax Anatomy & Physiology 2e, 6.3 Bone Structure"
+ },
+ {
+  "file": "02-cardiac-cycle-phases.png",
+  "tag": "STUDY CHART",
+  "headline": "The cardiac cycle in order",
+  "stat": "lub · dub",
+  "stat_note": "S1: AV valves close · S2: semilunar close",
+  "body": "1 Filling: AV valves open, atria add 20–30%\n2 Isovolumic contraction: valves shut\n3 Ejection: semilunar valves open\n4 Isovolumic relaxation: they close\nSystole = squeeze, diastole = relax",
+  "source": "Source: OpenStax Anatomy & Physiology 2e, 19.3 Cardiac Cycle"
+ }
+]

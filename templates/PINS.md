@@ -9,6 +9,8 @@ Run notes go to RUNBOOK_NOTES.md (append there, never here).
 
 - 2026-11-24 note: product pin with only a cover image (no clean inside page, e.g. back cover shows a person): `make_product_pin.py cover.png - "<hook>" out.png "<caption>"` ("-" = no inside band); never use store posters with "Top rated"-style badges or back covers with author photos.
 
+- 2026-11-25 note (owner rules of 11-21 unchanged): slot check = getScheduledPosts for 3+ days; a slot with a static pin moves to the next free day (11-25 run: product 11-26 21:17, educational 11-28 02:17/06:17); keep educational body ≤5 short lines (long lines overflow into the source); product cover via theme_screenshot crop x=122..1318 of the 1440px screenshot, then `make_product_pin.py cover.png - "<hook>" out.png "<caption>"`.
+
 **CURRENT RULES (owner 2026-11-21, confirmed 2026-11-22 and 2026-11-23; override the steps below where they differ):**
 - 3 static pins/day = 2 EDUCATIONAL (02:17, 06:17) + 1 PRODUCT pin (21:17). Max 3 static pins/day (video pins don't count); if a slot already holds a static pin, use that slot on the next free day.
 - One pin per topic; nothing on a topic pinned or videoed in the last 30 days (check getScheduledPosts + pins_log.md).
