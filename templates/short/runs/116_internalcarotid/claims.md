@@ -1,0 +1,6 @@
+1 ten branches = the 10 letters of A VIP'S COMMA (Radiopaedia mnemonic page; Kenhub lists the same set incl. 2 terminal branches); on-screen "10 branches · 8 + 2 terminal"
+2 letters: A anterior choroidal (C7), V Vidian (C2), I inferolateral trunk (C4), P posterior communicating (C7), S superior hypophyseal (C6), C caroticotympanic (C2), O ophthalmic (C6), M meningohypophyseal trunk (C4), M middle cerebral (C7 terminal), A anterior cerebral (C7 terminal) — Radiopaedia mnemonic page; Kenhub names the C4 pair "meningeal" + "inferior hypophyseal" (save-card note)
+3 quick test: terminal branches = middle + anterior cerebral (Kenhub, Radiopaedia)
+4 Vidian = artery of the pterygoid canal (Kenhub); not present in everyone (Kenhub)
+5 C1, C3, C5 "usually no named branches" (fact-check fix: softened); diagram directions schematic, labelled "not to scale"
+6 independent fact-check agent: all OK; fixes applied: 'terminal' count shown on mnemonic card, I/M naming note on save card, softened C1/C3/C5 wording, Gray figure numbers confirmed on the opened plate pages (Fig. 513 caption "The internal carotid and vertebral arteries", Fig. 519 "Diagram of the arterial circulation at the base of the brain")
