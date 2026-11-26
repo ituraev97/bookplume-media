@@ -140,3 +140,8 @@
 2026-11-25 | McDowell Christmas Day 1809 Danville KY, Jane Todd Crawford 20-22 lb ovarian tumor, no anesthesia, sang hymns, ~half hour, lived 30+ yrs (Kentucky Historical Society; Explore KY History; Britannica)
 2026-11-25 | Evan O'Neill Kane Feb 15 1921 self-appendectomy under local anesthesia, 1932 hernia self-repair at 70 (LITFL; Mental Floss; details vary by source)
 2026-11-25 | newborns 275-300 bones vs 206 adult, cartilage fuses until puberty or shortly after, skull fontanelles (Cleveland Clinic, Dr. Badgett 2024)
+2026-11-26 | antibiotic resistance: bacteria become resistant, not your body; colds/flu are viruses (CDC About Antimicrobial Resistance)
+2026-11-26 | Willem Kolff 1942 rotating-drum artificial kidney, sausage casing cellophane, first 15 patients died, 1945 67-year-old woman woke after 11 h (Lasker Foundation 2002; National WWII Museum)
+2026-11-26 | Elixir Sulfanilamide 1937, diethylene glycol, untested, 100+ deaths in 15 states, misbranding charge, 1938 FD&C Act (FDA "Sulfanilamide Disaster")
+2026-11-26 | Hans Berger first human EEG 1924 (Patient K), secret 5 years, published 1929, Adrian repeated/confirmed 1934 (Science News 2021; Scientific American)
+2026-11-26 | wrinkled fingers: autonomic nervous system vasoconstriction, no wrinkling with nerve damage; Kareklas 2013 wet-marble grip, adaptive reason debated (Nature 2013; Scientific American)
