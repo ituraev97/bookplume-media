@@ -1,0 +1,5 @@
+# Sources — right lung segments mnemonic short (2026-11-26, 22:31 run)
+- Epomedicine, Bronchopulmonary segments mnemonic: https://epomedicine.com/medical-students/bronchopulmonary-segments-mnemonic — "A PALM Seed Makes Another Little Palm" (A-P-A / L-M / S-M-A-L-P), right lung order.
+- Kenhub, Bronchopulmonary segments: https://www.kenhub.com/en/library/anatomy/bronchopulmonary-segments — right 10 segments: upper apical (1), posterior (2), anterior (3); middle lateral (4), medial (5); lower superior (6), medial basal (7), anterior basal (8), lateral basal (9), posterior basal (10); left lung 8–9 (8–10 depending on classification), apicoposterior + anteromedial basal merged, lingula.
+- Radiopaedia, Bronchopulmonary segments: https://radiopaedia.org/articles/bronchopulmonary-segments — right 3 lobes, 10 segments (confirmed by independent fact-check agent).
+- Gray's Anatomy 1918 (archive.org item anatomyofhumanbo00grayrich): Fig. 962 "Bronchi and bronchioles" (printed labels UPPER/MIDDLE/LOWER LOBE, RIGHT LUNG, LEFT LUNG), p. 1086 — opened and checked.
