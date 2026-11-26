@@ -1,0 +1,5 @@
+1 seven main structures = the 7 letters of DATE VSL (Kenhub); sympathetic trunk deliberately not counted (sources differ)
+2 D descending thoracic aorta, A azygos + hemiazygos veins, T thoracic duct, E esophagus, V vagus nerves, S splanchnic nerves (greater, lesser, least), L lymph nodes (Kenhub, Tufts, WSU)
+3 on screen: aorta runs down to the diaphragm (Gray 1918 p. 599); azygos on the right + hemiazygos on the left, thoracic duct right of the aorta (Gray p. 599); esophagus = tube from throat to stomach; vagus = CN X; splanchnic = greater, lesser, least (Kenhub)
+4 save card: behind the pericardium, in front of the spine (Kenhub, WSU)
+5 quick test: the only major artery = descending thoracic aorta (aorta; the rest are veins, a duct, a tube, nerves, nodes)

@@ -1,0 +1,17 @@
+S=[
+("Can you name the seven main structures of the posterior mediastinum?",0.15),
+("Just remember: on the DATE, Vivian Slapped Larry.",0.3),
+("D. Descending thoracic aorta.",0.12),
+("A. Azygos and hemiazygos veins.",0.12),
+("T. Thoracic duct.",0.12),
+("E. Esophagus.",0.12),
+("V. Vagus nerves.",0.12),
+("S. Splanchnic nerves.",0.12),
+("L. Lymph nodes.",0.3),
+("Quick test. Which one is the only major artery on the list?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("The descending thoracic aorta.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
