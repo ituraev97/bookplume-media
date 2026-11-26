@@ -1,0 +1,92 @@
+[
+ {
+  "text": "Can you name all ten branches of the internal carotid artery?",
+  "s": 0,
+  "e": 3.4217916666666666
+ },
+ {
+  "text": "Just remember: A V I P's comma.",
+  "s": 3.5717916666666665,
+  "e": 5.622833333333333
+ },
+ {
+  "text": "A. Anterior choroidal.",
+  "s": 5.922833333333333,
+  "e": 7.1317916666666665
+ },
+ {
+  "text": "V. Vidian artery.",
+  "s": 7.251791666666667,
+  "e": 8.294375
+ },
+ {
+  "text": "I. Inferolateral trunk.",
+  "s": 8.414375,
+  "e": 9.797875
+ },
+ {
+  "text": "P. Posterior communicating.",
+  "s": 9.917874999999999,
+  "e": 11.544958333333332
+ },
+ {
+  "text": "S. Superior hypophyseal.",
+  "s": 11.664958333333331,
+  "e": 13.30095833333333
+ },
+ {
+  "text": "C. Caroticotympanic.",
+  "s": 13.42095833333333,
+  "e": 14.754791666666662
+ },
+ {
+  "text": "O. Ophthalmic.",
+  "s": 14.874791666666662,
+  "e": 15.751541666666661
+ },
+ {
+  "text": "M. Meningohypophyseal trunk.",
+  "s": 15.87154166666666,
+  "e": 17.57966666666666
+ },
+ {
+  "text": "M. Middle cerebral.",
+  "s": 17.699666666666662,
+  "e": 18.84016666666666
+ },
+ {
+  "text": "A. Anterior cerebral.",
+  "s": 18.960166666666662,
+  "e": 20.24070833333333
+ },
+ {
+  "text": "Quick test. Which two branches are the end of the artery?",
+  "s": 20.54070833333333,
+  "e": 23.46033333333333
+ },
+ {
+  "text": "Three.",
+  "s": 23.71033333333333,
+  "e": 24.166124999999997
+ },
+ {
+  "text": "Two.",
+  "s": 24.366124999999997,
+  "e": 24.798374999999997
+ },
+ {
+  "text": "One.",
+  "s": 24.998374999999996,
+  "e": 25.386124999999996
+ },
+ {
+  "text": "The middle and anterior cerebral.",
+  "s": 25.686124999999997,
+  "e": 27.400124999999996
+ },
+ {
+  "text": "Save this for your next anatomy exam.",
+  "s": 27.700124999999996,
+  "e": 29.596624999999996
+ }
+]
