@@ -1,0 +1,20 @@
+[
+ {
+  "file": "01-types-of-cartilage.png",
+  "tag": "CHEAT SHEET",
+  "headline": "3 types of cartilage",
+  "stat": "0 vessels",
+  "stat_note": "cartilage is avascular, so it heals slowly",
+  "body": "Hyaline: smooth, strong, flexible (nose, ribs)\nFibrocartilage: tough (knee menisci, discs)\nElastic: bends and springs back (outer ear)",
+  "source": "Source: OpenStax Anatomy & Physiology 2e, 4.3 Connective Tissue"
+ },
+ {
+  "file": "02-csf-flow-path.png",
+  "tag": "STUDY CHART",
+  "headline": "CSF flow path, step by step",
+  "stat": "4 ventricles",
+  "stat_note": "CSF is made by the choroid plexuses, about 500 mL a day",
+  "body": "Lateral ventricles > third ventricle\nCerebral aqueduct > fourth ventricle\nApertures > subarachnoid space\nArachnoid granulations > venous blood",
+  "source": "Source: OpenStax Anatomy & Physiology 2e, 13.3 Circulation and the CNS"
+ }
+]

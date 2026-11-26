@@ -11,6 +11,8 @@ Run notes go to RUNBOOK_NOTES.md (append there, never here).
 
 - 2026-11-25 note (owner rules of 11-21 unchanged): slot check = getScheduledPosts for 3+ days; a slot with a static pin moves to the next free day (11-25 run: product 11-26 21:17, educational 11-28 02:17/06:17); keep educational body ≤5 short lines (long lines overflow into the source); product cover via theme_screenshot crop x=122..1318 of the 1440px screenshot, then `make_product_pin.py cover.png - "<hook>" out.png "<caption>"`.
 
+- 2026-11-26 note (owner rules of 11-21 unchanged): choose topics not pinned/videoed in 30 days by grepping pins_log.md AND topics.md (lung lobes, 3 muscle types, carpals were all taken); web-fetch subagent on openstax.org pages is the reliable fact-check; replace "→" with ">" in pin body text (font lacks the arrow glyph); product hook ≤2 lines so the image stays large.
+
 **CURRENT RULES (owner 2026-11-21, confirmed 2026-11-22 and 2026-11-23; override the steps below where they differ):**
 - 3 static pins/day = 2 EDUCATIONAL (02:17, 06:17) + 1 PRODUCT pin (21:17). Max 3 static pins/day (video pins don't count); if a slot already holds a static pin, use that slot on the next free day.
 - One pin per topic; nothing on a topic pinned or videoed in the last 30 days (check getScheduledPosts + pins_log.md).
