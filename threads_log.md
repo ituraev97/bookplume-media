@@ -145,3 +145,8 @@
 2026-11-26 | Elixir Sulfanilamide 1937, diethylene glycol, untested, 100+ deaths in 15 states, misbranding charge, 1938 FD&C Act (FDA "Sulfanilamide Disaster")
 2026-11-26 | Hans Berger first human EEG 1924 (Patient K), secret 5 years, published 1929, Adrian repeated/confirmed 1934 (Science News 2021; Scientific American)
 2026-11-26 | wrinkled fingers: autonomic nervous system vasoconstriction, no wrinkling with nerve damage; Kareklas 2013 wet-marble grip, adaptive reason debated (Nature 2013; Scientific American)
+2026-11-27 | alcohol doesn't kill brain cells, damages dendrites (cerebellum), heavy drinking + B1 deficiency causes neuron loss; "10,000 cells per beer" myth (News-Medical 2012; Mental Floss)
+2026-11-27 | Hanaoka Seishu 1804 tsusensan general anesthesia, tested on dogs then wife (6-24 h numb), 150+ breast cancer operations (Hektoen International 2023)
+2026-11-27 | Domagk gave daughter Prontosil ~1935, 1939 Nobel rejected under Gestapo arrest, medal 1947 (Science History Institute; nobelprize.org)
+2026-11-27 | Greville Chester toe (before 600 BC, cartonnage) and Luxor wood/leather toe (950-710 BC), 2 volunteers, functional prosthetics (Univ. of Manchester 2011/2012)
+2026-11-27 | brain freeze: 13 adults, anterior cerebral artery dilates, migraine link (Serrador, Experimental Biology 2012; ScienceDaily; Scientific American)
