@@ -76,6 +76,10 @@ for it in Q["items"]:
         place(sfx, S["tick"], tt, -4)
         if k >= Q["count"] - 2: place(sfx, beep(1320), tt, -16)
     place(sfx, S["ding"], it["tReveal"], -2)
+for m in Q.get("mnemos", []):
+    place(sfx, W, m["s"] - 0.1, -6); place(sfx, S["maximize"], m["s"] + 0.1, -9)
+    for r in m["rows"]: place(sfx, S["pop"], r["t"] + 0.1, -8)
+    place(sfx, S["ding"], m["lineT"] + 0.1, -4)
 if Q.get("cta"): place(sfx, S["select"], Q["cta"]["s"] + 0.1, -6)
 place(sfx, W, Q["outro"]["s"] - 0.1, -4); place(sfx, S["maximize"], Q["outro"]["s"] + 0.1, -6)
 # ---- mix ----

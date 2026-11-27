@@ -55,9 +55,10 @@ const QuizPlate: React.FC<{ it: Item; t: number }> = ({ it, t }) => {
       {hide.map((b, j) => {
         const opening = open.has(j) ? reveal : 0;
         const bx = left + b[0] * iw, by = top + b[1] * ih, bw = b[2] * iw, bh = b[3] * ih;
+        const rot = b.length > 4 ? b[4] : ((j * 37) % 7) - 3; // optional 5th value = angle in degrees (sticker follows slanted label text)
         if (opening >= 1) return null;
         return (
-          <div key={j} style={{ position: "absolute", left: bx, top: by, width: bw, height: bh, transform: `rotate(${((j * 37) % 7) - 3}deg) scaleY(${1 - opening})`, transformOrigin: "50% 0%", background: C.banana, border: `3px solid ${C.forest}`, borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT, fontWeight: 800, fontSize: Math.min(bh * 0.7, 46), color: C.forest, boxShadow: "0 4px 0 rgba(31,42,20,0.2)" }}>
+          <div key={j} style={{ position: "absolute", left: bx, top: by, width: bw, height: bh, transform: `rotate(${rot}deg) scaleY(${1 - opening})`, transformOrigin: b.length > 4 ? "50% 50%" : "50% 0%", background: C.banana, border: `3px solid ${C.forest}`, borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT, fontWeight: 800, fontSize: Math.min(bh * 0.7, 46), color: C.forest, boxShadow: "0 4px 0 rgba(31,42,20,0.2)" }}>
             ?
           </div>
         );
@@ -111,7 +112,7 @@ const QuestionPanel: React.FC<{ it: Item; t: number }> = ({ it, t }) => {
         <div style={{ background: C.forest, color: C.banana, fontWeight: 800, fontSize: 26, letterSpacing: 3, padding: "8px 18px 10px", borderRadius: 14 }}>LEVEL {lv.n} · {lv.name.toUpperCase()}</div>
         <div style={{ color: C.matcha, fontWeight: 800, fontSize: 28 }}>Q{it.n} / {QZ.total}</div>
       </div>
-      <div style={{ marginTop: 22, width: 540, color: C.forest, fontWeight: 800, fontSize: 52, lineHeight: 1.08, letterSpacing: -1 }}>{it.q}</div>
+      <div style={{ marginTop: 22, width: 540, color: C.forest, fontWeight: 800, fontSize: it.q.length <= 44 ? 52 : it.q.length <= 64 ? 46 : it.q.length <= 84 ? 40 : 36, lineHeight: 1.08, letterSpacing: -1 }}>{it.q}</div>
       <div style={{ position: "absolute", top: 300, width: 720, display: "flex", flexDirection: "column", gap: 18 }}>
         {opts.map((op, j) => {
           const good = j === it.a;
@@ -157,14 +158,29 @@ const Intro: React.FC<{ t: number }> = ({ t }) => {
   const o = smooth(t, e - 0.2, e + 0.3);
   const first = QZ.items[0];
   const rules = QZ.rules as unknown as string[];
+  const hook = ((QZ as unknown as { hook?: { t: number; a: string; b: string }[] }).hook ?? []);
+  const rulesT = hook.length > 0 ? (QZ as unknown as { rulesT: number }).rulesT : 1.2;
   return (
     <div style={{ position: "absolute", inset: 0, opacity: 1 - o, fontFamily: FONT }}>
       <div style={{ position: "absolute", left: 60, top: 160, width: 1000 }}>
         <div style={{ color: C.matcha, fontWeight: 800, fontSize: 30, letterSpacing: 6 }}>{QZ.series.toUpperCase()}</div>
         <div style={{ marginTop: 14, color: C.forest, fontWeight: 800, fontSize: 104, lineHeight: 0.98, letterSpacing: -3, transform: `translateY(${(1 - smooth(t, s, s + 0.6)) * 40}px)`, opacity: smooth(t, s, s + 0.5) }}>{QZ.title}</div>
-        <div style={{ marginTop: 40, display: "flex", flexDirection: "column", gap: 18 }}>
+        {hook.length > 0 && (
+          <div style={{ marginTop: 28, display: "flex", gap: 14 }}>
+            {hook.map((h, j) => {
+              const p = smooth(t, h.t, h.t + 0.35);
+              return (
+                <div key={j} style={{ opacity: p, transform: `translateY(${(1 - p) * 24}px) scale(${0.9 + 0.1 * p})`, background: C.forest, borderRadius: 18, padding: "8px 20px 12px" }}>
+                  <div style={{ color: C.banana, fontWeight: 800, fontSize: 36, letterSpacing: 1 }}>{h.a}</div>
+                  <div style={{ color: C.paper, fontWeight: 800, fontSize: 30 }}>= {h.b}</div>
+                </div>
+              );
+            })}
+          </div>
+        )}
+        <div style={{ marginTop: hook.length > 0 ? 30 : 40, display: "flex", flexDirection: "column", gap: hook.length > 0 ? 12 : 18 }}>
           {rules.map((r, j) => {
-            const p = smooth(t, 1.2 + j * 0.7, 1.6 + j * 0.7);
+            const p = smooth(t, rulesT + j * 0.7, rulesT + 0.4 + j * 0.7);
             return (
               <div key={j} style={{ opacity: p, transform: `translateX(${(1 - p) * 40}px)`, display: "flex", alignItems: "center", gap: 18 }}>
                 <div style={{ width: 54, height: 54, borderRadius: 27, background: C.banana, color: C.forest, fontWeight: 800, fontSize: 30, display: "flex", alignItems: "center", justifyContent: "center" }}>{j + 1}</div>
@@ -227,6 +243,12 @@ const Outro: React.FC<{ t: number }> = ({ t }) => {
           })}
         </div>
       </div>
+      {(QZ as unknown as { next?: string }).next ? (
+        <div style={{ position: "absolute", left: 70, top: 600, width: 930, opacity: smooth(t, s + 3.2, s + 3.7) }}>
+          <div style={{ display: "inline-block", background: C.banana, color: C.forest, fontWeight: 800, fontSize: 26, letterSpacing: 5, padding: "6px 16px 10px", borderRadius: 12 }}>NEXT VIDEO</div>
+          <div style={{ marginTop: 10, fontWeight: 800, fontSize: 44, color: C.paper, lineHeight: 1.08 }}>{(QZ as unknown as { next: string }).next}</div>
+        </div>
+      ) : null}
       <div style={{ position: "absolute", left: 1080, top: 0, width: 720, height: 360, borderRadius: 44, background: C.banana, padding: "44px 50px" }}>
         <div style={{ fontWeight: 800, fontSize: 64, lineHeight: 1.04, color: C.forest, letterSpacing: -1 }}>Comment your score ↓</div>
         <div style={{ marginTop: 18, fontWeight: 700, fontSize: 34, color: C.forest }}>Which one got you?</div>
@@ -235,6 +257,74 @@ const Outro: React.FC<{ t: number }> = ({ t }) => {
         <div style={{ fontWeight: 800, fontSize: 30, letterSpacing: 5, color: C.matcha }}>STUDY THEM</div>
         <div style={{ marginTop: 10, fontWeight: 800, fontSize: 52, lineHeight: 1.06, color: C.forest }}>Book Plume anatomy flash cards</div>
         <div style={{ marginTop: 16, fontWeight: 700, fontSize: 30, color: C.forest }}>link in the description</div>
+      </div>
+    </div>
+  );
+};
+
+
+/**
+ * MEMORY-TRICK card (2026-11-27): "name all N + mnemonic" moment between levels. Left: the whole plate (contain-fit, its own printed labels
+ * stay visible) with numbered pins that appear one by one with the voice; right: the list (tag badge + name + cue) lighting up row by row, then
+ * the one-line trick. The last frame holds every pin + the full list = a screenshot-able "save frame" (each card works as a Short).
+ */
+type Mn = { s: number; e: number; lineT: number; kicker: string; title: string; line: string; plate: { src: string; aspect: number }; rows: { t: number; tag: string; name: string; cue: string; pin: number[] }[] };
+const mnemoAt = (t: number): Mn | null => {
+  const ms = ((QZ as unknown as { mnemos?: Mn[] }).mnemos ?? []) as Mn[];
+  for (const m of ms) if (t >= m.s - 0.05 && t < m.e + 0.05) return m;
+  return null;
+};
+const MnemoCard: React.FC<{ m: Mn; t: number }> = ({ m, t }) => {
+  const a = smooth(t, m.s, m.s + 0.4) * (1 - smooth(t, m.e - 0.3, m.e));
+  const iw = Math.min(FW - 30, (FH - 30) * m.plate.aspect), ih = iw / m.plate.aspect;
+  const ox = (FW - iw) / 2, oy = (FH - ih) / 2;
+  const active = m.rows.reduce((acc, r, j) => (t >= r.t ? j : acc), -1);
+  const lineIn = smooth(t, m.lineT, m.lineT + 0.4);
+  return (
+    <div style={{ position: "absolute", inset: 0, opacity: a, fontFamily: FONT }}>
+      <div style={{ position: "absolute", left: FX, top: FY, width: FW, height: FH, borderRadius: 36, overflow: "hidden", background: C.paper, boxShadow: `0 0 0 4px ${C.line}, 0 18px 40px rgba(31,42,20,0.14)` }}>
+        <Img src={staticFile(m.plate.src)} style={{ position: "absolute", left: ox, top: oy, width: iw, height: ih }} />
+        {m.rows.map((r, j) => {
+          const p = smooth(t, r.t, r.t + 0.4);
+          if (p <= 0) return null;
+          const px = ox + r.pin[0] * iw, py = oy + r.pin[1] * ih;
+          const on = j === active;
+          const pulse = on ? 1 + 0.1 * Math.sin((t - r.t) * 7) : 1;
+          const rr = r as unknown as { dir?: string; off?: number[] };
+          const right = rr.dir ? rr.dir === "r" : px < FW * 0.55;
+          const odx = rr.off ? rr.off[0] : 0, ody = rr.off ? rr.off[1] : 0;
+          return (
+            <div key={j} style={{ position: "absolute", left: px, top: py, width: 0, height: 0, opacity: p }}>
+              <div style={{ position: "absolute", left: -30 * pulse, top: -30 * pulse, width: 60 * pulse, height: 60 * pulse, borderRadius: "50%", border: `6px solid ${on ? C.red : C.matcha}`, boxShadow: "0 0 0 4px rgba(247,246,236,0.9)" }} />
+              <div style={{ position: "absolute", left: -17, top: -17, width: 34, height: 34, borderRadius: 17, background: on ? C.red : C.matcha, color: C.paper, border: `3px solid ${C.paper}`, display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: 20 }}>{j + 1}</div>
+              <div style={{ position: "absolute", left: (right ? 44 : -44) + odx, top: ody, transform: `translate(${right ? "0" : "-100%"}, -50%) scale(${0.85 + 0.15 * p})`, transformOrigin: right ? "0% 50%" : "100% 50%", whiteSpace: "nowrap", background: C.forest, color: C.paper, fontWeight: 800, fontSize: 36, padding: "4px 18px 8px", borderRadius: 14, boxShadow: "0 5px 0 rgba(31,42,20,0.18)" }}>{r.name}</div>
+            </div>
+          );
+        })}
+        <div style={{ position: "absolute", right: 14, bottom: 10, fontWeight: 700, fontSize: 18, color: C.forest, opacity: 0.55, background: "rgba(247,246,236,0.85)", padding: "2px 10px", borderRadius: 8 }}>Gray's Anatomy, 1918 · public domain</div>
+      </div>
+      <div style={{ position: "absolute", left: 1140, top: 160, width: 720, height: 750 }}>
+        <div style={{ display: "inline-block", background: C.banana, color: C.forest, fontWeight: 800, fontSize: 28, letterSpacing: 4, padding: "8px 20px 12px", borderRadius: 14 }}>{m.kicker}</div>
+        <div style={{ marginTop: 18, color: C.forest, fontWeight: 800, fontSize: 64, lineHeight: 1.04, letterSpacing: -1.5 }}>{m.title}</div>
+        <div style={{ marginTop: 26, display: "flex", flexDirection: "column", gap: 14 }}>
+          {m.rows.map((r, j) => {
+            const p = smooth(t, r.t, r.t + 0.4);
+            const on = j === active && lineIn < 0.5;
+            return (
+              <div key={j} style={{ opacity: p, transform: `translateX(${(1 - p) * 40}px)`, display: "flex", alignItems: "center", gap: 18, height: 96, background: on ? C.matcha : C.card, border: `4px solid ${on ? C.matchaDark : C.line}`, borderRadius: 22, padding: "0 20px", boxShadow: "0 6px 16px rgba(31,42,20,0.08)" }}>
+                <div style={{ width: 64, height: 64, borderRadius: 18, background: on ? C.banana : C.forest, color: on ? C.forest : C.banana, display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: 38, flexShrink: 0 }}>{r.tag}</div>
+                <div>
+                  <div style={{ fontWeight: 800, fontSize: 38, color: on ? C.paper : C.forest, lineHeight: 1.05 }}>{r.name}</div>
+                  <div style={{ fontWeight: 700, fontSize: 26, color: on ? C.paper : C.matchaDark, lineHeight: 1.15 }}>{r.cue}</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div style={{ position: "absolute", left: 0, top: 640, width: 720, opacity: lineIn, transform: `translateY(${(1 - lineIn) * 24}px)`, background: C.forest, borderRadius: 24, padding: "14px 26px 20px" }}>
+          <div style={{ color: C.banana, fontWeight: 800, fontSize: 24, letterSpacing: 4 }}>THE TRICK · SAVE THIS</div>
+          <div style={{ color: C.paper, fontWeight: 800, fontSize: 40, lineHeight: 1.1, marginTop: 4 }}>{m.line}</div>
+        </div>
       </div>
     </div>
   );
@@ -274,6 +364,7 @@ export const QuizVideo: React.FC = () => {
       {it && <QuizPlate it={it} t={t} />}
       {it && <QuestionPanel it={it} t={t} />}
       {it && <Ring it={it} t={t} />}
+      {(() => { const m = mnemoAt(t); return m ? <MnemoCard m={m} t={t} /> : null; })()}
       <LevelCard t={t} />
       <CtaCard t={t} />
       <Outro t={t} />

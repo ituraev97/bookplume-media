@@ -19,6 +19,7 @@ def add(ch, sents, last_pause, mid=0.3):
 L = G["LEVELS"]
 intro = add(0, G["INTRO"], 0.9, 0.3)
 levels, items, cta = [], [], None
+mnemos = []  # MEMORY-TRICK cards between levels (2026-11-27): "name all N + mnemonic" moments, each could stand alone as a Short
 qn = 0
 for li, (lname, lsay) in enumerate(L):
     ch = li + 1
@@ -29,17 +30,27 @@ for li, (lname, lsay) in enumerate(L):
         ask = add(ch, [q["ask"]], COUNT + 0.35)
         say = add(ch, q["say"], 1.0, 0.3)
         items.append({**q, "n": qn, "askRow": ask[0], "sayRows": say})
+    for m in [m for m in G.get("MNEMO", []) if m["after"] == li]:
+        mi = add(ch, m["intro"], 0.5, 0.3)
+        mr = [add(ch, [r["say"]], 0.45)[0] for r in m["rows"]]
+        me = add(ch, m["end"], 1.0, 0.3)
+        mnemos.append({**m, "_in": mi, "_rows": mr, "_end": me})
     if G.get("CTA") and G.get("CTA_AFTER_LEVEL") == li:
         cta = add(ch, G["CTA"], 0.9, 0.3)
 outro = add(len(L) + 1, G["OUTRO"], 0.8, 0.3)
 CH = ["Intro"] + [f"Level {i+1}: {n}" for i, (n, _) in enumerate(L)] + ["Your Score"]
 # tts script
-open("_quiz_script.py", "w").write("CH=" + json.dumps(CH) + "\nS=" + json.dumps(rows) + "\n" + (f"VOICE={G['VOICE']!r}\n" if "VOICE" in G else ""))
-subprocess.run([sys.executable, os.path.join(HERE, "tts.py"), "_quiz_script.py", "vo.wav", "segs.json"], check=True)
-extra = G.get("EXTRA_DICT", "")
-open("_extra.dict", "w").write(extra)
-subprocess.run([sys.executable, os.path.join(HERE, "align_any.py"), "vo.wav", "segs.json", "words.json", "_extra.dict"], check=True)
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "vo.wav", "-af", "highpass=f=70,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=80,loudnorm=I=-16:TP=-1.5", "-ac", "1", "-ar", "44100", "voice_final.wav"], check=True)
+_script = "CH=" + json.dumps(CH) + "\nS=" + json.dumps(rows) + "\n" + (f"VOICE={G['VOICE']!r}\n" if "VOICE" in G else "")
+_same = os.path.exists("_quiz_script.py") and open("_quiz_script.py").read() == _script and all(os.path.exists(f) for f in ("vo.wav", "segs.json", "words.json", "words.sents.json", "voice_final.wav"))
+if _same and os.environ.get("QB_REUSE"):
+    print("QB_REUSE: spoken text unchanged -> reusing vo.wav / words (no new TTS)")  # only data (pins, boxes, on-screen text) changed
+else:
+    open("_quiz_script.py", "w").write(_script)
+    subprocess.run([sys.executable, os.path.join(HERE, "tts.py"), "_quiz_script.py", "vo.wav", "segs.json"], check=True)
+    extra = G.get("EXTRA_DICT", "")
+    open("_extra.dict", "w").write(extra)
+    subprocess.run([sys.executable, os.path.join(HERE, "align_any.py"), "vo.wav", "segs.json", "words.json", "_extra.dict"], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "vo.wav", "-af", "highpass=f=70,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=80,loudnorm=I=-16:TP=-1.5", "-ac", "1", "-ar", "44100", "voice_final.wav"], check=True)
 sents = json.load(open("words.sents.json")); segs = json.load(open("segs.json"))
 assert len(sents) == len(rows), (len(sents), len(rows))
 R = lambda i: sents[i]
@@ -52,13 +63,30 @@ for it in items:
     for k in ("askRow", "sayRows"): it.pop(k)
 for l in levels:
     l["s"] = round(R(l.pop("row"))["s"] - 0.4, 2)
+for m in mnemos:
+    m["s"] = round(R(m["_in"][0])["s"] - 0.4, 2)
+    m["lineT"] = round(R(m["_end"][0])["s"] - 0.1, 2)
+    m["e"] = round(R(m["_end"][-1])["e"] + 0.9, 2)
+    m["rows"] = [{**r, "t": round(R(ri)["s"] - 0.1, 2)} for r, ri in zip(m["rows"], m["_rows"])]
+    for k in ("_in", "_rows", "_end", "intro", "end", "after"): m.pop(k)
+    for r in m["rows"]: r.pop("say")
 end = round(segs["dur"] + 0.8, 2)
+# HOOK chips in the intro (e.g. [("PONS","bridge"), ...]): pop up when the voice says the cue word
+hook = []
+_ws = json.load(open("words.json"))
+for _h in G.get("HOOK", []):  # (label, shown text, optional spoken cue word)
+    _a, _b = _h[0], _h[1]
+    _cue = (_h[2] if len(_h) > 2 else _b).lower()
+    for _w in _ws:
+        if re.sub(r"[^a-z]", "", _w["w"].lower()) == _cue:
+            hook.append({"t": round(_w["s"] - 0.3, 2), "a": _a, "b": _b}); break
 data = {
     "title": G["TITLE"], "series": G.get("SERIES", "Anatomy Quiz"), "count": COUNT, "total": len(items),
     "intro": {"s": 0, "e": round(R(intro[-1])["e"] + 0.5, 2)},
-    "levels": levels, "items": items,
+    "levels": levels, "items": items, "mnemos": mnemos,
     "cta": {"s": round(R(cta[0])["s"] - 0.3, 2), "e": round(R(cta[-1])["e"] + 0.5, 2)} if cta else None,
     "outro": {"s": round(R(outro[0])["s"] - 0.4, 2), "e": end},
+    **({"hook": hook, "rulesT": round(R(intro[1])["s"] - 0.2, 2)} if hook else {}), **({"next": G["NEXT"]} if G.get("NEXT") else {}),
     "bands": G.get("BANDS", []), "thumb": G.get("THUMB", {}), "rules": G.get("RULES", ["5 seconds each", "Keep score", "It gets harder"]),
     "end": end,
     # INTRO_IMG: plate copy with "?" stickers over every printed name (the intro must not show answers)
@@ -86,6 +114,7 @@ chs = [{"n": 0, "title": "Intro", "s": 0}] + [{"n": l["n"], "title": f"Level {l[
 open(f"{vid}/src/timeline.ts", "w").write("export const CHAPTERS = " + json.dumps(chs) + ";\nexport const END = " + str(end) + ";\n")
 def ts(x):
     x = int(x); return f"{x//60}:{x%60:02d}"
-open("chapters.txt", "w").write("\n".join(f"{ts(c['s'])} {c['title']}" for c in chs) + "\n")
+chl = [(c["s"], c["title"]) for c in chs] + [(m["s"], "Memory trick: " + m["title"]) for m in mnemos]
+open("chapters.txt", "w").write("\n".join(f"{ts(s_)} {t_}" for s_, t_ in sorted(chl)) + "\n")
 print("END", end, "s =", ts(end), "| questions", len(items))
 print(open("chapters.txt").read())
