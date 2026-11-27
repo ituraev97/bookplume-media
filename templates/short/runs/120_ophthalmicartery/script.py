@@ -1,0 +1,18 @@
+S=[
+("Can you name all eight branches of the ophthalmic artery?",0.15),
+("Smart Little Pipes Supply All My Sight's Demands.",0.3),
+("S. Short posterior ciliary. Sclera, choroid.",0.12),
+("L. Long posterior ciliary. Iris circle.",0.12),
+("P. Posterior ethmoidal. Nasal septum.",0.12),
+("S. Supraorbital. Forehead.",0.12),
+("A. Anterior ethmoidal. Nasal wall.",0.12),
+("M. Medial palpebral. Both eyelids.",0.12),
+("S. Supratrochlear. Terminal. Forehead skin.",0.12),
+("D. Dorsal nasal. Terminal. Nose bridge.",0.3),
+("Quick test. Which two are terminal?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Supratrochlear and dorsal nasal.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
