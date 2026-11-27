@@ -56,7 +56,7 @@ export const Scene: React.FC<{ start: number; end: number; children: React.React
       style={{
         position: "absolute",
         left: 70,
-        top: 470,
+        top: 540,
         width: 860,
         height: 940,
         opacity: inP * (1 - outP),
