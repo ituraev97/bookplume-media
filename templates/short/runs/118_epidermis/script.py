@@ -1,0 +1,15 @@
+S=[
+("Can you name all five layers of the epidermis?",0.15),
+("A popular mnemonic: Come, Let's Get Sun Burned.",0.3),
+("C. Corneum. Dead, flat cells on top.",0.12),
+("L. Lucidum. A thin, clear layer, only in thick skin.",0.12),
+("G. Granulosum. Granules of keratohyalin.",0.12),
+("S. Spinosum. Prickly cells, joined by desmosomes.",0.12),
+("B. Basale. Stem cells divide here.",0.3),
+("Quick test. Which layer is found only in thick skin, like palms and soles?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("The stratum lucidum.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]

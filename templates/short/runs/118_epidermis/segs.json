@@ -1,0 +1,67 @@
+[
+ {
+  "text": "Can you name all five layers of the epidermis?",
+  "s": 0,
+  "e": 2.23825
+ },
+ {
+  "text": "A popular mnemonic: Come, Let's Get Sun Burned.",
+  "s": 2.3882499999999998,
+  "e": 4.979583333333333
+ },
+ {
+  "text": "C. Corneum. Dead, flat cells on top.",
+  "s": 5.279583333333333,
+  "e": 7.8
+ },
+ {
+  "text": "L. Lucidum. A thin, clear layer, only in thick skin.",
+  "s": 7.92,
+  "e": 10.876999999999999
+ },
+ {
+  "text": "G. Granulosum. Granules of keratohyalin.",
+  "s": 10.996999999999998,
+  "e": 13.912208333333332
+ },
+ {
+  "text": "S. Spinosum. Prickly cells, joined by desmosomes.",
+  "s": 14.032208333333331,
+  "e": 17.115416666666665
+ },
+ {
+  "text": "B. Basale. Stem cells divide here.",
+  "s": 17.235416666666666,
+  "e": 19.36370833333333
+ },
+ {
+  "text": "Quick test. Which layer is found only in thick skin, like palms and soles?",
+  "s": 19.663708333333332,
+  "e": 23.86025
+ },
+ {
+  "text": "Three.",
+  "s": 24.11025,
+  "e": 24.566041666666667
+ },
+ {
+  "text": "Two.",
+  "s": 24.766041666666666,
+  "e": 25.198291666666666
+ },
+ {
+  "text": "One.",
+  "s": 25.398291666666665,
+  "e": 25.786041666666666
+ },
+ {
+  "text": "The stratum lucidum.",
+  "s": 26.086041666666667,
+  "e": 27.199541666666665
+ },
+ {
+  "text": "Save this for your next anatomy exam.",
+  "s": 27.499541666666666,
+  "e": 29.396041666666665
+ }
+]
