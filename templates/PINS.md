@@ -13,6 +13,8 @@ Run notes go to RUNBOOK_NOTES.md (append there, never here).
 
 - 2026-11-26 note (owner rules of 11-21 unchanged): choose topics not pinned/videoed in 30 days by grepping pins_log.md AND topics.md (lung lobes, 3 muscle types, carpals were all taken); web-fetch subagent on openstax.org pages is the reliable fact-check; replace "→" with ">" in pin body text (font lacks the arrow glyph); product hook ≤2 lines so the image stays large.
 
+- 2026-11-27 note (owner rules of 11-21 unchanged): titles <=90 chars asserted in code; one pin per topic; 2 educational + 1 product daily; slot taken by a static pin -> next free day (this run: product 11-28 21:17, educational 11-30 02:17/06:17); product pin with only a cover image uses `make_product_pin.py cover.png - ...` (an inside band that just repeats the cover looks redundant).
+
 **CURRENT RULES (owner 2026-11-21, confirmed 2026-11-22 and 2026-11-23; override the steps below where they differ):**
 - 3 static pins/day = 2 EDUCATIONAL (02:17, 06:17) + 1 PRODUCT pin (21:17). Max 3 static pins/day (video pins don't count); if a slot already holds a static pin, use that slot on the next free day.
 - One pin per topic; nothing on a topic pinned or videoed in the last 30 days (check getScheduledPosts + pins_log.md).
