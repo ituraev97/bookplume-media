@@ -1,0 +1,16 @@
+S=[
+("Can you name every main branch of the femoral artery?",0.15),
+("Do Princesses Sew Sweet Superhero Dresses?",0.3),
+("D. Descending genicular. The lowest, in the adductor canal.",0.12),
+("P. Profunda femoris. The biggest.",0.12),
+("S. Superficial epigastric. Skin of the lower abdominal wall.",0.12),
+("S. Superficial circumflex iliac. The smallest.",0.12),
+("S. Superficial external pudendal. Groin and genital skin.",0.12),
+("D. Deep external pudendal. Perineal and genital skin.",0.3),
+("Quick test. Which branch is the biggest?",0.25),
+("Three.",0.2),
+("Two.",0.2),
+("One.",0.3),
+("Profunda femoris.",0.3),
+("Save this for your next anatomy exam.",0.3),
+]
