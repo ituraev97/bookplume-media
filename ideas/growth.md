@@ -30,6 +30,7 @@ Source: YouTube Help Center / Creator Insider (Todd Beaupré, Sep 2026) / YPP po
 
 ## This channel
 - The orange quiz thumbnail system works — keep it but rotate 2–3 layouts. Shorts = 81% of views; mnemonic Shorts win, plain 'name all 5' quizzes stall.
+- MONETIZATION PUSH: 184 subs (+62 in 28 days). Subs come from Shorts — keep 2–3 mnemonic Shorts/day. Cross-promote from Instagram (10.4k followers): Stories/bio point to the YouTube channel. Longs 8–10 min quiz/mnemonic compilations of the best-performing Shorts topics.
 
 ## Voice
 - Voice audit 2026-11-28: long videos are slow and flat (127 words/min, pauses up to 5 s, pitch variation 3.0). Switch the narration to the 'livelier Kokoro' method from coldwarrant-media pipeline/tts_ep.py (commit 54a45a8, owner choice 2026-11-27): blend of voices, per-sentence synthesis, short sentences slower + longer pause, long ones quicker, ±2% jitter — measured on COLD WARRANT as lively as Chatterbox, with this channel's own blend (e.g. am_michael:0.5+am_puck:0.5) so it does not sound like COLD WARRANT.
