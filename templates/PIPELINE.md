@@ -19,6 +19,8 @@ Before choosing a topic, read `ideas/next.md`. It is rewritten every morning by 
 YouTube/Metricool numbers, competitor videos that are breaking out right now, and fresh news. Take the highest-priority idea that fits
 this channel's rules, sourcing/fact standards and available footage (P1 first). If none fits, choose as usual and say in the run report
 which idea was skipped and why. The idea is the TOPIC only — research, script and visuals stay our own; never copy a competitor's video.
+ALWAYS follow `ideas/growth.md` (growth rules: packaging, thumbnails, length, voice — owner 2026-11-28; it overrides older thumbnail/length lines of this file where they conflict).
+Also follow `ideas/playbook.md` (weekly HOW-TO: length, hooks, title formulas, thumbnails) where it does not conflict with this runbook.
 After publishing, append one line to `ideas/used.md`: `<idea id> | <date> | <published title>`.
 
 ## OWNER DECISION 2026-11-28 — FREE-PDF LEAD MAGNET, NO CREDITS, LAYOUT + SOUND FIXES (wins over everything below)
