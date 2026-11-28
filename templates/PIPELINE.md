@@ -14,6 +14,13 @@ Run notes go to RUNBOOK_NOTES.md (append there, never here). Promote a note into
 
 Everything here runs in a fresh cloud container. Work in /home/claude/work.
 
+## IDEAS FROM DASHBOARD — owner decision 2026-11-28 (applies to every topic choice)
+Before choosing a topic, read `ideas/next.md`. It is rewritten every morning by the owner's analytics dashboard from this channel's
+YouTube/Metricool numbers, competitor videos that are breaking out right now, and fresh news. Take the highest-priority idea that fits
+this channel's rules, sourcing/fact standards and available footage (P1 first). If none fits, choose as usual and say in the run report
+which idea was skipped and why. The idea is the TOPIC only — research, script and visuals stay our own; never copy a competitor's video.
+After publishing, append one line to `ideas/used.md`: `<idea id> | <date> | <published title>`.
+
 ## OWNER DECISION 2026-11-28 — FREE-PDF LEAD MAGNET, NO CREDITS, LAYOUT + SOUND FIXES (wins over everything below)
 - We sell ONLY the free-PDF lead magnet funnel: NO Study Duo, NO "full set", NO $39.99, no store/product in videos, captions or descriptions. The Study Duo outro (templates/outro, add_outro.sh) is RETIRED.
 - Instagram REEL and TRIAL_REEL use the same video final_pdf.mp4 = lesson + PDF sticker (1.8 s at 13-15 s = 35-50% of runtime, y~1460, never over labels; text "this sheet is in the free PDF" only if the topic is one of the 10 PDF sheets — palm muscles, interossei, carpal tunnel, lumbar plexus, sacral plexus, subclavian artery, axillary artery, posterior cord of brachial plexus, rotator cuff, popliteal fossa — else "10 more like this in the free PDF") + PDF end card 3.2 s ("Comment PDF — I'll DM it to you free", "Follow for a new mnemonic every day"). Template: templates/short/runs/121_spermaticcord (compositions Main = clean, Trial = PDF version).
