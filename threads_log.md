@@ -150,3 +150,8 @@
 2026-11-27 | Domagk gave daughter Prontosil ~1935, 1939 Nobel rejected under Gestapo arrest, medal 1947 (Science History Institute; nobelprize.org)
 2026-11-27 | Greville Chester toe (before 600 BC, cartonnage) and Luxor wood/leather toe (950-710 BC), 2 volunteers, functional prosthetics (Univ. of Manchester 2011/2012)
 2026-11-27 | brain freeze: 13 adults, anterior cerebral artery dilates, migraine link (Serrador, Experimental Biology 2012; ScienceDaily; Scientific American)
+2026-11-28 | full moon doesn't fill the ER: UCLA (Margot) re-analysis of Barcelona admissions study, 23,689 births 1810-1929 no lunar pattern, some sleep studies hint less sleep (Cleveland Clinic 2022; News-Medical/UCLA 2015)
+2026-11-28 | Ludwig Rehn Sept 1896 Frankfurt: 22-yr-old gardener, stab wound to right ventricle sutured, recovered; Cappelen's 1896 attempt died (CTSNet "First Repairs of the Heart"; Wikipedia Ludwig Rehn)
+2026-11-28 | 1784 Franklin/Lavoisier commission on Mesmer's animal magnetism: blindfolded woman collapsed when told she was magnetized, no reaction behind paper partition (Public Domain Review 2018)
+2026-11-28 | Dec 23 1954 Brigham Boston: Ronald Herrick kidney to twin Richard, fingerprints checked, critics called healthy-donor surgery unethical, Richard lived 8 more years, Murray Nobel 1990 (Harvard Gazette 2011; Harvard Magazine 2026)
+2026-11-28 | vagus = Latin "wandering", cranial nerve X, brainstem to digestive tract, ~75% of parasympathetic fibers (Cleveland Clinic; Des Moines University)
