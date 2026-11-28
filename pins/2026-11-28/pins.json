@@ -1,0 +1,10 @@
+[
+ {"file":"edu1_reflex_arc.png","tag":"CHEAT SHEET","headline":"The 5 parts of a reflex arc, in order",
+  "stat":"5 steps","stat_note":"receptor > sensory neuron > integration center > motor neuron > effector",
+  "body":"Knee-jerk (patellar) reflex: a monosynaptic arc with one synapse and no interneurons. The quadriceps is the effector.\nSomatic reflexes end in skeletal muscle; autonomic reflexes end in smooth muscle, cardiac muscle or glands.",
+  "source":"Source: Kenhub, The reflex arc; Lumen Learning, A&P I · Educational content"},
+ {"file":"edu2_lung_volumes.png","tag":"STUDY CHART","headline":"Lung volumes and capacities explained",
+  "stat":"~500 mL","stat_note":"tidal volume: the air moved in one quiet breath",
+  "body":"Vital capacity = IRV + tidal + ERV (all but residual volume).\nTotal lung capacity = vital capacity + residual volume, about 6,000 mL in men and 4,200 mL in women.",
+  "source":"Source: Basic Human Physiology, IU Pressbooks · Educational content"}
+]
