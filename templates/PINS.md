@@ -15,6 +15,8 @@ Run notes go to RUNBOOK_NOTES.md (append there, never here).
 
 - 2026-11-27 note (owner rules of 11-21 unchanged): titles <=90 chars asserted in code; one pin per topic; 2 educational + 1 product daily; slot taken by a static pin -> next free day (this run: product 11-28 21:17, educational 11-30 02:17/06:17); product pin with only a cover image uses `make_product_pin.py cover.png - ...` (an inside band that just repeats the cover looks redundant).
 
+- 2026-11-28 note (owner rules of 11-21 unchanged): product pin = pick the media image WITHOUT store badges ("Best Seller", "Top rated", "Hardcover edition" stickers) — check each media image via theme_screenshot first; use `productByIdentifier` (productByHandle is deprecated in the Admin API); slot full -> next free day (this run: product 11-29 21:17, educational 12-01 02:17/06:17).
+
 **CURRENT RULES (owner 2026-11-21, confirmed 2026-11-22 and 2026-11-23; override the steps below where they differ):**
 - 3 static pins/day = 2 EDUCATIONAL (02:17, 06:17) + 1 PRODUCT pin (21:17). Max 3 static pins/day (video pins don't count); if a slot already holds a static pin, use that slot on the next free day.
 - One pin per topic; nothing on a topic pinned or videoed in the last 30 days (check getScheduledPosts + pins_log.md).
